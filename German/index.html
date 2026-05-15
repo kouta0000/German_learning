@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deutsch Lernen</title>
+  <style>
+    /* ── Variables ───────────────────────────────────────────── */
+    :root {
+      --bg:        #f5f2ec;
+      --surface:   #ffffff;
+      --border:    #e0d9cc;
+      --text:      #2c2a26;
+      --muted:     #7a7468;
+      --accent:    #c0392b;
+      --accent-lt: #f9e8e7;
+      --highlight: #fff3b0;
+      --navy:      #1a2640;
+      --tag-a1:    #27ae60;
+      --tag-a2:    #2980b9;
+      --tag-b1:    #8e44ad;
+      --tag-b2:    #d35400;
+      --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+      --font-mono: "SF Mono", "Fira Code", monospace;
+      --radius:    8px;
+      --shadow:    0 2px 12px rgba(0,0,0,.08);
+    }
+
+    /* ── Reset ───────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ──────────────────────────────────────────────── */
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 0 1.5rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    }
+    header h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+      white-space: nowrap;
+    }
+    header h1 span { color: #f0a500; }
+    .header-sub {
+      font-size: .75rem;
+      color: rgba(255,255,255,.5);
+      white-space: nowrap;
+    }
+
+    /* ── Controls ────────────────────────────────────────────── */
+    .controls {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: .75rem 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+      align-items: center;
+    }
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      font-size: .8rem;
+      color: var(--muted);
+    }
+    .filter-group label { font-weight: 600; white-space: nowrap; }
+    .filter-group select {
+      font-size: .82rem;
+      padding: .3rem .6rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--bg);
+      color: var(--text);
+      cursor: pointer;
+    }
+    .btn {
+      padding: .4rem .9rem;
+      border-radius: var(--radius);
+      border: none;
+      cursor: pointer;
+      font-size: .85rem;
+      font-weight: 600;
+      transition: background .15s;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn-primary:hover { background: #a93226; }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+    .btn-ghost:hover { background: var(--bg); }
+    .controls-right { margin-left: auto; display: flex; gap: .5rem; }
+
+    /* ── Main layout ─────────────────────────────────────────── */
+    .main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 0;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1.5rem;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    /* ── Text card ───────────────────────────────────────────── */
+    .text-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.75rem;
+    }
+    .text-meta {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-block;
+      padding: .2rem .55rem;
+      border-radius: 4px;
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .badge-cat {
+      background: #e8f0fe;
+      color: #1a5cb8;
+    }
+    .badge-a1  { background: #d5f5e3; color: var(--tag-a1); }
+    .badge-a2  { background: #d6eaf8; color: var(--tag-a2); }
+    .badge-b1  { background: #e8daef; color: var(--tag-b1); }
+    .badge-b2  { background: #fde8d8; color: var(--tag-b2); }
+
+    .text-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+      color: var(--navy);
+      line-height: 1.3;
+    }
+    .text-body {
+      font-size: 1.05rem;
+      line-height: 2;
+      user-select: none;
+    }
+    .token {
+      display: inline;
+      cursor: default;
+      border-radius: 3px;
+      padding: 1px 2px;
+      transition: background .1s;
+    }
+    .token.clickable {
+      cursor: pointer;
+    }
+    .token.clickable:hover {
+      background: var(--highlight);
+    }
+    .token.active {
+      background: var(--highlight);
+      outline: 2px solid #f0c000;
+      outline-offset: 1px;
+    }
+    .token-space { display: inline; }
+
+    /* ── Info panel ──────────────────────────────────────────── */
+    .info-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      position: sticky;
+      top: 72px;
+      min-height: 200px;
+    }
+    .info-empty {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1.5rem;
+      text-align: center;
+      color: var(--muted);
+      gap: .75rem;
+    }
+    .info-empty .icon { font-size: 2.5rem; opacity: .4; }
+    .info-empty p { font-size: .85rem; line-height: 1.5; }
+
+    .info-content { padding: 1.25rem; }
+    .info-word {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.1;
+      margin-bottom: .25rem;
+    }
+    .info-lemma {
+      font-size: .82rem;
+      color: var(--muted);
+      margin-bottom: .75rem;
+    }
+    .info-lemma strong { color: var(--text); }
+
+    .info-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem;
+      margin-bottom: 1rem;
+    }
+    .tag {
+      padding: .18rem .5rem;
+      border-radius: 4px;
+      font-size: .72rem;
+      font-weight: 600;
+      background: #eee;
+      color: #555;
+    }
+    .tag-pos  { background: #fef3c7; color: #92400e; }
+    .tag-case { background: #e0f2fe; color: #0369a1; }
+    .tag-gen  { background: #fce7f3; color: #9d174d; }
+
+    .info-meanings {
+      margin-bottom: 1rem;
+    }
+    .meaning-row {
+      display: grid;
+      grid-template-columns: 24px 1fr;
+      gap: .4rem;
+      align-items: baseline;
+      padding: .3rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: .88rem;
+    }
+    .meaning-row:last-child { border-bottom: none; }
+    .meaning-lang {
+      font-size: .65rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+    .meaning-text { color: var(--text); }
+
+    .info-note {
+      background: #fffbeb;
+      border-left: 3px solid #f0c000;
+      padding: .6rem .8rem;
+      font-size: .82rem;
+      color: #5a4a00;
+      border-radius: 0 4px 4px 0;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    /* ── Grammar tables ──────────────────────────────────────── */
+    .gram-section {
+      margin-top: .75rem;
+    }
+    .gram-title {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+      margin-bottom: .4rem;
+    }
+    .gram-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .78rem;
+    }
+    .gram-table th {
+      background: var(--bg);
+      padding: .3rem .5rem;
+      text-align: left;
+      font-size: .68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .gram-table td {
+      padding: .3rem .5rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    .gram-table tr:last-child td { border-bottom: none; }
+    .gram-table tr.active-row td { background: var(--highlight); font-weight: 700; }
+    .gram-table td.hl { font-weight: 700; color: var(--accent); }
+
+    /* tabs for stark/schwach/gemischt */
+    .gram-tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: .4rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .gram-tab {
+      flex: 1;
+      padding: .28rem 0;
+      font-size: .7rem;
+      font-weight: 600;
+      text-align: center;
+      cursor: pointer;
+      background: var(--bg);
+      color: var(--muted);
+      border: none;
+      transition: background .1s, color .1s;
+    }
+    .gram-tab.active {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    /* ── Loading / Error ─────────────────────────────────────── */
+    #loading, #error {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: var(--muted);
+      gap: .75rem;
+    }
+    #error { color: var(--accent); }
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Footer ──────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: .75rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Responsive ──────────────────────────────────────────── */
+    @media (max-width: 860px) {
+      .main {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1rem;
+      }
+      .info-panel {
+        position: fixed;
+        bottom: 0; left: 0; right: 0;
+        top: auto;
+        border-radius: var(--radius) var(--radius) 0 0;
+        box-shadow: 0 -4px 20px rgba(0,0,0,.15);
+        max-height: 60vh;
+        overflow-y: auto;
+        transform: translateY(100%);
+        transition: transform .25s ease;
+        z-index: 200;
+      }
+      .info-panel.open {
+        transform: translateY(0);
+      }
+      .panel-drag {
+        width: 40px; height: 4px;
+        background: var(--border);
+        border-radius: 2px;
+        margin: .6rem auto .25rem;
+        cursor: pointer;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────── -->
+<header>
+  <div style="display:flex;align-items:baseline;gap:.6rem">
+    <h1>Deutsch <span>Lernen</span></h1>
+    <span class="header-sub">Apprendre l'allemand</span>
+  </div>
+  <div id="stats" style="font-size:.75rem;color:rgba(255,255,255,.5)"></div>
+</header>
+
+<!-- ── Controls ────────────────────────────────────────────── -->
+<div class="controls">
+  <div class="filter-group">
+    <label>Catégorie</label>
+    <select id="selCategory">
+      <option value="">Toutes</option>
+      <option value="actualités">Actualités</option>
+      <option value="histoires">Histoires</option>
+      <option value="dialogues">Dialogues</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>Niveau</label>
+    <select id="selLevel">
+      <option value="">Tous</option>
+      <option value="A1">A1</option>
+      <option value="A2">A2</option>
+      <option value="B1">B1</option>
+      <option value="B2">B2</option>
+    </select>
+  </div>
+  <div class="controls-right">
+    <button class="btn btn-ghost" id="btnPrev">← Précédent</button>
+    <button class="btn btn-primary" id="btnNext">Texte suivant →</button>
+  </div>
+</div>
+
+<!-- ── Main ────────────────────────────────────────────────── -->
+<div id="loading">
+  <div class="spinner"></div>
+  <p>Chargement des données…</p>
+</div>
+
+<div id="error" style="display:none">
+  <p style="font-size:1.5rem">⚠️</p>
+  <p id="errorMsg">Impossible de charger les données.</p>
+  <p style="font-size:.8rem;max-width:360px">
+    Lancez un serveur local : <code style="background:#eee;padding:2px 6px;border-radius:4px">python3 -m http.server 8000</code>
+    puis ouvrez <code style="background:#eee;padding:2px 6px;border-radius:4px">http://localhost:8000</code>
+  </p>
+</div>
+
+<div class="main" id="mainLayout" style="display:none">
+
+  <!-- Text card -->
+  <div class="text-card" id="textCard">
+    <div class="text-meta" id="textMeta"></div>
+    <div class="text-title" id="textTitle"></div>
+    <div class="text-body"  id="textBody"></div>
+  </div>
+
+  <!-- Info panel -->
+  <aside class="info-panel" id="infoPanel">
+    <div class="panel-drag" id="panelDrag"></div>
+    <div class="info-empty" id="infoEmpty">
+      <div class="icon">👆</div>
+      <p>Cliquez sur un mot pour afficher<br>ses informations grammaticales.</p>
+    </div>
+    <div class="info-content" id="infoContent" style="display:none"></div>
+  </aside>
+
+</div>
+
+<footer>Deutsch Lernen — données locales, aucun suivi</footer>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   DATA
+═══════════════════════════════════════════════════════════════ */
+let VOCAB  = {};   // id → word object
+let TEXTS  = [];   // array of text objects
+let filtered = []; // texts after filter
+let currentIdx = 0;
+let activeToken = null;
+let adjTab = 'stark';
+
+async function loadData() {
+  try {
+    const [vRes, tRes] = await Promise.all([
+      fetch('data/vocabulary.json'),
+      fetch('data/texts.json'),
+    ]);
+    if (!vRes.ok || !tRes.ok) throw new Error('HTTP error');
+    const vData = await vRes.json();
+    const tData = await tRes.json();
+
+    vData.words.forEach(w => { VOCAB[w.id] = w; });
+    TEXTS = tData.texts;
+
+    document.getElementById('stats').textContent =
+      `${vData.words.length} mots · ${TEXTS.length} textes`;
+
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('mainLayout').style.display = 'grid';
+
+    applyFilters();
+  } catch (e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('error').style.display = 'flex';
+    document.getElementById('errorMsg').textContent = e.message || 'Erreur de chargement';
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FILTERS & NAVIGATION
+═══════════════════════════════════════════════════════════════ */
+function applyFilters() {
+  const cat = document.getElementById('selCategory').value;
+  const lvl = document.getElementById('selLevel').value;
+  filtered = TEXTS.filter(t =>
+    (!cat || t.category === cat) &&
+    (!lvl || t.level === lvl)
+  );
+  if (!filtered.length) filtered = TEXTS;
+  currentIdx = Math.floor(Math.random() * filtered.length);
+  renderText();
+}
+
+function navigate(delta) {
+  currentIdx = (currentIdx + delta + filtered.length) % filtered.length;
+  renderText();
+}
+
+function randomText() {
+  const next = Math.floor(Math.random() * filtered.length);
+  currentIdx = next;
+  renderText();
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TEXT RENDERING
+═══════════════════════════════════════════════════════════════ */
+const PUNCT = new Set(['.', ',', '!', '?', ':', ';', '…', ')', '»', '"']);
+const NO_SPACE_AFTER = new Set(['(', '«', '"']);
+
+function renderText() {
+  clearPanel();
+  const text = filtered[currentIdx];
+  if (!text) return;
+
+  // Meta badges
+  const catLabels = { actualités:'Actualités', histoires:'Histoires', dialogues:'Dialogues' };
+  document.getElementById('textMeta').innerHTML =
+    `<span class="badge badge-cat">${catLabels[text.category] || text.category}</span>
+     <span class="badge badge-${text.level?.toLowerCase()}">${text.level || ''}</span>
+     <span style="font-size:.75rem;color:var(--muted);margin-left:auto">${currentIdx+1} / ${filtered.length}</span>`;
+
+  document.getElementById('textTitle').textContent = text.title;
+
+  // Build token spans
+  const container = document.getElementById('textBody');
+  container.innerHTML = '';
+
+  text.tokens.forEach((tok, i) => {
+    const isPunct = PUNCT.has(tok.surface);
+    const prevNoSpaceAfter = i > 0 && NO_SPACE_AFTER.has(text.tokens[i-1].surface);
+    const needsSpace = i > 0 && !isPunct && !prevNoSpaceAfter;
+
+    if (needsSpace) {
+      const sp = document.createElement('span');
+      sp.className = 'token-space';
+      sp.textContent = ' ';
+      container.appendChild(sp);
+    }
+
+    const span = document.createElement('span');
+    span.className = 'token';
+    span.textContent = tok.surface;
+    span.dataset.idx = i;
+
+    const isClickable = tok.pos !== 'punct' && (
+      tok.meaning_ja || tok.meaning_fr || tok.word_id
+    );
+    if (isClickable) {
+      span.classList.add('clickable');
+      span.addEventListener('click', () => showTokenInfo(tok, span));
+    }
+
+    container.appendChild(span);
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   INFO PANEL
+═══════════════════════════════════════════════════════════════ */
+function clearPanel() {
+  if (activeToken) activeToken.classList.remove('active');
+  activeToken = null;
+  document.getElementById('infoEmpty').style.display  = 'flex';
+  document.getElementById('infoContent').style.display = 'none';
+  closeMobilePanel();
+}
+
+function showTokenInfo(tok, span) {
+  if (activeToken) activeToken.classList.remove('active');
+  activeToken = span;
+  span.classList.add('active');
+
+  const word = tok.word_id ? VOCAB[tok.word_id] : null;
+  const content = document.getElementById('infoContent');
+
+  let html = '';
+
+  // ── Word form + lemma ────────────────────────────────────────
+  html += `<div class="info-word">${tok.surface}</div>`;
+  if (tok.lemma && tok.lemma !== tok.surface) {
+    html += `<div class="info-lemma">→ <strong>${tok.lemma}</strong></div>`;
+  } else if (word && word.lemma !== tok.surface) {
+    html += `<div class="info-lemma">→ <strong>${word.lemma}</strong></div>`;
+  }
+
+  // ── Tags (POS, case, gender, level) ─────────────────────────
+  html += `<div class="info-tags">`;
+  html += `<span class="tag tag-pos">${posLabel(tok.pos)}</span>`;
+  if (tok.case)   html += `<span class="tag tag-case">${caseLabel(tok.case)}</span>`;
+  const gender = tok.gender || (word && word.gender);
+  if (gender)     html += `<span class="tag tag-gen">${gender}</span>`;
+  const number = tok.number;
+  if (number)     html += `<span class="tag">${number === 'sg' ? 'Sg.' : 'Pl.'}</span>`;
+  const level  = (word && word.level) || tok.level;
+  if (level)      html += `<span class="badge badge-${level.toLowerCase()}">${level}</span>`;
+  html += `</div>`;
+
+  // ── Meanings ─────────────────────────────────────────────────
+  const mJa = tok.meaning_ja || (word && word.meaning_ja);
+  const mFr = tok.meaning_fr || (word && word.meaning_fr);
+  if (mJa || mFr) {
+    html += `<div class="info-meanings">`;
+    if (mJa) html += `<div class="meaning-row"><span class="meaning-lang">JA</span><span class="meaning-text">${mJa}</span></div>`;
+    if (mFr) html += `<div class="meaning-row"><span class="meaning-lang">FR</span><span class="meaning-text">${mFr}</span></div>`;
+    html += `</div>`;
+  }
+
+  // ── Grammatical note ─────────────────────────────────────────
+  if (tok.note_fr) {
+    html += `<div class="info-note">${tok.note_fr}</div>`;
+  }
+
+  // ── Grammar tables ───────────────────────────────────────────
+  const pos = tok.pos || (word && word.pos);
+
+  if (pos === 'verb') {
+    const conj = (word && word.conjugation) || buildConjFromTok(tok);
+    if (conj) html += renderConjugation(conj, tok);
+  }
+
+  if (pos === 'noun') {
+    const decl = word && word.declension;
+    if (decl) html += renderNounDeclension(decl, tok.case, tok.number);
+  }
+
+  if (pos === 'adjective') {
+    const decl = word && word.declension;
+    if (decl) html += renderAdjDeclension(decl, tok);
+  }
+
+  document.getElementById('infoEmpty').style.display  = 'none';
+  content.innerHTML = html;
+  content.style.display = 'block';
+  openMobilePanel();
+
+  // bind adj tabs after render
+  content.querySelectorAll('.gram-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      adjTab = btn.dataset.type;
+      showTokenInfo(tok, span);
+    });
+  });
+}
+
+/* ── Conjugation table ─────────────────────────────────────── */
+function renderConjugation(conj, tok) {
+  const persons = ['ich','du','er','wir','ihr','sie'];
+  const tenses  = [
+    { key: 'präsens',    label: 'Présent' },
+    { key: 'präteritum', label: 'Prétérit' },
+  ];
+
+  let h = `<div class="gram-section">
+    <div class="gram-title">Conjugaison</div>
+    <table class="gram-table">
+      <thead><tr><th></th>`;
+  tenses.forEach(t => { h += `<th>${t.label}</th>`; });
+  h += `</tr></thead><tbody>`;
+
+  persons.forEach(p => {
+    const isActive = tok.person && (
+      (tok.person.startsWith('1sg') && p==='ich') ||
+      (tok.person.startsWith('2sg') && p==='du') ||
+      (tok.person.startsWith('3sg') && p==='er') ||
+      (tok.person.startsWith('1pl') && p==='wir') ||
+      (tok.person.startsWith('2pl') && p==='ihr') ||
+      (tok.person.startsWith('3pl') && p==='sie')
+    );
+    h += `<tr class="${isActive ? 'active-row' : ''}">
+      <td style="color:var(--muted);font-size:.75rem">${p}</td>`;
+    tenses.forEach(t => {
+      const form = conj[t.key] ? conj[t.key][p] || '—' : '—';
+      const hl   = isActive && tok.surface === form;
+      h += `<td class="${hl ? 'hl' : ''}">${form}</td>`;
+    });
+    h += `</tr>`;
+  });
+
+  h += `</tbody></table>`;
+
+  // Partizip II
+  if (conj.partizip_II) {
+    const aux = conj.hilfsverb || 'haben';
+    h += `<div style="font-size:.78rem;color:var(--muted);margin-top:.5rem">
+      Participe II : <strong>${aux} ${conj.partizip_II}</strong>
+    </div>`;
+  }
+  h += `</div>`;
+  return h;
+}
+
+function buildConjFromTok(tok) { return null; }
+
+/* ── Noun declension table ─────────────────────────────────── */
+function renderNounDeclension(decl, activeCase, activeNumber) {
+  const cases = ['nom','akk','dat','gen'];
+  const caseLabels = { nom:'Nom.', akk:'Acc.', dat:'Dat.', gen:'Gén.' };
+
+  let h = `<div class="gram-section">
+    <div class="gram-title">Déclinaison</div>
+    <table class="gram-table">
+      <thead><tr><th></th><th>Sg.</th><th>Pl.</th></tr></thead>
+      <tbody>`;
+
+  cases.forEach(c => {
+    const isCurrent =
+      activeCase && activeCase.toLowerCase().startsWith(c);
+    h += `<tr class="${isCurrent ? 'active-row' : ''}">
+      <td style="color:var(--muted);font-size:.75rem">${caseLabels[c]}</td>
+      <td class="${isCurrent && activeNumber!=='pl' ? 'hl' : ''}">${(decl.sg && decl.sg[c]) || '—'}</td>
+      <td class="${isCurrent && activeNumber==='pl'  ? 'hl' : ''}">${(decl.pl && decl.pl[c]) || '—'}</td>
+    </tr>`;
+  });
+
+  h += `</tbody></table></div>`;
+  return h;
+}
+
+/* ── Adjective declension table ────────────────────────────── */
+function renderAdjDeclension(decl, tok) {
+  const types = ['stark','schwach','gemischt'];
+  const typeLabels = { stark:'Forte', schwach:'Faible', gemischt:'Mixte' };
+  const current = adjTab || (tok.declension_type === 'prädikativ' ? null : 'stark');
+
+  if (tok.declension_type === 'prädikativ') {
+    return `<div class="gram-section">
+      <div class="gram-title">Déclinaison</div>
+      <div class="info-note">Emploi prédicatif — forme de base, pas de déclinaison.</div>
+    </div>`;
+  }
+
+  const cols = [
+    { key:'m', label:'Masc.' },
+    { key:'f', label:'Fém.' },
+    { key:'n', label:'Neut.' },
+    { key:'pl', label:'Pl.' },
+  ];
+  const cases = ['nom','akk','dat','gen'];
+  const caseLabels = { nom:'Nom.', akk:'Acc.', dat:'Dat.', gen:'Gén.' };
+
+  let h = `<div class="gram-section">
+    <div class="gram-title">Déclinaison adjectivale</div>
+    <div class="gram-tabs">`;
+
+  types.forEach(t => {
+    h += `<button class="gram-tab ${t === current ? 'active' : ''}" data-type="${t}">${typeLabels[t]}</button>`;
+  });
+  h += `</div>`;
+
+  const d = decl[current] || {};
+  h += `<table class="gram-table"><thead><tr><th></th>`;
+  cols.forEach(c => { h += `<th>${c.label}</th>`; });
+  h += `</tr></thead><tbody>`;
+
+  cases.forEach(cas => {
+    h += `<tr><td style="color:var(--muted);font-size:.75rem">${caseLabels[cas]}</td>`;
+    cols.forEach(col => {
+      const key = `${col.key}_${cas}`;
+      const form = d[key] || '—';
+      const isActive =
+        tok.case && tok.case.toLowerCase().startsWith(cas) &&
+        ((tok.gender === col.key) || (tok.number === 'pl' && col.key === 'pl'));
+      h += `<td class="${isActive ? 'hl' : ''}">${form}</td>`;
+    });
+    h += `</tr>`;
+  });
+
+  h += `</tbody></table></div>`;
+  return h;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   HELPERS
+═══════════════════════════════════════════════════════════════ */
+const POS_LABELS = {
+  noun:'Nom', verb:'Verbe', adjective:'Adj.', adverb:'Adv.',
+  preposition:'Prép.', conjunction:'Conj.', article:'Art.',
+  pronoun:'Pron.', propernoun:'Nom propre', modal:'Verbe modal',
+};
+function posLabel(pos) { return POS_LABELS[pos] || pos || '?'; }
+
+const CASE_LABELS = {
+  nominativ:'Nominatif', akkusativ:'Accusatif',
+  dativ:'Datif', genitiv:'Génitif',
+  Nominativ:'Nominatif', Akkusativ:'Accusatif',
+  Dativ:'Datif', Genitiv:'Génitif',
+};
+function caseLabel(c) { return CASE_LABELS[c] || c; }
+
+/* ─ Mobile panel ─────────────────────────────────────────────── */
+function openMobilePanel() {
+  if (window.innerWidth <= 860)
+    document.getElementById('infoPanel').classList.add('open');
+}
+function closeMobilePanel() {
+  document.getElementById('infoPanel').classList.remove('open');
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   EVENT LISTENERS
+═══════════════════════════════════════════════════════════════ */
+document.getElementById('btnNext').addEventListener('click', () => {
+  applyFilters();          // picks a new random text within filter
+});
+document.getElementById('btnPrev').addEventListener('click', () => navigate(-1));
+document.getElementById('selCategory').addEventListener('change', applyFilters);
+document.getElementById('selLevel').addEventListener('change', applyFilters);
+document.getElementById('panelDrag').addEventListener('click', closeMobilePanel);
+
+/* Keyboard nav */
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight') applyFilters();
+  if (e.key === 'ArrowLeft')  navigate(-1);
+  if (e.key === 'Escape')     clearPanel();
+});
+
+/* ── Boot ──────────────────────────────────────────────────── */
+loadData();
+</script>
+</body>
+</html>
