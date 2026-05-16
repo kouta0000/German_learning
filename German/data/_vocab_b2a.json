@@ -1,0 +1,1417 @@
+[
+  {
+    "id": "w0401",
+    "lemma": "analysieren",
+    "pos": "verb",
+    "meaning_ja": "分析する",
+    "meaning_fr": "analyser",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"analysiere","du":"analysierst","er":"analysiert","wir":"analysieren","ihr":"analysiert","sie":"analysieren"},
+      "präteritum": {"ich":"analysierte","du":"analysiertest","er":"analysierte","wir":"analysierten","ihr":"analysiertet","sie":"analysierten"},
+      "partizip_II": "analysiert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0402",
+    "lemma": "beeinflussen",
+    "pos": "verb",
+    "meaning_ja": "影響を与える",
+    "meaning_fr": "influencer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"beeinflusse","du":"beeinflusst","er":"beeinflusst","wir":"beeinflussen","ihr":"beeinflusst","sie":"beeinflussen"},
+      "präteritum": {"ich":"beeinflusste","du":"beeinfluссtest","er":"beeinflusste","wir":"beeinflussten","ihr":"beeinfluссtet","sie":"beeinflussten"},
+      "partizip_II": "beeinflusst",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0403",
+    "lemma": "berücksichtigen",
+    "pos": "verb",
+    "meaning_ja": "考慮する",
+    "meaning_fr": "prendre en compte",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"berücksichtige","du":"berücksichtigst","er":"berücksichtigt","wir":"berücksichtigen","ihr":"berücksichtigt","sie":"berücksichtigen"},
+      "präteritum": {"ich":"berücksichtigte","du":"berücksichtigtest","er":"berücksichtigte","wir":"berücksichtigten","ihr":"berücksichtigtet","sie":"berücksichtigten"},
+      "partizip_II": "berücksichtigt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0404",
+    "lemma": "durchführen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "実施する・遂行する",
+    "meaning_fr": "effectuer / réaliser",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"führe durch","du":"führst durch","er":"führt durch","wir":"führen durch","ihr":"führt durch","sie":"führen durch"},
+      "präteritum": {"ich":"führte durch","du":"führtest durch","er":"führte durch","wir":"führten durch","ihr":"führtet durch","sie":"führten durch"},
+      "partizip_II": "durchgeführt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0405",
+    "lemma": "einschätzen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "評価する・見積もる",
+    "meaning_fr": "évaluer / estimer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"schätze ein","du":"schätzt ein","er":"schätzt ein","wir":"schätzen ein","ihr":"schätzt ein","sie":"schätzen ein"},
+      "präteritum": {"ich":"schätzte ein","du":"schätztest ein","er":"schätzte ein","wir":"schätzten ein","ihr":"schätztet ein","sie":"schätzten ein"},
+      "partizip_II": "eingeschätzt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0406",
+    "lemma": "ermöglichen",
+    "pos": "verb",
+    "meaning_ja": "可能にする",
+    "meaning_fr": "permettre / rendre possible",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"ermögliche","du":"ermöglichst","er":"ermöglicht","wir":"ermöglichen","ihr":"ermöglicht","sie":"ermöglichen"},
+      "präteritum": {"ich":"ermöglichte","du":"ermöglichtest","er":"ermöglichte","wir":"ermöglichten","ihr":"ermöglicht","sie":"ermöglichten"},
+      "partizip_II": "ermöglicht",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0407",
+    "lemma": "gewährleisten",
+    "pos": "verb",
+    "meaning_ja": "保証する・確保する",
+    "meaning_fr": "garantir / assurer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"gewährleiste","du":"gewährleistest","er":"gewährleistet","wir":"gewährleisten","ihr":"gewährleistet","sie":"gewährleisten"},
+      "präteritum": {"ich":"gewährleistete","du":"gewährleistet","er":"gewährleistete","wir":"gewährleisteten","ihr":"gewährleistetet","sie":"gewährleisteten"},
+      "partizip_II": "gewährleistet",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0408",
+    "lemma": "hervorheben",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "強調する・際立たせる",
+    "meaning_fr": "souligner / mettre en évidence",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"hebe hervor","du":"hebst hervor","er":"hebt hervor","wir":"heben hervor","ihr":"hebt hervor","sie":"heben hervor"},
+      "präteritum": {"ich":"hob hervor","du":"hobst hervor","er":"hob hervor","wir":"hoben hervor","ihr":"hobt hervor","sie":"hoben hervor"},
+      "partizip_II": "hervorgehoben",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0409",
+    "lemma": "nachweisen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "証明する・立証する",
+    "meaning_fr": "prouver / démontrer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"weise nach","du":"weist nach","er":"weist nach","wir":"weisen nach","ihr":"weist nach","sie":"weisen nach"},
+      "präteritum": {"ich":"wies nach","du":"wiest nach","er":"wies nach","wir":"wiesen nach","ihr":"wiest nach","sie":"wiesen nach"},
+      "partizip_II": "nachgewiesen",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0410",
+    "lemma": "überwinden",
+    "pos": "verb",
+    "meaning_ja": "克服する",
+    "meaning_fr": "surmonter / vaincre",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"überwinde","du":"überwindest","er":"überwindet","wir":"überwinden","ihr":"überwindet","sie":"überwinden"},
+      "präteritum": {"ich":"überwand","du":"überwandst","er":"überwand","wir":"überwanden","ihr":"überwandet","sie":"überwanden"},
+      "partizip_II": "überwunden",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0411",
+    "lemma": "umsetzen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "実行する・実現する",
+    "meaning_fr": "mettre en œuvre / réaliser",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"setze um","du":"setzt um","er":"setzt um","wir":"setzen um","ihr":"setzt um","sie":"setzen um"},
+      "präteritum": {"ich":"setzte um","du":"setztest um","er":"setzte um","wir":"setzten um","ihr":"setztet um","sie":"setzten um"},
+      "partizip_II": "umgesetzt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0412",
+    "lemma": "vereinbaren",
+    "pos": "verb",
+    "meaning_ja": "取り決める・合意する",
+    "meaning_fr": "convenir / s'accorder",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"vereinbare","du":"vereinbarst","er":"vereinbart","wir":"vereinbaren","ihr":"vereinbart","sie":"vereinbaren"},
+      "präteritum": {"ich":"vereinbarte","du":"vereinbartest","er":"vereinbarte","wir":"vereinbarten","ihr":"vereinbartet","sie":"vereinbarten"},
+      "partizip_II": "vereinbart",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0413",
+    "lemma": "vermeiden",
+    "pos": "verb",
+    "meaning_ja": "避ける・回避する",
+    "meaning_fr": "éviter",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"vermeide","du":"vermeidest","er":"vermeidet","wir":"vermeiden","ihr":"vermeidet","sie":"vermeiden"},
+      "präteritum": {"ich":"vermied","du":"vermiedst","er":"vermied","wir":"vermieden","ihr":"vermiedet","sie":"vermieden"},
+      "partizip_II": "vermieden",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0414",
+    "lemma": "voraussetzen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "前提とする・必要とする",
+    "meaning_fr": "présupposer / exiger",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"setze voraus","du":"setzt voraus","er":"setzt voraus","wir":"setzen voraus","ihr":"setzt voraus","sie":"setzen voraus"},
+      "präteritum": {"ich":"setzte voraus","du":"setztest voraus","er":"setzte voraus","wir":"setzten voraus","ihr":"setztet voraus","sie":"setzten voraus"},
+      "partizip_II": "vorausgesetzt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0415",
+    "lemma": "widerspiegeln",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "反映する",
+    "meaning_fr": "refléter",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"spiegele wider","du":"spiegelst wider","er":"spiegelt wider","wir":"spiegeln wider","ihr":"spiegelt wider","sie":"spiegeln wider"},
+      "präteritum": {"ich":"spiegelte wider","du":"spiegeltest wider","er":"spiegelte wider","wir":"spiegelten wider","ihr":"spiegeltet wider","sie":"spiegelten wider"},
+      "partizip_II": "widergespiegelt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0416",
+    "lemma": "anerkennen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "認める・認定する",
+    "meaning_fr": "reconnaître / accepter",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"erkenne an","du":"erkennst an","er":"erkennt an","wir":"erkennen an","ihr":"erkennt an","sie":"erkennen an"},
+      "präteritum": {"ich":"erkannte an","du":"erkanntest an","er":"erkannte an","wir":"erkannten an","ihr":"erkanntet an","sie":"erkannten an"},
+      "partizip_II": "anerkannt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0417",
+    "lemma": "aufzeigen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "示す・明らかにする",
+    "meaning_fr": "montrer / mettre en lumière",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"zeige auf","du":"zeigst auf","er":"zeigt auf","wir":"zeigen auf","ihr":"zeigt auf","sie":"zeigen auf"},
+      "präteritum": {"ich":"zeigte auf","du":"zeigtest auf","er":"zeigte auf","wir":"zeigten auf","ihr":"zeigtet auf","sie":"zeigten auf"},
+      "partizip_II": "aufgezeigt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0418",
+    "lemma": "begründen",
+    "pos": "verb",
+    "meaning_ja": "根拠を示す・正当化する",
+    "meaning_fr": "justifier / fonder",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"begründe","du":"begründest","er":"begründet","wir":"begründen","ihr":"begründet","sie":"begründen"},
+      "präteritum": {"ich":"begründete","du":"begründetest","er":"begründete","wir":"begründeten","ihr":"begründetet","sie":"begründeten"},
+      "partizip_II": "begründet",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0419",
+    "lemma": "beinhalten",
+    "pos": "verb",
+    "meaning_ja": "含む・内包する",
+    "meaning_fr": "contenir / inclure",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"beinhalte","du":"beinhaltest","er":"beinhaltet","wir":"beinhalten","ihr":"beinhaltet","sie":"beinhalten"},
+      "präteritum": {"ich":"beinhaltete","du":"beinhaltetest","er":"beinhaltete","wir":"beinhalteten","ihr":"beinhaltet","sie":"beinhalteten"},
+      "partizip_II": "beinhaltet",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0420",
+    "lemma": "betonen",
+    "pos": "verb",
+    "meaning_ja": "強調する",
+    "meaning_fr": "souligner / accentuer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"betone","du":"betonst","er":"betont","wir":"betonen","ihr":"betont","sie":"betonen"},
+      "präteritum": {"ich":"betonte","du":"betontest","er":"betonte","wir":"betonten","ihr":"betontet","sie":"betonten"},
+      "partizip_II": "betont",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0421",
+    "lemma": "einbeziehen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "取り込む・考慮に入れる",
+    "meaning_fr": "inclure / intégrer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"beziehe ein","du":"beziehst ein","er":"bezieht ein","wir":"beziehen ein","ihr":"bezieht ein","sie":"beziehen ein"},
+      "präteritum": {"ich":"bezog ein","du":"bezogt ein","er":"bezog ein","wir":"bezogen ein","ihr":"bezogt ein","sie":"bezogen ein"},
+      "partizip_II": "einbezogen",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0422",
+    "lemma": "einschränken",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "制限する・制約する",
+    "meaning_fr": "limiter / restreindre",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"schränke ein","du":"schränkst ein","er":"schränkt ein","wir":"schränken ein","ihr":"schränkt ein","sie":"schränken ein"},
+      "präteritum": {"ich":"schränkte ein","du":"schränktest ein","er":"schränkte ein","wir":"schränkten ein","ihr":"schränktet ein","sie":"schränkten ein"},
+      "partizip_II": "eingeschränkt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0423",
+    "lemma": "entsprechen",
+    "pos": "verb",
+    "meaning_ja": "対応する・相当する",
+    "meaning_fr": "correspondre / répondre à",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"entspreche","du":"entsprichst","er":"entspricht","wir":"entsprechen","ihr":"entsprecht","sie":"entsprechen"},
+      "präteritum": {"ich":"entsprach","du":"entsprach","er":"entsprach","wir":"entsprachen","ihr":"entsprach","sie":"entsprachen"},
+      "partizip_II": "entsprochen",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0424",
+    "lemma": "erfordern",
+    "pos": "verb",
+    "meaning_ja": "必要とする・要求する",
+    "meaning_fr": "exiger / nécessiter",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"erfordere","du":"erforderst","er":"erfordert","wir":"erfordern","ihr":"erfordert","sie":"erfordern"},
+      "präteritum": {"ich":"erforderte","du":"erfordert","er":"erforderte","wir":"erforderten","ihr":"erfordert","sie":"erforderten"},
+      "partizip_II": "erfordert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0425",
+    "lemma": "erläutern",
+    "pos": "verb",
+    "meaning_ja": "説明する・解説する",
+    "meaning_fr": "expliquer / élucider",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"erläutere","du":"erläuterst","er":"erläutert","wir":"erläutern","ihr":"erläutert","sie":"erläutern"},
+      "präteritum": {"ich":"erläuterte","du":"erläutertest","er":"erläuterte","wir":"erläuterten","ihr":"erläutertet","sie":"erläuterten"},
+      "partizip_II": "erläutert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0426",
+    "lemma": "erzwingen",
+    "pos": "verb",
+    "meaning_ja": "強制する",
+    "meaning_fr": "forcer / contraindre",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"erzwinge","du":"erzwingst","er":"erzwingt","wir":"erzwingen","ihr":"erzwingt","sie":"erzwingen"},
+      "präteritum": {"ich":"erzwang","du":"erzwangst","er":"erzwang","wir":"erzwangen","ihr":"erzwangt","sie":"erzwangen"},
+      "partizip_II": "erzwungen",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0427",
+    "lemma": "formulieren",
+    "pos": "verb",
+    "meaning_ja": "表現する・定式化する",
+    "meaning_fr": "formuler / exprimer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"formuliere","du":"formulierst","er":"formuliert","wir":"formulieren","ihr":"formuliert","sie":"formulieren"},
+      "präteritum": {"ich":"formulierte","du":"formuliertest","er":"formulierte","wir":"formulierten","ihr":"formuliertet","sie":"formulierten"},
+      "partizip_II": "formuliert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0428",
+    "lemma": "gestalten",
+    "pos": "verb",
+    "meaning_ja": "形作る・デザインする",
+    "meaning_fr": "concevoir / façonner",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"gestalte","du":"gestaltest","er":"gestaltet","wir":"gestalten","ihr":"gestaltet","sie":"gestalten"},
+      "präteritum": {"ich":"gestaltete","du":"gestaltetest","er":"gestaltete","wir":"gestalteten","ihr":"gestaltetet","sie":"gestalteten"},
+      "partizip_II": "gestaltet",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0429",
+    "lemma": "gewichten",
+    "pos": "verb",
+    "meaning_ja": "重み付けする・評価する",
+    "meaning_fr": "pondérer / évaluer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"gewichte","du":"gewichtest","er":"gewichtet","wir":"gewichten","ihr":"gewichtet","sie":"gewichten"},
+      "präteritum": {"ich":"gewichtete","du":"gewichtetest","er":"gewichtete","wir":"gewichteten","ihr":"gewichtetet","sie":"gewichteten"},
+      "partizip_II": "gewichtet",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0430",
+    "lemma": "hinterfragen",
+    "pos": "verb",
+    "meaning_ja": "疑問視する・問い直す",
+    "meaning_fr": "remettre en question",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"hinterfrage","du":"hinterfragst","er":"hinterfragt","wir":"hinterfragen","ihr":"hinterfragt","sie":"hinterfragen"},
+      "präteritum": {"ich":"hinterfragte","du":"hinterfragtest","er":"hinterfragte","wir":"hinterfragten","ihr":"hinterfragtet","sie":"hinterfragten"},
+      "partizip_II": "hinterfragt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0431",
+    "lemma": "koordinieren",
+    "pos": "verb",
+    "meaning_ja": "調整する・コーディネートする",
+    "meaning_fr": "coordonner",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"koordiniere","du":"koordinierst","er":"koordiniert","wir":"koordinieren","ihr":"koordiniert","sie":"koordinieren"},
+      "präteritum": {"ich":"koordinierte","du":"koordiniertest","er":"koordinierte","wir":"koordinierten","ihr":"koordiniertet","sie":"koordinierten"},
+      "partizip_II": "koordiniert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0432",
+    "lemma": "optimieren",
+    "pos": "verb",
+    "meaning_ja": "最適化する",
+    "meaning_fr": "optimiser",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"optimiere","du":"optimierst","er":"optimiert","wir":"optimieren","ihr":"optimiert","sie":"optimieren"},
+      "präteritum": {"ich":"optimierte","du":"optimiertest","er":"optimierte","wir":"optimierten","ihr":"optimiertet","sie":"optimierten"},
+      "partizip_II": "optimiert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0433",
+    "lemma": "prägen",
+    "pos": "verb",
+    "meaning_ja": "形成する・刻み込む",
+    "meaning_fr": "marquer / façonner",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"präge","du":"prägst","er":"prägt","wir":"prägen","ihr":"prägt","sie":"prägen"},
+      "präteritum": {"ich":"prägte","du":"prägtest","er":"prägte","wir":"prägten","ihr":"prägtet","sie":"prägten"},
+      "partizip_II": "geprägt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0434",
+    "lemma": "reflektieren",
+    "pos": "verb",
+    "meaning_ja": "反省する・反映する",
+    "meaning_fr": "réfléchir / refléter",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"reflektiere","du":"reflektierst","er":"reflektiert","wir":"reflektieren","ihr":"reflektiert","sie":"reflektieren"},
+      "präteritum": {"ich":"reflektierte","du":"reflektiertest","er":"reflektierte","wir":"reflektierten","ihr":"reflektiertet","sie":"reflektierten"},
+      "partizip_II": "reflektiert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0435",
+    "lemma": "regulieren",
+    "pos": "verb",
+    "meaning_ja": "規制する・調節する",
+    "meaning_fr": "réguler / régler",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"reguliere","du":"regulierst","er":"reguliert","wir":"regulieren","ihr":"reguliert","sie":"regulieren"},
+      "präteritum": {"ich":"regulierte","du":"reguliertest","er":"regulierte","wir":"regulierten","ihr":"reguliertet","sie":"regulierten"},
+      "partizip_II": "reguliert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0436",
+    "lemma": "strukturieren",
+    "pos": "verb",
+    "meaning_ja": "構造化する",
+    "meaning_fr": "structurer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"strukturiere","du":"strukturierst","er":"strukturiert","wir":"strukturieren","ihr":"strukturiert","sie":"strukturieren"},
+      "präteritum": {"ich":"strukturierte","du":"strukturiertest","er":"strukturierte","wir":"strukturierten","ihr":"strukturiertet","sie":"strukturierten"},
+      "partizip_II": "strukturiert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0437",
+    "lemma": "überdenken",
+    "pos": "verb",
+    "meaning_ja": "再考する",
+    "meaning_fr": "reconsidérer / repenser",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"überdenke","du":"überdenkst","er":"überdenkt","wir":"überdenken","ihr":"überdenkt","sie":"überdenken"},
+      "präteritum": {"ich":"überdachte","du":"überdachtest","er":"überdachte","wir":"überdachten","ihr":"überdachtet","sie":"überdachten"},
+      "partizip_II": "überdacht",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0438",
+    "lemma": "umgehen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "回避する・対処する",
+    "meaning_fr": "contourner / traiter",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"gehe um","du":"gehst um","er":"geht um","wir":"gehen um","ihr":"geht um","sie":"gehen um"},
+      "präteritum": {"ich":"ging um","du":"gingst um","er":"ging um","wir":"gingen um","ihr":"gingt um","sie":"gingen um"},
+      "partizip_II": "umgegangen",
+      "hilfsverb": "sein"
+    }
+  },
+  {
+    "id": "w0439",
+    "lemma": "untersuchen",
+    "pos": "verb",
+    "meaning_ja": "調査する・検査する",
+    "meaning_fr": "examiner / étudier",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"untersuche","du":"untersuchst","er":"untersucht","wir":"untersuchen","ihr":"untersucht","sie":"untersuchen"},
+      "präteritum": {"ich":"untersuchte","du":"untersuchtest","er":"untersuchte","wir":"untersuchten","ihr":"untersuchtet","sie":"untersuchten"},
+      "partizip_II": "untersucht",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0440",
+    "lemma": "verbinden",
+    "pos": "verb",
+    "meaning_ja": "結びつける・つなぐ",
+    "meaning_fr": "relier / connecter",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"verbinde","du":"verbindest","er":"verbindet","wir":"verbinden","ihr":"verbindet","sie":"verbinden"},
+      "präteritum": {"ich":"verband","du":"verbandst","er":"verband","wir":"verbanden","ihr":"verbandet","sie":"verbanden"},
+      "partizip_II": "verbunden",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0441",
+    "lemma": "vermitteln",
+    "pos": "verb",
+    "meaning_ja": "伝える・仲介する",
+    "meaning_fr": "transmettre / communiquer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"vermittle","du":"vermittelst","er":"vermittelt","wir":"vermitteln","ihr":"vermittelt","sie":"vermitteln"},
+      "präteritum": {"ich":"vermittelte","du":"vermitteltest","er":"vermittelte","wir":"vermittelten","ihr":"vermitteltet","sie":"vermittelten"},
+      "partizip_II": "vermittelt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0442",
+    "lemma": "verwerfen",
+    "pos": "verb",
+    "meaning_ja": "却下する・廃棄する",
+    "meaning_fr": "rejeter / écarter",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"verwerfe","du":"verwirfst","er":"verwirft","wir":"verwerfen","ihr":"verwirft","sie":"verwerfen"},
+      "präteritum": {"ich":"verwarf","du":"verwarfst","er":"verwarf","wir":"verwarfen","ihr":"verwarf","sie":"verwarfen"},
+      "partizip_II": "verworfen",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0443",
+    "lemma": "widersprechen",
+    "pos": "verb",
+    "meaning_ja": "矛盾する・反論する",
+    "meaning_fr": "contredire / s'opposer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"widerspreche","du":"widersprichst","er":"widerspricht","wir":"widersprechen","ihr":"widersprecht","sie":"widersprechen"},
+      "präteritum": {"ich":"widersprach","du":"widersprach","er":"widersprach","wir":"widersprachen","ihr":"widersprach","sie":"widersprachen"},
+      "partizip_II": "widersprochen",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0444",
+    "lemma": "zuordnen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "割り当てる・分類する",
+    "meaning_fr": "attribuer / classer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"ordne zu","du":"ordnest zu","er":"ordnet zu","wir":"ordnen zu","ihr":"ordnet zu","sie":"ordnen zu"},
+      "präteritum": {"ich":"ordnete zu","du":"ordnetest zu","er":"ordnete zu","wir":"ordneten zu","ihr":"ordnetet zu","sie":"ordneten zu"},
+      "partizip_II": "zugeordnet",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0445",
+    "lemma": "abwägen",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "比較考量する・検討する",
+    "meaning_fr": "peser / évaluer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"wäge ab","du":"wägst ab","er":"wägt ab","wir":"wägen ab","ihr":"wägt ab","sie":"wägen ab"},
+      "präteritum": {"ich":"wog ab","du":"wogst ab","er":"wog ab","wir":"wogen ab","ihr":"wogt ab","sie":"wogen ab"},
+      "partizip_II": "abgewogen",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0446",
+    "lemma": "beobachten",
+    "pos": "verb",
+    "meaning_ja": "観察する",
+    "meaning_fr": "observer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"beobachte","du":"beobachtest","er":"beobachtet","wir":"beobachten","ihr":"beobachtet","sie":"beobachten"},
+      "präteritum": {"ich":"beobachtete","du":"beobachtetest","er":"beobachtete","wir":"beobachteten","ihr":"beobachtetet","sie":"beobachteten"},
+      "partizip_II": "beobachtet",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0447",
+    "lemma": "einwirken",
+    "pos": "verb",
+    "separable": true,
+    "meaning_ja": "作用する・影響を与える",
+    "meaning_fr": "agir sur / influer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"wirke ein","du":"wirkst ein","er":"wirkt ein","wir":"wirken ein","ihr":"wirkt ein","sie":"wirken ein"},
+      "präteritum": {"ich":"wirkte ein","du":"wirktest ein","er":"wirkte ein","wir":"wirkten ein","ihr":"wirktet ein","sie":"wirkten ein"},
+      "partizip_II": "eingewirkt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0448",
+    "lemma": "erkennen",
+    "pos": "verb",
+    "meaning_ja": "認識する・気づく",
+    "meaning_fr": "reconnaître / identifier",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"erkenne","du":"erkennst","er":"erkennt","wir":"erkennen","ihr":"erkennt","sie":"erkennen"},
+      "präteritum": {"ich":"erkannte","du":"erkanntest","er":"erkannte","wir":"erkannten","ihr":"erkanntet","sie":"erkannten"},
+      "partizip_II": "erkannt",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0449",
+    "lemma": "schlussfolgern",
+    "pos": "verb",
+    "meaning_ja": "結論を導く",
+    "meaning_fr": "conclure / déduire",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"schlussfolgere","du":"schlussfolgerst","er":"schlussfolgert","wir":"schlussfolgern","ihr":"schlussfolgert","sie":"schlussfolgern"},
+      "präteritum": {"ich":"schlussfolgerte","du":"schlussfolgertest","er":"schlussfolgerte","wir":"schlussfolgerten","ihr":"schlussfolgertet","sie":"schlussfolgerten"},
+      "partizip_II": "geschlussfolgert",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0450",
+    "lemma": "vergleichen",
+    "pos": "verb",
+    "meaning_ja": "比較する",
+    "meaning_fr": "comparer",
+    "level": "B2",
+    "conjugation": {
+      "präsens": {"ich":"vergleiche","du":"vergleichst","er":"vergleicht","wir":"vergleichen","ihr":"vergleicht","sie":"vergleichen"},
+      "präteritum": {"ich":"verglich","du":"verglichst","er":"verglich","wir":"verglichen","ihr":"verglichet","sie":"verglichen"},
+      "partizip_II": "verglichen",
+      "hilfsverb": "haben"
+    }
+  },
+  {
+    "id": "w0451",
+    "lemma": "Absicht",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Absichten",
+    "meaning_ja": "意図・目的",
+    "meaning_fr": "intention / but",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Absicht","akk":"Absicht","dat":"Absicht","gen":"Absicht"},
+      "pl": {"nom":"Absichten","akk":"Absichten","dat":"Absichten","gen":"Absichten"}
+    }
+  },
+  {
+    "id": "w0452",
+    "lemma": "Anforderung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Anforderungen",
+    "meaning_ja": "要求・要件",
+    "meaning_fr": "exigence / demande",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Anforderung","akk":"Anforderung","dat":"Anforderung","gen":"Anforderung"},
+      "pl": {"nom":"Anforderungen","akk":"Anforderungen","dat":"Anforderungen","gen":"Anforderungen"}
+    }
+  },
+  {
+    "id": "w0453",
+    "lemma": "Auswirkung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Auswirkungen",
+    "meaning_ja": "影響・結果",
+    "meaning_fr": "effet / impact",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Auswirkung","akk":"Auswirkung","dat":"Auswirkung","gen":"Auswirkung"},
+      "pl": {"nom":"Auswirkungen","akk":"Auswirkungen","dat":"Auswirkungen","gen":"Auswirkungen"}
+    }
+  },
+  {
+    "id": "w0454",
+    "lemma": "Bedeutung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Bedeutungen",
+    "meaning_ja": "意味・重要性",
+    "meaning_fr": "signification / importance",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Bedeutung","akk":"Bedeutung","dat":"Bedeutung","gen":"Bedeutung"},
+      "pl": {"nom":"Bedeutungen","akk":"Bedeutungen","dat":"Bedeutungen","gen":"Bedeutungen"}
+    }
+  },
+  {
+    "id": "w0455",
+    "lemma": "Beziehung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Beziehungen",
+    "meaning_ja": "関係・関係性",
+    "meaning_fr": "relation / rapport",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Beziehung","akk":"Beziehung","dat":"Beziehung","gen":"Beziehung"},
+      "pl": {"nom":"Beziehungen","akk":"Beziehungen","dat":"Beziehungen","gen":"Beziehungen"}
+    }
+  },
+  {
+    "id": "w0456",
+    "lemma": "Einfluss",
+    "pos": "noun",
+    "gender": "der",
+    "plural": "Einflüsse",
+    "meaning_ja": "影響・影響力",
+    "meaning_fr": "influence",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Einfluss","akk":"Einfluss","dat":"Einfluss","gen":"Einflusses"},
+      "pl": {"nom":"Einflüsse","akk":"Einflüsse","dat":"Einflüssen","gen":"Einflüsse"}
+    }
+  },
+  {
+    "id": "w0457",
+    "lemma": "Entscheidung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Entscheidungen",
+    "meaning_ja": "決定・判断",
+    "meaning_fr": "décision",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Entscheidung","akk":"Entscheidung","dat":"Entscheidung","gen":"Entscheidung"},
+      "pl": {"nom":"Entscheidungen","akk":"Entscheidungen","dat":"Entscheidungen","gen":"Entscheidungen"}
+    }
+  },
+  {
+    "id": "w0458",
+    "lemma": "Entwicklung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Entwicklungen",
+    "meaning_ja": "発展・開発",
+    "meaning_fr": "développement / évolution",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Entwicklung","akk":"Entwicklung","dat":"Entwicklung","gen":"Entwicklung"},
+      "pl": {"nom":"Entwicklungen","akk":"Entwicklungen","dat":"Entwicklungen","gen":"Entwicklungen"}
+    }
+  },
+  {
+    "id": "w0459",
+    "lemma": "Ergebnis",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Ergebnisse",
+    "meaning_ja": "結果・成果",
+    "meaning_fr": "résultat",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Ergebnis","akk":"Ergebnis","dat":"Ergebnis","gen":"Ergebnisses"},
+      "pl": {"nom":"Ergebnisse","akk":"Ergebnisse","dat":"Ergebnissen","gen":"Ergebnisse"}
+    }
+  },
+  {
+    "id": "w0460",
+    "lemma": "Erkenntnis",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Erkenntnisse",
+    "meaning_ja": "認識・知見",
+    "meaning_fr": "connaissance / constat",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Erkenntnis","akk":"Erkenntnis","dat":"Erkenntnis","gen":"Erkenntnis"},
+      "pl": {"nom":"Erkenntnisse","akk":"Erkenntnisse","dat":"Erkenntnissen","gen":"Erkenntnisse"}
+    }
+  },
+  {
+    "id": "w0461",
+    "lemma": "Faktor",
+    "pos": "noun",
+    "gender": "der",
+    "plural": "Faktoren",
+    "meaning_ja": "要因・因子",
+    "meaning_fr": "facteur",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Faktor","akk":"Faktor","dat":"Faktor","gen":"Faktors"},
+      "pl": {"nom":"Faktoren","akk":"Faktoren","dat":"Faktoren","gen":"Faktoren"}
+    }
+  },
+  {
+    "id": "w0462",
+    "lemma": "Fähigkeit",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Fähigkeiten",
+    "meaning_ja": "能力・才能",
+    "meaning_fr": "capacité / aptitude",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Fähigkeit","akk":"Fähigkeit","dat":"Fähigkeit","gen":"Fähigkeit"},
+      "pl": {"nom":"Fähigkeiten","akk":"Fähigkeiten","dat":"Fähigkeiten","gen":"Fähigkeiten"}
+    }
+  },
+  {
+    "id": "w0463",
+    "lemma": "Folge",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Folgen",
+    "meaning_ja": "結果・帰結",
+    "meaning_fr": "conséquence / suite",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Folge","akk":"Folge","dat":"Folge","gen":"Folge"},
+      "pl": {"nom":"Folgen","akk":"Folgen","dat":"Folgen","gen":"Folgen"}
+    }
+  },
+  {
+    "id": "w0464",
+    "lemma": "Gefahr",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Gefahren",
+    "meaning_ja": "危険・脅威",
+    "meaning_fr": "danger / risque",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Gefahr","akk":"Gefahr","dat":"Gefahr","gen":"Gefahr"},
+      "pl": {"nom":"Gefahren","akk":"Gefahren","dat":"Gefahren","gen":"Gefahren"}
+    }
+  },
+  {
+    "id": "w0465",
+    "lemma": "Gesellschaft",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Gesellschaften",
+    "meaning_ja": "社会・会社",
+    "meaning_fr": "société / compagnie",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Gesellschaft","akk":"Gesellschaft","dat":"Gesellschaft","gen":"Gesellschaft"},
+      "pl": {"nom":"Gesellschaften","akk":"Gesellschaften","dat":"Gesellschaften","gen":"Gesellschaften"}
+    }
+  },
+  {
+    "id": "w0466",
+    "lemma": "Gleichgewicht",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Gleichgewichte",
+    "meaning_ja": "均衡・バランス",
+    "meaning_fr": "équilibre",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Gleichgewicht","akk":"Gleichgewicht","dat":"Gleichgewicht","gen":"Gleichgewichts"},
+      "pl": {"nom":"Gleichgewichte","akk":"Gleichgewichte","dat":"Gleichgewichten","gen":"Gleichgewichte"}
+    }
+  },
+  {
+    "id": "w0467",
+    "lemma": "Grundsatz",
+    "pos": "noun",
+    "gender": "der",
+    "plural": "Grundsätze",
+    "meaning_ja": "原則・基本方針",
+    "meaning_fr": "principe / règle fondamentale",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Grundsatz","akk":"Grundsatz","dat":"Grundsatz","gen":"Grundsatzes"},
+      "pl": {"nom":"Grundsätze","akk":"Grundsätze","dat":"Grundsätzen","gen":"Grundsätze"}
+    }
+  },
+  {
+    "id": "w0468",
+    "lemma": "Hintergrund",
+    "pos": "noun",
+    "gender": "der",
+    "plural": "Hintergründe",
+    "meaning_ja": "背景・経緯",
+    "meaning_fr": "arrière-plan / contexte",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Hintergrund","akk":"Hintergrund","dat":"Hintergrund","gen":"Hintergrundes"},
+      "pl": {"nom":"Hintergründe","akk":"Hintergründe","dat":"Hintergründen","gen":"Hintergründe"}
+    }
+  },
+  {
+    "id": "w0469",
+    "lemma": "Konsequenz",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Konsequenzen",
+    "meaning_ja": "結果・一貫性",
+    "meaning_fr": "conséquence / cohérence",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Konsequenz","akk":"Konsequenz","dat":"Konsequenz","gen":"Konsequenz"},
+      "pl": {"nom":"Konsequenzen","akk":"Konsequenzen","dat":"Konsequenzen","gen":"Konsequenzen"}
+    }
+  },
+  {
+    "id": "w0470",
+    "lemma": "Konzept",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Konzepte",
+    "meaning_ja": "概念・コンセプト",
+    "meaning_fr": "concept / plan",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Konzept","akk":"Konzept","dat":"Konzept","gen":"Konzepts"},
+      "pl": {"nom":"Konzepte","akk":"Konzepte","dat":"Konzepten","gen":"Konzepte"}
+    }
+  },
+  {
+    "id": "w0471",
+    "lemma": "Kritik",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Kritiken",
+    "meaning_ja": "批判・批評",
+    "meaning_fr": "critique",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Kritik","akk":"Kritik","dat":"Kritik","gen":"Kritik"},
+      "pl": {"nom":"Kritiken","akk":"Kritiken","dat":"Kritiken","gen":"Kritiken"}
+    }
+  },
+  {
+    "id": "w0472",
+    "lemma": "Lage",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Lagen",
+    "meaning_ja": "状況・立場",
+    "meaning_fr": "situation / position",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Lage","akk":"Lage","dat":"Lage","gen":"Lage"},
+      "pl": {"nom":"Lagen","akk":"Lagen","dat":"Lagen","gen":"Lagen"}
+    }
+  },
+  {
+    "id": "w0473",
+    "lemma": "Leistung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Leistungen",
+    "meaning_ja": "成果・パフォーマンス",
+    "meaning_fr": "performance / prestation",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Leistung","akk":"Leistung","dat":"Leistung","gen":"Leistung"},
+      "pl": {"nom":"Leistungen","akk":"Leistungen","dat":"Leistungen","gen":"Leistungen"}
+    }
+  },
+  {
+    "id": "w0474",
+    "lemma": "Maßnahme",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Maßnahmen",
+    "meaning_ja": "措置・対策",
+    "meaning_fr": "mesure / disposition",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Maßnahme","akk":"Maßnahme","dat":"Maßnahme","gen":"Maßnahme"},
+      "pl": {"nom":"Maßnahmen","akk":"Maßnahmen","dat":"Maßnahmen","gen":"Maßnahmen"}
+    }
+  },
+  {
+    "id": "w0475",
+    "lemma": "Meinung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Meinungen",
+    "meaning_ja": "意見",
+    "meaning_fr": "opinion / avis",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Meinung","akk":"Meinung","dat":"Meinung","gen":"Meinung"},
+      "pl": {"nom":"Meinungen","akk":"Meinungen","dat":"Meinungen","gen":"Meinungen"}
+    }
+  },
+  {
+    "id": "w0476",
+    "lemma": "Möglichkeit",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Möglichkeiten",
+    "meaning_ja": "可能性・機会",
+    "meaning_fr": "possibilité / opportunité",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Möglichkeit","akk":"Möglichkeit","dat":"Möglichkeit","gen":"Möglichkeit"},
+      "pl": {"nom":"Möglichkeiten","akk":"Möglichkeiten","dat":"Möglichkeiten","gen":"Möglichkeiten"}
+    }
+  },
+  {
+    "id": "w0477",
+    "lemma": "Niveau",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Niveaus",
+    "meaning_ja": "レベル・水準",
+    "meaning_fr": "niveau",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Niveau","akk":"Niveau","dat":"Niveau","gen":"Niveaus"},
+      "pl": {"nom":"Niveaus","akk":"Niveaus","dat":"Niveaus","gen":"Niveaus"}
+    }
+  },
+  {
+    "id": "w0478",
+    "lemma": "Perspektive",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Perspektiven",
+    "meaning_ja": "視点・展望",
+    "meaning_fr": "perspective / point de vue",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Perspektive","akk":"Perspektive","dat":"Perspektive","gen":"Perspektive"},
+      "pl": {"nom":"Perspektiven","akk":"Perspektiven","dat":"Perspektiven","gen":"Perspektiven"}
+    }
+  },
+  {
+    "id": "w0479",
+    "lemma": "Position",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Positionen",
+    "meaning_ja": "立場・位置",
+    "meaning_fr": "position / poste",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Position","akk":"Position","dat":"Position","gen":"Position"},
+      "pl": {"nom":"Positionen","akk":"Positionen","dat":"Positionen","gen":"Positionen"}
+    }
+  },
+  {
+    "id": "w0480",
+    "lemma": "Potenzial",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Potenziale",
+    "meaning_ja": "可能性・潜在能力",
+    "meaning_fr": "potentiel",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Potenzial","akk":"Potenzial","dat":"Potenzial","gen":"Potenzials"},
+      "pl": {"nom":"Potenziale","akk":"Potenziale","dat":"Potenzialen","gen":"Potenziale"}
+    }
+  },
+  {
+    "id": "w0481",
+    "lemma": "Priorität",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Prioritäten",
+    "meaning_ja": "優先順位",
+    "meaning_fr": "priorité",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Priorität","akk":"Priorität","dat":"Priorität","gen":"Priorität"},
+      "pl": {"nom":"Prioritäten","akk":"Prioritäten","dat":"Prioritäten","gen":"Prioritäten"}
+    }
+  },
+  {
+    "id": "w0482",
+    "lemma": "Problem",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Probleme",
+    "meaning_ja": "問題",
+    "meaning_fr": "problème",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Problem","akk":"Problem","dat":"Problem","gen":"Problems"},
+      "pl": {"nom":"Probleme","akk":"Probleme","dat":"Problemen","gen":"Probleme"}
+    }
+  },
+  {
+    "id": "w0483",
+    "lemma": "Prozess",
+    "pos": "noun",
+    "gender": "der",
+    "plural": "Prozesse",
+    "meaning_ja": "プロセス・過程",
+    "meaning_fr": "processus / procédé",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Prozess","akk":"Prozess","dat":"Prozess","gen":"Prozesses"},
+      "pl": {"nom":"Prozesse","akk":"Prozesse","dat":"Prozessen","gen":"Prozesse"}
+    }
+  },
+  {
+    "id": "w0484",
+    "lemma": "Qualität",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Qualitäten",
+    "meaning_ja": "質・品質",
+    "meaning_fr": "qualité",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Qualität","akk":"Qualität","dat":"Qualität","gen":"Qualität"},
+      "pl": {"nom":"Qualitäten","akk":"Qualitäten","dat":"Qualitäten","gen":"Qualitäten"}
+    }
+  },
+  {
+    "id": "w0485",
+    "lemma": "Risiko",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Risiken",
+    "meaning_ja": "リスク・危険",
+    "meaning_fr": "risque",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Risiko","akk":"Risiko","dat":"Risiko","gen":"Risikos"},
+      "pl": {"nom":"Risiken","akk":"Risiken","dat":"Risiken","gen":"Risiken"}
+    }
+  },
+  {
+    "id": "w0486",
+    "lemma": "Schwierigkeit",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Schwierigkeiten",
+    "meaning_ja": "困難・難しさ",
+    "meaning_fr": "difficulté",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Schwierigkeit","akk":"Schwierigkeit","dat":"Schwierigkeit","gen":"Schwierigkeit"},
+      "pl": {"nom":"Schwierigkeiten","akk":"Schwierigkeiten","dat":"Schwierigkeiten","gen":"Schwierigkeiten"}
+    }
+  },
+  {
+    "id": "w0487",
+    "lemma": "Situation",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Situationen",
+    "meaning_ja": "状況・場面",
+    "meaning_fr": "situation",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Situation","akk":"Situation","dat":"Situation","gen":"Situation"},
+      "pl": {"nom":"Situationen","akk":"Situationen","dat":"Situationen","gen":"Situationen"}
+    }
+  },
+  {
+    "id": "w0488",
+    "lemma": "Struktur",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Strukturen",
+    "meaning_ja": "構造",
+    "meaning_fr": "structure",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Struktur","akk":"Struktur","dat":"Struktur","gen":"Struktur"},
+      "pl": {"nom":"Strukturen","akk":"Strukturen","dat":"Strukturen","gen":"Strukturen"}
+    }
+  },
+  {
+    "id": "w0489",
+    "lemma": "System",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Systeme",
+    "meaning_ja": "システム・制度",
+    "meaning_fr": "système",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"System","akk":"System","dat":"System","gen":"Systems"},
+      "pl": {"nom":"Systeme","akk":"Systeme","dat":"Systemen","gen":"Systeme"}
+    }
+  },
+  {
+    "id": "w0490",
+    "lemma": "Tendenz",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Tendenzen",
+    "meaning_ja": "傾向・趨勢",
+    "meaning_fr": "tendance",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Tendenz","akk":"Tendenz","dat":"Tendenz","gen":"Tendenz"},
+      "pl": {"nom":"Tendenzen","akk":"Tendenzen","dat":"Tendenzen","gen":"Tendenzen"}
+    }
+  },
+  {
+    "id": "w0491",
+    "lemma": "Thema",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Themen",
+    "meaning_ja": "テーマ・話題",
+    "meaning_fr": "thème / sujet",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Thema","akk":"Thema","dat":"Thema","gen":"Themas"},
+      "pl": {"nom":"Themen","akk":"Themen","dat":"Themen","gen":"Themen"}
+    }
+  },
+  {
+    "id": "w0492",
+    "lemma": "Umstand",
+    "pos": "noun",
+    "gender": "der",
+    "plural": "Umstände",
+    "meaning_ja": "状況・事情",
+    "meaning_fr": "circonstance / condition",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Umstand","akk":"Umstand","dat":"Umstand","gen":"Umstands"},
+      "pl": {"nom":"Umstände","akk":"Umstände","dat":"Umständen","gen":"Umstände"}
+    }
+  },
+  {
+    "id": "w0493",
+    "lemma": "Ursache",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Ursachen",
+    "meaning_ja": "原因",
+    "meaning_fr": "cause",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Ursache","akk":"Ursache","dat":"Ursache","gen":"Ursache"},
+      "pl": {"nom":"Ursachen","akk":"Ursachen","dat":"Ursachen","gen":"Ursachen"}
+    }
+  },
+  {
+    "id": "w0494",
+    "lemma": "Verantwortung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Verantwortungen",
+    "meaning_ja": "責任",
+    "meaning_fr": "responsabilité",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Verantwortung","akk":"Verantwortung","dat":"Verantwortung","gen":"Verantwortung"},
+      "pl": {"nom":"Verantwortungen","akk":"Verantwortungen","dat":"Verantwortungen","gen":"Verantwortungen"}
+    }
+  },
+  {
+    "id": "w0495",
+    "lemma": "Verbindung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Verbindungen",
+    "meaning_ja": "結びつき・接続",
+    "meaning_fr": "connexion / lien",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Verbindung","akk":"Verbindung","dat":"Verbindung","gen":"Verbindung"},
+      "pl": {"nom":"Verbindungen","akk":"Verbindungen","dat":"Verbindungen","gen":"Verbindungen"}
+    }
+  },
+  {
+    "id": "w0496",
+    "lemma": "Verfahren",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Verfahren",
+    "meaning_ja": "方法・手続き",
+    "meaning_fr": "procédure / méthode",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Verfahren","akk":"Verfahren","dat":"Verfahren","gen":"Verfahrens"},
+      "pl": {"nom":"Verfahren","akk":"Verfahren","dat":"Verfahren","gen":"Verfahren"}
+    }
+  },
+  {
+    "id": "w0497",
+    "lemma": "Verhältnis",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Verhältnisse",
+    "meaning_ja": "関係・割合",
+    "meaning_fr": "rapport / relation",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Verhältnis","akk":"Verhältnis","dat":"Verhältnis","gen":"Verhältnisses"},
+      "pl": {"nom":"Verhältnisse","akk":"Verhältnisse","dat":"Verhältnissen","gen":"Verhältnisse"}
+    }
+  },
+  {
+    "id": "w0498",
+    "lemma": "Wirkung",
+    "pos": "noun",
+    "gender": "die",
+    "plural": "Wirkungen",
+    "meaning_ja": "効果・作用",
+    "meaning_fr": "effet / action",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Wirkung","akk":"Wirkung","dat":"Wirkung","gen":"Wirkung"},
+      "pl": {"nom":"Wirkungen","akk":"Wirkungen","dat":"Wirkungen","gen":"Wirkungen"}
+    }
+  },
+  {
+    "id": "w0499",
+    "lemma": "Ziel",
+    "pos": "noun",
+    "gender": "das",
+    "plural": "Ziele",
+    "meaning_ja": "目標・目的",
+    "meaning_fr": "but / objectif",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Ziel","akk":"Ziel","dat":"Ziel","gen":"Ziels"},
+      "pl": {"nom":"Ziele","akk":"Ziele","dat":"Zielen","gen":"Ziele"}
+    }
+  },
+  {
+    "id": "w0500",
+    "lemma": "Zustand",
+    "pos": "noun",
+    "gender": "der",
+    "plural": "Zustände",
+    "meaning_ja": "状態・状況",
+    "meaning_fr": "état / condition",
+    "level": "B2",
+    "declension": {
+      "sg": {"nom":"Zustand","akk":"Zustand","dat":"Zustand","gen":"Zustands"},
+      "pl": {"nom":"Zustände","akk":"Zustände","dat":"Zuständen","gen":"Zustände"}
+    }
+  }
+]

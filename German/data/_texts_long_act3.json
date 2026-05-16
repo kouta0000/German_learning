@@ -1,0 +1,4558 @@
+[
+  {
+    "id": "t031",
+    "level": "B1",
+    "category": "Actualités",
+    "title": "L'enseignement numérique à l'école",
+    "tokens": [
+      {
+        "surface": "In",
+        "pos": "preposition"
+      },
+      {
+        "surface": "vielen",
+        "pos": "adjective",
+        "lemma": "viel",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "deutschen",
+        "pos": "adjective",
+        "lemma": "deutsch",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Schulen",
+        "pos": "noun",
+        "meaning_fr": "écoles",
+        "case": "dat",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3pl",
+        "note_fr": "Auxiliaire de la voix passive — 'werden + participe passé' forme le Vorgangspassiv (passif d'action)."
+      },
+      {
+        "surface": "jetzt",
+        "pos": "adverb",
+        "meaning_fr": "maintenant"
+      },
+      {
+        "surface": "digitale",
+        "pos": "adjective",
+        "lemma": "digital",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Tablets",
+        "pos": "noun",
+        "meaning_fr": "tablettes",
+        "case": "nom",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "eingesetzt",
+        "pos": "verb",
+        "lemma": "einsetzen",
+        "meaning_fr": "déployé, utilisé",
+        "note_fr": "Participe passé du verbe séparable 'einsetzen' — avec 'werden' forme le passif présent."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Viele",
+        "pos": "adjective",
+        "lemma": "viel",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Lehrerinnen",
+        "pos": "noun",
+        "meaning_fr": "enseignantes",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction"
+      },
+      {
+        "surface": "Lehrer",
+        "pos": "noun",
+        "meaning_fr": "enseignants",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "berichten",
+        "pos": "verb",
+        "lemma": "berichten",
+        "meaning_fr": "rapportent",
+        "person": "3pl"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "meaning_fr": "que",
+        "note_fr": "Conjonction subordonnante — le verbe conjugué est rejeté en fin de proposition."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl"
+      },
+      {
+        "surface": "Schüler",
+        "pos": "noun",
+        "meaning_fr": "élèves",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb",
+        "meaning_fr": "davantage"
+      },
+      {
+        "surface": "Interesse",
+        "pos": "noun",
+        "meaning_fr": "intérêt",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "zeigen",
+        "pos": "verb",
+        "lemma": "zeigen",
+        "meaning_fr": "montrent",
+        "person": "3pl"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "obwohl",
+        "pos": "conjunction",
+        "meaning_fr": "bien que, même si",
+        "note_fr": "Conjonction subordonnante concessive — introduit une opposition ; verbe en fin de subordonnée."
+      },
+      {
+        "surface": "nicht",
+        "pos": "adverb"
+      },
+      {
+        "surface": "alle",
+        "pos": "adjective",
+        "lemma": "all",
+        "case": "nom",
+        "number": "pl"
+      },
+      {
+        "surface": "Schulen",
+        "pos": "noun",
+        "meaning_fr": "écoles",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "gut",
+        "pos": "adjective",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "ausgestattet",
+        "pos": "verb",
+        "lemma": "ausstatten",
+        "meaning_fr": "équipées",
+        "note_fr": "Participe passé dans une construction passive — 'gut ausgestattet sein' = être bien équipé."
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "Bildungsministerium",
+        "pos": "noun",
+        "meaning_fr": "ministère de l'Éducation",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "hat",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3sg"
+      },
+      {
+        "surface": "angekündigt",
+        "pos": "verb",
+        "lemma": "ankündigen",
+        "meaning_fr": "annoncé",
+        "note_fr": "Participe passé du verbe séparable 'ankündigen' au Perfekt avec 'haben'."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "meaning_fr": "que"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb"
+      },
+      {
+        "surface": "Geld",
+        "pos": "noun",
+        "meaning_fr": "argent",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "für",
+        "pos": "preposition"
+      },
+      {
+        "surface": "digitale",
+        "pos": "adjective",
+        "lemma": "digital",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Geräte",
+        "pos": "noun",
+        "meaning_fr": "appareils",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "bereitgestellt",
+        "pos": "verb",
+        "lemma": "bereitstellen",
+        "meaning_fr": "mis à disposition",
+        "note_fr": "Passif futur implicite dans la subordonnée — 'wird bereitgestellt werden'."
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg"
+      },
+      {
+        "surface": "soll",
+        "pos": "verb",
+        "lemma": "sollen",
+        "meaning_fr": "doit, est censé",
+        "person": "3sg"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Experten",
+        "pos": "noun",
+        "meaning_fr": "experts",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "betonen",
+        "pos": "verb",
+        "lemma": "betonen",
+        "meaning_fr": "soulignent",
+        "person": "3pl"
+      },
+      {
+        "surface": "jedoch",
+        "pos": "adverb",
+        "meaning_fr": "cependant"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "meaning_fr": "que"
+      },
+      {
+        "surface": "Lehrkräfte",
+        "pos": "noun",
+        "meaning_fr": "enseignants (terme officiel)",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "besser",
+        "pos": "adjective",
+        "lemma": "gut",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "ausgebildet",
+        "pos": "verb",
+        "lemma": "ausbilden",
+        "meaning_fr": "formées"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3pl",
+        "note_fr": "Deuxième occurrence du passif — 'werden + participe passé' au présent."
+      },
+      {
+        "surface": "müssen",
+        "pos": "verb",
+        "lemma": "müssen",
+        "meaning_fr": "doivent",
+        "person": "3pl"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "weil",
+        "pos": "conjunction",
+        "meaning_fr": "parce que",
+        "note_fr": "Conjonction subordonnante causale — exprime la cause directe ; verbe en fin de proposition."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Technologie",
+        "pos": "noun",
+        "meaning_fr": "technologie",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "allein",
+        "pos": "adverb",
+        "meaning_fr": "seule, à elle seule"
+      },
+      {
+        "surface": "nicht",
+        "pos": "adverb"
+      },
+      {
+        "surface": "ausreicht",
+        "pos": "verb",
+        "lemma": "ausreichen",
+        "meaning_fr": "suffit",
+        "person": "3sg"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ein",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "erfolgreiches",
+        "pos": "adjective",
+        "lemma": "erfolgreich",
+        "meaning_fr": "réussi, couronné de succès",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "gemischt"
+      },
+      {
+        "surface": "Bildungssystem",
+        "pos": "noun",
+        "meaning_fr": "système éducatif",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "braucht",
+        "pos": "verb",
+        "lemma": "brauchen",
+        "meaning_fr": "a besoin de",
+        "person": "3sg"
+      },
+      {
+        "surface": "sowohl",
+        "pos": "conjunction",
+        "meaning_fr": "à la fois"
+      },
+      {
+        "surface": "gute",
+        "pos": "adjective",
+        "lemma": "gut",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Geräte",
+        "pos": "noun",
+        "meaning_fr": "appareils",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "als",
+        "pos": "conjunction",
+        "meaning_fr": "que (dans sowohl … als auch)"
+      },
+      {
+        "surface": "auch",
+        "pos": "adverb"
+      },
+      {
+        "surface": "gut",
+        "pos": "adjective",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "ausgebildete",
+        "pos": "adjective",
+        "lemma": "ausgebildet",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Pädagogen",
+        "pos": "noun",
+        "meaning_fr": "pédagogues",
+        "case": "akk",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Nur",
+        "pos": "adverb",
+        "meaning_fr": "seulement"
+      },
+      {
+        "surface": "so",
+        "pos": "adverb"
+      },
+      {
+        "surface": "kann",
+        "pos": "verb",
+        "lemma": "können",
+        "person": "3sg"
+      },
+      {
+        "surface": "eine",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "echte",
+        "pos": "adjective",
+        "lemma": "echt",
+        "meaning_fr": "véritable",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "gemischt"
+      },
+      {
+        "surface": "Verbesserung",
+        "pos": "noun",
+        "meaning_fr": "amélioration",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "erreicht",
+        "pos": "verb",
+        "lemma": "erreichen",
+        "meaning_fr": "atteinte",
+        "note_fr": "Passif présent : 'kann … erreicht werden' — modalité + voix passive."
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Diese",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "cette",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Entwicklung",
+        "pos": "noun",
+        "lemma": "Entwicklung",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "évolution",
+        "meaning_ja": "発展"
+      },
+      {
+        "surface": "zeigt",
+        "pos": "verb",
+        "lemma": "zeigen",
+        "person": "3sg",
+        "meaning_fr": "montre",
+        "meaning_ja": "示す"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ",
+        "note_fr": "Conjonction de subordination ; le verbe va en fin de proposition."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gesellschaft",
+        "pos": "noun",
+        "lemma": "Gesellschaft",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "société",
+        "meaning_ja": "社会"
+      },
+      {
+        "surface": "vor",
+        "pos": "preposition",
+        "meaning_fr": "devant",
+        "meaning_ja": "〜に直面して"
+      },
+      {
+        "surface": "großen",
+        "pos": "adjective",
+        "lemma": "groß",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "grands",
+        "meaning_ja": "大きな"
+      },
+      {
+        "surface": "Herausforderungen",
+        "pos": "noun",
+        "lemma": "Herausforderung",
+        "case": "dat",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "défis",
+        "meaning_ja": "課題"
+      },
+      {
+        "surface": "steht",
+        "pos": "verb",
+        "lemma": "stehen",
+        "person": "3sg",
+        "meaning_fr": "se trouve",
+        "meaning_ja": "直面している"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Experten",
+        "pos": "noun",
+        "lemma": "Experte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "les experts",
+        "meaning_ja": "専門家たち"
+      },
+      {
+        "surface": "betonen",
+        "pos": "verb",
+        "lemma": "betonen",
+        "person": "3pl",
+        "meaning_fr": "soulignent",
+        "meaning_ja": "強調する"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "koordinierte",
+        "pos": "adjective",
+        "lemma": "koordiniert",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "coordonnées",
+        "meaning_ja": "協調した"
+      },
+      {
+        "surface": "Maßnahmen",
+        "pos": "noun",
+        "lemma": "Maßnahme",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "mesures",
+        "meaning_ja": "措置"
+      },
+      {
+        "surface": "notwendig",
+        "pos": "adjective",
+        "lemma": "notwendig",
+        "meaning_fr": "nécessaires",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "um",
+        "pos": "conjunction",
+        "lemma": "um",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜するために",
+        "note_fr": "um … zu + Infinitif : proposition finale."
+      },
+      {
+        "surface": "nachhaltige",
+        "pos": "adjective",
+        "lemma": "nachhaltig",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark",
+        "meaning_fr": "durables",
+        "meaning_ja": "持続可能な"
+      },
+      {
+        "surface": "Ergebnisse",
+        "pos": "noun",
+        "lemma": "Ergebnis",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n",
+        "meaning_fr": "résultats",
+        "meaning_ja": "結果"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜を"
+      },
+      {
+        "surface": "erzielen",
+        "pos": "verb",
+        "lemma": "erzielen",
+        "person": "inf",
+        "meaning_fr": "obtenir",
+        "meaning_ja": "達成する"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "le",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Debatte",
+        "pos": "noun",
+        "lemma": "Debatte",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "débat",
+        "meaning_ja": "議論"
+      },
+      {
+        "surface": "über",
+        "pos": "preposition",
+        "meaning_fr": "sur",
+        "meaning_ja": "〜について"
+      },
+      {
+        "surface": "dieses",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "ce",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Thema",
+        "pos": "noun",
+        "lemma": "Thema",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "sujet",
+        "meaning_ja": "テーマ"
+      },
+      {
+        "surface": "wird",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg",
+        "meaning_fr": "sera",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition",
+        "meaning_fr": "dans",
+        "meaning_ja": "〜において"
+      },
+      {
+        "surface": "den",
+        "pos": "article",
+        "case": "dat",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "kommenden",
+        "pos": "adjective",
+        "lemma": "kommend",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "prochains",
+        "meaning_ja": "来たる"
+      },
+      {
+        "surface": "Monaten",
+        "pos": "noun",
+        "lemma": "Monat",
+        "case": "dat",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "mois",
+        "meaning_ja": "ヶ月"
+      },
+      {
+        "surface": "weitergeführt",
+        "pos": "verb",
+        "lemma": "weiterführen",
+        "meaning_fr": "poursuivi",
+        "meaning_ja": "続けられた",
+        "note_fr": "Partizip II du verbe séparable weiterführen."
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "inf",
+        "meaning_fr": "être",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Alle",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "tous les",
+        "meaning_ja": "すべての"
+      },
+      {
+        "surface": "Beteiligten",
+        "pos": "noun",
+        "lemma": "Beteiligte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "participants",
+        "meaning_ja": "関係者"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "einig",
+        "pos": "adjective",
+        "lemma": "einig",
+        "meaning_fr": "d'accord",
+        "meaning_ja": "一致した"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "schnelles",
+        "pos": "adjective",
+        "lemma": "schnell",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "stark",
+        "meaning_fr": "une action rapide",
+        "meaning_ja": "迅速な"
+      },
+      {
+        "surface": "Handeln",
+        "pos": "noun",
+        "lemma": "Handeln",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "action",
+        "meaning_ja": "行動"
+      },
+      {
+        "surface": "erforderlich",
+        "pos": "adjective",
+        "lemma": "erforderlich",
+        "meaning_fr": "nécessaire",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "est",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  },
+  {
+    "id": "t032",
+    "level": "B1",
+    "category": "Actualités",
+    "title": "La réforme du système de santé",
+    "tokens": [
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Bundesregierung",
+        "pos": "noun",
+        "meaning_fr": "gouvernement fédéral",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "plant",
+        "pos": "verb",
+        "lemma": "planen",
+        "meaning_fr": "planifie",
+        "person": "3sg"
+      },
+      {
+        "surface": "eine",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "große",
+        "pos": "adjective",
+        "lemma": "groß",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "gemischt"
+      },
+      {
+        "surface": "Reform",
+        "pos": "noun",
+        "meaning_fr": "réforme",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "des",
+        "pos": "article",
+        "case": "gen",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "Gesundheitssystems",
+        "pos": "noun",
+        "meaning_fr": "système de santé",
+        "case": "gen",
+        "number": "sg",
+        "gender": "n",
+        "note_fr": "Génitif singulier neutre — complément du nom 'Reform'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "wird",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg"
+      },
+      {
+        "surface": "erwartet",
+        "pos": "verb",
+        "lemma": "erwarten",
+        "meaning_fr": "attendu",
+        "note_fr": "Passif impersonnel — 'Es wird erwartet' = on s'attend à, il est attendu."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "meaning_fr": "que"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl"
+      },
+      {
+        "surface": "Krankenkassenbeiträge",
+        "pos": "noun",
+        "meaning_fr": "cotisations d'assurance maladie",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "gesenkt",
+        "pos": "verb",
+        "lemma": "senken",
+        "meaning_fr": "abaissées",
+        "note_fr": "Passif dans la subordonnée — 'werden + participe passé' après 'dass'."
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3pl"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Gleichzeitig",
+        "pos": "adverb",
+        "meaning_fr": "simultanément"
+      },
+      {
+        "surface": "sollen",
+        "pos": "verb",
+        "lemma": "sollen",
+        "meaning_fr": "sont censés",
+        "person": "3pl"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb"
+      },
+      {
+        "surface": "Ärzte",
+        "pos": "noun",
+        "meaning_fr": "médecins",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition"
+      },
+      {
+        "surface": "ländlichen",
+        "pos": "adjective",
+        "lemma": "ländlich",
+        "meaning_fr": "rurales",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Gebieten",
+        "pos": "noun",
+        "meaning_fr": "régions",
+        "case": "dat",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "eingesetzt",
+        "pos": "verb",
+        "lemma": "einsetzen",
+        "meaning_fr": "déployés"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3pl"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "weil",
+        "pos": "conjunction",
+        "meaning_fr": "parce que",
+        "note_fr": "Cause directe introduite par 'weil' — différencier de 'denn' qui n'est pas subordonnant."
+      },
+      {
+        "surface": "viele",
+        "pos": "adjective",
+        "lemma": "viel",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Dörfer",
+        "pos": "noun",
+        "meaning_fr": "villages",
+        "case": "nom",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "keinen",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Hausarzt",
+        "pos": "noun",
+        "meaning_fr": "médecin généraliste",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb"
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3pl"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Patientenverbände",
+        "pos": "noun",
+        "meaning_fr": "associations de patients",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "begrüßen",
+        "pos": "verb",
+        "lemma": "begrüßen",
+        "meaning_fr": "saluent, accueillent favorablement",
+        "person": "3pl"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Initiative",
+        "pos": "noun",
+        "meaning_fr": "initiative",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "obwohl",
+        "pos": "conjunction",
+        "meaning_fr": "bien que",
+        "note_fr": "Conjonction concessive — le verbe est en fin de subordonnée."
+      },
+      {
+        "surface": "viele",
+        "pos": "adjective",
+        "lemma": "viel",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Details",
+        "pos": "noun",
+        "meaning_fr": "détails",
+        "case": "nom",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "noch",
+        "pos": "adverb",
+        "meaning_fr": "encore"
+      },
+      {
+        "surface": "nicht",
+        "pos": "adverb"
+      },
+      {
+        "surface": "geklärt",
+        "pos": "verb",
+        "lemma": "klären",
+        "meaning_fr": "clarifiés"
+      },
+      {
+        "surface": "worden",
+        "pos": "verb",
+        "lemma": "werden",
+        "note_fr": "Parfait passif : 'sein + participe passé + worden' — 'worden' remplace 'geworden' au passif."
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ein",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Sprecher",
+        "pos": "noun",
+        "meaning_fr": "porte-parole",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "des",
+        "pos": "article",
+        "case": "gen",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "Ministeriums",
+        "pos": "noun",
+        "meaning_fr": "ministère",
+        "case": "gen",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "erklärte",
+        "pos": "verb",
+        "lemma": "erklären",
+        "meaning_fr": "a déclaré",
+        "person": "3sg"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "meaning_fr": "que"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl"
+      },
+      {
+        "surface": "Verhandlungen",
+        "pos": "noun",
+        "meaning_fr": "négociations",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "noch",
+        "pos": "adverb"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition"
+      },
+      {
+        "surface": "diesem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Jahr",
+        "pos": "noun",
+        "meaning_fr": "année",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "abgeschlossen",
+        "pos": "verb",
+        "lemma": "abschließen",
+        "meaning_fr": "conclus, terminés"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3pl"
+      },
+      {
+        "surface": "sollen",
+        "pos": "verb",
+        "lemma": "sollen",
+        "person": "3pl"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Kritiker",
+        "pos": "noun",
+        "meaning_fr": "critiques (personnes)",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "hingegen",
+        "pos": "adverb",
+        "meaning_fr": "en revanche"
+      },
+      {
+        "surface": "bezweifeln",
+        "pos": "verb",
+        "lemma": "bezweifeln",
+        "meaning_fr": "doutent de",
+        "person": "3pl"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "meaning_fr": "que"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Reform",
+        "pos": "noun",
+        "meaning_fr": "réforme",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "schnell",
+        "pos": "adjective",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "genug",
+        "pos": "adverb",
+        "meaning_fr": "assez"
+      },
+      {
+        "surface": "umgesetzt",
+        "pos": "verb",
+        "lemma": "umsetzen",
+        "meaning_fr": "mise en œuvre"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg"
+      },
+      {
+        "surface": "kann",
+        "pos": "verb",
+        "lemma": "können",
+        "person": "3sg"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Diese",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "cette",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Entwicklung",
+        "pos": "noun",
+        "lemma": "Entwicklung",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "évolution",
+        "meaning_ja": "発展"
+      },
+      {
+        "surface": "zeigt",
+        "pos": "verb",
+        "lemma": "zeigen",
+        "person": "3sg",
+        "meaning_fr": "montre",
+        "meaning_ja": "示す"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ",
+        "note_fr": "Conjonction de subordination ; le verbe va en fin de proposition."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gesellschaft",
+        "pos": "noun",
+        "lemma": "Gesellschaft",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "société",
+        "meaning_ja": "社会"
+      },
+      {
+        "surface": "vor",
+        "pos": "preposition",
+        "meaning_fr": "devant",
+        "meaning_ja": "〜に直面して"
+      },
+      {
+        "surface": "großen",
+        "pos": "adjective",
+        "lemma": "groß",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "grands",
+        "meaning_ja": "大きな"
+      },
+      {
+        "surface": "Herausforderungen",
+        "pos": "noun",
+        "lemma": "Herausforderung",
+        "case": "dat",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "défis",
+        "meaning_ja": "課題"
+      },
+      {
+        "surface": "steht",
+        "pos": "verb",
+        "lemma": "stehen",
+        "person": "3sg",
+        "meaning_fr": "se trouve",
+        "meaning_ja": "直面している"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Experten",
+        "pos": "noun",
+        "lemma": "Experte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "les experts",
+        "meaning_ja": "専門家たち"
+      },
+      {
+        "surface": "betonen",
+        "pos": "verb",
+        "lemma": "betonen",
+        "person": "3pl",
+        "meaning_fr": "soulignent",
+        "meaning_ja": "強調する"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "koordinierte",
+        "pos": "adjective",
+        "lemma": "koordiniert",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "coordonnées",
+        "meaning_ja": "協調した"
+      },
+      {
+        "surface": "Maßnahmen",
+        "pos": "noun",
+        "lemma": "Maßnahme",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "mesures",
+        "meaning_ja": "措置"
+      },
+      {
+        "surface": "notwendig",
+        "pos": "adjective",
+        "lemma": "notwendig",
+        "meaning_fr": "nécessaires",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "um",
+        "pos": "conjunction",
+        "lemma": "um",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜するために",
+        "note_fr": "um … zu + Infinitif : proposition finale."
+      },
+      {
+        "surface": "nachhaltige",
+        "pos": "adjective",
+        "lemma": "nachhaltig",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark",
+        "meaning_fr": "durables",
+        "meaning_ja": "持続可能な"
+      },
+      {
+        "surface": "Ergebnisse",
+        "pos": "noun",
+        "lemma": "Ergebnis",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n",
+        "meaning_fr": "résultats",
+        "meaning_ja": "結果"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜を"
+      },
+      {
+        "surface": "erzielen",
+        "pos": "verb",
+        "lemma": "erzielen",
+        "person": "inf",
+        "meaning_fr": "obtenir",
+        "meaning_ja": "達成する"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "le",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Debatte",
+        "pos": "noun",
+        "lemma": "Debatte",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "débat",
+        "meaning_ja": "議論"
+      },
+      {
+        "surface": "über",
+        "pos": "preposition",
+        "meaning_fr": "sur",
+        "meaning_ja": "〜について"
+      },
+      {
+        "surface": "dieses",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "ce",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Thema",
+        "pos": "noun",
+        "lemma": "Thema",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "sujet",
+        "meaning_ja": "テーマ"
+      },
+      {
+        "surface": "wird",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg",
+        "meaning_fr": "sera",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition",
+        "meaning_fr": "dans",
+        "meaning_ja": "〜において"
+      },
+      {
+        "surface": "den",
+        "pos": "article",
+        "case": "dat",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "kommenden",
+        "pos": "adjective",
+        "lemma": "kommend",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "prochains",
+        "meaning_ja": "来たる"
+      },
+      {
+        "surface": "Monaten",
+        "pos": "noun",
+        "lemma": "Monat",
+        "case": "dat",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "mois",
+        "meaning_ja": "ヶ月"
+      },
+      {
+        "surface": "weitergeführt",
+        "pos": "verb",
+        "lemma": "weiterführen",
+        "meaning_fr": "poursuivi",
+        "meaning_ja": "続けられた",
+        "note_fr": "Partizip II du verbe séparable weiterführen."
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "inf",
+        "meaning_fr": "être",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Alle",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "tous les",
+        "meaning_ja": "すべての"
+      },
+      {
+        "surface": "Beteiligten",
+        "pos": "noun",
+        "lemma": "Beteiligte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "participants",
+        "meaning_ja": "関係者"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "einig",
+        "pos": "adjective",
+        "lemma": "einig",
+        "meaning_fr": "d'accord",
+        "meaning_ja": "一致した"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "schnelles",
+        "pos": "adjective",
+        "lemma": "schnell",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "stark",
+        "meaning_fr": "une action rapide",
+        "meaning_ja": "迅速な"
+      },
+      {
+        "surface": "Handeln",
+        "pos": "noun",
+        "lemma": "Handeln",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "action",
+        "meaning_ja": "行動"
+      },
+      {
+        "surface": "erforderlich",
+        "pos": "adjective",
+        "lemma": "erforderlich",
+        "meaning_fr": "nécessaire",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "est",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  },
+  {
+    "id": "t033",
+    "level": "B2",
+    "category": "Actualités",
+    "title": "Les énergies renouvelables et la politique climatique",
+    "tokens": [
+      {
+        "surface": "Der",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Ausbau",
+        "pos": "noun",
+        "meaning_fr": "développement, expansion",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m",
+        "note_fr": "Nominalisation du verbe 'ausbauen' — fréquent en allemand soutenu pour condenser l'information."
+      },
+      {
+        "surface": "erneuerbarer",
+        "pos": "adjective",
+        "lemma": "erneuerbar",
+        "meaning_fr": "renouvelables",
+        "case": "gen",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Energien",
+        "pos": "noun",
+        "meaning_fr": "énergies",
+        "case": "gen",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "wird",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg"
+      },
+      {
+        "surface": "von",
+        "pos": "preposition"
+      },
+      {
+        "surface": "der",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Bundesregierung",
+        "pos": "noun",
+        "meaning_fr": "gouvernement fédéral",
+        "case": "dat",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "als",
+        "pos": "conjunction",
+        "meaning_fr": "comme, en tant que"
+      },
+      {
+        "surface": "zentrale",
+        "pos": "adjective",
+        "lemma": "zentral",
+        "meaning_fr": "centrale, prioritaire",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Priorität",
+        "pos": "noun",
+        "meaning_fr": "priorité",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "bezeichnet",
+        "pos": "verb",
+        "lemma": "bezeichnen",
+        "meaning_fr": "qualifiée, désignée",
+        "note_fr": "Passif présent avec complément d'agent 'von + datif' — construction passive complète."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Laut",
+        "pos": "preposition",
+        "meaning_fr": "selon"
+      },
+      {
+        "surface": "einem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "aktuellen",
+        "pos": "adjective",
+        "lemma": "aktuell",
+        "meaning_fr": "récent, actuel",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Bericht",
+        "pos": "noun",
+        "meaning_fr": "rapport",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "seien",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "note_fr": "Konjunktiv I de 'sein' (3ème pl.) — marque le discours indirect en style journalistique : 'ils seraient / il est rapporté qu'ils sont'."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl"
+      },
+      {
+        "surface": "Investitionen",
+        "pos": "noun",
+        "meaning_fr": "investissements",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition"
+      },
+      {
+        "surface": "Windkraft",
+        "pos": "noun",
+        "meaning_fr": "énergie éolienne",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction"
+      },
+      {
+        "surface": "Solarenergie",
+        "pos": "noun",
+        "meaning_fr": "énergie solaire",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "im",
+        "pos": "preposition"
+      },
+      {
+        "surface": "vergangenen",
+        "pos": "adjective",
+        "lemma": "vergangen",
+        "meaning_fr": "passée",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Jahr",
+        "pos": "noun",
+        "meaning_fr": "année",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "erheblich",
+        "pos": "adjective",
+        "meaning_fr": "considérablement",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "gestiegen",
+        "pos": "verb",
+        "lemma": "steigen",
+        "meaning_fr": "augmentées"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Kritiker",
+        "pos": "noun",
+        "meaning_fr": "critiques (personnes)",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "wenden",
+        "pos": "verb",
+        "lemma": "wenden",
+        "person": "3pl"
+      },
+      {
+        "surface": "ein",
+        "pos": "verb",
+        "lemma": "einwenden",
+        "meaning_fr": "objectent, font valoir",
+        "note_fr": "Verbe séparable 'einwenden' — le préfixe 'ein-' se sépare au présent."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Umsetzung",
+        "pos": "noun",
+        "meaning_fr": "mise en œuvre",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "note_fr": "Nominalisation de 'umsetzen' — la désinence -ung est très productive pour les nominalisations d'action."
+      },
+      {
+        "surface": "der",
+        "pos": "article",
+        "case": "gen",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Klimaziele",
+        "pos": "noun",
+        "meaning_fr": "objectifs climatiques",
+        "case": "gen",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "erfordere",
+        "pos": "verb",
+        "lemma": "erfordern",
+        "meaning_fr": "nécessite (disc. indir.)",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I de 'erfordern' (3ème sg.) — discours indirect sans 'dass', style journalistique soutenu."
+      },
+      {
+        "surface": "strukturelle",
+        "pos": "adjective",
+        "lemma": "strukturell",
+        "meaning_fr": "structurels",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Veränderungen",
+        "pos": "noun",
+        "meaning_fr": "changements, transformations",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "die",
+        "pos": "pronoun",
+        "meaning_fr": "qui (relatif)"
+      },
+      {
+        "surface": "über",
+        "pos": "preposition"
+      },
+      {
+        "surface": "bloße",
+        "pos": "adjective",
+        "lemma": "bloß",
+        "meaning_fr": "simples, pures",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Subventionen",
+        "pos": "noun",
+        "meaning_fr": "subventions",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "hinausgingen",
+        "pos": "verb",
+        "lemma": "hinausgehen",
+        "meaning_fr": "aillent au-delà (disc. indir.)",
+        "person": "3pl",
+        "note_fr": "Konjunktiv II ici utilisé comme Konjunktiv I non-distinctif — 'gingen' vs 'gehen' évite l'ambiguïté avec l'indicatif."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Einführung",
+        "pos": "noun",
+        "meaning_fr": "introduction, mise en place",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "note_fr": "Nominalisation de 'einführen' — chaîne nominale : 'Die Einführung eines CO₂-Preises'."
+      },
+      {
+        "surface": "eines",
+        "pos": "article",
+        "case": "gen",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "CO₂-Preises",
+        "pos": "noun",
+        "meaning_fr": "prix du CO₂ (taxe carbone)",
+        "case": "gen",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "sei",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I de 'sein' (3ème sg.) — discours indirect rapportant la position des experts."
+      },
+      {
+        "surface": "laut",
+        "pos": "preposition",
+        "meaning_fr": "selon"
+      },
+      {
+        "surface": "Experten",
+        "pos": "noun",
+        "meaning_fr": "experts",
+        "case": "dat",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "unerlässlich",
+        "pos": "adjective",
+        "meaning_fr": "indispensable",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "um",
+        "pos": "conjunction",
+        "meaning_fr": "afin de (infinitif but)"
+      },
+      {
+        "surface": "den",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Ausstoß",
+        "pos": "noun",
+        "meaning_fr": "émission (de gaz)",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "von",
+        "pos": "preposition"
+      },
+      {
+        "surface": "Treibhausgasen",
+        "pos": "noun",
+        "meaning_fr": "gaz à effet de serre",
+        "case": "dat",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "wirksam",
+        "pos": "adjective",
+        "meaning_fr": "efficacement",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "zu",
+        "pos": "particle"
+      },
+      {
+        "surface": "reduzieren",
+        "pos": "verb",
+        "lemma": "reduzieren",
+        "meaning_fr": "réduire"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ob",
+        "pos": "conjunction",
+        "meaning_fr": "si (interrogation indirecte)"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "politische",
+        "pos": "adjective",
+        "lemma": "politisch",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "gemischt"
+      },
+      {
+        "surface": "Einigung",
+        "pos": "noun",
+        "meaning_fr": "accord politique",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "bis",
+        "pos": "preposition"
+      },
+      {
+        "surface": "Jahresende",
+        "pos": "noun",
+        "meaning_fr": "fin d'année",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "erzielt",
+        "pos": "verb",
+        "lemma": "erzielen",
+        "meaning_fr": "obtenu, réalisé"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg"
+      },
+      {
+        "surface": "kann",
+        "pos": "verb",
+        "lemma": "können",
+        "person": "3sg"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "bleibt",
+        "pos": "verb",
+        "lemma": "bleiben",
+        "person": "3sg"
+      },
+      {
+        "surface": "abzuwarten",
+        "pos": "verb",
+        "lemma": "abwarten",
+        "meaning_fr": "reste à voir",
+        "note_fr": "'Bleibt abzuwarten' — expression idiomatique signifiant 'il reste à voir si'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Diese",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "cette",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Entwicklung",
+        "pos": "noun",
+        "lemma": "Entwicklung",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "évolution",
+        "meaning_ja": "発展"
+      },
+      {
+        "surface": "zeigt",
+        "pos": "verb",
+        "lemma": "zeigen",
+        "person": "3sg",
+        "meaning_fr": "montre",
+        "meaning_ja": "示す"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ",
+        "note_fr": "Conjonction de subordination ; le verbe va en fin de proposition."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gesellschaft",
+        "pos": "noun",
+        "lemma": "Gesellschaft",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "société",
+        "meaning_ja": "社会"
+      },
+      {
+        "surface": "vor",
+        "pos": "preposition",
+        "meaning_fr": "devant",
+        "meaning_ja": "〜に直面して"
+      },
+      {
+        "surface": "großen",
+        "pos": "adjective",
+        "lemma": "groß",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "grands",
+        "meaning_ja": "大きな"
+      },
+      {
+        "surface": "Herausforderungen",
+        "pos": "noun",
+        "lemma": "Herausforderung",
+        "case": "dat",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "défis",
+        "meaning_ja": "課題"
+      },
+      {
+        "surface": "steht",
+        "pos": "verb",
+        "lemma": "stehen",
+        "person": "3sg",
+        "meaning_fr": "se trouve",
+        "meaning_ja": "直面している"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Experten",
+        "pos": "noun",
+        "lemma": "Experte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "les experts",
+        "meaning_ja": "専門家たち"
+      },
+      {
+        "surface": "betonen",
+        "pos": "verb",
+        "lemma": "betonen",
+        "person": "3pl",
+        "meaning_fr": "soulignent",
+        "meaning_ja": "強調する"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "koordinierte",
+        "pos": "adjective",
+        "lemma": "koordiniert",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "coordonnées",
+        "meaning_ja": "協調した"
+      },
+      {
+        "surface": "Maßnahmen",
+        "pos": "noun",
+        "lemma": "Maßnahme",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "mesures",
+        "meaning_ja": "措置"
+      },
+      {
+        "surface": "notwendig",
+        "pos": "adjective",
+        "lemma": "notwendig",
+        "meaning_fr": "nécessaires",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "um",
+        "pos": "conjunction",
+        "lemma": "um",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜するために",
+        "note_fr": "um … zu + Infinitif : proposition finale."
+      },
+      {
+        "surface": "nachhaltige",
+        "pos": "adjective",
+        "lemma": "nachhaltig",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark",
+        "meaning_fr": "durables",
+        "meaning_ja": "持続可能な"
+      },
+      {
+        "surface": "Ergebnisse",
+        "pos": "noun",
+        "lemma": "Ergebnis",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n",
+        "meaning_fr": "résultats",
+        "meaning_ja": "結果"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜を"
+      },
+      {
+        "surface": "erzielen",
+        "pos": "verb",
+        "lemma": "erzielen",
+        "person": "inf",
+        "meaning_fr": "obtenir",
+        "meaning_ja": "達成する"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "le",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Debatte",
+        "pos": "noun",
+        "lemma": "Debatte",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "débat",
+        "meaning_ja": "議論"
+      },
+      {
+        "surface": "über",
+        "pos": "preposition",
+        "meaning_fr": "sur",
+        "meaning_ja": "〜について"
+      },
+      {
+        "surface": "dieses",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "ce",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Thema",
+        "pos": "noun",
+        "lemma": "Thema",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "sujet",
+        "meaning_ja": "テーマ"
+      },
+      {
+        "surface": "wird",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg",
+        "meaning_fr": "sera",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition",
+        "meaning_fr": "dans",
+        "meaning_ja": "〜において"
+      },
+      {
+        "surface": "den",
+        "pos": "article",
+        "case": "dat",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "kommenden",
+        "pos": "adjective",
+        "lemma": "kommend",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "prochains",
+        "meaning_ja": "来たる"
+      },
+      {
+        "surface": "Monaten",
+        "pos": "noun",
+        "lemma": "Monat",
+        "case": "dat",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "mois",
+        "meaning_ja": "ヶ月"
+      },
+      {
+        "surface": "weitergeführt",
+        "pos": "verb",
+        "lemma": "weiterführen",
+        "meaning_fr": "poursuivi",
+        "meaning_ja": "続けられた",
+        "note_fr": "Partizip II du verbe séparable weiterführen."
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "inf",
+        "meaning_fr": "être",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Alle",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "tous les",
+        "meaning_ja": "すべての"
+      },
+      {
+        "surface": "Beteiligten",
+        "pos": "noun",
+        "lemma": "Beteiligte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "participants",
+        "meaning_ja": "関係者"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "einig",
+        "pos": "adjective",
+        "lemma": "einig",
+        "meaning_fr": "d'accord",
+        "meaning_ja": "一致した"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "schnelles",
+        "pos": "adjective",
+        "lemma": "schnell",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "stark",
+        "meaning_fr": "une action rapide",
+        "meaning_ja": "迅速な"
+      },
+      {
+        "surface": "Handeln",
+        "pos": "noun",
+        "lemma": "Handeln",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "action",
+        "meaning_ja": "行動"
+      },
+      {
+        "surface": "erforderlich",
+        "pos": "adjective",
+        "lemma": "erforderlich",
+        "meaning_fr": "nécessaire",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "est",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  },
+  {
+    "id": "t034",
+    "level": "B2",
+    "category": "Actualités",
+    "title": "L'intelligence artificielle dans la société",
+    "tokens": [
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "rasante",
+        "pos": "adjective",
+        "lemma": "rasant",
+        "meaning_fr": "rapide, fulgurant",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "gemischt"
+      },
+      {
+        "surface": "Verbreitung",
+        "pos": "noun",
+        "meaning_fr": "propagation, diffusion",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "note_fr": "Nominalisation de 'verbreiten' — construction nominale typique du registre journalistique."
+      },
+      {
+        "surface": "künstlicher",
+        "pos": "adjective",
+        "lemma": "künstlich",
+        "meaning_fr": "artificielle",
+        "case": "gen",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Intelligenz",
+        "pos": "noun",
+        "meaning_fr": "intelligence",
+        "case": "gen",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "stellt",
+        "pos": "verb",
+        "lemma": "stellen",
+        "person": "3sg"
+      },
+      {
+        "surface": "Gesellschaft",
+        "pos": "noun",
+        "meaning_fr": "société",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction"
+      },
+      {
+        "surface": "Gesetzgeber",
+        "pos": "noun",
+        "meaning_fr": "législateur",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "vor",
+        "pos": "preposition"
+      },
+      {
+        "surface": "neue",
+        "pos": "adjective",
+        "lemma": "neu",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Herausforderungen",
+        "pos": "noun",
+        "meaning_fr": "défis",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Experten",
+        "pos": "noun",
+        "meaning_fr": "experts",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "zufolge",
+        "pos": "preposition",
+        "meaning_fr": "selon les experts (postposition)",
+        "note_fr": "'Experten zufolge' — postposition avec datif : l'élément nominal précède 'zufolge', usage soutenu."
+      },
+      {
+        "surface": "müsse",
+        "pos": "verb",
+        "lemma": "müssen",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I de 'müssen' (3ème sg.) — rapporte l'opinion d'experts en discours indirect sans 'dass'."
+      },
+      {
+        "surface": "ein",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "rechtlicher",
+        "pos": "adjective",
+        "lemma": "rechtlich",
+        "meaning_fr": "juridique",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "gemischt"
+      },
+      {
+        "surface": "Rahmen",
+        "pos": "noun",
+        "meaning_fr": "cadre (juridique)",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "geschaffen",
+        "pos": "verb",
+        "lemma": "schaffen",
+        "meaning_fr": "créé, établi"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg",
+        "note_fr": "Passif présent dans la subordonnée de discours indirect — 'müsse … geschaffen werden'."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "der",
+        "pos": "pronoun",
+        "meaning_fr": "qui (relatif masculin)"
+      },
+      {
+        "surface": "sowohl",
+        "pos": "conjunction",
+        "meaning_fr": "à la fois"
+      },
+      {
+        "surface": "Innovation",
+        "pos": "noun",
+        "meaning_fr": "innovation",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "fördere",
+        "pos": "verb",
+        "lemma": "fördern",
+        "meaning_fr": "promeuve (disc. indir.)",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I de 'fördern' — discours indirect dans la relative, maintien du mode."
+      },
+      {
+        "surface": "als",
+        "pos": "conjunction",
+        "meaning_fr": "que (dans sowohl … als auch)"
+      },
+      {
+        "surface": "auch",
+        "pos": "adverb"
+      },
+      {
+        "surface": "Grundrechte",
+        "pos": "noun",
+        "meaning_fr": "droits fondamentaux",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "schütze",
+        "pos": "verb",
+        "lemma": "schützen",
+        "meaning_fr": "protège (disc. indir.)",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I — parallèle à 'fördere', maintien du mode dans la coordination."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Dabei",
+        "pos": "adverb",
+        "meaning_fr": "ce faisant, dans ce contexte"
+      },
+      {
+        "surface": "werde",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I de 'werden' — passif au discours indirect : 'werde … diskutiert'."
+      },
+      {
+        "surface": "vor",
+        "pos": "preposition"
+      },
+      {
+        "surface": "allem",
+        "pos": "pronoun",
+        "meaning_fr": "tout"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Frage",
+        "pos": "noun",
+        "meaning_fr": "question",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "der",
+        "pos": "article",
+        "case": "gen",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "algorithmischen",
+        "pos": "adjective",
+        "lemma": "algorithmisch",
+        "meaning_fr": "algorithmique",
+        "case": "gen",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Transparenz",
+        "pos": "noun",
+        "meaning_fr": "transparence",
+        "case": "gen",
+        "number": "sg",
+        "gender": "f",
+        "note_fr": "Chaîne de génitifs : 'die Frage der algorithmischen Transparenz' — construction nominale compacte."
+      },
+      {
+        "surface": "diskutiert",
+        "pos": "verb",
+        "lemma": "diskutieren",
+        "meaning_fr": "débattue"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Datenschutzbeauftragte",
+        "pos": "noun",
+        "meaning_fr": "délégués à la protection des données",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3pl"
+      },
+      {
+        "surface": "wiederholt",
+        "pos": "adverb",
+        "meaning_fr": "à maintes reprises"
+      },
+      {
+        "surface": "darauf",
+        "pos": "adverb",
+        "meaning_fr": "là-dessus, à ce sujet"
+      },
+      {
+        "surface": "hingewiesen",
+        "pos": "verb",
+        "lemma": "hinweisen",
+        "meaning_fr": "attiré l'attention (sur)",
+        "note_fr": "Verbe séparable 'hinweisen' au Perfekt — 'haben … hingewiesen'."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "meaning_fr": "que"
+      },
+      {
+        "surface": "biometrische",
+        "pos": "adjective",
+        "lemma": "biometrisch",
+        "meaning_fr": "biométriques",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Daten",
+        "pos": "noun",
+        "meaning_fr": "données",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "besonders",
+        "pos": "adverb",
+        "meaning_fr": "particulièrement"
+      },
+      {
+        "surface": "geschützt",
+        "pos": "verb",
+        "lemma": "schützen",
+        "meaning_fr": "protégées"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3pl"
+      },
+      {
+        "surface": "müssen",
+        "pos": "verb",
+        "lemma": "müssen",
+        "person": "3pl"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Regulierung",
+        "pos": "noun",
+        "meaning_fr": "régulation",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "note_fr": "Nominalisation de 'regulieren' — sujet de la phrase principale finale."
+      },
+      {
+        "surface": "von",
+        "pos": "preposition"
+      },
+      {
+        "surface": "KI-Systemen",
+        "pos": "noun",
+        "meaning_fr": "systèmes d'IA",
+        "case": "dat",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "bleibe",
+        "pos": "verb",
+        "lemma": "bleiben",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I de 'bleiben' — discours indirect rapportant la conclusion du rapport."
+      },
+      {
+        "surface": "eine",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "der",
+        "pos": "article",
+        "case": "gen",
+        "number": "pl"
+      },
+      {
+        "surface": "dringlichsten",
+        "pos": "adjective",
+        "lemma": "dringlich",
+        "meaning_fr": "les plus urgentes",
+        "case": "gen",
+        "number": "pl",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "politischen",
+        "pos": "adjective",
+        "lemma": "politisch",
+        "case": "gen",
+        "number": "pl",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Aufgaben",
+        "pos": "noun",
+        "meaning_fr": "tâches, missions",
+        "case": "gen",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "unserer",
+        "pos": "article",
+        "case": "gen",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Zeit",
+        "pos": "noun",
+        "meaning_fr": "époque, temps",
+        "case": "gen",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Diese",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "cette",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Entwicklung",
+        "pos": "noun",
+        "lemma": "Entwicklung",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "évolution",
+        "meaning_ja": "発展"
+      },
+      {
+        "surface": "zeigt",
+        "pos": "verb",
+        "lemma": "zeigen",
+        "person": "3sg",
+        "meaning_fr": "montre",
+        "meaning_ja": "示す"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ",
+        "note_fr": "Conjonction de subordination ; le verbe va en fin de proposition."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gesellschaft",
+        "pos": "noun",
+        "lemma": "Gesellschaft",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "société",
+        "meaning_ja": "社会"
+      },
+      {
+        "surface": "vor",
+        "pos": "preposition",
+        "meaning_fr": "devant",
+        "meaning_ja": "〜に直面して"
+      },
+      {
+        "surface": "großen",
+        "pos": "adjective",
+        "lemma": "groß",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "grands",
+        "meaning_ja": "大きな"
+      },
+      {
+        "surface": "Herausforderungen",
+        "pos": "noun",
+        "lemma": "Herausforderung",
+        "case": "dat",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "défis",
+        "meaning_ja": "課題"
+      },
+      {
+        "surface": "steht",
+        "pos": "verb",
+        "lemma": "stehen",
+        "person": "3sg",
+        "meaning_fr": "se trouve",
+        "meaning_ja": "直面している"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Experten",
+        "pos": "noun",
+        "lemma": "Experte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "les experts",
+        "meaning_ja": "専門家たち"
+      },
+      {
+        "surface": "betonen",
+        "pos": "verb",
+        "lemma": "betonen",
+        "person": "3pl",
+        "meaning_fr": "soulignent",
+        "meaning_ja": "強調する"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "koordinierte",
+        "pos": "adjective",
+        "lemma": "koordiniert",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "coordonnées",
+        "meaning_ja": "協調した"
+      },
+      {
+        "surface": "Maßnahmen",
+        "pos": "noun",
+        "lemma": "Maßnahme",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "mesures",
+        "meaning_ja": "措置"
+      },
+      {
+        "surface": "notwendig",
+        "pos": "adjective",
+        "lemma": "notwendig",
+        "meaning_fr": "nécessaires",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "um",
+        "pos": "conjunction",
+        "lemma": "um",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜するために",
+        "note_fr": "um … zu + Infinitif : proposition finale."
+      },
+      {
+        "surface": "nachhaltige",
+        "pos": "adjective",
+        "lemma": "nachhaltig",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark",
+        "meaning_fr": "durables",
+        "meaning_ja": "持続可能な"
+      },
+      {
+        "surface": "Ergebnisse",
+        "pos": "noun",
+        "lemma": "Ergebnis",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n",
+        "meaning_fr": "résultats",
+        "meaning_ja": "結果"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜を"
+      },
+      {
+        "surface": "erzielen",
+        "pos": "verb",
+        "lemma": "erzielen",
+        "person": "inf",
+        "meaning_fr": "obtenir",
+        "meaning_ja": "達成する"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "le",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Debatte",
+        "pos": "noun",
+        "lemma": "Debatte",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "débat",
+        "meaning_ja": "議論"
+      },
+      {
+        "surface": "über",
+        "pos": "preposition",
+        "meaning_fr": "sur",
+        "meaning_ja": "〜について"
+      },
+      {
+        "surface": "dieses",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "ce",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Thema",
+        "pos": "noun",
+        "lemma": "Thema",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "sujet",
+        "meaning_ja": "テーマ"
+      },
+      {
+        "surface": "wird",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg",
+        "meaning_fr": "sera",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition",
+        "meaning_fr": "dans",
+        "meaning_ja": "〜において"
+      },
+      {
+        "surface": "den",
+        "pos": "article",
+        "case": "dat",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "kommenden",
+        "pos": "adjective",
+        "lemma": "kommend",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "prochains",
+        "meaning_ja": "来たる"
+      },
+      {
+        "surface": "Monaten",
+        "pos": "noun",
+        "lemma": "Monat",
+        "case": "dat",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "mois",
+        "meaning_ja": "ヶ月"
+      },
+      {
+        "surface": "weitergeführt",
+        "pos": "verb",
+        "lemma": "weiterführen",
+        "meaning_fr": "poursuivi",
+        "meaning_ja": "続けられた",
+        "note_fr": "Partizip II du verbe séparable weiterführen."
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "inf",
+        "meaning_fr": "être",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Alle",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "tous les",
+        "meaning_ja": "すべての"
+      },
+      {
+        "surface": "Beteiligten",
+        "pos": "noun",
+        "lemma": "Beteiligte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "participants",
+        "meaning_ja": "関係者"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "einig",
+        "pos": "adjective",
+        "lemma": "einig",
+        "meaning_fr": "d'accord",
+        "meaning_ja": "一致した"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "schnelles",
+        "pos": "adjective",
+        "lemma": "schnell",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "stark",
+        "meaning_fr": "une action rapide",
+        "meaning_ja": "迅速な"
+      },
+      {
+        "surface": "Handeln",
+        "pos": "noun",
+        "lemma": "Handeln",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "action",
+        "meaning_ja": "行動"
+      },
+      {
+        "surface": "erforderlich",
+        "pos": "adjective",
+        "lemma": "erforderlich",
+        "meaning_fr": "nécessaire",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "est",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  },
+  {
+    "id": "t035",
+    "level": "B2",
+    "category": "Actualités",
+    "title": "Inégalités économiques et changement démographique",
+    "tokens": [
+      {
+        "surface": "Angesichts",
+        "pos": "preposition",
+        "meaning_fr": "face à, compte tenu de",
+        "note_fr": "'Angesichts' + génitif — préposition soutenue exprimant une cause ou un contexte défavorable."
+      },
+      {
+        "surface": "wachsender",
+        "pos": "adjective",
+        "lemma": "wachsend",
+        "meaning_fr": "croissants",
+        "case": "gen",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "sozialer",
+        "pos": "adjective",
+        "lemma": "sozial",
+        "meaning_fr": "sociales",
+        "case": "gen",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Ungleichheiten",
+        "pos": "noun",
+        "meaning_fr": "inégalités",
+        "case": "gen",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "sieht",
+        "pos": "verb",
+        "lemma": "sehen",
+        "person": "3sg"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "meaning_fr": "se (réfléchi)"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Regierung",
+        "pos": "noun",
+        "meaning_fr": "gouvernement",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "gezwungen",
+        "pos": "verb",
+        "lemma": "zwingen",
+        "meaning_fr": "contrainte",
+        "note_fr": "Adjectif attribut dérivé d'un participe passé — 'sich gezwungen sehen' = se voir contraint."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "umfassende",
+        "pos": "adjective",
+        "lemma": "umfassend",
+        "meaning_fr": "globales, complètes",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Maßnahmen",
+        "pos": "noun",
+        "meaning_fr": "mesures",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "zu",
+        "pos": "particle"
+      },
+      {
+        "surface": "ergreifen",
+        "pos": "verb",
+        "lemma": "ergreifen",
+        "meaning_fr": "prendre (des mesures)"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Infolge",
+        "pos": "preposition",
+        "meaning_fr": "par suite de, en raison de",
+        "note_fr": "'Infolge' + génitif — préposition causale soutenue ; différencier de 'wegen' (plus courant)."
+      },
+      {
+        "surface": "des",
+        "pos": "article",
+        "case": "gen",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "demografischen",
+        "pos": "adjective",
+        "lemma": "demografisch",
+        "meaning_fr": "démographique",
+        "case": "gen",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Wandels",
+        "pos": "noun",
+        "meaning_fr": "changement, transformation",
+        "case": "gen",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "schrumpft",
+        "pos": "verb",
+        "lemma": "schrumpfen",
+        "meaning_fr": "se rétrécit, diminue",
+        "person": "3sg"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Erwerbsbevölkerung",
+        "pos": "noun",
+        "meaning_fr": "population active",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "stetig",
+        "pos": "adverb",
+        "meaning_fr": "continuellement, régulièrement"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "wohingegen",
+        "pos": "conjunction",
+        "meaning_fr": "alors que (en revanche)",
+        "note_fr": "'Wohingegen' — connecteur adversatif soutenu équivalant à 'während' ou 'hingegen' ; verbe en fin de subordonnée."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Zahl",
+        "pos": "noun",
+        "meaning_fr": "nombre",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "der",
+        "pos": "article",
+        "case": "gen",
+        "number": "pl"
+      },
+      {
+        "surface": "Rentnerinnen",
+        "pos": "noun",
+        "meaning_fr": "retraitées",
+        "case": "gen",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction"
+      },
+      {
+        "surface": "Rentner",
+        "pos": "noun",
+        "meaning_fr": "retraités",
+        "case": "gen",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "kontinuierlich",
+        "pos": "adverb",
+        "meaning_fr": "de manière continue"
+      },
+      {
+        "surface": "zunimmt",
+        "pos": "verb",
+        "lemma": "zunehmen",
+        "meaning_fr": "augmente",
+        "person": "3sg"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Sofern",
+        "pos": "conjunction",
+        "meaning_fr": "à condition que, pour autant que",
+        "note_fr": "'Sofern' — conjonction conditionnelle soutenue ; équivalent de 'wenn' mais avec nuance de réserve."
+      },
+      {
+        "surface": "keine",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl"
+      },
+      {
+        "surface": "grundlegenden",
+        "pos": "adjective",
+        "lemma": "grundlegend",
+        "meaning_fr": "fondamentales",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Reformen",
+        "pos": "noun",
+        "meaning_fr": "réformes",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "eingeleitet",
+        "pos": "verb",
+        "lemma": "einleiten",
+        "meaning_fr": "lancées, engagées"
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3pl"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "drohe",
+        "pos": "verb",
+        "lemma": "drohen",
+        "meaning_fr": "risquerait de (disc. indir.)",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I de 'drohen' — discours indirect rapportant les prévisions d'experts économiques."
+      },
+      {
+        "surface": "das",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "Rentensystem",
+        "pos": "noun",
+        "meaning_fr": "système de retraite",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "langfristig",
+        "pos": "adverb",
+        "meaning_fr": "à long terme"
+      },
+      {
+        "surface": "an",
+        "pos": "preposition"
+      },
+      {
+        "surface": "seine",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Grenzen",
+        "pos": "noun",
+        "meaning_fr": "limites",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "zu",
+        "pos": "particle"
+      },
+      {
+        "surface": "stoßen",
+        "pos": "verb",
+        "lemma": "stoßen",
+        "meaning_fr": "atteindre"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Wirtschaftsexperten",
+        "pos": "noun",
+        "meaning_fr": "économistes, experts économiques",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m"
+      },
+      {
+        "surface": "fordern",
+        "pos": "verb",
+        "lemma": "fordern",
+        "meaning_fr": "réclament, appellent à",
+        "person": "3pl"
+      },
+      {
+        "surface": "deshalb",
+        "pos": "adverb",
+        "meaning_fr": "c'est pourquoi"
+      },
+      {
+        "surface": "eine",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "stärkere",
+        "pos": "adjective",
+        "lemma": "stark",
+        "meaning_fr": "plus forte, accrue",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "gemischt"
+      },
+      {
+        "surface": "Einwanderung",
+        "pos": "noun",
+        "meaning_fr": "immigration",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "qualifizierter",
+        "pos": "adjective",
+        "lemma": "qualifiziert",
+        "meaning_fr": "qualifiés",
+        "case": "gen",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Arbeitskräfte",
+        "pos": "noun",
+        "meaning_fr": "travailleurs, main-d'œuvre",
+        "case": "gen",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "da",
+        "pos": "conjunction",
+        "meaning_fr": "étant donné que, comme"
+      },
+      {
+        "surface": "der",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Fachkräftemangel",
+        "pos": "noun",
+        "meaning_fr": "pénurie de main-d'œuvre qualifiée",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m",
+        "note_fr": "Mot composé : Fachkräfte (spécialistes) + Mangel (manque) — très fréquent dans le discours économique allemand."
+      },
+      {
+        "surface": "in",
+        "pos": "preposition"
+      },
+      {
+        "surface": "vielen",
+        "pos": "adjective",
+        "lemma": "viel",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "stark"
+      },
+      {
+        "surface": "Branchen",
+        "pos": "noun",
+        "meaning_fr": "secteurs (économiques)",
+        "case": "dat",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "weiter",
+        "pos": "adverb",
+        "meaning_fr": "davantage, de plus"
+      },
+      {
+        "surface": "zunehme",
+        "pos": "verb",
+        "lemma": "zunehmen",
+        "meaning_fr": "s'aggrave (disc. indir.)",
+        "person": "3sg",
+        "note_fr": "Konjunktiv I de 'zunehmen' — discours indirect dans la subordonnée causale 'da'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Diese",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "cette",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Entwicklung",
+        "pos": "noun",
+        "lemma": "Entwicklung",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "évolution",
+        "meaning_ja": "発展"
+      },
+      {
+        "surface": "zeigt",
+        "pos": "verb",
+        "lemma": "zeigen",
+        "person": "3sg",
+        "meaning_fr": "montre",
+        "meaning_ja": "示す"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ",
+        "note_fr": "Conjonction de subordination ; le verbe va en fin de proposition."
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gesellschaft",
+        "pos": "noun",
+        "lemma": "Gesellschaft",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "société",
+        "meaning_ja": "社会"
+      },
+      {
+        "surface": "vor",
+        "pos": "preposition",
+        "meaning_fr": "devant",
+        "meaning_ja": "〜に直面して"
+      },
+      {
+        "surface": "großen",
+        "pos": "adjective",
+        "lemma": "groß",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "grands",
+        "meaning_ja": "大きな"
+      },
+      {
+        "surface": "Herausforderungen",
+        "pos": "noun",
+        "lemma": "Herausforderung",
+        "case": "dat",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "défis",
+        "meaning_ja": "課題"
+      },
+      {
+        "surface": "steht",
+        "pos": "verb",
+        "lemma": "stehen",
+        "person": "3sg",
+        "meaning_fr": "se trouve",
+        "meaning_ja": "直面している"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Experten",
+        "pos": "noun",
+        "lemma": "Experte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "les experts",
+        "meaning_ja": "専門家たち"
+      },
+      {
+        "surface": "betonen",
+        "pos": "verb",
+        "lemma": "betonen",
+        "person": "3pl",
+        "meaning_fr": "soulignent",
+        "meaning_ja": "強調する"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "koordinierte",
+        "pos": "adjective",
+        "lemma": "koordiniert",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "coordonnées",
+        "meaning_ja": "協調した"
+      },
+      {
+        "surface": "Maßnahmen",
+        "pos": "noun",
+        "lemma": "Maßnahme",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "mesures",
+        "meaning_ja": "措置"
+      },
+      {
+        "surface": "notwendig",
+        "pos": "adjective",
+        "lemma": "notwendig",
+        "meaning_fr": "nécessaires",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "um",
+        "pos": "conjunction",
+        "lemma": "um",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜するために",
+        "note_fr": "um … zu + Infinitif : proposition finale."
+      },
+      {
+        "surface": "nachhaltige",
+        "pos": "adjective",
+        "lemma": "nachhaltig",
+        "case": "akk",
+        "number": "pl",
+        "declension_type": "stark",
+        "meaning_fr": "durables",
+        "meaning_ja": "持続可能な"
+      },
+      {
+        "surface": "Ergebnisse",
+        "pos": "noun",
+        "lemma": "Ergebnis",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n",
+        "meaning_fr": "résultats",
+        "meaning_ja": "結果"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜を"
+      },
+      {
+        "surface": "erzielen",
+        "pos": "verb",
+        "lemma": "erzielen",
+        "person": "inf",
+        "meaning_fr": "obtenir",
+        "meaning_ja": "達成する"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "le",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Debatte",
+        "pos": "noun",
+        "lemma": "Debatte",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "meaning_fr": "débat",
+        "meaning_ja": "議論"
+      },
+      {
+        "surface": "über",
+        "pos": "preposition",
+        "meaning_fr": "sur",
+        "meaning_ja": "〜について"
+      },
+      {
+        "surface": "dieses",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "ce",
+        "meaning_ja": "この"
+      },
+      {
+        "surface": "Thema",
+        "pos": "noun",
+        "lemma": "Thema",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "sujet",
+        "meaning_ja": "テーマ"
+      },
+      {
+        "surface": "wird",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg",
+        "meaning_fr": "sera",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition",
+        "meaning_fr": "dans",
+        "meaning_ja": "〜において"
+      },
+      {
+        "surface": "den",
+        "pos": "article",
+        "case": "dat",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "kommenden",
+        "pos": "adjective",
+        "lemma": "kommend",
+        "case": "dat",
+        "number": "pl",
+        "declension_type": "schwach",
+        "meaning_fr": "prochains",
+        "meaning_ja": "来たる"
+      },
+      {
+        "surface": "Monaten",
+        "pos": "noun",
+        "lemma": "Monat",
+        "case": "dat",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "mois",
+        "meaning_ja": "ヶ月"
+      },
+      {
+        "surface": "weitergeführt",
+        "pos": "verb",
+        "lemma": "weiterführen",
+        "meaning_fr": "poursuivi",
+        "meaning_ja": "続けられた",
+        "note_fr": "Partizip II du verbe séparable weiterführen."
+      },
+      {
+        "surface": "werden",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "inf",
+        "meaning_fr": "être",
+        "meaning_ja": "〜される"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Alle",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "tous les",
+        "meaning_ja": "すべての"
+      },
+      {
+        "surface": "Beteiligten",
+        "pos": "noun",
+        "lemma": "Beteiligte",
+        "case": "nom",
+        "number": "pl",
+        "gender": "m",
+        "meaning_fr": "participants",
+        "meaning_ja": "関係者"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl",
+        "meaning_fr": "sont",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "einig",
+        "pos": "adjective",
+        "lemma": "einig",
+        "meaning_fr": "d'accord",
+        "meaning_ja": "一致した"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "lemma": "dass",
+        "meaning_fr": "que",
+        "meaning_ja": "〜ということ"
+      },
+      {
+        "surface": "schnelles",
+        "pos": "adjective",
+        "lemma": "schnell",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "stark",
+        "meaning_fr": "une action rapide",
+        "meaning_ja": "迅速な"
+      },
+      {
+        "surface": "Handeln",
+        "pos": "noun",
+        "lemma": "Handeln",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "action",
+        "meaning_ja": "行動"
+      },
+      {
+        "surface": "erforderlich",
+        "pos": "adjective",
+        "lemma": "erforderlich",
+        "meaning_fr": "nécessaire",
+        "meaning_ja": "必要な"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "est",
+        "meaning_ja": "である"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  }
+]

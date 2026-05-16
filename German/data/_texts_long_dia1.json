@@ -1,0 +1,4495 @@
+[
+  {
+    "id": "t011",
+    "level": "A1",
+    "category": "Dialogues",
+    "title": "Au supermarché",
+    "tokens": [
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Entschuldigung",
+        "pos": "noun",
+        "meaning_fr": "excuse-moi / pardon",
+        "meaning_ja": "すみません",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "note_fr": "Formule de politesse pour interpeller quelqu'un."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "wo",
+        "pos": "adverb",
+        "meaning_fr": "où",
+        "meaning_ja": "どこ"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "est",
+        "meaning_ja": "です/ある"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Milch",
+        "pos": "noun",
+        "meaning_fr": "lait",
+        "meaning_ja": "牛乳",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Milch",
+        "pos": "noun",
+        "meaning_fr": "lait",
+        "meaning_ja": "牛乳",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg"
+      },
+      {
+        "surface": "dort",
+        "pos": "adverb",
+        "meaning_fr": "là-bas",
+        "meaning_ja": "あそこ"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition",
+        "meaning_fr": "dans",
+        "meaning_ja": "の中に"
+      },
+      {
+        "surface": "Gang",
+        "pos": "noun",
+        "meaning_fr": "rayon / allée",
+        "meaning_ja": "通路",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "drei",
+        "pos": "numeral",
+        "meaning_fr": "trois",
+        "meaning_ja": "3"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Danke",
+        "pos": "adverb",
+        "meaning_fr": "merci",
+        "meaning_ja": "ありがとう"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "2pl_formal",
+        "note_fr": "Forme de politesse (Sie) — verbe 'haben' au présent."
+      },
+      {
+        "surface": "Sie",
+        "pos": "pronoun",
+        "meaning_fr": "vous (formel)",
+        "meaning_ja": "あなた（敬語）"
+      },
+      {
+        "surface": "auch",
+        "pos": "adverb",
+        "meaning_fr": "aussi",
+        "meaning_ja": "も"
+      },
+      {
+        "surface": "Brot",
+        "pos": "noun",
+        "meaning_fr": "pain",
+        "meaning_ja": "パン",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ja",
+        "pos": "adverb",
+        "meaning_fr": "oui",
+        "meaning_ja": "はい"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "natürlich",
+        "pos": "adverb",
+        "meaning_fr": "bien sûr",
+        "meaning_ja": "もちろん"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "Brot",
+        "pos": "noun",
+        "meaning_fr": "pain",
+        "meaning_ja": "パン",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition"
+      },
+      {
+        "surface": "Gang",
+        "pos": "noun",
+        "meaning_fr": "rayon / allée",
+        "meaning_ja": "通路",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "eins",
+        "pos": "numeral",
+        "meaning_fr": "un",
+        "meaning_ja": "1"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Und",
+        "pos": "conjunction",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "was",
+        "pos": "pronoun",
+        "meaning_fr": "quoi / qu'est-ce que",
+        "meaning_ja": "何を"
+      },
+      {
+        "surface": "kostet",
+        "pos": "verb",
+        "lemma": "kosten",
+        "person": "3sg",
+        "meaning_fr": "coûte",
+        "meaning_ja": "値段は"
+      },
+      {
+        "surface": "das",
+        "pos": "pronoun",
+        "meaning_fr": "ça / cela",
+        "meaning_ja": "それ"
+      },
+      {
+        "surface": "Brot",
+        "pos": "noun",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun",
+        "meaning_fr": "il / ça",
+        "meaning_ja": "それは"
+      },
+      {
+        "surface": "kostet",
+        "pos": "verb",
+        "lemma": "kosten",
+        "person": "3sg"
+      },
+      {
+        "surface": "zwei",
+        "pos": "numeral",
+        "meaning_fr": "deux",
+        "meaning_ja": "2"
+      },
+      {
+        "surface": "Euro",
+        "pos": "noun",
+        "meaning_fr": "euros",
+        "meaning_ja": "ユーロ",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "fünfzig",
+        "pos": "numeral",
+        "meaning_fr": "cinquante",
+        "meaning_ja": "50"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Gut",
+        "pos": "adjective",
+        "lemma": "gut",
+        "meaning_fr": "bien / d'accord",
+        "meaning_ja": "いいです",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "ich",
+        "pos": "pronoun",
+        "meaning_fr": "je",
+        "meaning_ja": "私"
+      },
+      {
+        "surface": "nehme",
+        "pos": "verb",
+        "lemma": "nehmen",
+        "person": "1sg",
+        "meaning_fr": "prends",
+        "meaning_ja": "取ります"
+      },
+      {
+        "surface": "ein",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "Brot",
+        "pos": "noun",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "meaning_fr": "et",
+        "meaning_ja": "と"
+      },
+      {
+        "surface": "eine",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Flasche",
+        "pos": "noun",
+        "meaning_fr": "bouteille",
+        "meaning_ja": "ボトル",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Milch",
+        "pos": "noun",
+        "meaning_fr": "lait",
+        "meaning_ja": "牛乳",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Sehr",
+        "pos": "adverb",
+        "meaning_fr": "très",
+        "meaning_ja": "とても"
+      },
+      {
+        "surface": "gut",
+        "pos": "adjective",
+        "lemma": "gut",
+        "meaning_fr": "bien",
+        "meaning_ja": "よい",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Kann",
+        "pos": "verb",
+        "lemma": "können",
+        "person": "1sg",
+        "meaning_fr": "puis-je",
+        "meaning_ja": "できますか",
+        "note_fr": "Verbe modal 'können' — exprime la capacité ou la permission."
+      },
+      {
+        "surface": "ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "Ihnen",
+        "pos": "pronoun",
+        "meaning_fr": "vous (datif formel)",
+        "meaning_ja": "あなたに（敬語）",
+        "case": "dat"
+      },
+      {
+        "surface": "noch",
+        "pos": "adverb",
+        "meaning_fr": "encore",
+        "meaning_ja": "まだ/他に"
+      },
+      {
+        "surface": "helfen",
+        "pos": "verb",
+        "lemma": "helfen",
+        "meaning_fr": "aider",
+        "meaning_ja": "助ける"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Nein",
+        "pos": "adverb",
+        "meaning_fr": "non",
+        "meaning_ja": "いいえ"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "danke",
+        "pos": "adverb",
+        "meaning_fr": "merci",
+        "meaning_ja": "ありがとう"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "das",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg"
+      },
+      {
+        "surface": "alles",
+        "pos": "pronoun",
+        "meaning_fr": "tout / c'est tout",
+        "meaning_ja": "以上です"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Auf",
+        "pos": "preposition"
+      },
+      {
+        "surface": "Wiedersehen",
+        "pos": "noun",
+        "meaning_fr": "au revoir",
+        "meaning_ja": "さようなら",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gespräch",
+        "pos": "noun",
+        "lemma": "Gespräch",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "conversation",
+        "meaning_ja": "会話"
+      },
+      {
+        "surface": "war",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "était",
+        "meaning_ja": "だった"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb",
+        "lemma": "sehr",
+        "meaning_fr": "très",
+        "meaning_ja": "とても"
+      },
+      {
+        "surface": "nützlich",
+        "pos": "adjective",
+        "lemma": "nützlich",
+        "meaning_fr": "utile",
+        "meaning_ja": "役に立つ"
+      },
+      {
+        "surface": "für",
+        "pos": "preposition",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜のために"
+      },
+      {
+        "surface": "beide",
+        "pos": "adjective",
+        "lemma": "beide",
+        "meaning_fr": "les deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Seiten",
+        "pos": "noun",
+        "lemma": "Seite",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "parties",
+        "meaning_ja": "側"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "beiden",
+        "pos": "adjective",
+        "lemma": "beide",
+        "declension_type": "schwach",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Personen",
+        "pos": "noun",
+        "lemma": "Person",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "personnes",
+        "meaning_ja": "人物"
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3pl",
+        "meaning_fr": "ont",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "お互いに"
+      },
+      {
+        "surface": "gut",
+        "pos": "adverb",
+        "lemma": "gut",
+        "meaning_fr": "bien",
+        "meaning_ja": "よく"
+      },
+      {
+        "surface": "verstanden",
+        "pos": "verb",
+        "lemma": "verstehen",
+        "meaning_fr": "compris",
+        "meaning_ja": "理解し合った",
+        "note_fr": "Partizip II de verstehen (starkes Verb)."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Am",
+        "pos": "preposition",
+        "meaning_fr": "à la fin",
+        "meaning_ja": "最後に",
+        "note_fr": "Contraction de an + dem."
+      },
+      {
+        "surface": "Ende",
+        "pos": "noun",
+        "lemma": "Ende",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "fin",
+        "meaning_ja": "終わり"
+      },
+      {
+        "surface": "verabschieden",
+        "pos": "verb",
+        "lemma": "verabschieden",
+        "person": "3pl",
+        "meaning_fr": "se disent au revoir",
+        "meaning_ja": "別れを告げる"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "freundlich",
+        "pos": "adverb",
+        "lemma": "freundlich",
+        "meaning_fr": "amicalement",
+        "meaning_ja": "友好的に"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "gehen",
+        "pos": "verb",
+        "lemma": "gehen",
+        "person": "3pl",
+        "meaning_fr": "partent",
+        "meaning_ja": "行く"
+      },
+      {
+        "surface": "ihren",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "leur",
+        "meaning_ja": "自分たちの"
+      },
+      {
+        "surface": "Weg",
+        "pos": "noun",
+        "lemma": "Weg",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "chemin",
+        "meaning_ja": "道"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun",
+        "lemma": "es",
+        "meaning_fr": "c'",
+        "meaning_ja": "それ"
+      },
+      {
+        "surface": "hat",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3sg",
+        "meaning_fr": "a",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "Spaß",
+        "pos": "noun",
+        "lemma": "Spaß",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "plaisir",
+        "meaning_ja": "楽しみ"
+      },
+      {
+        "surface": "gemacht",
+        "pos": "verb",
+        "lemma": "machen",
+        "meaning_fr": "fait",
+        "meaning_ja": "作った・与えた",
+        "note_fr": "Partizip II. Spaß machen = être amusant."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "mit",
+        "pos": "preposition",
+        "meaning_fr": "avec",
+        "meaning_ja": "〜と"
+      },
+      {
+        "surface": "einem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "un",
+        "meaning_ja": "一人の"
+      },
+      {
+        "surface": "anderen",
+        "pos": "adjective",
+        "lemma": "andere",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach",
+        "meaning_fr": "autre",
+        "meaning_ja": "別の"
+      },
+      {
+        "surface": "Menschen",
+        "pos": "noun",
+        "lemma": "Mensch",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "personne",
+        "meaning_ja": "人"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜すること"
+      },
+      {
+        "surface": "sprechen",
+        "pos": "verb",
+        "lemma": "sprechen",
+        "person": "inf",
+        "meaning_fr": "parler",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Vielleicht",
+        "pos": "adverb",
+        "lemma": "vielleicht",
+        "meaning_fr": "peut-être",
+        "meaning_ja": "もしかしたら"
+      },
+      {
+        "surface": "treffen",
+        "pos": "verb",
+        "lemma": "treffen",
+        "person": "3pl",
+        "meaning_fr": "se retrouvent",
+        "meaning_ja": "会う"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "bald",
+        "pos": "adverb",
+        "lemma": "bald",
+        "meaning_fr": "bientôt",
+        "meaning_ja": "すぐに"
+      },
+      {
+        "surface": "wieder",
+        "pos": "adverb",
+        "lemma": "wieder",
+        "meaning_fr": "à nouveau",
+        "meaning_ja": "また"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "erzählen",
+        "pos": "verb",
+        "lemma": "erzählen",
+        "person": "3pl",
+        "meaning_fr": "racontent",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb",
+        "lemma": "mehr",
+        "meaning_fr": "plus",
+        "meaning_ja": "もっと"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  },
+  {
+    "id": "t012",
+    "level": "A2",
+    "category": "Dialogues",
+    "title": "Qu'est-ce que tu as fait ce week-end ?",
+    "tokens": [
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Hey",
+        "pos": "interjection",
+        "meaning_fr": "salut",
+        "meaning_ja": "やあ"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "Lisa",
+        "pos": "noun",
+        "meaning_fr": "Lisa (prénom)",
+        "meaning_ja": "リーザ（人名）"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Was",
+        "pos": "pronoun",
+        "meaning_fr": "qu'est-ce que / quoi",
+        "meaning_ja": "何を"
+      },
+      {
+        "surface": "hast",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "2sg",
+        "note_fr": "Auxiliaire 'haben' au Perfekt — 2ème personne du singulier."
+      },
+      {
+        "surface": "du",
+        "pos": "pronoun",
+        "meaning_fr": "tu",
+        "meaning_ja": "あなた"
+      },
+      {
+        "surface": "am",
+        "pos": "preposition",
+        "meaning_fr": "le (+ jour)",
+        "meaning_ja": "〜に"
+      },
+      {
+        "surface": "Wochenende",
+        "pos": "noun",
+        "meaning_fr": "week-end",
+        "meaning_ja": "週末",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "gemacht",
+        "pos": "verb",
+        "lemma": "machen",
+        "meaning_fr": "fait",
+        "meaning_ja": "した",
+        "note_fr": "Participe passé de 'machen' — forme le Perfekt avec l'auxiliaire 'haben'."
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun",
+        "meaning_fr": "je",
+        "meaning_ja": "私"
+      },
+      {
+        "surface": "bin",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "1sg",
+        "note_fr": "Auxiliaire 'sein' au Perfekt — utilisé avec les verbes de déplacement."
+      },
+      {
+        "surface": "mit",
+        "pos": "preposition",
+        "meaning_fr": "avec",
+        "meaning_ja": "と一緒に"
+      },
+      {
+        "surface": "meiner",
+        "pos": "article",
+        "lemma": "mein",
+        "case": "dat",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "gemischt",
+        "note_fr": "Adjectif possessif datif singulier féminin — accord avec 'Schwester' (féminin)."
+      },
+      {
+        "surface": "Schwester",
+        "pos": "noun",
+        "meaning_fr": "sœur",
+        "meaning_ja": "姉/妹",
+        "case": "dat",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "ins",
+        "pos": "preposition",
+        "meaning_fr": "au (contraction de in + das)",
+        "meaning_ja": "〜へ",
+        "note_fr": "Contraction de 'in + das' — indique un mouvement vers un lieu."
+      },
+      {
+        "surface": "Kino",
+        "pos": "noun",
+        "meaning_fr": "cinéma",
+        "meaning_ja": "映画館",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "gegangen",
+        "pos": "verb",
+        "lemma": "gehen",
+        "meaning_fr": "allé(e)",
+        "meaning_ja": "行った",
+        "note_fr": "Participe passé de 'gehen' — forme le Perfekt avec 'sein'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Wir",
+        "pos": "pronoun",
+        "meaning_fr": "nous",
+        "meaning_ja": "私たち"
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "1pl"
+      },
+      {
+        "surface": "einen",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "tollen",
+        "pos": "adjective",
+        "lemma": "toll",
+        "meaning_fr": "super / génial",
+        "meaning_ja": "すごい",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Film",
+        "pos": "noun",
+        "meaning_fr": "film",
+        "meaning_ja": "映画",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "gesehen",
+        "pos": "verb",
+        "lemma": "sehen",
+        "meaning_fr": "vu",
+        "meaning_ja": "見た",
+        "note_fr": "Participe passé de 'sehen' — forme le Perfekt avec 'haben'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Oh",
+        "pos": "interjection",
+        "meaning_fr": "oh",
+        "meaning_ja": "へえ"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "interessant",
+        "pos": "adjective",
+        "meaning_fr": "intéressant",
+        "meaning_ja": "面白い",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "War",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "était / c'était",
+        "meaning_ja": "でした",
+        "note_fr": "Prétérit (Präteritum) de 'sein' — utilisé couramment à l'oral pour 'sein' et 'haben'."
+      },
+      {
+        "surface": "der",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Film",
+        "pos": "noun",
+        "case": "nom",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "gut",
+        "pos": "adjective",
+        "lemma": "gut",
+        "meaning_fr": "bien / bon",
+        "meaning_ja": "よい",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ja",
+        "pos": "adverb",
+        "meaning_fr": "oui",
+        "meaning_ja": "はい"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "er",
+        "pos": "pronoun",
+        "meaning_fr": "il",
+        "meaning_ja": "それは（男性名詞を受けて）"
+      },
+      {
+        "surface": "war",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg"
+      },
+      {
+        "surface": "wirklich",
+        "pos": "adverb",
+        "meaning_fr": "vraiment",
+        "meaning_ja": "本当に"
+      },
+      {
+        "surface": "spannend",
+        "pos": "adjective",
+        "meaning_fr": "passionnant / captivant",
+        "meaning_ja": "わくわくする",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Und",
+        "pos": "conjunction"
+      },
+      {
+        "surface": "du",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "Was",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "hast",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "2sg"
+      },
+      {
+        "surface": "du",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "gemacht",
+        "pos": "verb",
+        "lemma": "machen"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "habe",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "1sg"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à / chez",
+        "meaning_ja": "〜で"
+      },
+      {
+        "surface": "Hause",
+        "pos": "noun",
+        "meaning_fr": "maison (locution 'zu Hause' = chez soi)",
+        "meaning_ja": "家で",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n",
+        "note_fr": "'zu Hause' est une locution figée signifiant 'chez soi / à la maison'."
+      },
+      {
+        "surface": "ein",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "neues",
+        "pos": "adjective",
+        "lemma": "neu",
+        "meaning_fr": "nouveau / nouvelle",
+        "meaning_ja": "新しい",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "gemischt",
+        "note_fr": "Accord adjectival accusatif singulier neutre après article indéfini."
+      },
+      {
+        "surface": "Buch",
+        "pos": "noun",
+        "meaning_fr": "livre",
+        "meaning_ja": "本",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "gelesen",
+        "pos": "verb",
+        "lemma": "lesen",
+        "meaning_fr": "lu",
+        "meaning_ja": "読んだ",
+        "note_fr": "Participe passé de 'lesen' — forme le Perfekt avec 'haben'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "war",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb",
+        "meaning_fr": "très",
+        "meaning_ja": "とても"
+      },
+      {
+        "surface": "schön",
+        "pos": "adjective",
+        "lemma": "schön",
+        "meaning_fr": "beau / agréable",
+        "meaning_ja": "素晴らしい",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "pronoun",
+        "meaning_fr": "c'est / ça",
+        "meaning_ja": "それは"
+      },
+      {
+        "surface": "klingt",
+        "pos": "verb",
+        "lemma": "klingen",
+        "person": "3sg",
+        "meaning_fr": "ça semble / ça a l'air",
+        "meaning_ja": "〜のように聞こえる"
+      },
+      {
+        "surface": "entspannt",
+        "pos": "adjective",
+        "lemma": "entspannt",
+        "meaning_fr": "détendu / relaxant",
+        "meaning_ja": "リラックスした",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Welches",
+        "pos": "pronoun",
+        "meaning_fr": "quel / lequel",
+        "meaning_ja": "どの",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "Buch",
+        "pos": "noun",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "war",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg"
+      },
+      {
+        "surface": "es",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gespräch",
+        "pos": "noun",
+        "lemma": "Gespräch",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "conversation",
+        "meaning_ja": "会話"
+      },
+      {
+        "surface": "war",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "était",
+        "meaning_ja": "だった"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb",
+        "lemma": "sehr",
+        "meaning_fr": "très",
+        "meaning_ja": "とても"
+      },
+      {
+        "surface": "nützlich",
+        "pos": "adjective",
+        "lemma": "nützlich",
+        "meaning_fr": "utile",
+        "meaning_ja": "役に立つ"
+      },
+      {
+        "surface": "für",
+        "pos": "preposition",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜のために"
+      },
+      {
+        "surface": "beide",
+        "pos": "adjective",
+        "lemma": "beide",
+        "meaning_fr": "les deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Seiten",
+        "pos": "noun",
+        "lemma": "Seite",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "parties",
+        "meaning_ja": "側"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "beiden",
+        "pos": "adjective",
+        "lemma": "beide",
+        "declension_type": "schwach",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Personen",
+        "pos": "noun",
+        "lemma": "Person",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "personnes",
+        "meaning_ja": "人物"
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3pl",
+        "meaning_fr": "ont",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "お互いに"
+      },
+      {
+        "surface": "gut",
+        "pos": "adverb",
+        "lemma": "gut",
+        "meaning_fr": "bien",
+        "meaning_ja": "よく"
+      },
+      {
+        "surface": "verstanden",
+        "pos": "verb",
+        "lemma": "verstehen",
+        "meaning_fr": "compris",
+        "meaning_ja": "理解し合った",
+        "note_fr": "Partizip II de verstehen (starkes Verb)."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Am",
+        "pos": "preposition",
+        "meaning_fr": "à la fin",
+        "meaning_ja": "最後に",
+        "note_fr": "Contraction de an + dem."
+      },
+      {
+        "surface": "Ende",
+        "pos": "noun",
+        "lemma": "Ende",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "fin",
+        "meaning_ja": "終わり"
+      },
+      {
+        "surface": "verabschieden",
+        "pos": "verb",
+        "lemma": "verabschieden",
+        "person": "3pl",
+        "meaning_fr": "se disent au revoir",
+        "meaning_ja": "別れを告げる"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "freundlich",
+        "pos": "adverb",
+        "lemma": "freundlich",
+        "meaning_fr": "amicalement",
+        "meaning_ja": "友好的に"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "gehen",
+        "pos": "verb",
+        "lemma": "gehen",
+        "person": "3pl",
+        "meaning_fr": "partent",
+        "meaning_ja": "行く"
+      },
+      {
+        "surface": "ihren",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "leur",
+        "meaning_ja": "自分たちの"
+      },
+      {
+        "surface": "Weg",
+        "pos": "noun",
+        "lemma": "Weg",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "chemin",
+        "meaning_ja": "道"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun",
+        "lemma": "es",
+        "meaning_fr": "c'",
+        "meaning_ja": "それ"
+      },
+      {
+        "surface": "hat",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3sg",
+        "meaning_fr": "a",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "Spaß",
+        "pos": "noun",
+        "lemma": "Spaß",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "plaisir",
+        "meaning_ja": "楽しみ"
+      },
+      {
+        "surface": "gemacht",
+        "pos": "verb",
+        "lemma": "machen",
+        "meaning_fr": "fait",
+        "meaning_ja": "作った・与えた",
+        "note_fr": "Partizip II. Spaß machen = être amusant."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "mit",
+        "pos": "preposition",
+        "meaning_fr": "avec",
+        "meaning_ja": "〜と"
+      },
+      {
+        "surface": "einem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "un",
+        "meaning_ja": "一人の"
+      },
+      {
+        "surface": "anderen",
+        "pos": "adjective",
+        "lemma": "andere",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach",
+        "meaning_fr": "autre",
+        "meaning_ja": "別の"
+      },
+      {
+        "surface": "Menschen",
+        "pos": "noun",
+        "lemma": "Mensch",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "personne",
+        "meaning_ja": "人"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜すること"
+      },
+      {
+        "surface": "sprechen",
+        "pos": "verb",
+        "lemma": "sprechen",
+        "person": "inf",
+        "meaning_fr": "parler",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Vielleicht",
+        "pos": "adverb",
+        "lemma": "vielleicht",
+        "meaning_fr": "peut-être",
+        "meaning_ja": "もしかしたら"
+      },
+      {
+        "surface": "treffen",
+        "pos": "verb",
+        "lemma": "treffen",
+        "person": "3pl",
+        "meaning_fr": "se retrouvent",
+        "meaning_ja": "会う"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "bald",
+        "pos": "adverb",
+        "lemma": "bald",
+        "meaning_fr": "bientôt",
+        "meaning_ja": "すぐに"
+      },
+      {
+        "surface": "wieder",
+        "pos": "adverb",
+        "lemma": "wieder",
+        "meaning_fr": "à nouveau",
+        "meaning_ja": "また"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "erzählen",
+        "pos": "verb",
+        "lemma": "erzählen",
+        "person": "3pl",
+        "meaning_fr": "racontent",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb",
+        "lemma": "mehr",
+        "meaning_fr": "plus",
+        "meaning_ja": "もっと"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  },
+  {
+    "id": "t013",
+    "level": "A2",
+    "category": "Dialogues",
+    "title": "Demander son chemin",
+    "tokens": [
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Entschuldigung",
+        "pos": "noun",
+        "meaning_fr": "excusez-moi",
+        "meaning_ja": "すみません",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "wie",
+        "pos": "adverb",
+        "meaning_fr": "comment",
+        "meaning_ja": "どうやって"
+      },
+      {
+        "surface": "komme",
+        "pos": "verb",
+        "lemma": "kommen",
+        "person": "1sg",
+        "meaning_fr": "je vais / j'arrive",
+        "meaning_ja": "行けますか"
+      },
+      {
+        "surface": "ich",
+        "pos": "pronoun",
+        "meaning_fr": "je",
+        "meaning_ja": "私"
+      },
+      {
+        "surface": "zum",
+        "pos": "preposition",
+        "meaning_fr": "au (contraction de zu + dem)",
+        "meaning_ja": "〜へ",
+        "note_fr": "Contraction de 'zu + dem' — datif masculin/neutre."
+      },
+      {
+        "surface": "Bahnhof",
+        "pos": "noun",
+        "meaning_fr": "gare",
+        "meaning_ja": "駅",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg"
+      },
+      {
+        "surface": "nicht",
+        "pos": "adverb",
+        "meaning_fr": "ne ... pas",
+        "meaning_ja": "〜ない"
+      },
+      {
+        "surface": "weit",
+        "pos": "adjective",
+        "meaning_fr": "loin",
+        "meaning_ja": "遠い",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Gehen",
+        "pos": "verb",
+        "lemma": "gehen",
+        "person": "2pl_imperativ",
+        "note_fr": "Impératif de politesse (Sie) — 'Gehen Sie' pour donner une direction."
+      },
+      {
+        "surface": "Sie",
+        "pos": "pronoun",
+        "meaning_fr": "vous (formel)",
+        "meaning_ja": "あなた（敬語）"
+      },
+      {
+        "surface": "hier",
+        "pos": "adverb",
+        "meaning_fr": "ici",
+        "meaning_ja": "ここ"
+      },
+      {
+        "surface": "geradeaus",
+        "pos": "adverb",
+        "meaning_fr": "tout droit",
+        "meaning_ja": "まっすぐ"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dann",
+        "pos": "adverb",
+        "meaning_fr": "puis / ensuite",
+        "meaning_ja": "それから"
+      },
+      {
+        "surface": "links",
+        "pos": "adverb",
+        "meaning_fr": "à gauche",
+        "meaning_ja": "左に"
+      },
+      {
+        "surface": "abbiegen",
+        "pos": "verb",
+        "lemma": "abbiegen",
+        "meaning_fr": "tourner",
+        "meaning_ja": "曲がる",
+        "note_fr": "Verbe à préfixe séparable — le préfixe 'ab-' se déplace en fin de proposition."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Und",
+        "pos": "conjunction"
+      },
+      {
+        "surface": "wie",
+        "pos": "adverb"
+      },
+      {
+        "surface": "lange",
+        "pos": "adverb",
+        "meaning_fr": "combien de temps / longtemps",
+        "meaning_ja": "どのくらいの時間"
+      },
+      {
+        "surface": "dauert",
+        "pos": "verb",
+        "lemma": "dauern",
+        "person": "3sg",
+        "meaning_fr": "dure / prend (du temps)",
+        "meaning_ja": "かかります"
+      },
+      {
+        "surface": "das",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition"
+      },
+      {
+        "surface": "Fuß",
+        "pos": "noun",
+        "meaning_fr": "à pied (locution)",
+        "meaning_ja": "徒歩で",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "note_fr": "'zu Fuß' = à pied, locution figée courante."
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ungefähr",
+        "pos": "adverb",
+        "meaning_fr": "environ / à peu près",
+        "meaning_ja": "だいたい"
+      },
+      {
+        "surface": "zehn",
+        "pos": "numeral",
+        "meaning_fr": "dix",
+        "meaning_ja": "10"
+      },
+      {
+        "surface": "Minuten",
+        "pos": "noun",
+        "meaning_fr": "minutes",
+        "meaning_ja": "分",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Gibt",
+        "pos": "verb",
+        "lemma": "geben",
+        "person": "3sg",
+        "note_fr": "'es gibt' = il y a — construction impersonnelle."
+      },
+      {
+        "surface": "es",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "auf",
+        "pos": "preposition",
+        "meaning_fr": "sur",
+        "meaning_ja": "〜の上に"
+      },
+      {
+        "surface": "dem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Weg",
+        "pos": "noun",
+        "meaning_fr": "chemin",
+        "meaning_ja": "道",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "eine",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Bushaltestelle",
+        "pos": "noun",
+        "meaning_fr": "arrêt de bus",
+        "meaning_ja": "バス停",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ja",
+        "pos": "adverb"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "direkt",
+        "pos": "adverb",
+        "meaning_fr": "juste / directement",
+        "meaning_ja": "ちょうど"
+      },
+      {
+        "surface": "vor",
+        "pos": "preposition",
+        "meaning_fr": "devant",
+        "meaning_ja": "〜の前に"
+      },
+      {
+        "surface": "dem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Bahnhof",
+        "pos": "noun",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Sie",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "können",
+        "pos": "verb",
+        "lemma": "können",
+        "person": "3pl_formal",
+        "meaning_fr": "vous pouvez",
+        "meaning_ja": "〜できます",
+        "note_fr": "Verbe modal 'können' — exprime la possibilité."
+      },
+      {
+        "surface": "den",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Bus",
+        "pos": "noun",
+        "meaning_fr": "bus",
+        "meaning_ja": "バス",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "nehmen",
+        "pos": "verb",
+        "lemma": "nehmen",
+        "meaning_fr": "prendre",
+        "meaning_ja": "乗る"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "wenn",
+        "pos": "conjunction",
+        "meaning_fr": "si / quand",
+        "meaning_ja": "〜もし〜なら",
+        "note_fr": "Conjonction subordonnante — place le verbe conjugué en fin de proposition subordonnée."
+      },
+      {
+        "surface": "Sie",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "müde",
+        "pos": "adjective",
+        "meaning_fr": "fatigué(e)",
+        "meaning_ja": "疲れた",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "sind",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3pl_formal"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Vielen",
+        "pos": "adjective",
+        "lemma": "viel",
+        "meaning_fr": "beaucoup de",
+        "meaning_ja": "たくさんの",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach",
+        "note_fr": "'Vielen Dank' = merci beaucoup — locution très courante."
+      },
+      {
+        "surface": "Dank",
+        "pos": "noun",
+        "meaning_fr": "merci",
+        "meaning_ja": "感謝",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "ist",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb"
+      },
+      {
+        "surface": "nett",
+        "pos": "adjective",
+        "meaning_fr": "gentil / sympa",
+        "meaning_ja": "親切",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "von",
+        "pos": "preposition",
+        "meaning_fr": "de (la part de)",
+        "meaning_ja": "〜による"
+      },
+      {
+        "surface": "Ihnen",
+        "pos": "pronoun",
+        "meaning_fr": "vous (datif formel)",
+        "meaning_ja": "あなた（敬語）",
+        "case": "dat"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Kein",
+        "pos": "article",
+        "meaning_fr": "pas de / aucun",
+        "meaning_ja": "どういたしまして"
+      },
+      {
+        "surface": "Problem",
+        "pos": "noun",
+        "meaning_fr": "problème",
+        "meaning_ja": "問題",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Gute",
+        "pos": "adjective",
+        "lemma": "gut",
+        "meaning_fr": "bonne",
+        "meaning_ja": "良い",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Reise",
+        "pos": "noun",
+        "meaning_fr": "voyage / bonne route",
+        "meaning_ja": "旅",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gespräch",
+        "pos": "noun",
+        "lemma": "Gespräch",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "conversation",
+        "meaning_ja": "会話"
+      },
+      {
+        "surface": "war",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "était",
+        "meaning_ja": "だった"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb",
+        "lemma": "sehr",
+        "meaning_fr": "très",
+        "meaning_ja": "とても"
+      },
+      {
+        "surface": "nützlich",
+        "pos": "adjective",
+        "lemma": "nützlich",
+        "meaning_fr": "utile",
+        "meaning_ja": "役に立つ"
+      },
+      {
+        "surface": "für",
+        "pos": "preposition",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜のために"
+      },
+      {
+        "surface": "beide",
+        "pos": "adjective",
+        "lemma": "beide",
+        "meaning_fr": "les deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Seiten",
+        "pos": "noun",
+        "lemma": "Seite",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "parties",
+        "meaning_ja": "側"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "beiden",
+        "pos": "adjective",
+        "lemma": "beide",
+        "declension_type": "schwach",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Personen",
+        "pos": "noun",
+        "lemma": "Person",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "personnes",
+        "meaning_ja": "人物"
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3pl",
+        "meaning_fr": "ont",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "お互いに"
+      },
+      {
+        "surface": "gut",
+        "pos": "adverb",
+        "lemma": "gut",
+        "meaning_fr": "bien",
+        "meaning_ja": "よく"
+      },
+      {
+        "surface": "verstanden",
+        "pos": "verb",
+        "lemma": "verstehen",
+        "meaning_fr": "compris",
+        "meaning_ja": "理解し合った",
+        "note_fr": "Partizip II de verstehen (starkes Verb)."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Am",
+        "pos": "preposition",
+        "meaning_fr": "à la fin",
+        "meaning_ja": "最後に",
+        "note_fr": "Contraction de an + dem."
+      },
+      {
+        "surface": "Ende",
+        "pos": "noun",
+        "lemma": "Ende",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "fin",
+        "meaning_ja": "終わり"
+      },
+      {
+        "surface": "verabschieden",
+        "pos": "verb",
+        "lemma": "verabschieden",
+        "person": "3pl",
+        "meaning_fr": "se disent au revoir",
+        "meaning_ja": "別れを告げる"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "freundlich",
+        "pos": "adverb",
+        "lemma": "freundlich",
+        "meaning_fr": "amicalement",
+        "meaning_ja": "友好的に"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "gehen",
+        "pos": "verb",
+        "lemma": "gehen",
+        "person": "3pl",
+        "meaning_fr": "partent",
+        "meaning_ja": "行く"
+      },
+      {
+        "surface": "ihren",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "leur",
+        "meaning_ja": "自分たちの"
+      },
+      {
+        "surface": "Weg",
+        "pos": "noun",
+        "lemma": "Weg",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "chemin",
+        "meaning_ja": "道"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun",
+        "lemma": "es",
+        "meaning_fr": "c'",
+        "meaning_ja": "それ"
+      },
+      {
+        "surface": "hat",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3sg",
+        "meaning_fr": "a",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "Spaß",
+        "pos": "noun",
+        "lemma": "Spaß",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "plaisir",
+        "meaning_ja": "楽しみ"
+      },
+      {
+        "surface": "gemacht",
+        "pos": "verb",
+        "lemma": "machen",
+        "meaning_fr": "fait",
+        "meaning_ja": "作った・与えた",
+        "note_fr": "Partizip II. Spaß machen = être amusant."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "mit",
+        "pos": "preposition",
+        "meaning_fr": "avec",
+        "meaning_ja": "〜と"
+      },
+      {
+        "surface": "einem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "un",
+        "meaning_ja": "一人の"
+      },
+      {
+        "surface": "anderen",
+        "pos": "adjective",
+        "lemma": "andere",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach",
+        "meaning_fr": "autre",
+        "meaning_ja": "別の"
+      },
+      {
+        "surface": "Menschen",
+        "pos": "noun",
+        "lemma": "Mensch",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "personne",
+        "meaning_ja": "人"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜すること"
+      },
+      {
+        "surface": "sprechen",
+        "pos": "verb",
+        "lemma": "sprechen",
+        "person": "inf",
+        "meaning_fr": "parler",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Vielleicht",
+        "pos": "adverb",
+        "lemma": "vielleicht",
+        "meaning_fr": "peut-être",
+        "meaning_ja": "もしかしたら"
+      },
+      {
+        "surface": "treffen",
+        "pos": "verb",
+        "lemma": "treffen",
+        "person": "3pl",
+        "meaning_fr": "se retrouvent",
+        "meaning_ja": "会う"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "bald",
+        "pos": "adverb",
+        "lemma": "bald",
+        "meaning_fr": "bientôt",
+        "meaning_ja": "すぐに"
+      },
+      {
+        "surface": "wieder",
+        "pos": "adverb",
+        "lemma": "wieder",
+        "meaning_fr": "à nouveau",
+        "meaning_ja": "また"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "erzählen",
+        "pos": "verb",
+        "lemma": "erzählen",
+        "person": "3pl",
+        "meaning_fr": "racontent",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb",
+        "lemma": "mehr",
+        "meaning_fr": "plus",
+        "meaning_ja": "もっと"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  },
+  {
+    "id": "t014",
+    "level": "B1",
+    "category": "Dialogues",
+    "title": "Planifier un voyage ensemble",
+    "tokens": [
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun",
+        "meaning_fr": "je",
+        "meaning_ja": "私"
+      },
+      {
+        "surface": "würde",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "1sg",
+        "note_fr": "Konjunktiv II de 'werden' — utilisé pour exprimer une demande polie ou un souhait hypothétique."
+      },
+      {
+        "surface": "diesen",
+        "pos": "article",
+        "lemma": "dieser",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "note_fr": "Déterminant démonstratif accusatif singulier masculin."
+      },
+      {
+        "surface": "Sommer",
+        "pos": "noun",
+        "meaning_fr": "été",
+        "meaning_ja": "夏",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "gerne",
+        "pos": "adverb",
+        "meaning_fr": "volontiers / avec plaisir",
+        "meaning_ja": "喜んで"
+      },
+      {
+        "surface": "nach",
+        "pos": "preposition",
+        "meaning_fr": "vers / en (pays)",
+        "meaning_ja": "〜へ"
+      },
+      {
+        "surface": "Portugal",
+        "pos": "noun",
+        "meaning_fr": "Portugal",
+        "meaning_ja": "ポルトガル"
+      },
+      {
+        "surface": "fahren",
+        "pos": "verb",
+        "lemma": "fahren",
+        "meaning_fr": "aller / partir (en véhicule)",
+        "meaning_ja": "行く（乗り物で）"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Hättest",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "2sg",
+        "note_fr": "Konjunktiv II de 'haben' — forme une question polie, équivalent de 'tu aurais'."
+      },
+      {
+        "surface": "du",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "Lust",
+        "pos": "noun",
+        "meaning_fr": "envie / désir",
+        "meaning_ja": "気分/やる気",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "mitzukommen",
+        "pos": "verb",
+        "lemma": "mitkommen",
+        "meaning_fr": "venir avec / accompagner",
+        "meaning_ja": "一緒に来る",
+        "note_fr": "Infinitif avec 'zu' intercalé dans le préfixe séparable 'mit-kommen' → 'mitzukommen'."
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "wäre",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "note_fr": "Konjunktiv II de 'sein' — exprime un souhait ou une hypothèse agréable."
+      },
+      {
+        "surface": "wunderbar",
+        "pos": "adjective",
+        "meaning_fr": "merveilleux",
+        "meaning_ja": "素晴らしい",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "habe",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "1sg"
+      },
+      {
+        "surface": "schon",
+        "pos": "adverb",
+        "meaning_fr": "déjà",
+        "meaning_ja": "すでに"
+      },
+      {
+        "surface": "lange",
+        "pos": "adverb",
+        "meaning_fr": "depuis longtemps / longtemps",
+        "meaning_ja": "長い間"
+      },
+      {
+        "surface": "davon",
+        "pos": "adverb",
+        "meaning_fr": "d'y aller / en (pronom locatif)",
+        "meaning_ja": "それについて"
+      },
+      {
+        "surface": "geträumt",
+        "pos": "verb",
+        "lemma": "träumen",
+        "meaning_fr": "rêvé",
+        "meaning_ja": "夢見ていた"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Wann",
+        "pos": "adverb",
+        "meaning_fr": "quand",
+        "meaning_ja": "いつ"
+      },
+      {
+        "surface": "hast",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "2sg"
+      },
+      {
+        "surface": "du",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "Urlaub",
+        "pos": "noun",
+        "meaning_fr": "congés / vacances",
+        "meaning_ja": "休暇",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "glaube",
+        "pos": "verb",
+        "lemma": "glauben",
+        "person": "1sg",
+        "meaning_fr": "je crois / je pense",
+        "meaning_ja": "思います"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "meaning_fr": "que (conjonction subordonnante)",
+        "meaning_ja": "〜と（接続詞）",
+        "note_fr": "Conjonction 'dass' introduit une subordonnée — le verbe conjugué va en fin de proposition."
+      },
+      {
+        "surface": "ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "im",
+        "pos": "preposition",
+        "meaning_fr": "en (mois) / au (+ dat.)",
+        "meaning_ja": "〜に"
+      },
+      {
+        "surface": "Juli",
+        "pos": "noun",
+        "meaning_fr": "juillet",
+        "meaning_ja": "7月",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "zwei",
+        "pos": "numeral"
+      },
+      {
+        "surface": "Wochen",
+        "pos": "noun",
+        "meaning_fr": "semaines",
+        "meaning_ja": "週間",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "frei",
+        "pos": "adjective",
+        "meaning_fr": "libre / congé",
+        "meaning_ja": "空いている",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "habe",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "1sg",
+        "note_fr": "Verbe conjugué rejeté en fin de la proposition subordonnée introduite par 'dass'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Perfekt",
+        "pos": "adjective",
+        "meaning_fr": "parfait",
+        "meaning_ja": "完璧",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Könntest",
+        "pos": "verb",
+        "lemma": "können",
+        "person": "2sg",
+        "note_fr": "Konjunktiv II de 'können' — formule une demande polie."
+      },
+      {
+        "surface": "du",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "dich",
+        "pos": "pronoun",
+        "meaning_fr": "te (réfléchi accusatif)",
+        "meaning_ja": "自分を（再帰代名詞）",
+        "case": "akk"
+      },
+      {
+        "surface": "um",
+        "pos": "preposition",
+        "meaning_fr": "de / s'occuper de",
+        "meaning_ja": "〜を"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "akk",
+        "number": "pl"
+      },
+      {
+        "surface": "Flugtickets",
+        "pos": "noun",
+        "meaning_fr": "billets d'avion",
+        "meaning_ja": "航空券",
+        "case": "akk",
+        "number": "pl",
+        "gender": "n"
+      },
+      {
+        "surface": "kümmern",
+        "pos": "verb",
+        "lemma": "kümmern",
+        "meaning_fr": "s'occuper de",
+        "meaning_ja": "世話をする"
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Natürlich",
+        "pos": "adverb",
+        "meaning_fr": "bien sûr",
+        "meaning_ja": "もちろん"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "wäre",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "note_fr": "Konjunktiv II — exprime une hypothèse ou un souhait."
+      },
+      {
+        "surface": "schön",
+        "pos": "adjective",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "wenn",
+        "pos": "conjunction",
+        "meaning_fr": "si / quand",
+        "meaning_ja": "もし〜なら"
+      },
+      {
+        "surface": "wir",
+        "pos": "pronoun",
+        "meaning_fr": "nous",
+        "meaning_ja": "私たち"
+      },
+      {
+        "surface": "ein",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "kleines",
+        "pos": "adjective",
+        "lemma": "klein",
+        "meaning_fr": "petit",
+        "meaning_ja": "小さな",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n",
+        "declension_type": "gemischt",
+        "note_fr": "Accord adjectival accusatif singulier neutre après article indéfini."
+      },
+      {
+        "surface": "Hotel",
+        "pos": "noun",
+        "meaning_fr": "hôtel",
+        "meaning_ja": "ホテル",
+        "case": "akk",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "in",
+        "pos": "preposition"
+      },
+      {
+        "surface": "der",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Altstadt",
+        "pos": "noun",
+        "meaning_fr": "vieille ville",
+        "meaning_ja": "旧市街",
+        "case": "dat",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "buchen",
+        "pos": "verb",
+        "lemma": "buchen",
+        "meaning_fr": "réserver",
+        "meaning_ja": "予約する"
+      },
+      {
+        "surface": "könnten",
+        "pos": "verb",
+        "lemma": "können",
+        "person": "1pl",
+        "note_fr": "Konjunktiv II de 'können' à la 1ère personne du pluriel — fait partie d'une proposition conditionnelle avec 'wenn'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Gute",
+        "pos": "adjective",
+        "lemma": "gut",
+        "meaning_fr": "bonne",
+        "meaning_ja": "良い",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Idee",
+        "pos": "noun",
+        "meaning_fr": "idée",
+        "meaning_ja": "アイデア",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "!",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "freue",
+        "pos": "verb",
+        "lemma": "freuen",
+        "person": "1sg",
+        "meaning_fr": "me réjouis",
+        "meaning_ja": "楽しみにしている"
+      },
+      {
+        "surface": "mich",
+        "pos": "pronoun",
+        "meaning_fr": "me (réfléchi)",
+        "meaning_ja": "（再帰代名詞）",
+        "case": "akk"
+      },
+      {
+        "surface": "schon",
+        "pos": "adverb"
+      },
+      {
+        "surface": "darauf",
+        "pos": "adverb",
+        "meaning_fr": "y (pronom locatif) / là-dessus",
+        "meaning_ja": "それを楽しみに",
+        "note_fr": "'sich freuen auf + Akk.' = se réjouir de — 'darauf' remplace 'auf + ça'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gespräch",
+        "pos": "noun",
+        "lemma": "Gespräch",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "conversation",
+        "meaning_ja": "会話"
+      },
+      {
+        "surface": "war",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "était",
+        "meaning_ja": "だった"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb",
+        "lemma": "sehr",
+        "meaning_fr": "très",
+        "meaning_ja": "とても"
+      },
+      {
+        "surface": "nützlich",
+        "pos": "adjective",
+        "lemma": "nützlich",
+        "meaning_fr": "utile",
+        "meaning_ja": "役に立つ"
+      },
+      {
+        "surface": "für",
+        "pos": "preposition",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜のために"
+      },
+      {
+        "surface": "beide",
+        "pos": "adjective",
+        "lemma": "beide",
+        "meaning_fr": "les deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Seiten",
+        "pos": "noun",
+        "lemma": "Seite",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "parties",
+        "meaning_ja": "側"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "beiden",
+        "pos": "adjective",
+        "lemma": "beide",
+        "declension_type": "schwach",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Personen",
+        "pos": "noun",
+        "lemma": "Person",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "personnes",
+        "meaning_ja": "人物"
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3pl",
+        "meaning_fr": "ont",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "お互いに"
+      },
+      {
+        "surface": "gut",
+        "pos": "adverb",
+        "lemma": "gut",
+        "meaning_fr": "bien",
+        "meaning_ja": "よく"
+      },
+      {
+        "surface": "verstanden",
+        "pos": "verb",
+        "lemma": "verstehen",
+        "meaning_fr": "compris",
+        "meaning_ja": "理解し合った",
+        "note_fr": "Partizip II de verstehen (starkes Verb)."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Am",
+        "pos": "preposition",
+        "meaning_fr": "à la fin",
+        "meaning_ja": "最後に",
+        "note_fr": "Contraction de an + dem."
+      },
+      {
+        "surface": "Ende",
+        "pos": "noun",
+        "lemma": "Ende",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "fin",
+        "meaning_ja": "終わり"
+      },
+      {
+        "surface": "verabschieden",
+        "pos": "verb",
+        "lemma": "verabschieden",
+        "person": "3pl",
+        "meaning_fr": "se disent au revoir",
+        "meaning_ja": "別れを告げる"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "freundlich",
+        "pos": "adverb",
+        "lemma": "freundlich",
+        "meaning_fr": "amicalement",
+        "meaning_ja": "友好的に"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "gehen",
+        "pos": "verb",
+        "lemma": "gehen",
+        "person": "3pl",
+        "meaning_fr": "partent",
+        "meaning_ja": "行く"
+      },
+      {
+        "surface": "ihren",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "leur",
+        "meaning_ja": "自分たちの"
+      },
+      {
+        "surface": "Weg",
+        "pos": "noun",
+        "lemma": "Weg",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "chemin",
+        "meaning_ja": "道"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun",
+        "lemma": "es",
+        "meaning_fr": "c'",
+        "meaning_ja": "それ"
+      },
+      {
+        "surface": "hat",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3sg",
+        "meaning_fr": "a",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "Spaß",
+        "pos": "noun",
+        "lemma": "Spaß",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "plaisir",
+        "meaning_ja": "楽しみ"
+      },
+      {
+        "surface": "gemacht",
+        "pos": "verb",
+        "lemma": "machen",
+        "meaning_fr": "fait",
+        "meaning_ja": "作った・与えた",
+        "note_fr": "Partizip II. Spaß machen = être amusant."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "mit",
+        "pos": "preposition",
+        "meaning_fr": "avec",
+        "meaning_ja": "〜と"
+      },
+      {
+        "surface": "einem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "un",
+        "meaning_ja": "一人の"
+      },
+      {
+        "surface": "anderen",
+        "pos": "adjective",
+        "lemma": "andere",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach",
+        "meaning_fr": "autre",
+        "meaning_ja": "別の"
+      },
+      {
+        "surface": "Menschen",
+        "pos": "noun",
+        "lemma": "Mensch",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "personne",
+        "meaning_ja": "人"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜すること"
+      },
+      {
+        "surface": "sprechen",
+        "pos": "verb",
+        "lemma": "sprechen",
+        "person": "inf",
+        "meaning_fr": "parler",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Vielleicht",
+        "pos": "adverb",
+        "lemma": "vielleicht",
+        "meaning_fr": "peut-être",
+        "meaning_ja": "もしかしたら"
+      },
+      {
+        "surface": "treffen",
+        "pos": "verb",
+        "lemma": "treffen",
+        "person": "3pl",
+        "meaning_fr": "se retrouvent",
+        "meaning_ja": "会う"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "bald",
+        "pos": "adverb",
+        "lemma": "bald",
+        "meaning_fr": "bientôt",
+        "meaning_ja": "すぐに"
+      },
+      {
+        "surface": "wieder",
+        "pos": "adverb",
+        "lemma": "wieder",
+        "meaning_fr": "à nouveau",
+        "meaning_ja": "また"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "erzählen",
+        "pos": "verb",
+        "lemma": "erzählen",
+        "person": "3pl",
+        "meaning_fr": "racontent",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb",
+        "lemma": "mehr",
+        "meaning_fr": "plus",
+        "meaning_ja": "もっと"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  },
+  {
+    "id": "t015",
+    "level": "B1",
+    "category": "Dialogues",
+    "title": "Entretien d'embauche",
+    "tokens": [
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Guten",
+        "pos": "adjective",
+        "lemma": "gut",
+        "meaning_fr": "bon",
+        "meaning_ja": "よい",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach",
+        "note_fr": "Déclinaison faible accusatif masculin dans 'Guten Morgen' — salutation formelle."
+      },
+      {
+        "surface": "Morgen",
+        "pos": "noun",
+        "meaning_fr": "matin / bonjour",
+        "meaning_ja": "朝/おはようございます",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "Frau",
+        "pos": "noun",
+        "meaning_fr": "madame",
+        "meaning_ja": "〜さん（女性）",
+        "case": "nom",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Schneider",
+        "pos": "noun",
+        "meaning_fr": "Schneider (nom de famille)",
+        "meaning_ja": "シュナイダー（姓）"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Bitte",
+        "pos": "adverb",
+        "meaning_fr": "je vous en prie / s'il vous plaît",
+        "meaning_ja": "どうぞ"
+      },
+      {
+        "surface": "nehmen",
+        "pos": "verb",
+        "lemma": "nehmen",
+        "person": "2pl_imperativ",
+        "note_fr": "Impératif de politesse (Sie) — invite la personne à s'asseoir."
+      },
+      {
+        "surface": "Sie",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "Platz",
+        "pos": "noun",
+        "meaning_fr": "place / siège",
+        "meaning_ja": "席",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Danke",
+        "pos": "adverb",
+        "meaning_fr": "merci",
+        "meaning_ja": "ありがとう"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "freue",
+        "pos": "verb",
+        "lemma": "freuen",
+        "person": "1sg"
+      },
+      {
+        "surface": "mich",
+        "pos": "pronoun",
+        "case": "akk"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "hier",
+        "pos": "adverb",
+        "meaning_fr": "ici",
+        "meaning_ja": "ここに"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition"
+      },
+      {
+        "surface": "sein",
+        "pos": "verb",
+        "lemma": "sein",
+        "meaning_fr": "être",
+        "meaning_ja": "いること"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Können",
+        "pos": "verb",
+        "lemma": "können",
+        "person": "3pl_formal",
+        "meaning_fr": "pouvez-vous",
+        "meaning_ja": "できますか"
+      },
+      {
+        "surface": "Sie",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "uns",
+        "pos": "pronoun",
+        "meaning_fr": "nous",
+        "meaning_ja": "私たちに",
+        "case": "dat"
+      },
+      {
+        "surface": "kurz",
+        "pos": "adverb",
+        "meaning_fr": "brièvement / en quelques mots",
+        "meaning_ja": "簡単に"
+      },
+      {
+        "surface": "erklären",
+        "pos": "verb",
+        "lemma": "erklären",
+        "meaning_fr": "expliquer",
+        "meaning_ja": "説明する"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "warum",
+        "pos": "adverb",
+        "meaning_fr": "pourquoi",
+        "meaning_ja": "なぜ",
+        "note_fr": "Conjonction subordonnante interrogative — renvoie le verbe conjugué en fin de proposition."
+      },
+      {
+        "surface": "Sie",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "meaning_fr": "vous (réfléchi)",
+        "meaning_ja": "〜に（再帰代名詞）",
+        "case": "akk"
+      },
+      {
+        "surface": "für",
+        "pos": "preposition",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜に対して"
+      },
+      {
+        "surface": "diese",
+        "pos": "article",
+        "lemma": "dieser",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Stelle",
+        "pos": "noun",
+        "meaning_fr": "poste / emploi",
+        "meaning_ja": "職位",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "beworben",
+        "pos": "verb",
+        "lemma": "bewerben",
+        "meaning_fr": "postuler / avoir postulé",
+        "meaning_ja": "応募した",
+        "note_fr": "Participe passé du verbe réfléchi 'sich bewerben' — forme le Perfekt avec 'haben'."
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "2pl_formal",
+        "note_fr": "Auxiliaire 'haben' rejeté en fin de la subordonnée interrogative indirecte introduite par 'warum'."
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "glaube",
+        "pos": "verb",
+        "lemma": "glauben",
+        "person": "1sg"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "dass",
+        "pos": "conjunction",
+        "note_fr": "Conjonction 'dass' — introduit une proposition subordonnée complétive."
+      },
+      {
+        "surface": "meine",
+        "pos": "article",
+        "lemma": "mein",
+        "case": "nom",
+        "number": "pl",
+        "declension_type": "gemischt"
+      },
+      {
+        "surface": "Kenntnisse",
+        "pos": "noun",
+        "meaning_fr": "connaissances / compétences",
+        "meaning_ja": "知識",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f"
+      },
+      {
+        "surface": "im",
+        "pos": "preposition"
+      },
+      {
+        "surface": "Bereich",
+        "pos": "noun",
+        "meaning_fr": "domaine / secteur",
+        "meaning_ja": "分野",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "Marketing",
+        "pos": "noun",
+        "meaning_fr": "marketing",
+        "meaning_ja": "マーケティング",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n"
+      },
+      {
+        "surface": "gut",
+        "pos": "adjective",
+        "lemma": "gut",
+        "meaning_fr": "bien / bon",
+        "meaning_ja": "よい",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition"
+      },
+      {
+        "surface": "Ihrer",
+        "pos": "article",
+        "lemma": "Ihr",
+        "case": "dat",
+        "number": "sg",
+        "gender": "f",
+        "note_fr": "Adjectif possessif formel (Ihr) — datif singulier féminin, accord avec 'Firma'."
+      },
+      {
+        "surface": "Firma",
+        "pos": "noun",
+        "meaning_fr": "entreprise / société",
+        "meaning_ja": "会社",
+        "case": "dat",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "passen",
+        "pos": "verb",
+        "lemma": "passen",
+        "meaning_fr": "correspondre / convenir",
+        "meaning_ja": "合う",
+        "note_fr": "Verbe rejeté en fin de la proposition subordonnée introduite par 'dass'."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "klingt",
+        "pos": "verb",
+        "lemma": "klingen",
+        "person": "3sg"
+      },
+      {
+        "surface": "überzeugend",
+        "pos": "adjective",
+        "meaning_fr": "convaincant",
+        "meaning_ja": "説得力のある",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Hätten",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "2pl_formal",
+        "note_fr": "Konjunktiv II de 'haben' — formule une question polie et professionnelle."
+      },
+      {
+        "surface": "Sie",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "die",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "Möglichkeit",
+        "pos": "noun",
+        "meaning_fr": "possibilité",
+        "meaning_ja": "可能性",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "am",
+        "pos": "preposition"
+      },
+      {
+        "surface": "ersten",
+        "pos": "adjective",
+        "lemma": "erst",
+        "meaning_fr": "premier",
+        "meaning_ja": "最初の",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach",
+        "note_fr": "Adjectif ordinal déclinaison faible datif masculin dans 'am ersten August'."
+      },
+      {
+        "surface": "August",
+        "pos": "noun",
+        "meaning_fr": "août",
+        "meaning_ja": "8月",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m"
+      },
+      {
+        "surface": "anzufangen",
+        "pos": "verb",
+        "lemma": "anfangen",
+        "meaning_fr": "commencer",
+        "meaning_ja": "始める",
+        "note_fr": "Infinitif avec 'zu' inséré dans le préfixe séparable 'an-fangen' → 'anzufangen'."
+      },
+      {
+        "surface": "?",
+        "pos": "punct"
+      },
+      {
+        "surface": "—",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ja",
+        "pos": "adverb"
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "das",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "würde",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "3sg",
+        "note_fr": "Konjunktiv II de 'werden' — employé dans une réponse polie et formelle."
+      },
+      {
+        "surface": "mir",
+        "pos": "pronoun",
+        "meaning_fr": "me / à moi (datif)",
+        "meaning_ja": "私に（与格）",
+        "case": "dat"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb"
+      },
+      {
+        "surface": "gut",
+        "pos": "adjective",
+        "lemma": "gut",
+        "declension_type": "prädikativ"
+      },
+      {
+        "surface": "passen",
+        "pos": "verb",
+        "lemma": "passen",
+        "meaning_fr": "convenir",
+        "meaning_ja": "都合が良い"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Ich",
+        "pos": "pronoun"
+      },
+      {
+        "surface": "würde",
+        "pos": "verb",
+        "lemma": "werden",
+        "person": "1sg"
+      },
+      {
+        "surface": "mich",
+        "pos": "pronoun",
+        "case": "akk"
+      },
+      {
+        "surface": "über",
+        "pos": "preposition",
+        "meaning_fr": "sur / concernant",
+        "meaning_ja": "〜について"
+      },
+      {
+        "surface": "eine",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "positive",
+        "pos": "adjective",
+        "lemma": "positiv",
+        "meaning_fr": "positive",
+        "meaning_ja": "ポジティブな",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f",
+        "declension_type": "schwach"
+      },
+      {
+        "surface": "Rückmeldung",
+        "pos": "noun",
+        "meaning_fr": "réponse favorable / retour positif",
+        "meaning_ja": "好意的な返答",
+        "case": "akk",
+        "number": "sg",
+        "gender": "f"
+      },
+      {
+        "surface": "freuen",
+        "pos": "verb",
+        "lemma": "freuen",
+        "meaning_fr": "me réjouir",
+        "meaning_ja": "嬉しく思う"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Das",
+        "pos": "article",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "la",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "Gespräch",
+        "pos": "noun",
+        "lemma": "Gespräch",
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "conversation",
+        "meaning_ja": "会話"
+      },
+      {
+        "surface": "war",
+        "pos": "verb",
+        "lemma": "sein",
+        "person": "3sg",
+        "meaning_fr": "était",
+        "meaning_ja": "だった"
+      },
+      {
+        "surface": "sehr",
+        "pos": "adverb",
+        "lemma": "sehr",
+        "meaning_fr": "très",
+        "meaning_ja": "とても"
+      },
+      {
+        "surface": "nützlich",
+        "pos": "adjective",
+        "lemma": "nützlich",
+        "meaning_fr": "utile",
+        "meaning_ja": "役に立つ"
+      },
+      {
+        "surface": "für",
+        "pos": "preposition",
+        "meaning_fr": "pour",
+        "meaning_ja": "〜のために"
+      },
+      {
+        "surface": "beide",
+        "pos": "adjective",
+        "lemma": "beide",
+        "meaning_fr": "les deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Seiten",
+        "pos": "noun",
+        "lemma": "Seite",
+        "case": "akk",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "parties",
+        "meaning_ja": "側"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Die",
+        "pos": "article",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "les",
+        "meaning_ja": "その"
+      },
+      {
+        "surface": "beiden",
+        "pos": "adjective",
+        "lemma": "beide",
+        "declension_type": "schwach",
+        "case": "nom",
+        "number": "pl",
+        "meaning_fr": "deux",
+        "meaning_ja": "両方の"
+      },
+      {
+        "surface": "Personen",
+        "pos": "noun",
+        "lemma": "Person",
+        "case": "nom",
+        "number": "pl",
+        "gender": "f",
+        "meaning_fr": "personnes",
+        "meaning_ja": "人物"
+      },
+      {
+        "surface": "haben",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3pl",
+        "meaning_fr": "ont",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "お互いに"
+      },
+      {
+        "surface": "gut",
+        "pos": "adverb",
+        "lemma": "gut",
+        "meaning_fr": "bien",
+        "meaning_ja": "よく"
+      },
+      {
+        "surface": "verstanden",
+        "pos": "verb",
+        "lemma": "verstehen",
+        "meaning_fr": "compris",
+        "meaning_ja": "理解し合った",
+        "note_fr": "Partizip II de verstehen (starkes Verb)."
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Am",
+        "pos": "preposition",
+        "meaning_fr": "à la fin",
+        "meaning_ja": "最後に",
+        "note_fr": "Contraction de an + dem."
+      },
+      {
+        "surface": "Ende",
+        "pos": "noun",
+        "lemma": "Ende",
+        "case": "dat",
+        "number": "sg",
+        "gender": "n",
+        "meaning_fr": "fin",
+        "meaning_ja": "終わり"
+      },
+      {
+        "surface": "verabschieden",
+        "pos": "verb",
+        "lemma": "verabschieden",
+        "person": "3pl",
+        "meaning_fr": "se disent au revoir",
+        "meaning_ja": "別れを告げる"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "freundlich",
+        "pos": "adverb",
+        "lemma": "freundlich",
+        "meaning_fr": "amicalement",
+        "meaning_ja": "友好的に"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "gehen",
+        "pos": "verb",
+        "lemma": "gehen",
+        "person": "3pl",
+        "meaning_fr": "partent",
+        "meaning_ja": "行く"
+      },
+      {
+        "surface": "ihren",
+        "pos": "article",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "leur",
+        "meaning_ja": "自分たちの"
+      },
+      {
+        "surface": "Weg",
+        "pos": "noun",
+        "lemma": "Weg",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "chemin",
+        "meaning_ja": "道"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Es",
+        "pos": "pronoun",
+        "lemma": "es",
+        "meaning_fr": "c'",
+        "meaning_ja": "それ"
+      },
+      {
+        "surface": "hat",
+        "pos": "verb",
+        "lemma": "haben",
+        "person": "3sg",
+        "meaning_fr": "a",
+        "meaning_ja": "〜した（助動詞）"
+      },
+      {
+        "surface": "Spaß",
+        "pos": "noun",
+        "lemma": "Spaß",
+        "case": "akk",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "plaisir",
+        "meaning_ja": "楽しみ"
+      },
+      {
+        "surface": "gemacht",
+        "pos": "verb",
+        "lemma": "machen",
+        "meaning_fr": "fait",
+        "meaning_ja": "作った・与えた",
+        "note_fr": "Partizip II. Spaß machen = être amusant."
+      },
+      {
+        "surface": ",",
+        "pos": "punct"
+      },
+      {
+        "surface": "mit",
+        "pos": "preposition",
+        "meaning_fr": "avec",
+        "meaning_ja": "〜と"
+      },
+      {
+        "surface": "einem",
+        "pos": "article",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "un",
+        "meaning_ja": "一人の"
+      },
+      {
+        "surface": "anderen",
+        "pos": "adjective",
+        "lemma": "andere",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "declension_type": "schwach",
+        "meaning_fr": "autre",
+        "meaning_ja": "別の"
+      },
+      {
+        "surface": "Menschen",
+        "pos": "noun",
+        "lemma": "Mensch",
+        "case": "dat",
+        "number": "sg",
+        "gender": "m",
+        "meaning_fr": "personne",
+        "meaning_ja": "人"
+      },
+      {
+        "surface": "zu",
+        "pos": "preposition",
+        "meaning_fr": "à",
+        "meaning_ja": "〜すること"
+      },
+      {
+        "surface": "sprechen",
+        "pos": "verb",
+        "lemma": "sprechen",
+        "person": "inf",
+        "meaning_fr": "parler",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      },
+      {
+        "surface": "Vielleicht",
+        "pos": "adverb",
+        "lemma": "vielleicht",
+        "meaning_fr": "peut-être",
+        "meaning_ja": "もしかしたら"
+      },
+      {
+        "surface": "treffen",
+        "pos": "verb",
+        "lemma": "treffen",
+        "person": "3pl",
+        "meaning_fr": "se retrouvent",
+        "meaning_ja": "会う"
+      },
+      {
+        "surface": "sie",
+        "pos": "pronoun",
+        "lemma": "sie",
+        "meaning_fr": "ils/elles",
+        "meaning_ja": "彼ら"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "bald",
+        "pos": "adverb",
+        "lemma": "bald",
+        "meaning_fr": "bientôt",
+        "meaning_ja": "すぐに"
+      },
+      {
+        "surface": "wieder",
+        "pos": "adverb",
+        "lemma": "wieder",
+        "meaning_fr": "à nouveau",
+        "meaning_ja": "また"
+      },
+      {
+        "surface": "und",
+        "pos": "conjunction",
+        "lemma": "und",
+        "meaning_fr": "et",
+        "meaning_ja": "そして"
+      },
+      {
+        "surface": "erzählen",
+        "pos": "verb",
+        "lemma": "erzählen",
+        "person": "3pl",
+        "meaning_fr": "racontent",
+        "meaning_ja": "話す"
+      },
+      {
+        "surface": "sich",
+        "pos": "pronoun",
+        "lemma": "sich",
+        "meaning_fr": "se",
+        "meaning_ja": "〜自身"
+      },
+      {
+        "surface": "mehr",
+        "pos": "adverb",
+        "lemma": "mehr",
+        "meaning_fr": "plus",
+        "meaning_ja": "もっと"
+      },
+      {
+        "surface": ".",
+        "pos": "punct"
+      }
+    ]
+  }
+]

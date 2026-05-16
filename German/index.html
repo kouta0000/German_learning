@@ -447,6 +447,49 @@
       margin-bottom: 1rem;
       flex-wrap: wrap;
     }
+    .text-actions {
+      margin-left: auto;
+      display: flex;
+      gap: .45rem;
+      align-items: center;
+    }
+    .btn-action {
+      padding: .28rem .75rem;
+      border-radius: 6px;
+      border: 1.5px solid var(--border);
+      background: var(--bg);
+      color: var(--muted);
+      font-size: .78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .12s, color .12s, border-color .12s;
+      white-space: nowrap;
+      line-height: 1.4;
+    }
+    .btn-action:hover { background: #f0ece4; border-color: #c0b8aa; }
+    .btn-read-on {
+      background: #d5f5e3;
+      color: var(--tag-a1);
+      border-color: var(--tag-a1);
+    }
+    .btn-read-on:hover { background: #c0edcf; }
+    .btn-tts-on {
+      background: #fde8e8;
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+    .btn-tts-word {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.05rem;
+      padding: .1rem .35rem;
+      border-radius: 4px;
+      line-height: 1;
+      vertical-align: middle;
+      transition: background .1s;
+    }
+    .btn-tts-word:hover { background: var(--highlight); }
     .text-title {
       font-size: 1.25rem;
       font-weight: 700;
@@ -1164,9 +1207,9 @@ function updateReadStates() {
 ═══════════════════════════════════════════════════════════════ */
 
 function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
+  stopSpeech();           // stop TTS when switching text
   currentTextId = text.id;
-  markRead(text.id);
-  updateReadStates();
+  updateReadStates();     // reflect active card (no auto-mark)
   clearPanel();
 
   // URL state management
@@ -1181,9 +1224,22 @@ function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
   }
 
   const catLabel = CAT_LABELS[text.category] || text.category || '';
+  const lvl      = (text.level || '').toLowerCase();
+  const isRead   = getReadSet().has(text.id);
+  const ttsOK    = 'speechSynthesis' in window;
+
   document.getElementById('textMeta').innerHTML =
     `<span class="badge badge-cat">${catLabel}</span>
-     <span class="badge badge-${(text.level || '').toLowerCase()}">${text.level || ''}</span>`;
+     <span class="badge badge-${lvl}">${text.level || ''}</span>
+     <div class="text-actions">
+       ${ttsOK ? `<button class="btn-action" id="btnTts">▶ 聞く</button>` : ''}
+       <button class="btn-action ${isRead ? 'btn-read-on' : ''}" id="btnRead">
+         ${isRead ? '✓ 読んだ' : '☐ 読んだ'}
+       </button>
+     </div>`;
+
+  document.getElementById('btnRead').addEventListener('click', () => toggleRead(text.id));
+  if (ttsOK) document.getElementById('btnTts').addEventListener('click', () => speakText(text));
 
   document.getElementById('textTitle').textContent = text.title;
 
@@ -1239,7 +1295,13 @@ function showTokenInfo(tok, span) {
 
   let html = '';
 
-  html += `<div class="info-word">${tok.surface}</div>`;
+  const ttsWord = 'speechSynthesis' in window
+    ? `<button class="btn-tts-word" title="Écouter la prononciation"
+         onclick="speakWord('${tok.surface.replace(/'/g,"\\'")}')">🔊</button>`
+    : '';
+  html += `<div style="display:flex;align-items:center;gap:.4rem">
+    <div class="info-word">${tok.surface}</div>${ttsWord}
+  </div>`;
   if (tok.lemma && tok.lemma !== tok.surface) {
     html += `<div class="info-lemma">→ <strong>${tok.lemma}</strong></div>`;
   } else if (word && word.lemma !== tok.surface) {
@@ -1455,6 +1517,93 @@ function openMobilePanel() {
 }
 function closeMobilePanel() {
   document.getElementById('infoPanel').classList.remove('open');
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MANUAL READ TOGGLE
+═══════════════════════════════════════════════════════════════ */
+function toggleRead(textId) {
+  const s = getReadSet();
+  if (s.has(textId)) { s.delete(textId); } else { s.add(textId); }
+  localStorage.setItem(LS_KEY, JSON.stringify([...s]));
+  updateReadStates();
+  // Update button in reader
+  const isRead = s.has(textId);
+  const btn = document.getElementById('btnRead');
+  if (btn) {
+    btn.textContent  = isRead ? '✓ 読んだ' : '☐ 読んだ';
+    btn.classList.toggle('btn-read-on', isRead);
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TTS  (Web Speech API — no API key required)
+═══════════════════════════════════════════════════════════════ */
+let ttsUtterance = null;
+let ttsPlaying   = false;
+let germanVoice  = null;
+
+function loadGermanVoice() {
+  const voices = speechSynthesis.getVoices();
+  germanVoice  = voices.find(v => v.lang === 'de-DE')
+              || voices.find(v => v.lang.startsWith('de'))
+              || null;
+}
+if ('speechSynthesis' in window) {
+  speechSynthesis.addEventListener('voiceschanged', loadGermanVoice);
+  loadGermanVoice();
+}
+
+function stopSpeech() {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  ttsPlaying = false;
+  const btn = document.getElementById('btnTts');
+  if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+}
+
+function speakText(text) {
+  if (!('speechSynthesis' in window)) return;
+  if (ttsPlaying) { stopSpeech(); return; }
+
+  // Build readable string from tokens
+  const parts = [];
+  (text.tokens || []).forEach((tok, i) => {
+    const isPunct = PUNCT.has(tok.surface);
+    const prevNoSpace = i > 0 && NO_SPACE_AFTER.has(text.tokens[i-1].surface);
+    if (!isPunct && !prevNoSpace && i > 0) parts.push(' ');
+    parts.push(tok.surface);
+  });
+  const rawText = parts.join('');
+
+  ttsUtterance = new SpeechSynthesisUtterance(rawText);
+  ttsUtterance.lang  = 'de-DE';
+  ttsUtterance.rate  = 0.88;
+  ttsUtterance.pitch = 1.0;
+  if (germanVoice) ttsUtterance.voice = germanVoice;
+
+  ttsUtterance.onstart = () => {
+    ttsPlaying = true;
+    const btn = document.getElementById('btnTts');
+    if (btn) { btn.textContent = '⏹ 停止'; btn.classList.add('btn-tts-on'); }
+  };
+  ttsUtterance.onend = ttsUtterance.onerror = () => {
+    ttsPlaying = false;
+    const btn = document.getElementById('btnTts');
+    if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+  };
+
+  speechSynthesis.speak(ttsUtterance);
+}
+
+function speakWord(surface) {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const utt  = new SpeechSynthesisUtterance(surface);
+  utt.lang   = 'de-DE';
+  utt.rate   = 0.85;
+  if (germanVoice) utt.voice = germanVoice;
+  speechSynthesis.speak(utt);
 }
 
 /* ═══════════════════════════════════════════════════════════════
