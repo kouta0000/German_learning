@@ -905,8 +905,8 @@ function findNextText() {
 async function loadData() {
   try {
     const [vRes, tRes] = await Promise.all([
-      fetch('data/vocabulary.json'),
-      fetch('data/texts.json'),
+      fetch('data/vocabulary.json?v=4'),
+      fetch('data/texts.json?v=4'),
     ]);
     if (!vRes.ok || !tRes.ok) throw new Error('HTTP error');
     const vData = await vRes.json();
