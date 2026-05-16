@@ -1647,6 +1647,26 @@ window.addEventListener('popstate', e => {
 
 /* ── Boot ──────────────────────────────────────────────────── */
 loadData();
+
+/* ── Service Worker 登録 ───────────────────────────────────── */
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').then(reg => {
+    // 新しいSWが待機状態になったら即座に有効化してページをリロード
+    reg.addEventListener('updatefound', () => {
+      const newWorker = reg.installing;
+      newWorker.addEventListener('statechange', () => {
+        if (newWorker.state === 'activated' && navigator.serviceWorker.controller) {
+          // 新バージョンが有効になったらページを自動更新
+          window.location.reload();
+        }
+      });
+    });
+  });
+  // 別タブでSWが更新された場合もリロード
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    window.location.reload();
+  });
+}
 </script>
 </body>
 </html>
