@@ -490,6 +490,96 @@
       transition: background .1s;
     }
     .btn-tts-word:hover { background: var(--highlight); }
+
+    /* ── Quiz widget ─────────────────────────────────────────── */
+    #quizWidget {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 13px 15px 14px;
+      margin: 0 auto 18px;
+      max-width: 460px;
+    }
+    .quiz-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 9px;
+    }
+    .quiz-label {
+      font-size: .7rem;
+      font-weight: 600;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      color: var(--text-soft);
+    }
+    .quiz-refresh {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      color: var(--text-soft);
+      padding: 2px 5px;
+      border-radius: 6px;
+      transition: background .15s, color .15s;
+      line-height: 1;
+    }
+    .quiz-refresh:hover { background: var(--highlight); color: var(--text); }
+    .quiz-refresh.spin { animation: spin .4s linear; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .quiz-question {
+      margin-bottom: 10px;
+    }
+    .quiz-word {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.2;
+    }
+    .quiz-dir-hint {
+      font-size: .78rem;
+      color: var(--text-soft);
+      margin-bottom: 10px;
+    }
+    .quiz-choices {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+    .quiz-choice {
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--bg);
+      font-size: .82rem;
+      cursor: pointer;
+      text-align: left;
+      color: var(--text);
+      transition: background .12s, border-color .12s;
+      line-height: 1.3;
+    }
+    .quiz-choice:hover:not(:disabled) {
+      background: var(--highlight);
+      border-color: var(--gold);
+    }
+    .quiz-choice.correct {
+      background: #1a3a2a !important;
+      border-color: #4caf50 !important;
+      color: #81c784;
+    }
+    .quiz-choice.wrong {
+      background: #3a1a1a !important;
+      border-color: #e57373 !important;
+      color: #ef9a9a;
+    }
+    .quiz-choice.reveal {
+      background: #1a3a2a !important;
+      border-color: #4caf50 !important;
+      color: #81c784;
+      opacity: .7;
+    }
+    .quiz-choice:disabled { cursor: default; }
+
     .text-title {
       font-size: 1.25rem;
       font-weight: 700;
@@ -800,6 +890,9 @@
     </div>
   </div>
 
+  <!-- Quiz widget -->
+  <div id="quizWidget" style="display:none"></div>
+
   <!-- Card grid -->
   <div class="card-grid-section">
     <h2 id="cardGridLabel">Tous les textes</h2>
@@ -923,6 +1016,7 @@ async function loadData() {
 
     renderTodayBanner();
     renderCards();
+    renderQuiz();
 
     // Restore from URL hash, or fall back to today's text
     const hashId = location.hash.slice(1);
@@ -1051,6 +1145,10 @@ function buildCard(text, readSet, nextTextId) {
 }
 
 function renderCards() {
+  // ホーム表示時はクイズを表示
+  const qw = document.getElementById('quizWidget');
+  if (qw && Object.keys(VOCAB).length >= QUIZ_MIN_WORDS) qw.style.display = '';
+
   filtered = TEXTS.filter(t =>
     (!filterCat || t.category === filterCat) &&
     (!filterLvl || t.level === filterLvl)
@@ -1211,6 +1309,9 @@ function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
   currentTextId = text.id;
   updateReadStates();     // reflect active card (no auto-mark)
   clearPanel();
+  // テキスト閲覧中はクイズを隠す
+  const qw = document.getElementById('quizWidget');
+  if (qw) qw.style.display = 'none';
 
   // URL state management
   if (addHistory) {
@@ -1644,6 +1745,108 @@ window.addEventListener('popstate', e => {
   const text = TEXTS.find(t => t.id === id);
   if (text) loadText(text, { addHistory: false }); // don't push again on popstate
 });
+
+/* ── Quiz ───────────────────────────────────────────────────── */
+const QUIZ_MIN_WORDS = 10; // この数以上で表示
+
+function quizWordPool() {
+  const all = Object.values(VOCAB).filter(w => w.lemma && w.meaning_ja);
+  if (!all.length) return [];
+
+  // 既読テキストのlemmaセット
+  const readIds  = getReadSet();
+  const readLemmas = new Set();
+  TEXTS.filter(t => readIds.has(t.id)).forEach(t =>
+    (t.tokens || []).forEach(tok => { if (tok.lemma) readLemmas.add(tok.lemma.toLowerCase()); })
+  );
+
+  // 既読テキストに出てきた語を先頭に、残りを後ろに
+  const inRead  = all.filter(w => readLemmas.has(w.lemma.toLowerCase()));
+  const notRead = all.filter(w => !readLemmas.has(w.lemma.toLowerCase()));
+
+  // シャッフルして結合
+  const shuffle = a => a.sort(() => Math.random() - .5);
+  return [...shuffle(inRead), ...shuffle(notRead)];
+}
+
+function buildQuiz() {
+  const pool = quizWordPool();
+  if (pool.length < QUIZ_MIN_WORDS) return null;
+
+  // 正解
+  const correct = pool[Math.floor(Math.random() * Math.min(pool.length, 200))];
+
+  // 誤答3択 — できるだけ同品詞から
+  const samePos  = pool.filter(w => w.pos === correct.pos && w.id !== correct.id);
+  const fallback = pool.filter(w => w.id !== correct.id);
+  const distSrc  = (samePos.length >= 6 ? samePos : fallback).filter(w => w.meaning_ja !== correct.meaning_ja);
+  const shuffled = [...distSrc].sort(() => Math.random() - .5);
+
+  const distractors = [];
+  for (const w of shuffled) {
+    if (distractors.length >= 3) break;
+    if (!distractors.some(d => d.meaning_ja === w.meaning_ja)) distractors.push(w);
+  }
+  if (distractors.length < 3) return null;
+
+  // 出題方向 0=DE→JA  1=JA→DE
+  const dir = Math.floor(Math.random() * 2);
+  const choices = [correct, ...distractors].sort(() => Math.random() - .5);
+  return { correct, choices, dir };
+}
+
+function renderQuiz() {
+  const wrap = document.getElementById('quizWidget');
+  if (!wrap) return;
+
+  const q = buildQuiz();
+  if (!q) { wrap.style.display = 'none'; return; }
+
+  wrap.style.display = '';
+  const { correct, choices, dir } = q;
+
+  const posLabel = { noun:'名詞', verb:'動詞', adjective:'形容詞', adverb:'副詞',
+                     conjunction:'接続詞', preposition:'前置詞' }[correct.pos] || correct.pos;
+
+  const questionHtml = dir === 0
+    ? `<div class="quiz-word">${correct.lemma}</div>
+       <div class="quiz-dir-hint">${posLabel} — 意味はどれ？</div>`
+    : `<div class="quiz-word">${correct.meaning_ja}</div>
+       <div class="quiz-dir-hint">ドイツ語はどれ？</div>`;
+
+  const choicesHtml = choices.map(w => {
+    const label = dir === 0 ? w.meaning_ja : w.lemma;
+    return `<button class="quiz-choice" data-correct="${w.id === correct.id}">${label}</button>`;
+  }).join('');
+
+  wrap.innerHTML = `
+    <div class="quiz-header">
+      <span class="quiz-label">🔤 単語クイズ</span>
+      <button class="quiz-refresh" id="quizRefreshBtn" title="次の問題">↻</button>
+    </div>
+    <div class="quiz-question">${questionHtml}</div>
+    <div class="quiz-choices">${choicesHtml}</div>`;
+
+  document.getElementById('quizRefreshBtn').addEventListener('click', () => {
+    const btn = document.getElementById('quizRefreshBtn');
+    btn.classList.add('spin');
+    setTimeout(() => { btn.classList.remove('spin'); renderQuiz(); }, 400);
+  });
+
+  wrap.querySelectorAll('.quiz-choice').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.disabled) return;
+      // すべて無効化
+      wrap.querySelectorAll('.quiz-choice').forEach(b => {
+        b.disabled = true;
+        if (b.dataset.correct === 'true') b.classList.add(btn === b ? 'correct' : 'reveal');
+        else if (b === btn)               b.classList.add('wrong');
+      });
+      // 1.2秒後に次の問題へ
+      setTimeout(renderQuiz, 1200);
+    });
+  });
+}
 
 /* ── Boot ──────────────────────────────────────────────────── */
 loadData();
