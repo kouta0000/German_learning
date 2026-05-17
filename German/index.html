@@ -598,19 +598,6 @@
       opacity: .6;
     }
     .quiz-choice:disabled { cursor: default; }
-    /* タイマーバー */
-    .quiz-timer {
-      position: absolute;
-      bottom: 0; left: 0;
-      height: 2px;
-      background: rgba(240,165,0,.45);
-      width: 100%;
-      transform-origin: left;
-    }
-    .quiz-timer.running {
-      transition: width var(--quiz-dur, 7s) linear;
-      width: 0% !important;
-    }
 
     .text-title {
       font-size: 1.25rem;
@@ -1769,9 +1756,8 @@ window.addEventListener('popstate', e => {
   if (text) loadText(text, { addHistory: false }); // don't push again on popstate
 });
 
-/* ── Quiz (TV style) ─────────────────────────────────────────── */
-const QUIZ_INTERVAL = 7000; // 自動送り間隔 ms
-let   quizTimer     = null;
+/* ── Quiz ────────────────────────────────────────────────────── */
+let quizTimer = null;
 
 function quizWordPool() {
   const all = Object.values(VOCAB).filter(w => w.lemma && w.meaning_ja);
@@ -1837,7 +1823,7 @@ function renderQuiz(delay = 0) {
         }).join('')}
       </div>
     </div>
-    <div class="quiz-timer" id="quizTimer"></div>`;
+`;
 
   // スキップボタン
   document.getElementById('quizSkip').addEventListener('click', e => {
@@ -1861,17 +1847,6 @@ function renderQuiz(delay = 0) {
     });
   });
 
-  // タイマーバーアニメーション
-  const bar = document.getElementById('quizTimer');
-  if (bar) {
-    wrap.style.setProperty('--quiz-dur', `${QUIZ_INTERVAL}ms`);
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => { bar.classList.add('running'); });
-    });
-  }
-
-  // 自動送り
-  quizTimer = setTimeout(() => renderQuiz(0), QUIZ_INTERVAL);
 }
 
 /* ── Boot ──────────────────────────────────────────────────── */
