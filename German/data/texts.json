@@ -1,20 +1,20 @@
 {
   "meta": {
     "total": 60,
-    "version": "4.0",
+    "version": "5.0",
     "levels": {
-      "A1": 6,
-      "A2": 12,
-      "B1": 24,
-      "B2": 15,
-      "C1": 3
+      "A1": 7,
+      "A2": 14,
+      "B1": 27,
+      "B2": 20,
+      "C1": 5
     },
     "categories": {
-      "Actualités": 20,
-      "Dialogues": 20,
-      "Histoires": 20
+      "Actualités": 25,
+      "Histoires": 24,
+      "Dialogues": 24
     },
-    "total_texts": 65
+    "total_texts": 73
   },
   "texts": [
     {
@@ -65787,6 +65787,4866 @@
         }
       ],
       "token_count": 182
+    },
+    {
+      "id": "t066",
+      "title": "Beim Bäcker",
+      "subtitle": "Ein Einkaufsgespräch",
+      "level": "A1",
+      "category": "Dialogues",
+      "tokens": [
+        {
+          "surface": "Kunde",
+          "pos": "noun",
+          "lemma": "Kunde",
+          "meaning_ja": "お客様",
+          "meaning_fr": "client",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Guten",
+          "pos": "adverb",
+          "lemma": "gut",
+          "meaning_ja": "良い",
+          "meaning_fr": "bon"
+        },
+        {
+          "surface": "Morgen",
+          "pos": "noun",
+          "lemma": "Morgen",
+          "meaning_ja": "朝",
+          "meaning_fr": "matin",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "hätte",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "〜が欲しい",
+          "meaning_fr": "voudrais"
+        },
+        {
+          "surface": "gern",
+          "pos": "adverb",
+          "lemma": "gern",
+          "meaning_ja": "喜んで",
+          "meaning_fr": "volontiers"
+        },
+        {
+          "surface": "zwei",
+          "pos": "noun",
+          "lemma": "zwei",
+          "meaning_ja": "二つ",
+          "meaning_fr": "deux",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Brötchen",
+          "pos": "noun",
+          "lemma": "Brötchen",
+          "meaning_ja": "ロールパン",
+          "meaning_fr": "petits pains",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Stück",
+          "pos": "noun",
+          "lemma": "Stück",
+          "meaning_ja": "一切れ",
+          "meaning_fr": "morceau",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Kuchen",
+          "pos": "noun",
+          "lemma": "Kuchen",
+          "meaning_ja": "ケーキ",
+          "meaning_fr": "gâteau",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Verkäuferin",
+          "pos": "noun",
+          "lemma": "Verkäuferin",
+          "meaning_ja": "販売員",
+          "meaning_fr": "vendeuse",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Gerne",
+          "pos": "adverb",
+          "lemma": "gerne",
+          "meaning_ja": "喜んで",
+          "meaning_fr": "avec plaisir"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Möchten",
+          "pos": "verb",
+          "lemma": "mögen",
+          "meaning_ja": "〜したいですか",
+          "meaning_fr": "Voulez-vous"
+        },
+        {
+          "surface": "Sie",
+          "pos": "pronoun",
+          "lemma": "Sie"
+        },
+        {
+          "surface": "frische",
+          "pos": "adjective",
+          "lemma": "frisch",
+          "meaning_ja": "新鮮な",
+          "meaning_fr": "frais"
+        },
+        {
+          "surface": "Brötchen",
+          "pos": "noun",
+          "lemma": "Brötchen",
+          "meaning_ja": "ロールパン",
+          "meaning_fr": "petits pains",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "oder",
+          "pos": "conjunction",
+          "lemma": "oder"
+        },
+        {
+          "surface": "vom",
+          "pos": "preposition",
+          "lemma": "von"
+        },
+        {
+          "surface": "Vortag",
+          "pos": "noun",
+          "lemma": "Vortag",
+          "meaning_ja": "前日",
+          "meaning_fr": "veille",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "?",
+          "pos": "punctuation",
+          "lemma": "?"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Kunde",
+          "pos": "noun",
+          "lemma": "Kunde",
+          "meaning_ja": "お客様",
+          "meaning_fr": "client",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Frische",
+          "pos": "adjective",
+          "lemma": "frisch",
+          "meaning_ja": "新鮮な",
+          "meaning_fr": "frais"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "bitte",
+          "pos": "adverb",
+          "lemma": "bitte",
+          "meaning_ja": "お願いします",
+          "meaning_fr": "s'il vous plaît"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "was",
+          "pos": "verb",
+          "lemma": "was",
+          "meaning_ja": "何を",
+          "meaning_fr": "quoi"
+        },
+        {
+          "surface": "kostet",
+          "pos": "verb",
+          "lemma": "kosten",
+          "meaning_ja": "いくらですか",
+          "meaning_fr": "coûter"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "Kuchen",
+          "pos": "noun",
+          "lemma": "Kuchen",
+          "meaning_ja": "ケーキ",
+          "meaning_fr": "gâteau",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "?",
+          "pos": "punctuation",
+          "lemma": "?"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Verkäuferin",
+          "pos": "noun",
+          "lemma": "Verkäuferin",
+          "meaning_ja": "販売員",
+          "meaning_fr": "vendeuse",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Die",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "Brötchen",
+          "pos": "noun",
+          "lemma": "Brötchen",
+          "meaning_ja": "ロールパン",
+          "meaning_fr": "petits pains",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": "kosten",
+          "pos": "verb",
+          "lemma": "kosten",
+          "meaning_ja": "〜円です",
+          "meaning_fr": "coûtent"
+        },
+        {
+          "surface": "je",
+          "pos": "adverb",
+          "lemma": "je",
+          "meaning_ja": "それぞれ",
+          "meaning_fr": "chacun"
+        },
+        {
+          "surface": "fünfzig",
+          "pos": "noun",
+          "lemma": "fünfzig",
+          "meaning_ja": "五十",
+          "meaning_fr": "cinquante",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Cent",
+          "pos": "noun",
+          "lemma": "Cent",
+          "meaning_ja": "セント",
+          "meaning_fr": "centimes",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": "Stück",
+          "pos": "noun",
+          "lemma": "Stück",
+          "meaning_ja": "一切れ",
+          "meaning_fr": "morceau",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": "Kuchen",
+          "pos": "noun",
+          "lemma": "Kuchen",
+          "meaning_ja": "ケーキ",
+          "meaning_fr": "gâteau",
+          "gender": "m",
+          "case": "genitive"
+        },
+        {
+          "surface": "kostet",
+          "pos": "verb",
+          "lemma": "kosten",
+          "meaning_ja": "〜です",
+          "meaning_fr": "coûte"
+        },
+        {
+          "surface": "zwei",
+          "pos": "noun",
+          "lemma": "zwei",
+          "meaning_ja": "二",
+          "meaning_fr": "deux",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Euro",
+          "pos": "noun",
+          "lemma": "Euro",
+          "meaning_ja": "ユーロ",
+          "meaning_fr": "euros",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Kunde",
+          "pos": "noun",
+          "lemma": "Kunde",
+          "meaning_ja": "お客様",
+          "meaning_fr": "client",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Gut",
+          "pos": "adjective",
+          "lemma": "gut",
+          "meaning_ja": "いいです",
+          "meaning_fr": "bien"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "nehme",
+          "pos": "verb",
+          "lemma": "nehmen",
+          "meaning_ja": "取る",
+          "meaning_fr": "prendre"
+        },
+        {
+          "surface": "das",
+          "pos": "pronoun",
+          "lemma": "das"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Kann",
+          "pos": "verb",
+          "lemma": "können",
+          "meaning_ja": "〜できますか",
+          "meaning_fr": "Peut-on"
+        },
+        {
+          "surface": "ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit"
+        },
+        {
+          "surface": "Karte",
+          "pos": "noun",
+          "lemma": "Karte",
+          "meaning_ja": "カード",
+          "meaning_fr": "carte",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "bezahlen",
+          "pos": "verb",
+          "lemma": "bezahlen",
+          "meaning_ja": "支払う",
+          "meaning_fr": "payer"
+        },
+        {
+          "surface": "?",
+          "pos": "punctuation",
+          "lemma": "?"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Verkäuferin",
+          "pos": "noun",
+          "lemma": "Verkäuferin",
+          "meaning_ja": "販売員",
+          "meaning_fr": "vendeuse",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Ja",
+          "pos": "adverb",
+          "lemma": "ja",
+          "meaning_ja": "はい",
+          "meaning_fr": "oui"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "natürlich",
+          "pos": "adverb",
+          "lemma": "natürlich",
+          "meaning_ja": "もちろん",
+          "meaning_fr": "bien sûr"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Das",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": "geht",
+          "pos": "verb",
+          "lemma": "gehen",
+          "meaning_ja": "できます",
+          "meaning_fr": "aller"
+        },
+        {
+          "surface": "problemlos",
+          "pos": "adverb",
+          "lemma": "problemlos",
+          "meaning_ja": "問題なく",
+          "meaning_fr": "sans problème"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        }
+      ],
+      "token_count": 91
+    },
+    {
+      "id": "t067",
+      "title": "Der neue Nachbar",
+      "subtitle": "Eine Begegnung im Treppenhaus",
+      "level": "A2",
+      "category": "Histoires",
+      "tokens": [
+        {
+          "surface": "Jonas",
+          "pos": "noun",
+          "lemma": "Jonas",
+          "meaning_ja": "ヨナス（名前）",
+          "meaning_fr": "Jonas",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "wohnt",
+          "pos": "verb",
+          "lemma": "wohnen",
+          "meaning_ja": "住んでいる",
+          "meaning_fr": "habiter"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "einem",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "kleinen",
+          "pos": "adjective",
+          "lemma": "klein",
+          "meaning_ja": "小さな",
+          "meaning_fr": "petit"
+        },
+        {
+          "surface": "Apartment",
+          "pos": "noun",
+          "lemma": "Apartment",
+          "meaning_ja": "アパート",
+          "meaning_fr": "appartement",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "dritten",
+          "pos": "noun",
+          "lemma": "Stockwerk",
+          "meaning_ja": "三階",
+          "meaning_fr": "troisième étage",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "Stock",
+          "pos": "noun",
+          "lemma": "Stock",
+          "meaning_ja": "階",
+          "meaning_fr": "étage",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Eines",
+          "pos": "noun",
+          "lemma": "ein",
+          "meaning_ja": "ある",
+          "meaning_fr": "un",
+          "gender": "n",
+          "case": "genitive"
+        },
+        {
+          "surface": "Tages",
+          "pos": "noun",
+          "lemma": "Tag",
+          "meaning_ja": "日",
+          "meaning_fr": "jour",
+          "gender": "m",
+          "case": "genitive"
+        },
+        {
+          "surface": "hört",
+          "pos": "verb",
+          "lemma": "hören",
+          "meaning_ja": "聞く",
+          "meaning_fr": "entendre"
+        },
+        {
+          "surface": "er",
+          "pos": "pronoun",
+          "lemma": "er"
+        },
+        {
+          "surface": "Geräusche",
+          "pos": "noun",
+          "lemma": "Geräusch",
+          "meaning_ja": "物音",
+          "meaning_fr": "bruits",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf"
+        },
+        {
+          "surface": "dem",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "Flur",
+          "pos": "noun",
+          "lemma": "Flur",
+          "meaning_ja": "廊下",
+          "meaning_fr": "couloir",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ein",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "junger",
+          "pos": "adjective",
+          "lemma": "jung",
+          "meaning_ja": "若い",
+          "meaning_fr": "jeune"
+        },
+        {
+          "surface": "Mann",
+          "pos": "noun",
+          "lemma": "Mann",
+          "meaning_ja": "男性",
+          "meaning_fr": "homme",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit"
+        },
+        {
+          "surface": "vielen",
+          "pos": "adjective",
+          "lemma": "viel",
+          "meaning_ja": "たくさんの",
+          "meaning_fr": "beaucoup de"
+        },
+        {
+          "surface": "Umzugskartons",
+          "pos": "noun",
+          "lemma": "Umzugskarton",
+          "meaning_ja": "引越し箱",
+          "meaning_fr": "cartons de déménagement",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "steht",
+          "pos": "verb",
+          "lemma": "stehen",
+          "meaning_ja": "立っている",
+          "meaning_fr": "se tenir"
+        },
+        {
+          "surface": "vor",
+          "pos": "preposition",
+          "lemma": "vor"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "Nachbarwohnung",
+          "pos": "noun",
+          "lemma": "Nachbarwohnung",
+          "meaning_ja": "隣の部屋",
+          "meaning_fr": "appartement voisin",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Hallo",
+          "pos": "noun",
+          "lemma": "Hallo",
+          "meaning_ja": "こんにちは",
+          "meaning_fr": "bonjour",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "bin",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜です",
+          "meaning_fr": "être"
+        },
+        {
+          "surface": "Luca",
+          "pos": "noun",
+          "lemma": "Luca",
+          "meaning_ja": "ルカ（名前）",
+          "meaning_fr": "Luca",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "ziehe",
+          "pos": "verb",
+          "lemma": "ziehen",
+          "meaning_ja": "引越す",
+          "meaning_fr": "emménager"
+        },
+        {
+          "surface": "gerade",
+          "pos": "adverb",
+          "lemma": "gerade",
+          "meaning_ja": "今ちょうど",
+          "meaning_fr": "justement"
+        },
+        {
+          "surface": "hier",
+          "pos": "preposition",
+          "lemma": "hier"
+        },
+        {
+          "surface": "ein",
+          "pos": "verb",
+          "lemma": "einziehen",
+          "meaning_ja": "入居する",
+          "meaning_fr": "emménager"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "sagt",
+          "pos": "verb",
+          "lemma": "sagen",
+          "meaning_ja": "言う",
+          "meaning_fr": "dire"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "junge",
+          "pos": "adjective",
+          "lemma": "jung",
+          "meaning_ja": "若い",
+          "meaning_fr": "jeune"
+        },
+        {
+          "surface": "Mann",
+          "pos": "noun",
+          "lemma": "Mann",
+          "meaning_ja": "男性",
+          "meaning_fr": "homme",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Jonas",
+          "pos": "noun",
+          "lemma": "Jonas",
+          "meaning_ja": "ヨナス（名前）",
+          "meaning_fr": "Jonas",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "lächelt",
+          "pos": "verb",
+          "lemma": "lächeln",
+          "meaning_ja": "微笑む",
+          "meaning_fr": "sourire"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "streckt",
+          "pos": "verb",
+          "lemma": "strecken",
+          "meaning_ja": "差し出す",
+          "meaning_fr": "tendre"
+        },
+        {
+          "surface": "ihm",
+          "pos": "pronoun",
+          "lemma": "ihm"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "Hand",
+          "pos": "noun",
+          "lemma": "Hand",
+          "meaning_ja": "手",
+          "meaning_fr": "main",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "aus",
+          "pos": "particle",
+          "lemma": "aus"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "bin",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜です",
+          "meaning_fr": "être"
+        },
+        {
+          "surface": "Jonas",
+          "pos": "noun",
+          "lemma": "Jonas",
+          "meaning_ja": "ヨナス（名前）",
+          "meaning_fr": "Jonas",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Willkommen",
+          "pos": "verb",
+          "lemma": "willkommen",
+          "meaning_ja": "ようこそ",
+          "meaning_fr": "bienvenue"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "Haus",
+          "pos": "noun",
+          "lemma": "Haus",
+          "meaning_ja": "家",
+          "meaning_fr": "maison",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "!",
+          "pos": "punctuation",
+          "lemma": "!"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Er",
+          "pos": "pronoun",
+          "lemma": "er"
+        },
+        {
+          "surface": "hilft",
+          "pos": "verb",
+          "lemma": "helfen",
+          "meaning_ja": "助ける",
+          "meaning_fr": "aider"
+        },
+        {
+          "surface": "Luca",
+          "pos": "noun",
+          "lemma": "Luca",
+          "meaning_ja": "ルカ（名前）",
+          "meaning_fr": "Luca",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "beim",
+          "pos": "preposition",
+          "lemma": "bei"
+        },
+        {
+          "surface": "Tragen",
+          "pos": "noun",
+          "lemma": "tragen",
+          "meaning_ja": "運ぶこと",
+          "meaning_fr": "porter",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "genitive"
+        },
+        {
+          "surface": "Kartons",
+          "pos": "noun",
+          "lemma": "Karton",
+          "meaning_ja": "箱",
+          "meaning_fr": "cartons",
+          "gender": "m",
+          "case": "genitive"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Danach",
+          "pos": "adverb",
+          "lemma": "danach",
+          "meaning_ja": "その後",
+          "meaning_fr": "ensuite"
+        },
+        {
+          "surface": "trinken",
+          "pos": "verb",
+          "lemma": "trinken",
+          "meaning_ja": "飲む",
+          "meaning_fr": "boire"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie"
+        },
+        {
+          "surface": "zusammen",
+          "pos": "adverb",
+          "lemma": "zusammen",
+          "meaning_ja": "一緒に",
+          "meaning_fr": "ensemble"
+        },
+        {
+          "surface": "Kaffee",
+          "pos": "noun",
+          "lemma": "Kaffee",
+          "meaning_ja": "コーヒー",
+          "meaning_fr": "café",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "erzählen",
+          "pos": "verb",
+          "lemma": "erzählen",
+          "meaning_ja": "話す",
+          "meaning_fr": "raconter"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Jonas",
+          "pos": "noun",
+          "lemma": "Jonas",
+          "meaning_ja": "ヨナス（名前）",
+          "meaning_fr": "Jonas",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "freut",
+          "pos": "verb",
+          "lemma": "freuen",
+          "meaning_ja": "喜ぶ",
+          "meaning_fr": "se réjouir"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "einen",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "netten",
+          "pos": "adjective",
+          "lemma": "nett",
+          "meaning_ja": "親切な",
+          "meaning_fr": "sympathique"
+        },
+        {
+          "surface": "neuen",
+          "pos": "adjective",
+          "lemma": "neu",
+          "meaning_ja": "新しい",
+          "meaning_fr": "nouveau"
+        },
+        {
+          "surface": "Nachbarn",
+          "pos": "noun",
+          "lemma": "Nachbar",
+          "meaning_ja": "隣人",
+          "meaning_fr": "voisin",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "gefunden",
+          "pos": "verb",
+          "lemma": "finden",
+          "meaning_ja": "見つける",
+          "meaning_fr": "trouver"
+        },
+        {
+          "surface": "zu",
+          "pos": "particle",
+          "lemma": "zu"
+        },
+        {
+          "surface": "haben",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "持つ",
+          "meaning_fr": "avoir"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        }
+      ],
+      "token_count": 99
+    },
+    {
+      "id": "t068",
+      "title": "Klimawandel und Alltag",
+      "subtitle": "Was jeder Einzelne tun kann",
+      "level": "B1",
+      "category": "Actualités",
+      "tokens": [
+        {
+          "surface": "Der",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "Klimawandel",
+          "pos": "noun",
+          "lemma": "Klimawandel",
+          "meaning_ja": "気候変動",
+          "meaning_fr": "changement climatique",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "betrifft",
+          "pos": "verb",
+          "lemma": "betreffen",
+          "meaning_ja": "影響する",
+          "meaning_fr": "concerner"
+        },
+        {
+          "surface": "uns",
+          "pos": "adverb",
+          "lemma": "uns",
+          "meaning_ja": "私たちに",
+          "meaning_fr": "nous"
+        },
+        {
+          "surface": "alle",
+          "pos": "adverb",
+          "lemma": "alle",
+          "meaning_ja": "全員",
+          "meaning_fr": "tous"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Immer",
+          "pos": "adverb",
+          "lemma": "immer",
+          "meaning_ja": "どんどん",
+          "meaning_fr": "de plus en plus"
+        },
+        {
+          "surface": "häufiger",
+          "pos": "adverb",
+          "lemma": "häufig",
+          "meaning_ja": "頻繁に",
+          "meaning_fr": "fréquemment"
+        },
+        {
+          "surface": "erleben",
+          "pos": "verb",
+          "lemma": "erleben",
+          "meaning_ja": "体験する",
+          "meaning_fr": "vivre"
+        },
+        {
+          "surface": "wir",
+          "pos": "pronoun",
+          "lemma": "wir"
+        },
+        {
+          "surface": "extreme",
+          "pos": "adjective",
+          "lemma": "extrem",
+          "meaning_ja": "極端な",
+          "meaning_fr": "extrême"
+        },
+        {
+          "surface": "Wetterereignisse",
+          "pos": "noun",
+          "lemma": "Wetterereignis",
+          "meaning_ja": "極端な気象",
+          "meaning_fr": "événements météorologiques extrêmes",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "Hitzewellen",
+          "pos": "noun",
+          "lemma": "Hitzewelle",
+          "meaning_ja": "熱波",
+          "meaning_fr": "vagues de chaleur",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "Überschwemmungen",
+          "pos": "noun",
+          "lemma": "Überschwemmung",
+          "meaning_ja": "洪水",
+          "meaning_fr": "inondations",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "lange",
+          "pos": "adjective",
+          "lemma": "lang",
+          "meaning_ja": "長い",
+          "meaning_fr": "long"
+        },
+        {
+          "surface": "Dürreperioden",
+          "pos": "noun",
+          "lemma": "Dürreperiode",
+          "meaning_ja": "干ばつ期",
+          "meaning_fr": "périodes de sécheresse",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Doch",
+          "pos": "adverb",
+          "lemma": "doch",
+          "meaning_ja": "しかし",
+          "meaning_fr": "pourtant"
+        },
+        {
+          "surface": "kann",
+          "pos": "verb",
+          "lemma": "können",
+          "meaning_ja": "できる",
+          "meaning_fr": "pouvoir"
+        },
+        {
+          "surface": "jeder",
+          "pos": "pronoun",
+          "lemma": "jeder"
+        },
+        {
+          "surface": "Einzelne",
+          "pos": "noun",
+          "lemma": "Einzelne",
+          "meaning_ja": "個人",
+          "meaning_fr": "individu",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "einen",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Beitrag",
+          "pos": "noun",
+          "lemma": "Beitrag",
+          "meaning_ja": "貢献",
+          "meaning_fr": "contribution",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "leisten",
+          "pos": "verb",
+          "lemma": "leisten",
+          "meaning_ja": "果たす",
+          "meaning_fr": "apporter"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ein",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "einfacher",
+          "pos": "adjective",
+          "lemma": "einfach",
+          "meaning_ja": "簡単な",
+          "meaning_fr": "simple"
+        },
+        {
+          "surface": "Anfang",
+          "pos": "noun",
+          "lemma": "Anfang",
+          "meaning_ja": "始め",
+          "meaning_fr": "début",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜です",
+          "meaning_fr": "être"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "Verzicht",
+          "pos": "noun",
+          "lemma": "Verzicht",
+          "meaning_ja": "断念・節制",
+          "meaning_fr": "renoncement",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf"
+        },
+        {
+          "surface": "unnötige",
+          "pos": "adjective",
+          "lemma": "unnötig",
+          "meaning_ja": "不必要な",
+          "meaning_fr": "inutile"
+        },
+        {
+          "surface": "Autofahrten",
+          "pos": "noun",
+          "lemma": "Autofahrt",
+          "meaning_ja": "自動車移動",
+          "meaning_fr": "trajets en voiture",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Wer",
+          "pos": "verb",
+          "lemma": "wer",
+          "meaning_ja": "誰が",
+          "meaning_fr": "celui qui"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Bus",
+          "pos": "noun",
+          "lemma": "Bus",
+          "meaning_ja": "バス",
+          "meaning_fr": "bus",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "oder",
+          "pos": "conjunction",
+          "lemma": "oder"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Fahrrad",
+          "pos": "noun",
+          "lemma": "Fahrrad",
+          "meaning_ja": "自転車",
+          "meaning_fr": "vélo",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "nimmt",
+          "pos": "verb",
+          "lemma": "nehmen",
+          "meaning_ja": "乗る",
+          "meaning_fr": "prendre"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "spart",
+          "pos": "verb",
+          "lemma": "sparen",
+          "meaning_ja": "節約する",
+          "meaning_fr": "économiser"
+        },
+        {
+          "surface": "nicht",
+          "pos": "adverb",
+          "lemma": "nicht",
+          "meaning_ja": "〜ない",
+          "meaning_fr": "ne pas"
+        },
+        {
+          "surface": "nur",
+          "pos": "adverb",
+          "lemma": "nur",
+          "meaning_ja": "だけ",
+          "meaning_fr": "seulement"
+        },
+        {
+          "surface": "Energie",
+          "pos": "noun",
+          "lemma": "Energie",
+          "meaning_ja": "エネルギー",
+          "meaning_fr": "énergie",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "sondern",
+          "pos": "adverb",
+          "lemma": "sondern",
+          "meaning_ja": "むしろ",
+          "meaning_fr": "mais aussi"
+        },
+        {
+          "surface": "auch",
+          "pos": "adverb",
+          "lemma": "auch",
+          "meaning_ja": "また",
+          "meaning_fr": "aussi"
+        },
+        {
+          "surface": "Geld",
+          "pos": "noun",
+          "lemma": "Geld",
+          "meaning_ja": "お金",
+          "meaning_fr": "argent",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Außerdem",
+          "pos": "adverb",
+          "lemma": "außerdem",
+          "meaning_ja": "さらに",
+          "meaning_fr": "en outre"
+        },
+        {
+          "surface": "lohnt",
+          "pos": "verb",
+          "lemma": "lohnen",
+          "meaning_ja": "価値がある",
+          "meaning_fr": "valoir la peine"
+        },
+        {
+          "surface": "es",
+          "pos": "pronoun",
+          "lemma": "es"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Fleischkonsum",
+          "pos": "noun",
+          "lemma": "Fleischkonsum",
+          "meaning_ja": "肉の消費",
+          "meaning_fr": "consommation de viande",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "zu",
+          "pos": "particle",
+          "lemma": "zu"
+        },
+        {
+          "surface": "reduzieren",
+          "pos": "verb",
+          "lemma": "reduzieren",
+          "meaning_ja": "減らす",
+          "meaning_fr": "réduire"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Die",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "Fleischproduktion",
+          "pos": "noun",
+          "lemma": "Fleischproduktion",
+          "meaning_ja": "畜産",
+          "meaning_fr": "production de viande",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "erzeugt",
+          "pos": "verb",
+          "lemma": "erzeugen",
+          "meaning_ja": "排出する",
+          "meaning_fr": "produire"
+        },
+        {
+          "surface": "große",
+          "pos": "adjective",
+          "lemma": "groß",
+          "meaning_ja": "大きな",
+          "meaning_fr": "grande"
+        },
+        {
+          "surface": "Mengen",
+          "pos": "noun",
+          "lemma": "Menge",
+          "meaning_ja": "量",
+          "meaning_fr": "quantités",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "an",
+          "pos": "preposition",
+          "lemma": "an"
+        },
+        {
+          "surface": "Treibhausgasen",
+          "pos": "noun",
+          "lemma": "Treibhausgas",
+          "meaning_ja": "温室効果ガス",
+          "meaning_fr": "gaz à effet de serre",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Kleine",
+          "pos": "adjective",
+          "lemma": "klein",
+          "meaning_ja": "小さな",
+          "meaning_fr": "petites"
+        },
+        {
+          "surface": "Veränderungen",
+          "pos": "noun",
+          "lemma": "Veränderung",
+          "meaning_ja": "変化",
+          "meaning_fr": "changements",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "Alltag",
+          "pos": "noun",
+          "lemma": "Alltag",
+          "meaning_ja": "日常",
+          "meaning_fr": "quotidien",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "können",
+          "pos": "verb",
+          "lemma": "können",
+          "meaning_ja": "できる",
+          "meaning_fr": "pouvoir"
+        },
+        {
+          "surface": "große",
+          "pos": "adjective",
+          "lemma": "groß",
+          "meaning_ja": "大きな",
+          "meaning_fr": "grande"
+        },
+        {
+          "surface": "Wirkung",
+          "pos": "noun",
+          "lemma": "Wirkung",
+          "meaning_ja": "効果",
+          "meaning_fr": "effet",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "haben",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "持つ",
+          "meaning_fr": "avoir"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "wenn",
+          "pos": "verb",
+          "lemma": "wenn",
+          "meaning_ja": "〜すれば",
+          "meaning_fr": "si"
+        },
+        {
+          "surface": "viele",
+          "pos": "pronoun",
+          "lemma": "viele"
+        },
+        {
+          "surface": "Menschen",
+          "pos": "noun",
+          "lemma": "Mensch",
+          "meaning_ja": "人々",
+          "meaning_fr": "personnes",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie"
+        },
+        {
+          "surface": "umsetzen",
+          "pos": "verb",
+          "lemma": "umsetzen",
+          "meaning_ja": "実施する",
+          "meaning_fr": "mettre en pratique"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        }
+      ],
+      "token_count": 88
+    },
+    {
+      "id": "t069",
+      "title": "Im Jobcenter",
+      "subtitle": "Beratungsgespräch zur Jobsuche",
+      "level": "B1",
+      "category": "Dialogues",
+      "tokens": [
+        {
+          "surface": "Beraterin",
+          "pos": "noun",
+          "lemma": "Beraterin",
+          "meaning_ja": "相談員",
+          "meaning_fr": "conseillère",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Guten",
+          "pos": "adverb",
+          "lemma": "gut",
+          "meaning_ja": "こんにちは",
+          "meaning_fr": "bonjour"
+        },
+        {
+          "surface": "Morgen",
+          "pos": "noun",
+          "lemma": "Morgen",
+          "meaning_ja": "朝",
+          "meaning_fr": "matin",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Wie",
+          "pos": "verb",
+          "lemma": "wie",
+          "meaning_ja": "どのように",
+          "meaning_fr": "comment"
+        },
+        {
+          "surface": "kann",
+          "pos": "verb",
+          "lemma": "können",
+          "meaning_ja": "できる",
+          "meaning_fr": "pouvoir"
+        },
+        {
+          "surface": "ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "Ihnen",
+          "pos": "pronoun",
+          "lemma": "Sie"
+        },
+        {
+          "surface": "helfen",
+          "pos": "verb",
+          "lemma": "helfen",
+          "meaning_ja": "助ける",
+          "meaning_fr": "aider"
+        },
+        {
+          "surface": "?",
+          "pos": "punctuation",
+          "lemma": "?"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Kunde",
+          "pos": "noun",
+          "lemma": "Kunde",
+          "meaning_ja": "お客様",
+          "meaning_fr": "client",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "suche",
+          "pos": "verb",
+          "lemma": "suchen",
+          "meaning_ja": "探す",
+          "meaning_fr": "chercher"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "neue",
+          "pos": "adjective",
+          "lemma": "neu",
+          "meaning_ja": "新しい",
+          "meaning_fr": "nouvelle"
+        },
+        {
+          "surface": "Stelle",
+          "pos": "noun",
+          "lemma": "Stelle",
+          "meaning_ja": "仕事・ポスト",
+          "meaning_fr": "poste",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als"
+        },
+        {
+          "surface": "Buchhalter",
+          "pos": "noun",
+          "lemma": "Buchhalter",
+          "meaning_ja": "会計士",
+          "meaning_fr": "comptable",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Mein",
+          "pos": "pronoun",
+          "lemma": "mein"
+        },
+        {
+          "surface": "Vertrag",
+          "pos": "noun",
+          "lemma": "Vertrag",
+          "meaning_ja": "契約",
+          "meaning_fr": "contrat",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "läuft",
+          "pos": "verb",
+          "lemma": "laufen",
+          "meaning_ja": "終了する",
+          "meaning_fr": "expirer"
+        },
+        {
+          "surface": "Ende",
+          "pos": "preposition",
+          "lemma": "Ende"
+        },
+        {
+          "surface": "des",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "genitive"
+        },
+        {
+          "surface": "Monats",
+          "pos": "noun",
+          "lemma": "Monat",
+          "meaning_ja": "月",
+          "meaning_fr": "mois",
+          "gender": "m",
+          "case": "genitive"
+        },
+        {
+          "surface": "aus",
+          "pos": "verb",
+          "lemma": "auslaufen",
+          "meaning_ja": "期限切れになる",
+          "meaning_fr": "expirer"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Beraterin",
+          "pos": "noun",
+          "lemma": "Beraterin",
+          "meaning_ja": "相談員",
+          "meaning_fr": "conseillère",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Verstehe",
+          "pos": "verb",
+          "lemma": "verstehen",
+          "meaning_ja": "分かりました",
+          "meaning_fr": "comprendre"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Haben",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "持っていますか",
+          "meaning_fr": "avoir"
+        },
+        {
+          "surface": "Sie",
+          "pos": "pronoun",
+          "lemma": "Sie"
+        },
+        {
+          "surface": "einen",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "aktuellen",
+          "pos": "adjective",
+          "lemma": "aktuell",
+          "meaning_ja": "最新の",
+          "meaning_fr": "récent"
+        },
+        {
+          "surface": "Lebenslauf",
+          "pos": "noun",
+          "lemma": "Lebenslauf",
+          "meaning_ja": "履歴書",
+          "meaning_fr": "curriculum vitae",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "dabei",
+          "pos": "preposition",
+          "lemma": "dabei"
+        },
+        {
+          "surface": "?",
+          "pos": "punctuation",
+          "lemma": "?"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Kunde",
+          "pos": "noun",
+          "lemma": "Kunde",
+          "meaning_ja": "お客様",
+          "meaning_fr": "client",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Ja",
+          "pos": "adverb",
+          "lemma": "ja",
+          "meaning_ja": "はい",
+          "meaning_fr": "oui"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "hier",
+          "pos": "pronoun",
+          "lemma": "hier"
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜です",
+          "meaning_fr": "être"
+        },
+        {
+          "surface": "er",
+          "pos": "pronoun",
+          "lemma": "er"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "habe",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "持っている",
+          "meaning_fr": "avoir"
+        },
+        {
+          "surface": "fünf",
+          "pos": "adjective",
+          "lemma": "fünf",
+          "meaning_ja": "五年",
+          "meaning_fr": "cinq"
+        },
+        {
+          "surface": "Jahre",
+          "pos": "noun",
+          "lemma": "Jahr",
+          "meaning_ja": "年",
+          "meaning_fr": "ans",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Erfahrung",
+          "pos": "noun",
+          "lemma": "Erfahrung",
+          "meaning_ja": "経験",
+          "meaning_fr": "expérience",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "Buchhaltung",
+          "pos": "noun",
+          "lemma": "Buchhaltung",
+          "meaning_ja": "会計",
+          "meaning_fr": "comptabilité",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Beraterin",
+          "pos": "noun",
+          "lemma": "Beraterin",
+          "meaning_ja": "相談員",
+          "meaning_fr": "conseillère",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Gut",
+          "pos": "adjective",
+          "lemma": "gut",
+          "meaning_ja": "いいですね",
+          "meaning_fr": "bien"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Wir",
+          "pos": "pronoun",
+          "lemma": "wir"
+        },
+        {
+          "surface": "können",
+          "pos": "verb",
+          "lemma": "können",
+          "meaning_ja": "〜できます",
+          "meaning_fr": "pouvoir"
+        },
+        {
+          "surface": "Ihnen",
+          "pos": "pronoun",
+          "lemma": "Sie"
+        },
+        {
+          "surface": "mehrere",
+          "pos": "adjective",
+          "lemma": "mehrere",
+          "meaning_ja": "いくつかの",
+          "meaning_fr": "plusieurs"
+        },
+        {
+          "surface": "offene",
+          "pos": "adjective",
+          "lemma": "offen",
+          "meaning_ja": "空いている",
+          "meaning_fr": "disponibles"
+        },
+        {
+          "surface": "Stellen",
+          "pos": "noun",
+          "lemma": "Stelle",
+          "meaning_ja": "求人",
+          "meaning_fr": "postes",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "zeigen",
+          "pos": "verb",
+          "lemma": "zeigen",
+          "meaning_ja": "見せる",
+          "meaning_fr": "montrer"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Kommen",
+          "pos": "verb",
+          "lemma": "kommen",
+          "meaning_ja": "来てください",
+          "meaning_fr": "venir"
+        },
+        {
+          "surface": "Sie",
+          "pos": "pronoun",
+          "lemma": "Sie"
+        },
+        {
+          "surface": "bitte",
+          "pos": "adverb",
+          "lemma": "bitte",
+          "meaning_ja": "お願いします",
+          "meaning_fr": "s'il vous plaît"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit"
+        },
+        {
+          "surface": "mir",
+          "pos": "pronoun",
+          "lemma": "mir"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        }
+      ],
+      "token_count": 83
+    },
+    {
+      "id": "t070",
+      "title": "Das Geburtstagsgeschenk",
+      "subtitle": "Eine kleine Überraschung",
+      "level": "A2",
+      "category": "Histoires",
+      "tokens": [
+        {
+          "surface": "Mia",
+          "pos": "noun",
+          "lemma": "Mia",
+          "meaning_ja": "ミア（名前）",
+          "meaning_fr": "Mia",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "hat",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "持っている",
+          "meaning_fr": "avoir"
+        },
+        {
+          "surface": "Montag",
+          "pos": "noun",
+          "lemma": "Montag",
+          "meaning_ja": "月曜日",
+          "meaning_fr": "lundi",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Geburtstag",
+          "pos": "noun",
+          "lemma": "Geburtstag",
+          "meaning_ja": "誕生日",
+          "meaning_fr": "anniversaire",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ihr",
+          "pos": "noun",
+          "lemma": "ihr",
+          "meaning_ja": "彼女の",
+          "meaning_fr": "son",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": "Bruder",
+          "pos": "noun",
+          "lemma": "Bruder",
+          "meaning_ja": "兄弟",
+          "meaning_fr": "frère",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "Felix",
+          "pos": "noun",
+          "lemma": "Felix",
+          "meaning_ja": "フェリックス（名前）",
+          "meaning_fr": "Felix",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "möchte",
+          "pos": "verb",
+          "lemma": "mögen",
+          "meaning_ja": "〜したい",
+          "meaning_fr": "vouloir"
+        },
+        {
+          "surface": "ihr",
+          "pos": "pronoun",
+          "lemma": "ihr"
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "besonderes",
+          "pos": "adjective",
+          "lemma": "besonder",
+          "meaning_ja": "特別な",
+          "meaning_fr": "spécial"
+        },
+        {
+          "surface": "Geschenk",
+          "pos": "noun",
+          "lemma": "Geschenk",
+          "meaning_ja": "プレゼント",
+          "meaning_fr": "cadeau",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "machen",
+          "pos": "verb",
+          "lemma": "machen",
+          "meaning_ja": "作る・する",
+          "meaning_fr": "faire"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Er",
+          "pos": "pronoun",
+          "lemma": "er"
+        },
+        {
+          "surface": "denkt",
+          "pos": "verb",
+          "lemma": "denken",
+          "meaning_ja": "考える",
+          "meaning_fr": "penser"
+        },
+        {
+          "surface": "lange",
+          "pos": "adverb",
+          "lemma": "lang",
+          "meaning_ja": "長く",
+          "meaning_fr": "longtemps"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Mia",
+          "pos": "noun",
+          "lemma": "Mia",
+          "meaning_ja": "ミア（名前）",
+          "meaning_fr": "Mia",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "liest",
+          "pos": "verb",
+          "lemma": "lesen",
+          "meaning_ja": "読む",
+          "meaning_fr": "lire"
+        },
+        {
+          "surface": "gern",
+          "pos": "adverb",
+          "lemma": "gern",
+          "meaning_ja": "喜んで",
+          "meaning_fr": "volontiers"
+        },
+        {
+          "surface": "Bücher",
+          "pos": "noun",
+          "lemma": "Buch",
+          "meaning_ja": "本",
+          "meaning_fr": "livres",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "hört",
+          "pos": "verb",
+          "lemma": "hören",
+          "meaning_ja": "聴く",
+          "meaning_fr": "écouter"
+        },
+        {
+          "surface": "Musik",
+          "pos": "noun",
+          "lemma": "Musik",
+          "meaning_ja": "音楽",
+          "meaning_fr": "musique",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Felix",
+          "pos": "noun",
+          "lemma": "Felix",
+          "meaning_ja": "フェリックス（名前）",
+          "meaning_fr": "Felix",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "geht",
+          "pos": "verb",
+          "lemma": "gehen",
+          "meaning_ja": "行く",
+          "meaning_fr": "aller"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "Buchhandlung",
+          "pos": "noun",
+          "lemma": "Buchhandlung",
+          "meaning_ja": "本屋",
+          "meaning_fr": "librairie",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "sucht",
+          "pos": "verb",
+          "lemma": "suchen",
+          "meaning_ja": "探す",
+          "meaning_fr": "chercher"
+        },
+        {
+          "surface": "einen",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "neuen",
+          "pos": "adjective",
+          "lemma": "neu",
+          "meaning_ja": "新しい",
+          "meaning_fr": "nouveau"
+        },
+        {
+          "surface": "Roman",
+          "pos": "noun",
+          "lemma": "Roman",
+          "meaning_ja": "小説",
+          "meaning_fr": "roman",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Der",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "Buchhändler",
+          "pos": "noun",
+          "lemma": "Buchhändler",
+          "meaning_ja": "本屋の店員",
+          "meaning_fr": "libraire",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "empfiehlt",
+          "pos": "verb",
+          "lemma": "empfehlen",
+          "meaning_ja": "勧める",
+          "meaning_fr": "recommander"
+        },
+        {
+          "surface": "ihm",
+          "pos": "pronoun",
+          "lemma": "ihm"
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "bekanntes",
+          "pos": "adjective",
+          "lemma": "bekannt",
+          "meaning_ja": "有名な",
+          "meaning_fr": "célèbre"
+        },
+        {
+          "surface": "Buch",
+          "pos": "noun",
+          "lemma": "Buch",
+          "meaning_ja": "本",
+          "meaning_fr": "livre",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "über",
+          "pos": "preposition",
+          "lemma": "über"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "abenteuerliche",
+          "pos": "adjective",
+          "lemma": "abenteuerlich",
+          "meaning_ja": "冒険的な",
+          "meaning_fr": "aventureux"
+        },
+        {
+          "surface": "Reise",
+          "pos": "noun",
+          "lemma": "Reise",
+          "meaning_ja": "旅",
+          "meaning_fr": "voyage",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Felix",
+          "pos": "noun",
+          "lemma": "Felix",
+          "meaning_ja": "フェリックス（名前）",
+          "meaning_fr": "Felix",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "kauft",
+          "pos": "verb",
+          "lemma": "kaufen",
+          "meaning_ja": "買う",
+          "meaning_fr": "acheter"
+        },
+        {
+          "surface": "es",
+          "pos": "pronoun",
+          "lemma": "es"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "wickelt",
+          "pos": "verb",
+          "lemma": "wickeln",
+          "meaning_ja": "包む",
+          "meaning_fr": "emballer"
+        },
+        {
+          "surface": "es",
+          "pos": "pronoun",
+          "lemma": "es"
+        },
+        {
+          "surface": "sorgfältig",
+          "pos": "adverb",
+          "lemma": "sorgfältig",
+          "meaning_ja": "丁寧に",
+          "meaning_fr": "soigneusement"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit"
+        },
+        {
+          "surface": "buntem",
+          "pos": "adjective",
+          "lemma": "bunt",
+          "meaning_ja": "カラフルな",
+          "meaning_fr": "coloré"
+        },
+        {
+          "surface": "Papier",
+          "pos": "noun",
+          "lemma": "Papier",
+          "meaning_ja": "紙",
+          "meaning_fr": "papier",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "ein",
+          "pos": "verb",
+          "lemma": "einwickeln",
+          "meaning_ja": "包む",
+          "meaning_fr": "emballer"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Am",
+          "pos": "preposition",
+          "lemma": "an"
+        },
+        {
+          "surface": "Morgen",
+          "pos": "noun",
+          "lemma": "Morgen",
+          "meaning_ja": "朝",
+          "meaning_fr": "matin",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "des",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "genitive"
+        },
+        {
+          "surface": "Geburtstags",
+          "pos": "noun",
+          "lemma": "Geburtstag",
+          "meaning_ja": "誕生日",
+          "meaning_fr": "anniversaire",
+          "gender": "m",
+          "case": "genitive"
+        },
+        {
+          "surface": "legt",
+          "pos": "verb",
+          "lemma": "legen",
+          "meaning_ja": "置く",
+          "meaning_fr": "poser"
+        },
+        {
+          "surface": "er",
+          "pos": "pronoun",
+          "lemma": "er"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Geschenk",
+          "pos": "noun",
+          "lemma": "Geschenk",
+          "meaning_ja": "プレゼント",
+          "meaning_fr": "cadeau",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Frühstückstisch",
+          "pos": "noun",
+          "lemma": "Frühstückstisch",
+          "meaning_ja": "朝食テーブル",
+          "meaning_fr": "table du petit-déjeuner",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Mia",
+          "pos": "noun",
+          "lemma": "Mia",
+          "meaning_ja": "ミア（名前）",
+          "meaning_fr": "Mia",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "freut",
+          "pos": "verb",
+          "lemma": "freuen",
+          "meaning_ja": "喜ぶ",
+          "meaning_fr": "se réjouir"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich"
+        },
+        {
+          "surface": "sehr",
+          "pos": "adverb",
+          "lemma": "sehr",
+          "meaning_ja": "とても",
+          "meaning_fr": "beaucoup"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        }
+      ],
+      "token_count": 79
+    },
+    {
+      "id": "t071",
+      "title": "Digitalisierung im Gesundheitswesen",
+      "subtitle": "Chancen und Herausforderungen",
+      "level": "B2",
+      "category": "Actualités",
+      "tokens": [
+        {
+          "surface": "Die",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "Digitalisierung",
+          "pos": "noun",
+          "lemma": "Digitalisierung",
+          "meaning_ja": "デジタル化",
+          "meaning_fr": "numérisation",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "verändert",
+          "pos": "verb",
+          "lemma": "verändern",
+          "meaning_ja": "変える",
+          "meaning_fr": "transformer"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Gesundheitswesen",
+          "pos": "noun",
+          "lemma": "Gesundheitswesen",
+          "meaning_ja": "医療制度",
+          "meaning_fr": "système de santé",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "grundlegender",
+          "pos": "adjective",
+          "lemma": "grundlegend",
+          "meaning_ja": "根本的な",
+          "meaning_fr": "fondamentale"
+        },
+        {
+          "surface": "Weise",
+          "pos": "noun",
+          "lemma": "Weise",
+          "meaning_ja": "方法",
+          "meaning_fr": "manière",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Elektronische",
+          "pos": "noun",
+          "lemma": "elektronisch",
+          "meaning_ja": "電子的な",
+          "meaning_fr": "électronique",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": "Patientenakten",
+          "pos": "noun",
+          "lemma": "Patientenakte",
+          "meaning_ja": "電子カルテ",
+          "meaning_fr": "dossiers patients électroniques",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "telemedizinische",
+          "pos": "adjective",
+          "lemma": "telemedizinisch",
+          "meaning_ja": "遠隔医療の",
+          "meaning_fr": "télémédicaux"
+        },
+        {
+          "surface": "Konsultationen",
+          "pos": "noun",
+          "lemma": "Konsultation",
+          "meaning_ja": "遠隔診察",
+          "meaning_fr": "consultations",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "KI-gestützte",
+          "pos": "noun",
+          "lemma": "KI-gestützt",
+          "meaning_ja": "AI支援の",
+          "meaning_fr": "soutenu par IA",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "Diagnosen",
+          "pos": "noun",
+          "lemma": "Diagnose",
+          "meaning_ja": "診断",
+          "meaning_fr": "diagnostics",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "bieten",
+          "pos": "verb",
+          "lemma": "bieten",
+          "meaning_ja": "提供する",
+          "meaning_fr": "offrir"
+        },
+        {
+          "surface": "neue",
+          "pos": "adjective",
+          "lemma": "neu",
+          "meaning_ja": "新しい",
+          "meaning_fr": "nouvelles"
+        },
+        {
+          "surface": "Möglichkeiten",
+          "pos": "noun",
+          "lemma": "Möglichkeit",
+          "meaning_ja": "可能性",
+          "meaning_fr": "possibilités",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Patienten",
+          "pos": "noun",
+          "lemma": "Patient",
+          "meaning_ja": "患者",
+          "meaning_fr": "patients",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "können",
+          "pos": "verb",
+          "lemma": "können",
+          "meaning_ja": "〜できる",
+          "meaning_fr": "pouvoir"
+        },
+        {
+          "surface": "nun",
+          "pos": "adverb",
+          "lemma": "nun",
+          "meaning_ja": "今や",
+          "meaning_fr": "désormais"
+        },
+        {
+          "surface": "bequem",
+          "pos": "adjective",
+          "lemma": "bequem",
+          "meaning_ja": "手軽に",
+          "meaning_fr": "commodément"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von"
+        },
+        {
+          "surface": "zuhause",
+          "pos": "noun",
+          "lemma": "zuhause",
+          "meaning_ja": "自宅",
+          "meaning_fr": "chez soi",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "aus",
+          "pos": "preposition",
+          "lemma": "aus"
+        },
+        {
+          "surface": "einen",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Arzt",
+          "pos": "noun",
+          "lemma": "Arzt",
+          "meaning_ja": "医師",
+          "meaning_fr": "médecin",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "konsultieren",
+          "pos": "verb",
+          "lemma": "konsultieren",
+          "meaning_ja": "相談する",
+          "meaning_fr": "consulter"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Gleichzeitig",
+          "pos": "adverb",
+          "lemma": "gleichzeitig",
+          "meaning_ja": "同時に",
+          "meaning_fr": "simultanément"
+        },
+        {
+          "surface": "stellt",
+          "pos": "verb",
+          "lemma": "stellen",
+          "meaning_ja": "生じさせる",
+          "meaning_fr": "poser"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "Digitalisierung",
+          "pos": "noun",
+          "lemma": "Digitalisierung",
+          "meaning_ja": "デジタル化",
+          "meaning_fr": "numérisation",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "neue",
+          "pos": "adjective",
+          "lemma": "neu",
+          "meaning_ja": "新しい",
+          "meaning_fr": "nouveaux"
+        },
+        {
+          "surface": "Anforderungen",
+          "pos": "noun",
+          "lemma": "Anforderung",
+          "meaning_ja": "要求",
+          "meaning_fr": "exigences",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "an",
+          "pos": "preposition",
+          "lemma": "an"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Datenschutz",
+          "pos": "noun",
+          "lemma": "Datenschutz",
+          "meaning_ja": "データ保護",
+          "meaning_fr": "protection des données",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Patientendaten",
+          "pos": "noun",
+          "lemma": "Patientendaten",
+          "meaning_ja": "患者データ",
+          "meaning_fr": "données des patients",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": "müssen",
+          "pos": "verb",
+          "lemma": "müssen",
+          "meaning_ja": "〜しなければならない",
+          "meaning_fr": "devoir"
+        },
+        {
+          "surface": "sicher",
+          "pos": "adjective",
+          "lemma": "sicher",
+          "meaning_ja": "安全に",
+          "meaning_fr": "en sécurité"
+        },
+        {
+          "surface": "gespeichert",
+          "pos": "verb",
+          "lemma": "speichern",
+          "meaning_ja": "保存される",
+          "meaning_fr": "être stocké"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "vor",
+          "pos": "preposition",
+          "lemma": "vor"
+        },
+        {
+          "surface": "unbefugtem",
+          "pos": "adjective",
+          "lemma": "unbefugt",
+          "meaning_ja": "不正な",
+          "meaning_fr": "non autorisé"
+        },
+        {
+          "surface": "Zugriff",
+          "pos": "noun",
+          "lemma": "Zugriff",
+          "meaning_ja": "アクセス",
+          "meaning_fr": "accès",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "geschützt",
+          "pos": "verb",
+          "lemma": "schützen",
+          "meaning_ja": "守られる",
+          "meaning_fr": "être protégé"
+        },
+        {
+          "surface": "werden",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜される",
+          "meaning_fr": "devenir"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Darüber",
+          "pos": "adverb",
+          "lemma": "darüber"
+        },
+        {
+          "surface": "hinaus",
+          "pos": "adverb",
+          "lemma": "hinaus",
+          "meaning_ja": "〜を超えて",
+          "meaning_fr": "au-delà"
+        },
+        {
+          "surface": "besteht",
+          "pos": "verb",
+          "lemma": "bestehen",
+          "meaning_ja": "存在する",
+          "meaning_fr": "exister"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "Gefahr",
+          "pos": "noun",
+          "lemma": "Gefahr",
+          "meaning_ja": "危険",
+          "meaning_fr": "danger",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "dass",
+          "pos": "conjunction",
+          "lemma": "dass"
+        },
+        {
+          "surface": "ältere",
+          "pos": "adjective",
+          "lemma": "alt",
+          "meaning_ja": "高齢の",
+          "meaning_fr": "âgées"
+        },
+        {
+          "surface": "oder",
+          "pos": "conjunction",
+          "lemma": "oder"
+        },
+        {
+          "surface": "weniger",
+          "pos": "adjective",
+          "lemma": "wenig",
+          "meaning_ja": "少ない",
+          "meaning_fr": "moins"
+        },
+        {
+          "surface": "digitalaffine",
+          "pos": "adjective",
+          "lemma": "digitalaffin",
+          "meaning_ja": "デジタルに親しみのない",
+          "meaning_fr": "peu à l'aise avec le numérique"
+        },
+        {
+          "surface": "Bevölkerungsgruppen",
+          "pos": "noun",
+          "lemma": "Bevölkerungsgruppe",
+          "meaning_ja": "人口グループ",
+          "meaning_fr": "groupes de population",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "benachteiligt",
+          "pos": "verb",
+          "lemma": "benachteiligen",
+          "meaning_ja": "不利に扱われる",
+          "meaning_fr": "désavantager"
+        },
+        {
+          "surface": "werden",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜される",
+          "meaning_fr": "devenir"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Eine",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "erfolgreiche",
+          "pos": "adjective",
+          "lemma": "erfolgreich",
+          "meaning_ja": "成功した",
+          "meaning_fr": "réussie"
+        },
+        {
+          "surface": "Digitalisierung",
+          "pos": "noun",
+          "lemma": "Digitalisierung",
+          "meaning_ja": "デジタル化",
+          "meaning_fr": "numérisation",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "erfordert",
+          "pos": "verb",
+          "lemma": "erfordern",
+          "meaning_ja": "必要とする",
+          "meaning_fr": "nécessiter"
+        },
+        {
+          "surface": "daher",
+          "pos": "adverb",
+          "lemma": "daher",
+          "meaning_ja": "それゆえ",
+          "meaning_fr": "par conséquent"
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "hohes",
+          "pos": "adjective",
+          "lemma": "hoch",
+          "meaning_ja": "高い",
+          "meaning_fr": "haut"
+        },
+        {
+          "surface": "Maß",
+          "pos": "noun",
+          "lemma": "Maß",
+          "meaning_ja": "程度",
+          "meaning_fr": "niveau",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "an",
+          "pos": "preposition",
+          "lemma": "an"
+        },
+        {
+          "surface": "Inklusion",
+          "pos": "noun",
+          "lemma": "Inklusion",
+          "meaning_ja": "包摂",
+          "meaning_fr": "inclusion",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        }
+      ],
+      "token_count": 79
+    },
+    {
+      "id": "t072",
+      "title": "Verhandlung im Büro",
+      "subtitle": "Gehaltsverhandlung zwischen Mitarbeiter und Vorgesetztem",
+      "level": "B2",
+      "category": "Dialogues",
+      "tokens": [
+        {
+          "surface": "Mitarbeiter",
+          "pos": "noun",
+          "lemma": "Mitarbeiter",
+          "meaning_ja": "社員",
+          "meaning_fr": "employé",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Danke",
+          "pos": "verb",
+          "lemma": "danken",
+          "meaning_ja": "ありがとう",
+          "meaning_fr": "merci"
+        },
+        {
+          "surface": "für",
+          "pos": "preposition",
+          "lemma": "für"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Gespräch",
+          "pos": "noun",
+          "lemma": "Gespräch",
+          "meaning_ja": "会話",
+          "meaning_fr": "entretien",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "möchte",
+          "pos": "verb",
+          "lemma": "mögen",
+          "meaning_ja": "〜したい",
+          "meaning_fr": "souhaiter"
+        },
+        {
+          "surface": "gerne",
+          "pos": "adverb",
+          "lemma": "gerne",
+          "meaning_ja": "喜んで",
+          "meaning_fr": "volontiers"
+        },
+        {
+          "surface": "über",
+          "pos": "preposition",
+          "lemma": "über"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "Gehaltserhöhung",
+          "pos": "noun",
+          "lemma": "Gehaltserhöhung",
+          "meaning_ja": "昇給",
+          "meaning_fr": "augmentation de salaire",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "sprechen",
+          "pos": "verb",
+          "lemma": "sprechen",
+          "meaning_ja": "話す",
+          "meaning_fr": "parler"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Vorgesetzter",
+          "pos": "noun",
+          "lemma": "Vorgesetzter",
+          "meaning_ja": "上司",
+          "meaning_fr": "supérieur",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "höre",
+          "pos": "verb",
+          "lemma": "hören",
+          "meaning_ja": "聞く",
+          "meaning_fr": "écouter"
+        },
+        {
+          "surface": "Sie",
+          "pos": "pronoun",
+          "lemma": "Sie"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Begründen",
+          "pos": "verb",
+          "lemma": "begründen",
+          "meaning_ja": "根拠を示す",
+          "meaning_fr": "justifier"
+        },
+        {
+          "surface": "Sie",
+          "pos": "pronoun",
+          "lemma": "Sie"
+        },
+        {
+          "surface": "mir",
+          "pos": "pronoun",
+          "lemma": "mir"
+        },
+        {
+          "surface": "Ihre",
+          "pos": "pronoun",
+          "lemma": "Ihre"
+        },
+        {
+          "surface": "Anfrage",
+          "pos": "noun",
+          "lemma": "Anfrage",
+          "meaning_ja": "要求",
+          "meaning_fr": "demande",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Mitarbeiter",
+          "pos": "noun",
+          "lemma": "Mitarbeiter",
+          "meaning_ja": "社員",
+          "meaning_fr": "employé",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "habe",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "持っている",
+          "meaning_fr": "avoir"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "letzten",
+          "pos": "adjective",
+          "lemma": "letzt",
+          "meaning_ja": "昨年の",
+          "meaning_fr": "dernière"
+        },
+        {
+          "surface": "Jahr",
+          "pos": "noun",
+          "lemma": "Jahr",
+          "meaning_ja": "年",
+          "meaning_fr": "année",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "drei",
+          "pos": "adjective",
+          "lemma": "drei",
+          "meaning_ja": "三つの",
+          "meaning_fr": "trois"
+        },
+        {
+          "surface": "neue",
+          "pos": "adjective",
+          "lemma": "neu",
+          "meaning_ja": "新しい",
+          "meaning_fr": "nouveaux"
+        },
+        {
+          "surface": "Projekte",
+          "pos": "noun",
+          "lemma": "Projekt",
+          "meaning_ja": "プロジェクト",
+          "meaning_fr": "projets",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "erfolgreich",
+          "pos": "adjective",
+          "lemma": "erfolgreich",
+          "meaning_ja": "成功裏に",
+          "meaning_fr": "avec succès"
+        },
+        {
+          "surface": "abgeschlossen",
+          "pos": "verb",
+          "lemma": "abschließen",
+          "meaning_ja": "完了させる",
+          "meaning_fr": "mener à bien"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Außerdem",
+          "pos": "adverb",
+          "lemma": "außerdem",
+          "meaning_ja": "さらに",
+          "meaning_fr": "de plus"
+        },
+        {
+          "surface": "habe",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "持っている",
+          "meaning_fr": "avoir"
+        },
+        {
+          "surface": "ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "Team",
+          "pos": "noun",
+          "lemma": "Team",
+          "meaning_ja": "チーム",
+          "meaning_fr": "équipe",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "bei",
+          "pos": "preposition",
+          "lemma": "bei"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "Einführung",
+          "pos": "noun",
+          "lemma": "Einführung",
+          "meaning_ja": "導入",
+          "meaning_fr": "introduction",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "des",
+          "pos": "article",
+          "lemma": "das",
+          "gender": "n",
+          "case": "genitive"
+        },
+        {
+          "surface": "neuen",
+          "pos": "adjective",
+          "lemma": "neu",
+          "meaning_ja": "新しい",
+          "meaning_fr": "nouveau"
+        },
+        {
+          "surface": "Systems",
+          "pos": "noun",
+          "lemma": "System",
+          "meaning_ja": "システム",
+          "meaning_fr": "système",
+          "gender": "n",
+          "case": "genitive"
+        },
+        {
+          "surface": "geleitet",
+          "pos": "verb",
+          "lemma": "leiten",
+          "meaning_ja": "率いた",
+          "meaning_fr": "diriger"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Vorgesetzter",
+          "pos": "noun",
+          "lemma": "Vorgesetzter",
+          "meaning_ja": "上司",
+          "meaning_fr": "supérieur",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Das",
+          "pos": "pronoun",
+          "lemma": "das"
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜です",
+          "meaning_fr": "être"
+        },
+        {
+          "surface": "beeindruckend",
+          "pos": "adverb",
+          "lemma": "beeindruckend",
+          "meaning_ja": "印象的な",
+          "meaning_fr": "impressionnant"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Welche",
+          "pos": "pronoun",
+          "lemma": "welche"
+        },
+        {
+          "surface": "Zahl",
+          "pos": "noun",
+          "lemma": "Zahl",
+          "meaning_ja": "数字・金額",
+          "meaning_fr": "chiffre",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "haben",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "考えている",
+          "meaning_fr": "envisager"
+        },
+        {
+          "surface": "Sie",
+          "pos": "pronoun",
+          "lemma": "Sie"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "Kopf",
+          "pos": "noun",
+          "lemma": "Kopf",
+          "meaning_ja": "頭・念頭",
+          "meaning_fr": "tête",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "?",
+          "pos": "punctuation",
+          "lemma": "?"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Mitarbeiter",
+          "pos": "noun",
+          "lemma": "Mitarbeiter",
+          "meaning_ja": "社員",
+          "meaning_fr": "employé",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "würde",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜と思います",
+          "meaning_fr": "aimerais"
+        },
+        {
+          "surface": "mir",
+          "pos": "pronoun",
+          "lemma": "mir"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "Erhöhung",
+          "pos": "noun",
+          "lemma": "Erhöhung",
+          "meaning_ja": "増加",
+          "meaning_fr": "augmentation",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von"
+        },
+        {
+          "surface": "zehn",
+          "pos": "adjective",
+          "lemma": "zehn",
+          "meaning_ja": "十",
+          "meaning_fr": "dix"
+        },
+        {
+          "surface": "Prozent",
+          "pos": "noun",
+          "lemma": "Prozent",
+          "meaning_ja": "パーセント",
+          "meaning_fr": "pour cent",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "wünschen",
+          "pos": "verb",
+          "lemma": "wünschen",
+          "meaning_ja": "望む",
+          "meaning_fr": "souhaiter"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        },
+        {
+          "surface": "Vorgesetzter",
+          "pos": "noun",
+          "lemma": "Vorgesetzter",
+          "meaning_ja": "上司",
+          "meaning_fr": "supérieur",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": ":",
+          "pos": "punctuation",
+          "lemma": ":"
+        },
+        {
+          "surface": "„",
+          "pos": "punctuation",
+          "lemma": "„"
+        },
+        {
+          "surface": "Das",
+          "pos": "pronoun",
+          "lemma": "das"
+        },
+        {
+          "surface": "muss",
+          "pos": "verb",
+          "lemma": "müssen",
+          "meaning_ja": "〜しなければならない",
+          "meaning_fr": "devoir"
+        },
+        {
+          "surface": "ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "Geschäftsleitung",
+          "pos": "noun",
+          "lemma": "Geschäftsleitung",
+          "meaning_ja": "経営陣",
+          "meaning_fr": "direction",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "besprechen",
+          "pos": "verb",
+          "lemma": "besprechen",
+          "meaning_ja": "相談する",
+          "meaning_fr": "discuter"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Ich",
+          "pos": "pronoun",
+          "lemma": "ich"
+        },
+        {
+          "surface": "melde",
+          "pos": "verb",
+          "lemma": "melden",
+          "meaning_ja": "連絡する",
+          "meaning_fr": "donner des nouvelles"
+        },
+        {
+          "surface": "mich",
+          "pos": "pronoun",
+          "lemma": "mich"
+        },
+        {
+          "surface": "nächste",
+          "pos": "adverb",
+          "lemma": "nächste",
+          "meaning_ja": "来週",
+          "meaning_fr": "la semaine prochaine"
+        },
+        {
+          "surface": "Woche",
+          "pos": "noun",
+          "lemma": "Woche",
+          "meaning_ja": "週",
+          "meaning_fr": "semaine",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "\"",
+          "pos": "punctuation",
+          "lemma": "\""
+        }
+      ],
+      "token_count": 102
+    },
+    {
+      "id": "t073",
+      "title": "Ein Tag in der Stadt",
+      "subtitle": "Stadtbummel mit Überraschungen",
+      "level": "B1",
+      "category": "Histoires",
+      "tokens": [
+        {
+          "surface": "Anna",
+          "pos": "noun",
+          "lemma": "Anna",
+          "meaning_ja": "アンナ（名前）",
+          "meaning_fr": "Anna",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "Peter",
+          "pos": "noun",
+          "lemma": "Peter",
+          "meaning_ja": "ペーター（名前）",
+          "meaning_fr": "Peter",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "verbringen",
+          "pos": "verb",
+          "lemma": "verbringen",
+          "meaning_ja": "過ごす",
+          "meaning_fr": "passer"
+        },
+        {
+          "surface": "einen",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "Samstag",
+          "pos": "noun",
+          "lemma": "Samstag",
+          "meaning_ja": "土曜日",
+          "meaning_fr": "samedi",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "Innenstadt",
+          "pos": "noun",
+          "lemma": "Innenstadt",
+          "meaning_ja": "市内",
+          "meaning_fr": "centre-ville",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Zunächst",
+          "pos": "noun",
+          "lemma": "zunächst",
+          "meaning_ja": "まず",
+          "meaning_fr": "d'abord",
+          "gender": "n",
+          "case": "nominative"
+        },
+        {
+          "surface": "besuchen",
+          "pos": "verb",
+          "lemma": "besuchen",
+          "meaning_ja": "訪れる",
+          "meaning_fr": "visiter"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "lokalen",
+          "pos": "adjective",
+          "lemma": "lokal",
+          "meaning_ja": "地元の",
+          "meaning_fr": "local"
+        },
+        {
+          "surface": "Wochenmarkt",
+          "pos": "noun",
+          "lemma": "Wochenmarkt",
+          "meaning_ja": "週市",
+          "meaning_fr": "marché hebdomadaire",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "wo",
+          "pos": "preposition",
+          "lemma": "wo"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie"
+        },
+        {
+          "surface": "frisches",
+          "pos": "adjective",
+          "lemma": "frisch",
+          "meaning_ja": "新鮮な",
+          "meaning_fr": "frais"
+        },
+        {
+          "surface": "Gemüse",
+          "pos": "noun",
+          "lemma": "Gemüse",
+          "meaning_ja": "野菜",
+          "meaning_fr": "légumes",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "Obst",
+          "pos": "noun",
+          "lemma": "Obst",
+          "meaning_ja": "果物",
+          "meaning_fr": "fruits",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "kaufen",
+          "pos": "verb",
+          "lemma": "kaufen",
+          "meaning_ja": "買う",
+          "meaning_fr": "acheter"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Danach",
+          "pos": "adverb",
+          "lemma": "danach",
+          "meaning_ja": "その後",
+          "meaning_fr": "ensuite"
+        },
+        {
+          "surface": "schlendern",
+          "pos": "verb",
+          "lemma": "schlendern",
+          "meaning_ja": "ぶらぶら歩く",
+          "meaning_fr": "se promener"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie"
+        },
+        {
+          "surface": "durch",
+          "pos": "preposition",
+          "lemma": "durch"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "engen",
+          "pos": "adjective",
+          "lemma": "eng",
+          "meaning_ja": "細い",
+          "meaning_fr": "étroites"
+        },
+        {
+          "surface": "Gassen",
+          "pos": "noun",
+          "lemma": "Gasse",
+          "meaning_ja": "路地",
+          "meaning_fr": "ruelles",
+          "gender": "f",
+          "case": "accusative"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "genitive"
+        },
+        {
+          "surface": "Altstadt",
+          "pos": "noun",
+          "lemma": "Altstadt",
+          "meaning_ja": "旧市街",
+          "meaning_fr": "vieille ville",
+          "gender": "f",
+          "case": "genitive"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "In",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "einem",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "kleinen",
+          "pos": "adjective",
+          "lemma": "klein",
+          "meaning_ja": "小さな",
+          "meaning_fr": "petit"
+        },
+        {
+          "surface": "Antiquariat",
+          "pos": "noun",
+          "lemma": "Antiquariat",
+          "meaning_ja": "古本屋",
+          "meaning_fr": "bouquinerie",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": "findet",
+          "pos": "verb",
+          "lemma": "finden",
+          "meaning_ja": "見つける",
+          "meaning_fr": "trouver"
+        },
+        {
+          "surface": "Anna",
+          "pos": "noun",
+          "lemma": "Anna",
+          "meaning_ja": "アンナ（名前）",
+          "meaning_fr": "Anna",
+          "gender": "f",
+          "case": "nominative"
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "altes",
+          "pos": "adjective",
+          "lemma": "alt",
+          "meaning_ja": "古い",
+          "meaning_fr": "vieux"
+        },
+        {
+          "surface": "Kochbuch",
+          "pos": "noun",
+          "lemma": "Kochbuch",
+          "meaning_ja": "料理本",
+          "meaning_fr": "livre de cuisine",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "das",
+          "pos": "conjunction",
+          "lemma": "das"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie"
+        },
+        {
+          "surface": "sofort",
+          "pos": "adverb",
+          "lemma": "sofort",
+          "meaning_ja": "すぐに",
+          "meaning_fr": "immédiatement"
+        },
+        {
+          "surface": "begeistert",
+          "pos": "verb",
+          "lemma": "begeistern",
+          "meaning_ja": "魅了する",
+          "meaning_fr": "enthousiasmer"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Peter",
+          "pos": "noun",
+          "lemma": "Peter",
+          "meaning_ja": "ペーター（名前）",
+          "meaning_fr": "Peter",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "hingegen",
+          "pos": "adverb",
+          "lemma": "hingegen",
+          "meaning_ja": "一方",
+          "meaning_fr": "en revanche"
+        },
+        {
+          "surface": "interessiert",
+          "pos": "verb",
+          "lemma": "interessieren",
+          "meaning_ja": "興味がある",
+          "meaning_fr": "s'intéresser"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich"
+        },
+        {
+          "surface": "für",
+          "pos": "preposition",
+          "lemma": "für"
+        },
+        {
+          "surface": "einen",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "alten",
+          "pos": "adjective",
+          "lemma": "alt",
+          "meaning_ja": "古い",
+          "meaning_fr": "vieux"
+        },
+        {
+          "surface": "Stadtplan",
+          "pos": "noun",
+          "lemma": "Stadtplan",
+          "meaning_ja": "古い地図",
+          "meaning_fr": "plan de ville",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "an",
+          "pos": "preposition",
+          "lemma": "an"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "die",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": "Wand",
+          "pos": "noun",
+          "lemma": "Wand",
+          "meaning_ja": "壁",
+          "meaning_fr": "mur",
+          "gender": "f",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Gegen",
+          "pos": "preposition",
+          "lemma": "gegen"
+        },
+        {
+          "surface": "Mittag",
+          "pos": "noun",
+          "lemma": "Mittag",
+          "meaning_ja": "昼",
+          "meaning_fr": "midi",
+          "gender": "m",
+          "case": "accusative"
+        },
+        {
+          "surface": "kehren",
+          "pos": "verb",
+          "lemma": "kehren",
+          "meaning_ja": "入る",
+          "meaning_fr": "entrer"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in"
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "gemütliches",
+          "pos": "adjective",
+          "lemma": "gemütlich",
+          "meaning_ja": "居心地のよい",
+          "meaning_fr": "confortable"
+        },
+        {
+          "surface": "Café",
+          "pos": "noun",
+          "lemma": "Café",
+          "meaning_ja": "カフェ",
+          "meaning_fr": "café",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": "ein",
+          "pos": "verb",
+          "lemma": "einkehren",
+          "meaning_ja": "立ち寄る",
+          "meaning_fr": "s'arrêter"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "bestellen",
+          "pos": "verb",
+          "lemma": "bestellen",
+          "meaning_ja": "注文する",
+          "meaning_fr": "commander"
+        },
+        {
+          "surface": "Mittagessen",
+          "pos": "noun",
+          "lemma": "Mittagessen",
+          "meaning_ja": "昼食",
+          "meaning_fr": "déjeuner",
+          "gender": "n",
+          "case": "accusative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Der",
+          "pos": "article",
+          "lemma": "der",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "Nachmittag",
+          "pos": "noun",
+          "lemma": "Nachmittag",
+          "meaning_ja": "午後",
+          "meaning_fr": "après-midi",
+          "gender": "m",
+          "case": "nominative"
+        },
+        {
+          "surface": "vergeht",
+          "pos": "verb",
+          "lemma": "vergehen",
+          "meaning_ja": "過ぎる",
+          "meaning_fr": "passer"
+        },
+        {
+          "surface": "schnell",
+          "pos": "adverb",
+          "lemma": "schnell",
+          "meaning_ja": "素早く",
+          "meaning_fr": "rapidement"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und"
+        },
+        {
+          "surface": "fröhlich",
+          "pos": "adjective",
+          "lemma": "fröhlich",
+          "meaning_ja": "楽しく",
+          "meaning_fr": "joyeusement"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        },
+        {
+          "surface": "Am",
+          "pos": "preposition",
+          "lemma": "an"
+        },
+        {
+          "surface": "Abend",
+          "pos": "noun",
+          "lemma": "Abend",
+          "meaning_ja": "夕方",
+          "meaning_fr": "soir",
+          "gender": "m",
+          "case": "dative"
+        },
+        {
+          "surface": "fahren",
+          "pos": "verb",
+          "lemma": "fahren",
+          "meaning_ja": "帰る",
+          "meaning_fr": "rentrer"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie"
+        },
+        {
+          "surface": "müde",
+          "pos": "adjective",
+          "lemma": "müde",
+          "meaning_ja": "疲れて",
+          "meaning_fr": "fatigués"
+        },
+        {
+          "surface": ",",
+          "pos": "punctuation",
+          "lemma": ","
+        },
+        {
+          "surface": "aber",
+          "pos": "conjunction",
+          "lemma": "aber"
+        },
+        {
+          "surface": "zufrieden",
+          "pos": "adjective",
+          "lemma": "zufrieden",
+          "meaning_ja": "満足して",
+          "meaning_fr": "satisfaits"
+        },
+        {
+          "surface": "nach",
+          "pos": "preposition",
+          "lemma": "nach"
+        },
+        {
+          "surface": "Hause",
+          "pos": "noun",
+          "lemma": "Hause",
+          "meaning_ja": "家",
+          "meaning_fr": "maison",
+          "gender": "n",
+          "case": "dative"
+        },
+        {
+          "surface": ".",
+          "pos": "punctuation",
+          "lemma": "."
+        }
+      ],
+      "token_count": 93
     }
   ]
 }

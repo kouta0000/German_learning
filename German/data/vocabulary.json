@@ -1,15 +1,15 @@
 {
   "meta": {
     "total": 907,
-    "version": "4.0",
+    "version": "5.0",
     "levels": {
       "A1": 100,
       "A2": 100,
       "B1": 200,
-      "B2": 200,
-      "C1": 307
+      "B2": 379,
+      "C1": 421
     },
-    "total_words": 1000
+    "total_words": 1154
   },
   "words": [
     {
@@ -5793,34 +5793,6 @@
       }
     },
     {
-      "id": "w0202",
-      "lemma": "erklären",
-      "pos": "verb",
-      "meaning_ja": "説明する",
-      "meaning_fr": "expliquer",
-      "level": "B1",
-      "conjugation": {
-        "präsens": {
-          "ich": "erkläre",
-          "du": "erklärst",
-          "er": "erklärt",
-          "wir": "erklären",
-          "ihr": "erklärt",
-          "sie": "erklären"
-        },
-        "präteritum": {
-          "ich": "erklärte",
-          "du": "erklärtest",
-          "er": "erklärte",
-          "wir": "erklärten",
-          "ihr": "erklärtet",
-          "sie": "erklärten"
-        },
-        "partizip_II": "erklärt",
-        "hilfsverb": "haben"
-      }
-    },
-    {
       "id": "w0203",
       "lemma": "vergleichen",
       "pos": "verb",
@@ -5873,34 +5845,6 @@
           "sie": "entschieden"
         },
         "partizip_II": "entschieden",
-        "hilfsverb": "haben"
-      }
-    },
-    {
-      "id": "w0205",
-      "lemma": "empfehlen",
-      "pos": "verb",
-      "meaning_ja": "勧める",
-      "meaning_fr": "recommander",
-      "level": "B1",
-      "conjugation": {
-        "präsens": {
-          "ich": "empfehle",
-          "du": "empfiehlst",
-          "er": "empfiehlt",
-          "wir": "empfehlen",
-          "ihr": "empfehlt",
-          "sie": "empfehlen"
-        },
-        "präteritum": {
-          "ich": "empfahl",
-          "du": "empfahlst",
-          "er": "empfahl",
-          "wir": "empfahlen",
-          "ihr": "empfahlt",
-          "sie": "empfahlen"
-        },
-        "partizip_II": "empfohlen",
         "hilfsverb": "haben"
       }
     },
@@ -5961,34 +5905,6 @@
       }
     },
     {
-      "id": "w0208",
-      "lemma": "erlauben",
-      "pos": "verb",
-      "meaning_ja": "許可する",
-      "meaning_fr": "permettre",
-      "level": "B1",
-      "conjugation": {
-        "präsens": {
-          "ich": "erlaube",
-          "du": "erlaubst",
-          "er": "erlaubt",
-          "wir": "erlauben",
-          "ihr": "erlaubt",
-          "sie": "erlauben"
-        },
-        "präteritum": {
-          "ich": "erlaubte",
-          "du": "erlaubtest",
-          "er": "erlaubte",
-          "wir": "erlaubten",
-          "ihr": "erlaubtet",
-          "sie": "erlaubten"
-        },
-        "partizip_II": "erlaubt",
-        "hilfsverb": "haben"
-      }
-    },
-    {
       "id": "w0209",
       "lemma": "erinnern",
       "pos": "verb",
@@ -6013,34 +5929,6 @@
           "sie": "erinnerten"
         },
         "partizip_II": "erinnert",
-        "hilfsverb": "haben"
-      }
-    },
-    {
-      "id": "w0210",
-      "lemma": "vergessen",
-      "pos": "verb",
-      "meaning_ja": "忘れる",
-      "meaning_fr": "oublier",
-      "level": "B1",
-      "conjugation": {
-        "präsens": {
-          "ich": "vergesse",
-          "du": "vergisst",
-          "er": "vergisst",
-          "wir": "vergessen",
-          "ihr": "vergesst",
-          "sie": "vergessen"
-        },
-        "präteritum": {
-          "ich": "vergaß",
-          "du": "vergaßt",
-          "er": "vergaß",
-          "wir": "vergaßen",
-          "ihr": "vergaßt",
-          "sie": "vergaßen"
-        },
-        "partizip_II": "vergessen",
         "hilfsverb": "haben"
       }
     },
@@ -6070,34 +5958,6 @@
           "sie": "hörten auf"
         },
         "partizip_II": "aufgehört",
-        "hilfsverb": "haben"
-      }
-    },
-    {
-      "id": "w0212",
-      "lemma": "beginnen",
-      "pos": "verb",
-      "meaning_ja": "始める",
-      "meaning_fr": "commencer",
-      "level": "B1",
-      "conjugation": {
-        "präsens": {
-          "ich": "beginne",
-          "du": "beginnst",
-          "er": "beginnt",
-          "wir": "beginnen",
-          "ihr": "beginnt",
-          "sie": "beginnen"
-        },
-        "präteritum": {
-          "ich": "begann",
-          "du": "begannst",
-          "er": "begann",
-          "wir": "begannen",
-          "ihr": "begannt",
-          "sie": "begannen"
-        },
-        "partizip_II": "begonnen",
         "hilfsverb": "haben"
       }
     },
@@ -6154,62 +6014,6 @@
           "sie": "wählten"
         },
         "partizip_II": "gewählt",
-        "hilfsverb": "haben"
-      }
-    },
-    {
-      "id": "w0215",
-      "lemma": "glauben",
-      "pos": "verb",
-      "meaning_ja": "信じる・思う",
-      "meaning_fr": "croire / penser",
-      "level": "B1",
-      "conjugation": {
-        "präsens": {
-          "ich": "glaube",
-          "du": "glaubst",
-          "er": "glaubt",
-          "wir": "glauben",
-          "ihr": "glaubt",
-          "sie": "glauben"
-        },
-        "präteritum": {
-          "ich": "glaubte",
-          "du": "glaubtest",
-          "er": "glaubte",
-          "wir": "glaubten",
-          "ihr": "glaubtet",
-          "sie": "glaubten"
-        },
-        "partizip_II": "geglaubt",
-        "hilfsverb": "haben"
-      }
-    },
-    {
-      "id": "w0216",
-      "lemma": "hoffen",
-      "pos": "verb",
-      "meaning_ja": "望む・期待する",
-      "meaning_fr": "espérer",
-      "level": "B1",
-      "conjugation": {
-        "präsens": {
-          "ich": "hoffe",
-          "du": "hoffst",
-          "er": "hofft",
-          "wir": "hoffen",
-          "ihr": "hofft",
-          "sie": "hoffen"
-        },
-        "präteritum": {
-          "ich": "hoffte",
-          "du": "hofftest",
-          "er": "hoffte",
-          "wir": "hofften",
-          "ihr": "hofftet",
-          "sie": "hofften"
-        },
-        "partizip_II": "gehofft",
         "hilfsverb": "haben"
       }
     },
@@ -6679,54 +6483,6 @@
           "akk": "Nachteile",
           "dat": "Nachteilen",
           "gen": "Nachteile"
-        }
-      }
-    },
-    {
-      "id": "w0234",
-      "lemma": "Lösung",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Lösungen",
-      "meaning_ja": "解決策",
-      "meaning_fr": "solution",
-      "level": "B1",
-      "declension": {
-        "sg": {
-          "nom": "Lösung",
-          "akk": "Lösung",
-          "dat": "Lösung",
-          "gen": "Lösung"
-        },
-        "pl": {
-          "nom": "Lösungen",
-          "akk": "Lösungen",
-          "dat": "Lösungen",
-          "gen": "Lösungen"
-        }
-      }
-    },
-    {
-      "id": "w0235",
-      "lemma": "Problem",
-      "pos": "noun",
-      "gender": "das",
-      "plural": "Probleme",
-      "meaning_ja": "問題",
-      "meaning_fr": "problème",
-      "level": "B1",
-      "declension": {
-        "sg": {
-          "nom": "Problem",
-          "akk": "Problem",
-          "dat": "Problem",
-          "gen": "Problems"
-        },
-        "pl": {
-          "nom": "Probleme",
-          "akk": "Probleme",
-          "dat": "Problemen",
-          "gen": "Probleme"
         }
       }
     },
@@ -8019,134 +7775,6 @@
       }
     },
     {
-      "id": "w0278",
-      "lemma": "möglich",
-      "pos": "adjective",
-      "meaning_ja": "可能な",
-      "meaning_fr": "possible",
-      "level": "B1",
-      "declension": {
-        "stark": {
-          "m_nom": "möglicher",
-          "m_akk": "möglichen",
-          "m_dat": "möglichem",
-          "m_gen": "möglichen",
-          "f_nom": "mögliche",
-          "f_akk": "mögliche",
-          "f_dat": "möglicher",
-          "f_gen": "möglicher",
-          "n_nom": "mögliches",
-          "n_akk": "mögliches",
-          "n_dat": "möglichem",
-          "n_gen": "möglichen",
-          "pl_nom": "mögliche",
-          "pl_akk": "mögliche",
-          "pl_dat": "möglichen",
-          "pl_gen": "möglicher"
-        },
-        "schwach": {
-          "m_nom": "mögliche",
-          "m_akk": "möglichen",
-          "m_dat": "möglichen",
-          "m_gen": "möglichen",
-          "f_nom": "mögliche",
-          "f_akk": "mögliche",
-          "f_dat": "möglichen",
-          "f_gen": "möglichen",
-          "n_nom": "mögliche",
-          "n_akk": "mögliche",
-          "n_dat": "möglichen",
-          "n_gen": "möglichen",
-          "pl_nom": "möglichen",
-          "pl_akk": "möglichen",
-          "pl_dat": "möglichen",
-          "pl_gen": "möglichen"
-        },
-        "gemischt": {
-          "m_nom": "möglicher",
-          "m_akk": "möglichen",
-          "m_dat": "möglichen",
-          "m_gen": "möglichen",
-          "f_nom": "mögliche",
-          "f_akk": "mögliche",
-          "f_dat": "möglichen",
-          "f_gen": "möglichen",
-          "n_nom": "mögliches",
-          "n_akk": "mögliches",
-          "n_dat": "möglichen",
-          "n_gen": "möglichen",
-          "pl_nom": "möglichen",
-          "pl_akk": "möglichen",
-          "pl_dat": "möglichen",
-          "pl_gen": "möglichen"
-        }
-      }
-    },
-    {
-      "id": "w0279",
-      "lemma": "wichtig",
-      "pos": "adjective",
-      "meaning_ja": "重要な",
-      "meaning_fr": "important",
-      "level": "B1",
-      "declension": {
-        "stark": {
-          "m_nom": "wichtiger",
-          "m_akk": "wichtigen",
-          "m_dat": "wichtigem",
-          "m_gen": "wichtigen",
-          "f_nom": "wichtige",
-          "f_akk": "wichtige",
-          "f_dat": "wichtiger",
-          "f_gen": "wichtiger",
-          "n_nom": "wichtiges",
-          "n_akk": "wichtiges",
-          "n_dat": "wichtigem",
-          "n_gen": "wichtigen",
-          "pl_nom": "wichtige",
-          "pl_akk": "wichtige",
-          "pl_dat": "wichtigen",
-          "pl_gen": "wichtiger"
-        },
-        "schwach": {
-          "m_nom": "wichtige",
-          "m_akk": "wichtigen",
-          "m_dat": "wichtigen",
-          "m_gen": "wichtigen",
-          "f_nom": "wichtige",
-          "f_akk": "wichtige",
-          "f_dat": "wichtigen",
-          "f_gen": "wichtigen",
-          "n_nom": "wichtige",
-          "n_akk": "wichtige",
-          "n_dat": "wichtigen",
-          "n_gen": "wichtigen",
-          "pl_nom": "wichtigen",
-          "pl_akk": "wichtigen",
-          "pl_dat": "wichtigen",
-          "pl_gen": "wichtigen"
-        },
-        "gemischt": {
-          "m_nom": "wichtiger",
-          "m_akk": "wichtigen",
-          "m_dat": "wichtigen",
-          "m_gen": "wichtigen",
-          "f_nom": "wichtige",
-          "f_akk": "wichtige",
-          "f_dat": "wichtigen",
-          "f_gen": "wichtigen",
-          "n_nom": "wichtiges",
-          "n_akk": "wichtiges",
-          "n_dat": "wichtigen",
-          "n_gen": "wichtigen",
-          "pl_nom": "wichtigen",
-          "pl_akk": "wichtigen",
-          "pl_dat": "wichtigen",
-          "pl_gen": "wichtigen"
-        }
-      }
-    },
-    {
       "id": "w0280",
       "lemma": "privat",
       "pos": "adjective",
@@ -8851,22 +8479,6 @@
       }
     },
     {
-      "id": "w0291",
-      "lemma": "trotzdem",
-      "pos": "adverb",
-      "meaning_ja": "それでも",
-      "meaning_fr": "quand même / pourtant",
-      "level": "B1"
-    },
-    {
-      "id": "w0292",
-      "lemma": "außerdem",
-      "pos": "adverb",
-      "meaning_ja": "その上・さらに",
-      "meaning_fr": "en plus / de plus",
-      "level": "B1"
-    },
-    {
       "id": "w0293",
       "lemma": "dagegen",
       "pos": "adverb",
@@ -8880,14 +8492,6 @@
       "pos": "adverb",
       "meaning_ja": "その間に・今では",
       "meaning_fr": "entre-temps / désormais",
-      "level": "B1"
-    },
-    {
-      "id": "w0295",
-      "lemma": "schließlich",
-      "pos": "adverb",
-      "meaning_ja": "ついに・結局",
-      "meaning_fr": "finalement / en fin de compte",
       "level": "B1"
     },
     {
@@ -9804,30 +9408,6 @@
       }
     },
     {
-      "id": "w0332",
-      "lemma": "Nachricht",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Nachrichten",
-      "meaning_ja": "ニュース・メッセージ",
-      "meaning_fr": "nouvelle / message",
-      "level": "B1",
-      "declension": {
-        "sg": {
-          "nom": "Nachricht",
-          "akk": "Nachricht",
-          "dat": "Nachricht",
-          "gen": "Nachricht"
-        },
-        "pl": {
-          "nom": "Nachrichten",
-          "akk": "Nachrichten",
-          "dat": "Nachrichten",
-          "gen": "Nachrichten"
-        }
-      }
-    },
-    {
       "id": "w0333",
       "lemma": "Ordnung",
       "pos": "noun",
@@ -10113,25 +9693,6 @@
           "dat": "Wirkungen",
           "gen": "Wirkungen"
         }
-      }
-    },
-    {
-      "id": "w0345",
-      "lemma": "Wissen",
-      "pos": "noun",
-      "gender": "das",
-      "plural": null,
-      "meaning_ja": "知識",
-      "meaning_fr": "savoir / connaissance",
-      "level": "B1",
-      "declension": {
-        "sg": {
-          "nom": "Wissen",
-          "akk": "Wissen",
-          "dat": "Wissen",
-          "gen": "Wissens"
-        },
-        "pl": null
       }
     },
     {
@@ -11498,70 +11059,6 @@
       }
     },
     {
-      "id": "w0383",
-      "lemma": "frei",
-      "pos": "adjective",
-      "meaning_ja": "自由な",
-      "meaning_fr": "libre",
-      "level": "B1",
-      "declension": {
-        "stark": {
-          "m_nom": "freier",
-          "m_akk": "freien",
-          "m_dat": "freiem",
-          "m_gen": "freien",
-          "f_nom": "freie",
-          "f_akk": "freie",
-          "f_dat": "freier",
-          "f_gen": "freier",
-          "n_nom": "freies",
-          "n_akk": "freies",
-          "n_dat": "freiem",
-          "n_gen": "freien",
-          "pl_nom": "freie",
-          "pl_akk": "freie",
-          "pl_dat": "freien",
-          "pl_gen": "freier"
-        },
-        "schwach": {
-          "m_nom": "freie",
-          "m_akk": "freien",
-          "m_dat": "freien",
-          "m_gen": "freien",
-          "f_nom": "freie",
-          "f_akk": "freie",
-          "f_dat": "freien",
-          "f_gen": "freien",
-          "n_nom": "freie",
-          "n_akk": "freie",
-          "n_dat": "freien",
-          "n_gen": "freien",
-          "pl_nom": "freien",
-          "pl_akk": "freien",
-          "pl_dat": "freien",
-          "pl_gen": "freien"
-        },
-        "gemischt": {
-          "m_nom": "freier",
-          "m_akk": "freien",
-          "m_dat": "freien",
-          "m_gen": "freien",
-          "f_nom": "freie",
-          "f_akk": "freie",
-          "f_dat": "freien",
-          "f_gen": "freien",
-          "n_nom": "freies",
-          "n_akk": "freies",
-          "n_dat": "freien",
-          "n_gen": "freien",
-          "pl_nom": "freien",
-          "pl_akk": "freien",
-          "pl_dat": "freien",
-          "pl_gen": "freien"
-        }
-      }
-    },
-    {
       "id": "w0384",
       "lemma": "fest",
       "pos": "adjective",
@@ -11626,70 +11123,6 @@
       }
     },
     {
-      "id": "w0385",
-      "lemma": "offen",
-      "pos": "adjective",
-      "meaning_ja": "開いている・率直な",
-      "meaning_fr": "ouvert / franc",
-      "level": "B1",
-      "declension": {
-        "stark": {
-          "m_nom": "offener",
-          "m_akk": "offenen",
-          "m_dat": "offenem",
-          "m_gen": "offenen",
-          "f_nom": "offene",
-          "f_akk": "offene",
-          "f_dat": "offener",
-          "f_gen": "offener",
-          "n_nom": "offenes",
-          "n_akk": "offenes",
-          "n_dat": "offenem",
-          "n_gen": "offenen",
-          "pl_nom": "offene",
-          "pl_akk": "offene",
-          "pl_dat": "offenen",
-          "pl_gen": "offener"
-        },
-        "schwach": {
-          "m_nom": "offene",
-          "m_akk": "offenen",
-          "m_dat": "offenen",
-          "m_gen": "offenen",
-          "f_nom": "offene",
-          "f_akk": "offene",
-          "f_dat": "offenen",
-          "f_gen": "offenen",
-          "n_nom": "offene",
-          "n_akk": "offene",
-          "n_dat": "offenen",
-          "n_gen": "offenen",
-          "pl_nom": "offenen",
-          "pl_akk": "offenen",
-          "pl_dat": "offenen",
-          "pl_gen": "offenen"
-        },
-        "gemischt": {
-          "m_nom": "offener",
-          "m_akk": "offenen",
-          "m_dat": "offenen",
-          "m_gen": "offenen",
-          "f_nom": "offene",
-          "f_akk": "offene",
-          "f_dat": "offenen",
-          "f_gen": "offenen",
-          "n_nom": "offenes",
-          "n_akk": "offenes",
-          "n_dat": "offenen",
-          "n_gen": "offenen",
-          "pl_nom": "offenen",
-          "pl_akk": "offenen",
-          "pl_dat": "offenen",
-          "pl_gen": "offenen"
-        }
-      }
-    },
-    {
       "id": "w0386",
       "lemma": "komplex",
       "pos": "adjective",
@@ -11750,70 +11183,6 @@
           "pl_akk": "komplexen",
           "pl_dat": "komplexen",
           "pl_gen": "komplexen"
-        }
-      }
-    },
-    {
-      "id": "w0387",
-      "lemma": "einfach",
-      "pos": "adjective",
-      "meaning_ja": "簡単な・シンプルな",
-      "meaning_fr": "simple / facile",
-      "level": "B1",
-      "declension": {
-        "stark": {
-          "m_nom": "einfacher",
-          "m_akk": "einfachen",
-          "m_dat": "einfachem",
-          "m_gen": "einfachen",
-          "f_nom": "einfache",
-          "f_akk": "einfache",
-          "f_dat": "einfacher",
-          "f_gen": "einfacher",
-          "n_nom": "einfaches",
-          "n_akk": "einfaches",
-          "n_dat": "einfachem",
-          "n_gen": "einfachen",
-          "pl_nom": "einfache",
-          "pl_akk": "einfache",
-          "pl_dat": "einfachen",
-          "pl_gen": "einfacher"
-        },
-        "schwach": {
-          "m_nom": "einfache",
-          "m_akk": "einfachen",
-          "m_dat": "einfachen",
-          "m_gen": "einfachen",
-          "f_nom": "einfache",
-          "f_akk": "einfache",
-          "f_dat": "einfachen",
-          "f_gen": "einfachen",
-          "n_nom": "einfache",
-          "n_akk": "einfache",
-          "n_dat": "einfachen",
-          "n_gen": "einfachen",
-          "pl_nom": "einfachen",
-          "pl_akk": "einfachen",
-          "pl_dat": "einfachen",
-          "pl_gen": "einfachen"
-        },
-        "gemischt": {
-          "m_nom": "einfacher",
-          "m_akk": "einfachen",
-          "m_dat": "einfachen",
-          "m_gen": "einfachen",
-          "f_nom": "einfache",
-          "f_akk": "einfache",
-          "f_dat": "einfachen",
-          "f_gen": "einfachen",
-          "n_nom": "einfaches",
-          "n_akk": "einfaches",
-          "n_dat": "einfachen",
-          "n_gen": "einfachen",
-          "pl_nom": "einfachen",
-          "pl_akk": "einfachen",
-          "pl_dat": "einfachen",
-          "pl_gen": "einfachen"
         }
       }
     },
@@ -12174,35 +11543,6 @@
       }
     },
     {
-      "id": "w0404",
-      "lemma": "durchführen",
-      "pos": "verb",
-      "separable": true,
-      "meaning_ja": "実施する・遂行する",
-      "meaning_fr": "effectuer / réaliser",
-      "level": "B2",
-      "conjugation": {
-        "präsens": {
-          "ich": "führe durch",
-          "du": "führst durch",
-          "er": "führt durch",
-          "wir": "führen durch",
-          "ihr": "führt durch",
-          "sie": "führen durch"
-        },
-        "präteritum": {
-          "ich": "führte durch",
-          "du": "führtest durch",
-          "er": "führte durch",
-          "wir": "führten durch",
-          "ihr": "führtet durch",
-          "sie": "führten durch"
-        },
-        "partizip_II": "durchgeführt",
-        "hilfsverb": "haben"
-      }
-    },
-    {
       "id": "w0405",
       "lemma": "einschätzen",
       "pos": "verb",
@@ -12228,34 +11568,6 @@
           "sie": "schätzten ein"
         },
         "partizip_II": "eingeschätzt",
-        "hilfsverb": "haben"
-      }
-    },
-    {
-      "id": "w0406",
-      "lemma": "ermöglichen",
-      "pos": "verb",
-      "meaning_ja": "可能にする",
-      "meaning_fr": "permettre / rendre possible",
-      "level": "B2",
-      "conjugation": {
-        "präsens": {
-          "ich": "ermögliche",
-          "du": "ermöglichst",
-          "er": "ermöglicht",
-          "wir": "ermöglichen",
-          "ihr": "ermöglicht",
-          "sie": "ermöglichen"
-        },
-        "präteritum": {
-          "ich": "ermöglichte",
-          "du": "ermöglichtest",
-          "er": "ermöglichte",
-          "wir": "ermöglichten",
-          "ihr": "ermöglicht",
-          "sie": "ermöglichten"
-        },
-        "partizip_II": "ermöglicht",
         "hilfsverb": "haben"
       }
     },
@@ -13477,34 +12789,6 @@
       }
     },
     {
-      "id": "w0450",
-      "lemma": "vergleichen",
-      "pos": "verb",
-      "meaning_ja": "比較する",
-      "meaning_fr": "comparer",
-      "level": "B2",
-      "conjugation": {
-        "präsens": {
-          "ich": "vergleiche",
-          "du": "vergleichst",
-          "er": "vergleicht",
-          "wir": "vergleichen",
-          "ihr": "vergleicht",
-          "sie": "vergleichen"
-        },
-        "präteritum": {
-          "ich": "verglich",
-          "du": "verglichst",
-          "er": "verglich",
-          "wir": "verglichen",
-          "ihr": "verglichet",
-          "sie": "verglichen"
-        },
-        "partizip_II": "verglichen",
-        "hilfsverb": "haben"
-      }
-    },
-    {
       "id": "w0451",
       "lemma": "Absicht",
       "pos": "noun",
@@ -13577,30 +12861,6 @@
       }
     },
     {
-      "id": "w0454",
-      "lemma": "Bedeutung",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Bedeutungen",
-      "meaning_ja": "意味・重要性",
-      "meaning_fr": "signification / importance",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Bedeutung",
-          "akk": "Bedeutung",
-          "dat": "Bedeutung",
-          "gen": "Bedeutung"
-        },
-        "pl": {
-          "nom": "Bedeutungen",
-          "akk": "Bedeutungen",
-          "dat": "Bedeutungen",
-          "gen": "Bedeutungen"
-        }
-      }
-    },
-    {
       "id": "w0455",
       "lemma": "Beziehung",
       "pos": "noun",
@@ -13621,102 +12881,6 @@
           "akk": "Beziehungen",
           "dat": "Beziehungen",
           "gen": "Beziehungen"
-        }
-      }
-    },
-    {
-      "id": "w0456",
-      "lemma": "Einfluss",
-      "pos": "noun",
-      "gender": "der",
-      "plural": "Einflüsse",
-      "meaning_ja": "影響・影響力",
-      "meaning_fr": "influence",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Einfluss",
-          "akk": "Einfluss",
-          "dat": "Einfluss",
-          "gen": "Einflusses"
-        },
-        "pl": {
-          "nom": "Einflüsse",
-          "akk": "Einflüsse",
-          "dat": "Einflüssen",
-          "gen": "Einflüsse"
-        }
-      }
-    },
-    {
-      "id": "w0457",
-      "lemma": "Entscheidung",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Entscheidungen",
-      "meaning_ja": "決定・判断",
-      "meaning_fr": "décision",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Entscheidung",
-          "akk": "Entscheidung",
-          "dat": "Entscheidung",
-          "gen": "Entscheidung"
-        },
-        "pl": {
-          "nom": "Entscheidungen",
-          "akk": "Entscheidungen",
-          "dat": "Entscheidungen",
-          "gen": "Entscheidungen"
-        }
-      }
-    },
-    {
-      "id": "w0458",
-      "lemma": "Entwicklung",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Entwicklungen",
-      "meaning_ja": "発展・開発",
-      "meaning_fr": "développement / évolution",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Entwicklung",
-          "akk": "Entwicklung",
-          "dat": "Entwicklung",
-          "gen": "Entwicklung"
-        },
-        "pl": {
-          "nom": "Entwicklungen",
-          "akk": "Entwicklungen",
-          "dat": "Entwicklungen",
-          "gen": "Entwicklungen"
-        }
-      }
-    },
-    {
-      "id": "w0459",
-      "lemma": "Ergebnis",
-      "pos": "noun",
-      "gender": "das",
-      "plural": "Ergebnisse",
-      "meaning_ja": "結果・成果",
-      "meaning_fr": "résultat",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Ergebnis",
-          "akk": "Ergebnis",
-          "dat": "Ergebnis",
-          "gen": "Ergebnisses"
-        },
-        "pl": {
-          "nom": "Ergebnisse",
-          "akk": "Ergebnisse",
-          "dat": "Ergebnissen",
-          "gen": "Ergebnisse"
         }
       }
     },
@@ -13769,54 +12933,6 @@
       }
     },
     {
-      "id": "w0462",
-      "lemma": "Fähigkeit",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Fähigkeiten",
-      "meaning_ja": "能力・才能",
-      "meaning_fr": "capacité / aptitude",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Fähigkeit",
-          "akk": "Fähigkeit",
-          "dat": "Fähigkeit",
-          "gen": "Fähigkeit"
-        },
-        "pl": {
-          "nom": "Fähigkeiten",
-          "akk": "Fähigkeiten",
-          "dat": "Fähigkeiten",
-          "gen": "Fähigkeiten"
-        }
-      }
-    },
-    {
-      "id": "w0463",
-      "lemma": "Folge",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Folgen",
-      "meaning_ja": "結果・帰結",
-      "meaning_fr": "conséquence / suite",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Folge",
-          "akk": "Folge",
-          "dat": "Folge",
-          "gen": "Folge"
-        },
-        "pl": {
-          "nom": "Folgen",
-          "akk": "Folgen",
-          "dat": "Folgen",
-          "gen": "Folgen"
-        }
-      }
-    },
-    {
       "id": "w0464",
       "lemma": "Gefahr",
       "pos": "noun",
@@ -13837,30 +12953,6 @@
           "akk": "Gefahren",
           "dat": "Gefahren",
           "gen": "Gefahren"
-        }
-      }
-    },
-    {
-      "id": "w0465",
-      "lemma": "Gesellschaft",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Gesellschaften",
-      "meaning_ja": "社会・会社",
-      "meaning_fr": "société / compagnie",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Gesellschaft",
-          "akk": "Gesellschaft",
-          "dat": "Gesellschaft",
-          "gen": "Gesellschaft"
-        },
-        "pl": {
-          "nom": "Gesellschaften",
-          "akk": "Gesellschaften",
-          "dat": "Gesellschaften",
-          "gen": "Gesellschaften"
         }
       }
     },
@@ -14033,102 +13125,6 @@
       }
     },
     {
-      "id": "w0473",
-      "lemma": "Leistung",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Leistungen",
-      "meaning_ja": "成果・パフォーマンス",
-      "meaning_fr": "performance / prestation",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Leistung",
-          "akk": "Leistung",
-          "dat": "Leistung",
-          "gen": "Leistung"
-        },
-        "pl": {
-          "nom": "Leistungen",
-          "akk": "Leistungen",
-          "dat": "Leistungen",
-          "gen": "Leistungen"
-        }
-      }
-    },
-    {
-      "id": "w0474",
-      "lemma": "Maßnahme",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Maßnahmen",
-      "meaning_ja": "措置・対策",
-      "meaning_fr": "mesure / disposition",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Maßnahme",
-          "akk": "Maßnahme",
-          "dat": "Maßnahme",
-          "gen": "Maßnahme"
-        },
-        "pl": {
-          "nom": "Maßnahmen",
-          "akk": "Maßnahmen",
-          "dat": "Maßnahmen",
-          "gen": "Maßnahmen"
-        }
-      }
-    },
-    {
-      "id": "w0475",
-      "lemma": "Meinung",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Meinungen",
-      "meaning_ja": "意見",
-      "meaning_fr": "opinion / avis",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Meinung",
-          "akk": "Meinung",
-          "dat": "Meinung",
-          "gen": "Meinung"
-        },
-        "pl": {
-          "nom": "Meinungen",
-          "akk": "Meinungen",
-          "dat": "Meinungen",
-          "gen": "Meinungen"
-        }
-      }
-    },
-    {
-      "id": "w0476",
-      "lemma": "Möglichkeit",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Möglichkeiten",
-      "meaning_ja": "可能性・機会",
-      "meaning_fr": "possibilité / opportunité",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Möglichkeit",
-          "akk": "Möglichkeit",
-          "dat": "Möglichkeit",
-          "gen": "Möglichkeit"
-        },
-        "pl": {
-          "nom": "Möglichkeiten",
-          "akk": "Möglichkeiten",
-          "dat": "Möglichkeiten",
-          "gen": "Möglichkeiten"
-        }
-      }
-    },
-    {
       "id": "w0477",
       "lemma": "Niveau",
       "pos": "noun",
@@ -14249,54 +13245,6 @@
       }
     },
     {
-      "id": "w0482",
-      "lemma": "Problem",
-      "pos": "noun",
-      "gender": "das",
-      "plural": "Probleme",
-      "meaning_ja": "問題",
-      "meaning_fr": "problème",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Problem",
-          "akk": "Problem",
-          "dat": "Problem",
-          "gen": "Problems"
-        },
-        "pl": {
-          "nom": "Probleme",
-          "akk": "Probleme",
-          "dat": "Problemen",
-          "gen": "Probleme"
-        }
-      }
-    },
-    {
-      "id": "w0483",
-      "lemma": "Prozess",
-      "pos": "noun",
-      "gender": "der",
-      "plural": "Prozesse",
-      "meaning_ja": "プロセス・過程",
-      "meaning_fr": "processus / procédé",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Prozess",
-          "akk": "Prozess",
-          "dat": "Prozess",
-          "gen": "Prozesses"
-        },
-        "pl": {
-          "nom": "Prozesse",
-          "akk": "Prozesse",
-          "dat": "Prozessen",
-          "gen": "Prozesse"
-        }
-      }
-    },
-    {
       "id": "w0484",
       "lemma": "Qualität",
       "pos": "noun",
@@ -14341,54 +13289,6 @@
           "akk": "Risiken",
           "dat": "Risiken",
           "gen": "Risiken"
-        }
-      }
-    },
-    {
-      "id": "w0486",
-      "lemma": "Schwierigkeit",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Schwierigkeiten",
-      "meaning_ja": "困難・難しさ",
-      "meaning_fr": "difficulté",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Schwierigkeit",
-          "akk": "Schwierigkeit",
-          "dat": "Schwierigkeit",
-          "gen": "Schwierigkeit"
-        },
-        "pl": {
-          "nom": "Schwierigkeiten",
-          "akk": "Schwierigkeiten",
-          "dat": "Schwierigkeiten",
-          "gen": "Schwierigkeiten"
-        }
-      }
-    },
-    {
-      "id": "w0487",
-      "lemma": "Situation",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Situationen",
-      "meaning_ja": "状況・場面",
-      "meaning_fr": "situation",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Situation",
-          "akk": "Situation",
-          "dat": "Situation",
-          "gen": "Situation"
-        },
-        "pl": {
-          "nom": "Situationen",
-          "akk": "Situationen",
-          "dat": "Situationen",
-          "gen": "Situationen"
         }
       }
     },
@@ -14465,30 +13365,6 @@
       }
     },
     {
-      "id": "w0491",
-      "lemma": "Thema",
-      "pos": "noun",
-      "gender": "das",
-      "plural": "Themen",
-      "meaning_ja": "テーマ・話題",
-      "meaning_fr": "thème / sujet",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Thema",
-          "akk": "Thema",
-          "dat": "Thema",
-          "gen": "Themas"
-        },
-        "pl": {
-          "nom": "Themen",
-          "akk": "Themen",
-          "dat": "Themen",
-          "gen": "Themen"
-        }
-      }
-    },
-    {
       "id": "w0492",
       "lemma": "Umstand",
       "pos": "noun",
@@ -14509,54 +13385,6 @@
           "akk": "Umstände",
           "dat": "Umständen",
           "gen": "Umstände"
-        }
-      }
-    },
-    {
-      "id": "w0493",
-      "lemma": "Ursache",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Ursachen",
-      "meaning_ja": "原因",
-      "meaning_fr": "cause",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Ursache",
-          "akk": "Ursache",
-          "dat": "Ursache",
-          "gen": "Ursache"
-        },
-        "pl": {
-          "nom": "Ursachen",
-          "akk": "Ursachen",
-          "dat": "Ursachen",
-          "gen": "Ursachen"
-        }
-      }
-    },
-    {
-      "id": "w0494",
-      "lemma": "Verantwortung",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Verantwortungen",
-      "meaning_ja": "責任",
-      "meaning_fr": "responsabilité",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Verantwortung",
-          "akk": "Verantwortung",
-          "dat": "Verantwortung",
-          "gen": "Verantwortung"
-        },
-        "pl": {
-          "nom": "Verantwortungen",
-          "akk": "Verantwortungen",
-          "dat": "Verantwortungen",
-          "gen": "Verantwortungen"
         }
       }
     },
@@ -14585,30 +13413,6 @@
       }
     },
     {
-      "id": "w0496",
-      "lemma": "Verfahren",
-      "pos": "noun",
-      "gender": "das",
-      "plural": "Verfahren",
-      "meaning_ja": "方法・手続き",
-      "meaning_fr": "procédure / méthode",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Verfahren",
-          "akk": "Verfahren",
-          "dat": "Verfahren",
-          "gen": "Verfahrens"
-        },
-        "pl": {
-          "nom": "Verfahren",
-          "akk": "Verfahren",
-          "dat": "Verfahren",
-          "gen": "Verfahren"
-        }
-      }
-    },
-    {
       "id": "w0497",
       "lemma": "Verhältnis",
       "pos": "noun",
@@ -14629,54 +13433,6 @@
           "akk": "Verhältnisse",
           "dat": "Verhältnissen",
           "gen": "Verhältnisse"
-        }
-      }
-    },
-    {
-      "id": "w0498",
-      "lemma": "Wirkung",
-      "pos": "noun",
-      "gender": "die",
-      "plural": "Wirkungen",
-      "meaning_ja": "効果・作用",
-      "meaning_fr": "effet / action",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Wirkung",
-          "akk": "Wirkung",
-          "dat": "Wirkung",
-          "gen": "Wirkung"
-        },
-        "pl": {
-          "nom": "Wirkungen",
-          "akk": "Wirkungen",
-          "dat": "Wirkungen",
-          "gen": "Wirkungen"
-        }
-      }
-    },
-    {
-      "id": "w0499",
-      "lemma": "Ziel",
-      "pos": "noun",
-      "gender": "das",
-      "plural": "Ziele",
-      "meaning_ja": "目標・目的",
-      "meaning_fr": "but / objectif",
-      "level": "B2",
-      "declension": {
-        "sg": {
-          "nom": "Ziel",
-          "akk": "Ziel",
-          "dat": "Ziel",
-          "gen": "Ziels"
-        },
-        "pl": {
-          "nom": "Ziele",
-          "akk": "Ziele",
-          "dat": "Zielen",
-          "gen": "Ziele"
         }
       }
     },
@@ -17526,14 +16282,6 @@
       "pos": "preposition",
       "meaning_ja": "〜に応じて・〜に従って",
       "meaning_fr": "conformément à / selon",
-      "level": "B2"
-    },
-    {
-      "id": "w0574",
-      "lemma": "gegenüber",
-      "pos": "preposition",
-      "meaning_ja": "〜に対して・〜の向かいに",
-      "meaning_fr": "vis-à-vis de / en face de",
       "level": "B2"
     },
     {
@@ -29478,17 +28226,2366 @@
       "plural": "Zielgruppen"
     },
     {
-      "id": "w1152",
-      "lemma": "Prämisse",
-      "level": "C1",
+      "id": "w1153",
+      "lemma": "Abschnitt",
+      "level": "B2",
       "pos": "noun",
-      "meaning_ja": "前提",
-      "meaning_fr": "prémisse",
+      "gender": "m",
+      "article": "der",
+      "plural": "Abschnitte",
+      "meaning_ja": "節・区間",
+      "meaning_fr": "section, passage",
       "note_ja": "",
-      "note_fr": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1154",
+      "lemma": "Absatz",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Absätze",
+      "meaning_ja": "段落",
+      "meaning_fr": "paragraphe",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1155",
+      "lemma": "Anerkennung",
+      "level": "B2",
+      "pos": "noun",
       "gender": "f",
       "article": "die",
-      "plural": "Prämissen"
+      "plural": "Anerkennungen",
+      "meaning_ja": "承認・評価",
+      "meaning_fr": "reconnaissance",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1156",
+      "lemma": "Anleitung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Anleitungen",
+      "meaning_ja": "指示・手引き",
+      "meaning_fr": "instruction, guide",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1157",
+      "lemma": "Anschaffung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Anschaffungen",
+      "meaning_ja": "購入品・調達",
+      "meaning_fr": "acquisition, achat",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1158",
+      "lemma": "Aufklärung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Aufklärungen",
+      "meaning_ja": "啓蒙・解明",
+      "meaning_fr": "clarification, Lumières",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1159",
+      "lemma": "Auflage",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Auflagen",
+      "meaning_ja": "版・条件",
+      "meaning_fr": "édition, condition",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1160",
+      "lemma": "Aufnahme",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Aufnahmen",
+      "meaning_ja": "収録・受け入れ",
+      "meaning_fr": "enregistrement, admission",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1161",
+      "lemma": "Auftrag",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Aufträge",
+      "meaning_ja": "依頼・命令",
+      "meaning_fr": "mission, commande",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1162",
+      "lemma": "Ausbildung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Ausbildungen",
+      "meaning_ja": "職業教育・訓練",
+      "meaning_fr": "formation professionnelle",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1163",
+      "lemma": "Ausdruck",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Ausdrücke",
+      "meaning_ja": "表現",
+      "meaning_fr": "expression",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1164",
+      "lemma": "Ausgangspunkt",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Ausgangspunkte",
+      "meaning_ja": "出発点",
+      "meaning_fr": "point de départ",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1165",
+      "lemma": "Aussage",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Aussagen",
+      "meaning_ja": "発言・陳述",
+      "meaning_fr": "déclaration, affirmation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1166",
+      "lemma": "Ausweg",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Auswege",
+      "meaning_ja": "出口・解決策",
+      "meaning_fr": "issue, sortie de secours",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1167",
+      "lemma": "Bearbeitung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Bearbeitungen",
+      "meaning_ja": "処理・加工",
+      "meaning_fr": "traitement, adaptation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1168",
+      "lemma": "Beförderung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Beförderungen",
+      "meaning_ja": "昇進・輸送",
+      "meaning_fr": "promotion, transport",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1169",
+      "lemma": "Begegnung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Begegnungen",
+      "meaning_ja": "出会い",
+      "meaning_fr": "rencontre",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1170",
+      "lemma": "Begleitung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Begleitungen",
+      "meaning_ja": "同行・伴奏",
+      "meaning_fr": "accompagnement",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1171",
+      "lemma": "Behandlung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Behandlungen",
+      "meaning_ja": "治療・扱い",
+      "meaning_fr": "traitement",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1172",
+      "lemma": "Bekanntschaft",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Bekanntschaften",
+      "meaning_ja": "知り合い・面識",
+      "meaning_fr": "connaissance",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1173",
+      "lemma": "Bemerkung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Bemerkungen",
+      "meaning_ja": "発言・コメント",
+      "meaning_fr": "remarque, commentaire",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1174",
+      "lemma": "Berücksichtigung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Berücksichtigungen",
+      "meaning_ja": "考慮・配慮",
+      "meaning_fr": "prise en compte",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1175",
+      "lemma": "Bestandteil",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Bestandteile",
+      "meaning_ja": "構成要素",
+      "meaning_fr": "composant, élément constitutif",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1176",
+      "lemma": "Beteiligung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Beteiligungen",
+      "meaning_ja": "参加・関与",
+      "meaning_fr": "participation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1177",
+      "lemma": "Bezeichnung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Bezeichnungen",
+      "meaning_ja": "名称・呼び方",
+      "meaning_fr": "désignation, appellation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1178",
+      "lemma": "Darstellung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Darstellungen",
+      "meaning_ja": "表現・描写",
+      "meaning_fr": "représentation, présentation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1179",
+      "lemma": "Einhaltung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Einhaltungen",
+      "meaning_ja": "遵守",
+      "meaning_fr": "respect, conformité",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1180",
+      "lemma": "Einsicht",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Einsichten",
+      "meaning_ja": "洞察・理解",
+      "meaning_fr": "compréhension, aperçu",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1181",
+      "lemma": "Erfüllung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Erfüllungen",
+      "meaning_ja": "充足・実現",
+      "meaning_fr": "accomplissement, réalisation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1182",
+      "lemma": "Erhebung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Erhebungen",
+      "meaning_ja": "調査・調べ",
+      "meaning_fr": "enquête, levée",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1183",
+      "lemma": "Ermittlung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Ermittlungen",
+      "meaning_ja": "捜査・調査",
+      "meaning_fr": "enquête, investigation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1184",
+      "lemma": "Feststellung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Feststellungen",
+      "meaning_ja": "確認・認定",
+      "meaning_fr": "constat, constatation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1185",
+      "lemma": "Formulierung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Formulierungen",
+      "meaning_ja": "言い回し・表現",
+      "meaning_fr": "formulation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1186",
+      "lemma": "Führung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Führungen",
+      "meaning_ja": "指導・管理",
+      "meaning_fr": "direction, conduite",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1187",
+      "lemma": "Geltung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Geltungen",
+      "meaning_ja": "有効性・威信",
+      "meaning_fr": "validité, prestige",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1188",
+      "lemma": "Gestaltung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Gestaltungen",
+      "meaning_ja": "形成・デザイン",
+      "meaning_fr": "conception, mise en forme",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1189",
+      "lemma": "Gliederung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Gliederungen",
+      "meaning_ja": "構成・概要",
+      "meaning_fr": "structure, plan",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1190",
+      "lemma": "Handlung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Handlungen",
+      "meaning_ja": "行動・行為",
+      "meaning_fr": "action, acte",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1191",
+      "lemma": "Haltung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Haltungen",
+      "meaning_ja": "態度・姿勢",
+      "meaning_fr": "attitude, posture",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1192",
+      "lemma": "Herkunft",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Herkünfte",
+      "meaning_ja": "出身・起源",
+      "meaning_fr": "origine, provenance",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1193",
+      "lemma": "Hinweis",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Hinweise",
+      "meaning_ja": "ヒント・指摘",
+      "meaning_fr": "indication, conseil",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1194",
+      "lemma": "Leistungsfähigkeit",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Leistungsfähigkeiten",
+      "meaning_ja": "能力・性能",
+      "meaning_fr": "capacité de performance",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1195",
+      "lemma": "Mitwirkung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Mitwirkungen",
+      "meaning_ja": "協力・参加",
+      "meaning_fr": "collaboration, participation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1196",
+      "lemma": "Regelung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Regelungen",
+      "meaning_ja": "規制・規定",
+      "meaning_fr": "réglementation, disposition",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1197",
+      "lemma": "Richtlinie",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Richtlinien",
+      "meaning_ja": "指針・ガイドライン",
+      "meaning_fr": "directive, ligne directrice",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1198",
+      "lemma": "Rücksicht",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Rücksichten",
+      "meaning_ja": "配慮・考慮",
+      "meaning_fr": "égard, considération",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1199",
+      "lemma": "Vereinbarung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Vereinbarungen",
+      "meaning_ja": "合意・取り決め",
+      "meaning_fr": "accord, convention",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1200",
+      "lemma": "Verfügung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Verfügungen",
+      "meaning_ja": "処分・指示",
+      "meaning_fr": "disposition, ordonnance",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1201",
+      "lemma": "Vermittlung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Vermittlungen",
+      "meaning_ja": "仲介・伝達",
+      "meaning_fr": "médiation, transmission",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1202",
+      "lemma": "Verwaltung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Verwaltungen",
+      "meaning_ja": "行政・管理",
+      "meaning_fr": "administration, gestion",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1203",
+      "lemma": "Vorgehensweise",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Vorgehensweisen",
+      "meaning_ja": "進め方・手順",
+      "meaning_fr": "procédure, démarche",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1204",
+      "lemma": "Wandlung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Wandlungen",
+      "meaning_ja": "変化・変容",
+      "meaning_fr": "transformation, changement",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1205",
+      "lemma": "Zugänglichkeit",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Zugänglichkeiten",
+      "meaning_ja": "アクセス可能性",
+      "meaning_fr": "accessibilité",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1206",
+      "lemma": "abbilden",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "描写する・図示する",
+      "meaning_fr": "représenter, illustrer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1207",
+      "lemma": "abgeben",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "提出する・渡す",
+      "meaning_fr": "remettre, déposer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1208",
+      "lemma": "abhalten",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "開催する・阻む",
+      "meaning_fr": "tenir, empêcher",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1209",
+      "lemma": "abheben",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "引き出す・際立つ",
+      "meaning_fr": "retirer, se distinguer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1210",
+      "lemma": "abklären",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "解明する・明確にする",
+      "meaning_fr": "clarifier, élucider",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1211",
+      "lemma": "ablaufen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "経過する・期限切れになる",
+      "meaning_fr": "expirer, se dérouler",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1212",
+      "lemma": "abschätzen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "見積もる・評価する",
+      "meaning_fr": "estimer, évaluer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1213",
+      "lemma": "absehen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "予測する・目をつぶる",
+      "meaning_fr": "prévoir, faire abstraction",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1214",
+      "lemma": "abtrennen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "切り離す・分離する",
+      "meaning_fr": "séparer, détacher",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1215",
+      "lemma": "abweichen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "逸脱する・異なる",
+      "meaning_fr": "s'écarter, dévier",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1216",
+      "lemma": "anknüpfen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "結びつける・繋がる",
+      "meaning_fr": "rattacher, renouer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1217",
+      "lemma": "anlegen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "作成する・投資する",
+      "meaning_fr": "créer, investir",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1218",
+      "lemma": "anmerken",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "指摘する・気づく",
+      "meaning_fr": "noter, remarquer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1219",
+      "lemma": "anpassen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "適応させる・調整する",
+      "meaning_fr": "adapter, ajuster",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1220",
+      "lemma": "ansprechen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "話しかける・取り上げる",
+      "meaning_fr": "aborder, s'adresser à",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1221",
+      "lemma": "anstreben",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "目指す・追求する",
+      "meaning_fr": "viser, aspirer à",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1222",
+      "lemma": "anwenden",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "適用する・使用する",
+      "meaning_fr": "appliquer, utiliser",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1223",
+      "lemma": "aufdecken",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "暴露する・発見する",
+      "meaning_fr": "révéler, découvrir",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1224",
+      "lemma": "ausführen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "実行する・説明する",
+      "meaning_fr": "exécuter, expliquer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1225",
+      "lemma": "ausgleichen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "均衡を取る・補う",
+      "meaning_fr": "équilibrer, compenser",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1226",
+      "lemma": "ausweisen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "証明する・退去させる",
+      "meaning_fr": "justifier, expulser",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1227",
+      "lemma": "beabsichtigen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "意図する・目的とする",
+      "meaning_fr": "avoir l'intention de",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1228",
+      "lemma": "behindern",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "妨害する・阻む",
+      "meaning_fr": "entraver, gêner",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1229",
+      "lemma": "beitragen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "貢献する",
+      "meaning_fr": "contribuer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1230",
+      "lemma": "bekräftigen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "強化する・確認する",
+      "meaning_fr": "renforcer, confirmer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1231",
+      "lemma": "belegen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "証明する・占める",
+      "meaning_fr": "prouver, occuper",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1232",
+      "lemma": "benötigen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "必要とする",
+      "meaning_fr": "nécessiter, avoir besoin de",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1233",
+      "lemma": "beschränken",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "制限する",
+      "meaning_fr": "limiter, restreindre",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1234",
+      "lemma": "beseitigen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "除去する・排除する",
+      "meaning_fr": "éliminer, supprimer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1235",
+      "lemma": "bewirken",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "引き起こす・効果をもたらす",
+      "meaning_fr": "provoquer, produire un effet",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1236",
+      "lemma": "bezeichnen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "指す・呼ぶ",
+      "meaning_fr": "désigner, qualifier",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1237",
+      "lemma": "einordnen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "分類する・位置付ける",
+      "meaning_fr": "classer, situer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1238",
+      "lemma": "einteilen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "分類する・区分する",
+      "meaning_fr": "diviser, répartir",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1239",
+      "lemma": "erschaffen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "創造する",
+      "meaning_fr": "créer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1240",
+      "lemma": "erstreben",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "目指す・追求する",
+      "meaning_fr": "aspirer à, viser",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1241",
+      "lemma": "feststellen",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "確認する・認定する",
+      "meaning_fr": "constater, établir",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1242",
+      "lemma": "gliedern",
+      "level": "B2",
+      "pos": "verb",
+      "meaning_ja": "構成する・区分する",
+      "meaning_fr": "structurer, diviser",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1243",
+      "lemma": "auffällig",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "目立つ・奇抜な",
+      "meaning_fr": "frappant, voyant",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1244",
+      "lemma": "aufmerksam",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "注意深い・気配りのある",
+      "meaning_fr": "attentif, attentionné",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1245",
+      "lemma": "belastend",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "負担になる・有罪の",
+      "meaning_fr": "contraignant, accablant",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1246",
+      "lemma": "bewusst",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "意識的な・意図的な",
+      "meaning_fr": "conscient, délibéré",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1247",
+      "lemma": "dringend",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "緊急の・切迫した",
+      "meaning_fr": "urgent, pressant",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1248",
+      "lemma": "entscheidend",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "決定的な・重要な",
+      "meaning_fr": "décisif, déterminant",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1249",
+      "lemma": "erforderlich",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "必要な・不可欠な",
+      "meaning_fr": "requis, nécessaire",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1250",
+      "lemma": "fachlich",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "専門的な",
+      "meaning_fr": "professionnel, spécialisé",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1251",
+      "lemma": "förderlich",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "有益な・促進する",
+      "meaning_fr": "bénéfique, propice",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1252",
+      "lemma": "gründlich",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "徹底的な・念入りな",
+      "meaning_fr": "approfondi, minutieux",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1253",
+      "lemma": "hinreichend",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "十分な",
+      "meaning_fr": "suffisant",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1254",
+      "lemma": "kennzeichnend",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "特徴的な",
+      "meaning_fr": "caractéristique, distinctif",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1255",
+      "lemma": "kohärent",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "一貫した・整合した",
+      "meaning_fr": "cohérent",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1256",
+      "lemma": "lösungsorientiert",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "解決志向の",
+      "meaning_fr": "axé sur les solutions",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1257",
+      "lemma": "merklich",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "顕著な・目立つ",
+      "meaning_fr": "notable, perceptible",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1258",
+      "lemma": "schrittweise",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "段階的な",
+      "meaning_fr": "progressif, par étapes",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1259",
+      "lemma": "systematisch",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "体系的な",
+      "meaning_fr": "systématique",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1260",
+      "lemma": "theoretisch",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "理論的な",
+      "meaning_fr": "théorique",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1261",
+      "lemma": "übersichtlich",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "見やすい・わかりやすい",
+      "meaning_fr": "clair, bien organisé",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1262",
+      "lemma": "umfangreich",
+      "level": "B2",
+      "pos": "adjective",
+      "meaning_ja": "広範な・大規模な",
+      "meaning_fr": "étendu, vaste",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1263",
+      "lemma": "beziehungsweise",
+      "level": "B2",
+      "pos": "conjunction",
+      "meaning_ja": "または・それぞれ",
+      "meaning_fr": "respectivement, ou plutôt",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1264",
+      "lemma": "daraufhin",
+      "level": "B2",
+      "pos": "adverb",
+      "meaning_ja": "その後・それに応じて",
+      "meaning_fr": "ensuite, suite à cela",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1265",
+      "lemma": "dementsprechend",
+      "level": "B2",
+      "pos": "adverb",
+      "meaning_ja": "それに応じて・相応に",
+      "meaning_fr": "en conséquence, conformément",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1266",
+      "lemma": "hierbei",
+      "level": "B2",
+      "pos": "adverb",
+      "meaning_ja": "この際・この場合",
+      "meaning_fr": "ce faisant, à cette occasion",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1267",
+      "lemma": "immerhin",
+      "level": "B2",
+      "pos": "adverb",
+      "meaning_ja": "少なくとも・とはいえ",
+      "meaning_fr": "quand même, tout de même",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1268",
+      "lemma": "inwieweit",
+      "level": "B2",
+      "pos": "adverb",
+      "meaning_ja": "どの程度・いかに",
+      "meaning_fr": "dans quelle mesure",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1269",
+      "lemma": "möglicherweise",
+      "level": "B2",
+      "pos": "adverb",
+      "meaning_ja": "おそらく・場合によっては",
+      "meaning_fr": "éventuellement, peut-être",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1270",
+      "lemma": "Abstimmung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Abstimmungen",
+      "meaning_ja": "調整・投票",
+      "meaning_fr": "coordination, vote",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1271",
+      "lemma": "Annahme",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Annahmen",
+      "meaning_ja": "仮定・受理",
+      "meaning_fr": "hypothèse, acceptation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1272",
+      "lemma": "Ausführung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Ausführungen",
+      "meaning_ja": "実行・コメント",
+      "meaning_fr": "exécution, remarque",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1273",
+      "lemma": "Bemühen",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "n",
+      "article": "das",
+      "plural": "Bemühen",
+      "meaning_ja": "努力・尽力",
+      "meaning_fr": "effort, démarche",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1274",
+      "lemma": "Bildungseinrichtung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Bildungseinrichtungen",
+      "meaning_ja": "教育機関",
+      "meaning_fr": "établissement d'enseignement",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1275",
+      "lemma": "Erläuterung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Erläuterungen",
+      "meaning_ja": "説明・解説",
+      "meaning_fr": "explication, commentaire",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1276",
+      "lemma": "Erneuerung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Erneuerungen",
+      "meaning_ja": "更新・刷新",
+      "meaning_fr": "renouvellement, rénovation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1277",
+      "lemma": "Fragestellung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Fragestellungen",
+      "meaning_ja": "問い・問題設定",
+      "meaning_fr": "problématique, question",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1278",
+      "lemma": "Funktionsweise",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Funktionsweisen",
+      "meaning_ja": "機能の仕方・仕組み",
+      "meaning_fr": "mode de fonctionnement",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1279",
+      "lemma": "Gegebenheit",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Gegebenheiten",
+      "meaning_ja": "現実・状況",
+      "meaning_fr": "réalité, donnée",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1280",
+      "lemma": "Gewissheit",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Gewissheiten",
+      "meaning_ja": "確信・確実性",
+      "meaning_fr": "certitude",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1281",
+      "lemma": "Inhaltsverzeichnis",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "n",
+      "article": "das",
+      "plural": "Inhaltsverzeichnisse",
+      "meaning_ja": "目次",
+      "meaning_fr": "table des matières",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1282",
+      "lemma": "Kennzeichnung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Kennzeichnungen",
+      "meaning_ja": "識別・マーキング",
+      "meaning_fr": "identification, marquage",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1283",
+      "lemma": "Methode",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Methoden",
+      "meaning_ja": "方法・手法",
+      "meaning_fr": "méthode",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1284",
+      "lemma": "Sicherstellung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Sicherstellungen",
+      "meaning_ja": "確保・保障",
+      "meaning_fr": "garantie, assurance",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1285",
+      "lemma": "Verständigung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Verständigungen",
+      "meaning_ja": "コミュニケーション・合意",
+      "meaning_fr": "communication, accord",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1286",
+      "lemma": "Zusammenfassung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Zusammenfassungen",
+      "meaning_ja": "要約・まとめ",
+      "meaning_fr": "résumé, synthèse",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1287",
+      "lemma": "Ablauf",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Abläufe",
+      "meaning_ja": "経過・手順",
+      "meaning_fr": "déroulement, procédure",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1288",
+      "lemma": "Abwesenheit",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Abwesenheiten",
+      "meaning_ja": "不在・欠席",
+      "meaning_fr": "absence",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1289",
+      "lemma": "Akzeptanz",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Akzeptanzen",
+      "meaning_ja": "受容・承認",
+      "meaning_fr": "acceptation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1290",
+      "lemma": "Äußerung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Äußerungen",
+      "meaning_ja": "発言・表明",
+      "meaning_fr": "déclaration, expression",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1291",
+      "lemma": "Beachtung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Beachtungen",
+      "meaning_ja": "注目・考慮",
+      "meaning_fr": "attention, prise en compte",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1292",
+      "lemma": "Beobachtung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Beobachtungen",
+      "meaning_ja": "観察・観測",
+      "meaning_fr": "observation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1293",
+      "lemma": "Beschreibung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Beschreibungen",
+      "meaning_ja": "説明・描写",
+      "meaning_fr": "description",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1294",
+      "lemma": "Durchführung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Durchführungen",
+      "meaning_ja": "実施・実行",
+      "meaning_fr": "réalisation, mise en œuvre",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1295",
+      "lemma": "Eigeninitiative",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Eigeninitiativen",
+      "meaning_ja": "自発性・自主行動",
+      "meaning_fr": "initiative personnelle",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1296",
+      "lemma": "Einführung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Einführungen",
+      "meaning_ja": "導入・紹介",
+      "meaning_fr": "introduction",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1297",
+      "lemma": "Eingriff",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Eingriffe",
+      "meaning_ja": "介入・手術",
+      "meaning_fr": "intervention",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1298",
+      "lemma": "Einstellung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Einstellungen",
+      "meaning_ja": "態度・姿勢",
+      "meaning_fr": "attitude, réglage",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1299",
+      "lemma": "Empfehlung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Empfehlungen",
+      "meaning_ja": "推薦・勧告",
+      "meaning_fr": "recommandation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1300",
+      "lemma": "Entlassung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Entlassungen",
+      "meaning_ja": "解雇・退院",
+      "meaning_fr": "licenciement, sortie d'hôpital",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1301",
+      "lemma": "Entstehung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Entstehungen",
+      "meaning_ja": "生成・発生",
+      "meaning_fr": "genèse, formation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1302",
+      "lemma": "Entspannung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Entspannungen",
+      "meaning_ja": "リラックス・緩和",
+      "meaning_fr": "détente, relaxation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1303",
+      "lemma": "Entschlossenheit",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Entschlossenheiten",
+      "meaning_ja": "決意・断固たる態度",
+      "meaning_fr": "détermination, résolution",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1304",
+      "lemma": "Nachweis",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "Nachweise",
+      "meaning_ja": "証明・証拠",
+      "meaning_fr": "preuve, justificatif",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1305",
+      "lemma": "Nutzung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Nutzungen",
+      "meaning_ja": "利用・使用",
+      "meaning_fr": "utilisation, usage",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1306",
+      "lemma": "Planung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Planungen",
+      "meaning_ja": "計画・企画",
+      "meaning_fr": "planification",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1307",
+      "lemma": "Prüfung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Prüfungen",
+      "meaning_ja": "試験・検査",
+      "meaning_fr": "examen, vérification",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1308",
+      "lemma": "Reihenfolge",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Reihenfolgen",
+      "meaning_ja": "順序・順番",
+      "meaning_fr": "ordre, séquence",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1309",
+      "lemma": "Strukturierung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Strukturierungen",
+      "meaning_ja": "構造化・体系化",
+      "meaning_fr": "structuration",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1310",
+      "lemma": "Teilnahme",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Teilnahmen",
+      "meaning_ja": "参加",
+      "meaning_fr": "participation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1311",
+      "lemma": "Verhandlung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Verhandlungen",
+      "meaning_ja": "交渉・審議",
+      "meaning_fr": "négociation, procès",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1312",
+      "lemma": "Versorgung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Versorgungen",
+      "meaning_ja": "供給・世話",
+      "meaning_fr": "approvisionnement, soins",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1313",
+      "lemma": "Vorbereitung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Vorbereitungen",
+      "meaning_ja": "準備",
+      "meaning_fr": "préparation",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1314",
+      "lemma": "Zuständigkeit",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Zuständigkeiten",
+      "meaning_ja": "管轄・権限",
+      "meaning_fr": "compétence, responsabilité",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1315",
+      "lemma": "abschaffen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "廃止する",
+      "meaning_fr": "abolir, supprimer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1316",
+      "lemma": "auflösen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "解散する・溶かす",
+      "meaning_fr": "dissoudre, résoudre",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1317",
+      "lemma": "aufteilen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "分割する・分ける",
+      "meaning_fr": "diviser, répartir",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1318",
+      "lemma": "auswerten",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "評価する・分析する",
+      "meaning_fr": "analyser, évaluer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1319",
+      "lemma": "durchsetzen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "貫徹する・実現させる",
+      "meaning_fr": "imposer, faire valoir",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1320",
+      "lemma": "ergänzen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "補足する・追加する",
+      "meaning_fr": "compléter, ajouter",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1321",
+      "lemma": "erwägen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "検討する・考慮する",
+      "meaning_fr": "envisager, considérer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1322",
+      "lemma": "identifizieren",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "識別する・特定する",
+      "meaning_fr": "identifier",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1323",
+      "lemma": "klären",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "明確にする・解決する",
+      "meaning_fr": "clarifier, résoudre",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1324",
+      "lemma": "ordnen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "整理する・分類する",
+      "meaning_fr": "ordonner, classer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1325",
+      "lemma": "planen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "計画する",
+      "meaning_fr": "planifier",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1326",
+      "lemma": "realisieren",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "実現する・実施する",
+      "meaning_fr": "réaliser, mettre en œuvre",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1327",
+      "lemma": "steuern",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "操作する・舵取りをする",
+      "meaning_fr": "piloter, diriger",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1328",
+      "lemma": "vorgehen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "進む・行動する",
+      "meaning_fr": "procéder, agir",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1329",
+      "lemma": "zusammenarbeiten",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "協力する・共同作業する",
+      "meaning_fr": "collaborer, coopérer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1330",
+      "lemma": "beachtlich",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "相当な・注目に値する",
+      "meaning_fr": "considérable, remarquable",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1331",
+      "lemma": "bedingt",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "条件付きの・限定的な",
+      "meaning_fr": "conditionnel, limité",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1332",
+      "lemma": "denkbar",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "考えられる・可能な",
+      "meaning_fr": "concevable, imaginable",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1333",
+      "lemma": "hilfreich",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "役立つ・助けになる",
+      "meaning_fr": "utile, serviable",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1334",
+      "lemma": "logisch",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "論理的な",
+      "meaning_fr": "logique",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1335",
+      "lemma": "strukturiert",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "構造化された・体系的な",
+      "meaning_fr": "structuré, organisé",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1336",
+      "lemma": "umsetzbar",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "実現可能な",
+      "meaning_fr": "réalisable, applicable",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1337",
+      "lemma": "unbedingt",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "絶対的な・無条件の",
+      "meaning_fr": "absolu, impératif",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1338",
+      "lemma": "verständlich",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "わかりやすい・理解できる",
+      "meaning_fr": "compréhensible, intelligible",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1339",
+      "lemma": "vollständig",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "完全な・完璧な",
+      "meaning_fr": "complet, intégral",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1340",
+      "lemma": "wirkungsvoll",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "効果的な",
+      "meaning_fr": "efficace, percutant",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1341",
+      "lemma": "zielorientiert",
+      "level": "C1",
+      "pos": "adjective",
+      "meaning_ja": "目標志向の",
+      "meaning_fr": "orienté vers les objectifs",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1342",
+      "lemma": "abgesehen",
+      "level": "C1",
+      "pos": "adverb",
+      "meaning_ja": "〜を別として・〜はさておき",
+      "meaning_fr": "mis à part, abstraction faite",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1343",
+      "lemma": "dahingehend",
+      "level": "C1",
+      "pos": "adverb",
+      "meaning_ja": "その点に関して・その方向で",
+      "meaning_fr": "en ce sens, dans ce sens",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1344",
+      "lemma": "hierfür",
+      "level": "C1",
+      "pos": "adverb",
+      "meaning_ja": "これのために",
+      "meaning_fr": "pour cela, à cet effet",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1345",
+      "lemma": "hiermit",
+      "level": "C1",
+      "pos": "adverb",
+      "meaning_ja": "これによって・ここに",
+      "meaning_fr": "par le présent, par la présente",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1346",
+      "lemma": "zunächst",
+      "level": "C1",
+      "pos": "adverb",
+      "meaning_ja": "まず・最初に",
+      "meaning_fr": "d'abord, premièrement",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1347",
+      "lemma": "Rückmeldung",
+      "level": "B2",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Rückmeldungen",
+      "meaning_ja": "フィードバック・返答",
+      "meaning_fr": "retour, feedback",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1348",
+      "lemma": "Abfolge",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Abfolgen",
+      "meaning_ja": "連続・順序",
+      "meaning_fr": "séquence, succession",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1349",
+      "lemma": "abgrenzen",
+      "level": "C1",
+      "pos": "verb",
+      "meaning_ja": "区別する・境界を設ける",
+      "meaning_fr": "délimiter, distinguer",
+      "note_ja": "",
+      "note_fr": "",
+      "conjugation": {}
+    },
+    {
+      "id": "w1350",
+      "lemma": "Gesprächsführung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Gesprächsführungen",
+      "meaning_ja": "会話の進め方",
+      "meaning_fr": "conduite d'entretien",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1351",
+      "lemma": "Wechselwirkung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Wechselwirkungen",
+      "meaning_ja": "相互作用",
+      "meaning_fr": "interaction, effet réciproque",
+      "note_ja": "",
+      "note_fr": ""
+    },
+    {
+      "id": "w1352",
+      "lemma": "Zurückhaltung",
+      "level": "C1",
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "Zurückhaltungen",
+      "meaning_ja": "自制・控えめな態度",
+      "meaning_fr": "retenue, réserve",
+      "note_ja": "",
+      "note_fr": ""
     }
   ]
 }
