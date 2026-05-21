@@ -520,23 +520,36 @@
     .list-row-read { font-size: .72rem; color: var(--tag-a1); flex-shrink: 0; }
 
     /* ── Back to top button ──────────────────────────────────── */
-    .btn-top {
-      display: block;
-      margin: 2rem auto 0;
-      padding: .48rem 1.4rem;
-      background: none;
-      border: 1.5px solid var(--border);
-      border-radius: 20px;
-      font-size: .8rem;
-      font-weight: 600;
-      color: var(--muted);
+    #btnTop {
+      position: fixed;
+      bottom: 1.6rem;
+      right: 1.4rem;
+      z-index: 200;
+      width: 2.4rem;
+      height: 2.4rem;
+      border-radius: 50%;
+      border: none;
+      background: rgba(26,38,64,.55);
+      color: rgba(255,255,255,.85);
+      font-size: 1rem;
+      line-height: 1;
       cursor: pointer;
-      transition: background .15s, color .15s, border-color .15s;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      box-shadow: 0 2px 8px rgba(0,0,0,.18);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(6px);
+      transition: opacity .25s, transform .25s;
     }
-    .btn-top:hover {
-      background: var(--navy);
+    #btnTop.visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+    #btnTop:hover {
+      background: rgba(26,38,64,.85);
       color: #fff;
-      border-color: var(--navy);
     }
 
     /* ── Main reader layout ──────────────────────────────────── */
@@ -1066,6 +1079,8 @@
   </div><!-- /.main -->
 
 </div><!-- /#appWrapper -->
+
+<button id="btnTop" aria-label="ページトップへ">▲</button>
 
 <footer>Deutsch Lernen — données locales, aucun suivi</footer>
 
@@ -1607,15 +1622,6 @@ function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
     container.appendChild(span);
   });
 
-  // Back-to-top button
-  const topBtn = document.createElement('button');
-  topBtn.className = 'btn-top';
-  topBtn.textContent = '▲ ページトップ';
-  topBtn.addEventListener('click', () => {
-    document.querySelector('.text-pane').scrollTo({ top: 0, behavior: 'smooth' });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-  container.appendChild(topBtn);
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -1994,6 +2000,13 @@ document.getElementById('panelDrag').addEventListener('click', closeMobilePanel)
 document.getElementById('textBody').addEventListener('click', e => {
   if (!e.target.closest('.token')) clearPanel();
 });
+
+/* Back-to-top button */
+const _btnTop = document.getElementById('btnTop');
+_btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+window.addEventListener('scroll', () => {
+  _btnTop.classList.toggle('visible', window.scrollY > 200);
+}, { passive: true });
 
 /* Keyboard nav */
 document.addEventListener('keydown', e => {
