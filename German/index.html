@@ -2111,7 +2111,7 @@ function quizWordPool() {
 
   // 2. Words appearing in read texts (from VOCAB)
   const all = Object.values(VOCAB).filter(w => w.lemma && w.meaning_ja);
-  if (!all.length && !saved.length) return [];
+  if (!all.length && !saved.length) return { pool: [], priorityCount: 0 };
   const readLemmas = new Set();
   const readIds = getReadSet();
   TEXTS.filter(t => readIds.has(t.id)).forEach(t =>
@@ -2121,15 +2121,19 @@ function quizWordPool() {
   const notRead = all.filter(w => !readLemmas.has(w.lemma.toLowerCase()) && !savedLemmas.has(w.lemma.toLowerCase()));
 
   // Priority order: saved → read texts → rest
-  return [...shuffle(saved), ...shuffle(inRead), ...shuffle(notRead)];
+  // priorityCount = the number of "priority" words (saved + read) at the front of the pool
+  const priorityPool = [...shuffle(saved), ...shuffle(inRead)];
+  return {
+    pool: [...priorityPool, ...shuffle(notRead)],
+    priorityCount: priorityPool.length,
+  };
 }
 
 function buildQuiz() {
-  const pool = quizWordPool();
+  const { pool, priorityCount } = quizWordPool();
   if (pool.length < 8) return null;
-  // Saved words occupy first N slots — prefer them but add some randomness
-  const savedCount = getSavedWords().filter(w => w.lemma && w.meaning_ja).length;
-  const sampleMax  = savedCount > 0 ? savedCount : Math.min(pool.length, 300);
+  // Draw from saved + read-text words; fall back to full pool if none exist yet
+  const sampleMax = priorityCount > 0 ? priorityCount : Math.min(pool.length, 300);
   const correct  = pool[Math.floor(Math.random() * sampleMax)];
   const isSaved  = correct.type === 'custom' || isWordSaved(correct.lemma);
   const samePos  = pool.filter(w => w.pos === correct.pos && w.id !== correct.id && w.meaning_ja !== correct.meaning_ja);
