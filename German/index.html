@@ -429,6 +429,116 @@
       padding: 2rem;
     }
 
+    /* ── Card grid header row ────────────────────────────────── */
+    .card-grid-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: .85rem;
+      gap: .5rem;
+    }
+    .card-grid-header h2 {
+      font-size: .78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      color: var(--muted);
+      flex: 1;
+    }
+    .view-toggle {
+      display: flex;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .view-btn {
+      background: var(--bg);
+      border: none;
+      padding: .28rem .55rem;
+      font-size: .82rem;
+      cursor: pointer;
+      color: var(--muted);
+      transition: background .12s, color .12s;
+      line-height: 1;
+    }
+    .view-btn.active { background: var(--navy); color: #fff; }
+    .view-btn:first-child { border-right: 1px solid var(--border); }
+
+    /* ── List view ───────────────────────────────────────────── */
+    .text-list { display: flex; flex-direction: column; gap: 1.2rem; }
+    .list-level-group { }
+    .list-level-header {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .3rem 0 .4rem;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: .35rem;
+    }
+    .list-level-header .level-section-name {
+      font-size: .78rem;
+      font-weight: 700;
+      color: var(--muted);
+    }
+    .list-level-header .level-progress-text {
+      margin-left: auto;
+      font-size: .7rem;
+      color: var(--muted);
+    }
+    .list-rows { display: flex; flex-direction: column; }
+    .list-rows.collapsed { display: none; }
+    .text-list-row {
+      display: flex;
+      align-items: center;
+      gap: .55rem;
+      padding: .38rem .5rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background .1s;
+      min-width: 0;
+    }
+    .text-list-row:hover { background: var(--highlight); }
+    .text-list-row.active-card { background: var(--accent-lt); }
+    .text-list-row.row-read { opacity: .5; }
+    .list-row-title {
+      flex: 1;
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--navy);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      min-width: 0;
+    }
+    .list-row-tokens {
+      font-size: .68rem;
+      color: var(--muted);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .list-row-read { font-size: .72rem; color: var(--tag-a1); flex-shrink: 0; }
+
+    /* ── Back to top button ──────────────────────────────────── */
+    .btn-top {
+      display: block;
+      margin: 2rem auto 0;
+      padding: .48rem 1.4rem;
+      background: none;
+      border: 1.5px solid var(--border);
+      border-radius: 20px;
+      font-size: .8rem;
+      font-weight: 600;
+      color: var(--muted);
+      cursor: pointer;
+      transition: background .15s, color .15s, border-color .15s;
+    }
+    .btn-top:hover {
+      background: var(--navy);
+      color: #fff;
+      border-color: var(--navy);
+    }
+
     /* ── Main reader layout ──────────────────────────────────── */
     .main {
       flex: 1;
@@ -919,7 +1029,13 @@
 
   <!-- Card grid -->
   <div class="card-grid-section">
-    <h2 id="cardGridLabel">Tous les textes</h2>
+    <div class="card-grid-header">
+      <h2 id="cardGridLabel">Tous les textes</h2>
+      <div class="view-toggle">
+        <button class="view-btn active" id="viewBtnGrid" title="グリッド表示">⊞</button>
+        <button class="view-btn"        id="viewBtnList" title="リスト表示">≡</button>
+      </div>
+    </div>
     <div class="rec-quiz-row">
       <div id="nextRecContainer"></div>
       <div id="quizWidget"></div>
@@ -965,8 +1081,8 @@ const APP_CONFIG = {
   ttsRate:           0.88,
 
   /* データファイルパス ------------------------------------------ */
-  vocabPath:  'data/vocabulary.json?v=5',
-  textsPath:  'data/texts.json?v=5',
+  vocabPath:  'data/vocabulary.json?v=6',
+  textsPath:  'data/texts.json?v=6',
 
   /* ローカルストレージキー ------------------------------------- */
   storageKey: 'dl_read_v1',         // 'jl_read_v1' for Japanese ver.
@@ -997,6 +1113,7 @@ let adjTab = 'stark';
 // filter state
 let filterCat = '';
 let filterLvl = '';
+let viewMode  = 'grid'; // 'grid' | 'list'
 
 const PUNCT = new Set(['.', ',', '!', '?', ':', ';', '…', ')', '»', '"']);
 const NO_SPACE_AFTER = new Set(['(', '«', '"']);
@@ -1207,9 +1324,8 @@ function renderCards() {
     (!filterLvl || t.level === filterLvl)
   );
 
-  // Update header label
-  const label = document.getElementById('cardGridLabel');
-  const readSet = getReadSet();
+  const label    = document.getElementById('cardGridLabel');
+  const readSet  = getReadSet();
   const readCount = filtered.filter(t => readSet.has(t.id)).length;
   const parts = [];
   if (filterLvl) parts.push(filterLvl);
@@ -1218,7 +1334,6 @@ function renderCards() {
     ? `${filtered.length} textes · ${parts.join(' · ')} — ${readCount} lus`
     : `${filtered.length} textes — ${readCount} lus`;
 
-  // Recommendation widget
   renderNextRecommendation();
 
   const container = document.getElementById('cardGrid');
@@ -1229,10 +1344,11 @@ function renderCards() {
     return;
   }
 
-  const nextText = findNextText();
-  const nextTextId = nextText ? nextText.id : null;
+  viewMode === 'list' ? renderListView(container, readSet) : renderGridView(container, readSet);
+}
 
-  // Group by level
+function renderGridView(container, readSet) {
+  const nextTextId = (findNextText() || {}).id || null;
   const levelsToShow = filterLvl ? [filterLvl] : LEVELS;
 
   levelsToShow.forEach(lvl => {
@@ -1241,18 +1357,14 @@ function renderCards() {
 
     const lvlRead  = textsForLevel.filter(t => readSet.has(t.id)).length;
     const lvlTotal = textsForLevel.length;
-    const pct = Math.round(lvlRead / lvlTotal * 100);
+    const pct      = Math.round(lvlRead / lvlTotal * 100);
     const lvlLower = lvl.toLowerCase();
-    const allDone = lvlRead === lvlTotal;
+    const allDone  = lvlRead === lvlTotal;
+    const startCollapsed = allDone && !filterLvl;
 
-    // Build section
     const section = document.createElement('div');
     section.className = 'level-section';
     section.dataset.level = lvl;
-
-    // Start collapsed if fully read (and not filtered to just this level)
-    const startCollapsed = allDone && !filterLvl;
-
     section.innerHTML = `
       <div class="level-section-header">
         <span class="level-chevron ${startCollapsed ? 'collapsed' : ''}">▾</span>
@@ -1264,26 +1376,83 @@ function renderCards() {
         <div class="level-progress-bar-fill" id="prog-bar-${lvl}"
              style="width:${pct}%;background:${LEVEL_COLORS[lvlLower]}"></div>
       </div>
-      <div class="level-card-grid ${startCollapsed ? 'grid-collapsed' : ''}" id="lvl-grid-${lvl}"></div>
-    `;
+      <div class="level-card-grid ${startCollapsed ? 'grid-collapsed' : ''}" id="lvl-grid-${lvl}"></div>`;
 
-    // Toggle collapse on header click
     const header  = section.querySelector('.level-section-header');
     const grid    = section.querySelector('.level-card-grid');
     const chevron = section.querySelector('.level-chevron');
     header.addEventListener('click', () => {
-      const nowCollapsed = grid.classList.toggle('grid-collapsed');
-      chevron.classList.toggle('collapsed', nowCollapsed);
+      chevron.classList.toggle('collapsed', grid.classList.toggle('grid-collapsed'));
     });
 
-    // Append cards
-    const levelGrid = section.querySelector('.level-card-grid');
-    textsForLevel.forEach(text => {
-      levelGrid.appendChild(buildCard(text, readSet, nextTextId));
-    });
-
+    textsForLevel.forEach(text => grid.appendChild(buildCard(text, readSet, nextTextId)));
     container.appendChild(section);
   });
+}
+
+function renderListView(container, readSet) {
+  const nextTextId = (findNextText() || {}).id || null;
+  const levelsToShow = filterLvl ? [filterLvl] : LEVELS;
+  const wrap = document.createElement('div');
+  wrap.className = 'text-list';
+
+  levelsToShow.forEach(lvl => {
+    const textsForLevel = filtered.filter(t => t.level === lvl);
+    if (!textsForLevel.length) return;
+
+    const lvlRead  = textsForLevel.filter(t => readSet.has(t.id)).length;
+    const lvlTotal = textsForLevel.length;
+    const lvlLower = lvl.toLowerCase();
+
+    const group = document.createElement('div');
+    group.className = 'list-level-group';
+
+    const hdr = document.createElement('div');
+    hdr.className = 'list-level-header';
+    hdr.innerHTML = `
+      <span class="level-chevron">▾</span>
+      <span class="badge badge-${lvlLower}" style="font-size:.75rem;padding:.18rem .5rem">${lvl}</span>
+      <span class="level-section-name">${LEVEL_NAMES[lvl]}</span>
+      <span class="level-progress-text">${lvlRead}/${lvlTotal}</span>`;
+
+    const rows = document.createElement('div');
+    rows.className = 'list-rows';
+
+    hdr.addEventListener('click', () => {
+      const c = rows.classList.toggle('collapsed');
+      hdr.querySelector('.level-chevron').classList.toggle('collapsed', c);
+    });
+
+    textsForLevel.forEach(text => {
+      const isRead   = readSet.has(text.id);
+      const isNext   = text.id === nextTextId;
+      const isActive = text.id === currentTextId;
+      const catLabel = CAT_LABELS[text.category] || text.category || '';
+      const tc       = text.token_count || (text.tokens || []).filter(t => t.pos !== 'punctuation').length;
+
+      const row = document.createElement('div');
+      row.className = 'text-list-row' +
+        (isActive ? ' active-card' : '') +
+        (isRead   ? ' row-read'    : '');
+      row.dataset.textId = text.id;
+      row.innerHTML = `
+        <span class="badge badge-${(text.level||'').toLowerCase()}" style="font-size:.68rem;padding:.14rem .45rem">${text.level||''}</span>
+        <span class="list-row-title">${text.title}</span>
+        <span class="badge badge-cat" style="font-size:.65rem;padding:.1rem .38rem">${catLabel}</span>
+        <span class="list-row-tokens">${tc}w</span>
+        ${isRead ? '<span class="list-row-read">✓</span>' : ''}
+        ${isNext ? '<span class="card-next-mark">→</span>' : ''}`;
+
+      row.addEventListener('click', () => loadText(text));
+      rows.appendChild(row);
+    });
+
+    group.appendChild(hdr);
+    group.appendChild(rows);
+    wrap.appendChild(group);
+  });
+
+  container.appendChild(wrap);
 }
 
 /* Lightweight update after reading: no full re-render */
@@ -1351,6 +1520,20 @@ function updateReadStates() {
 
   // Refresh recommendation widget
   renderNextRecommendation();
+
+  // Refresh list-view rows if visible
+  document.querySelectorAll('.text-list-row').forEach(row => {
+    const id = row.dataset.textId;
+    const isRead   = readSet.has(id);
+    const isNext   = id === nextId;
+    const isActive = id === currentTextId;
+    row.classList.toggle('row-read',    isRead && !isActive);
+    row.classList.toggle('active-card', isActive);
+    const readMark = row.querySelector('.list-row-read');
+    const nextMark = row.querySelector('.card-next-mark');
+    if (readMark) readMark.style.display = isRead ? '' : 'none';
+    if (nextMark) nextMark.style.display = isNext && !isRead ? '' : 'none';
+  });
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -1423,6 +1606,16 @@ function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
     }
     container.appendChild(span);
   });
+
+  // Back-to-top button
+  const topBtn = document.createElement('button');
+  topBtn.className = 'btn-top';
+  topBtn.textContent = '▲ ページトップ';
+  topBtn.addEventListener('click', () => {
+    document.querySelector('.text-pane').scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  container.appendChild(topBtn);
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -1779,6 +1972,20 @@ document.querySelectorAll('.pill-btn[data-filter="lvl"]').forEach(btn => {
     filterLvl = btn.dataset.value;
     renderCards();
   });
+});
+
+/* View toggle */
+document.getElementById('viewBtnGrid').addEventListener('click', () => {
+  viewMode = 'grid';
+  document.getElementById('viewBtnGrid').classList.add('active');
+  document.getElementById('viewBtnList').classList.remove('active');
+  renderCards();
+});
+document.getElementById('viewBtnList').addEventListener('click', () => {
+  viewMode = 'list';
+  document.getElementById('viewBtnList').classList.add('active');
+  document.getElementById('viewBtnGrid').classList.remove('active');
+  renderCards();
 });
 
 document.getElementById('panelDrag').addEventListener('click', closeMobilePanel);

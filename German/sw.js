@@ -4,7 +4,7 @@
    - 画像 / アイコン → Cache First（変わらないので速度優先）
    - CACHE_VERSION を上げるだけで全キャッシュが自動クリアされる
    ─────────────────────────────────────────────────────────────────────────── */
-const CACHE_VERSION = 'dl-v4';
+const CACHE_VERSION = 'dl-v5';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
