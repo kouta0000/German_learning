@@ -749,38 +749,88 @@
     }
     .btn-form-submit:hover { background: var(--accent-dk); }
 
-    /* ── Sentence controls ──────────────────────────────────────── */
+    /* ── Sentences ──────────────────────────────────────────────── */
     .sentence { display: inline; }
-    .sentence.playing {
-      background: rgba(201,154,60,.1); border-radius: 3px;
-      outline: 1px solid rgba(201,154,60,.2); outline-offset: 1px;
-    }
-    .sent-btns {
-      display: inline-flex; align-items: center; gap: .15rem;
-      opacity: 0; transition: opacity .15s;
-      margin-left: .18rem; vertical-align: middle;
-    }
-    .sentence:hover .sent-btns { opacity: 1; }
-    .btn-sent-play, .btn-sent-tr {
-      background: none; border: none; cursor: pointer;
-      font-size: .6rem; color: var(--text-3);
-      padding: 1px 4px; border-radius: 3px; line-height: 1;
-      font-family: var(--font);
-      transition: color .12s, background .12s;
-    }
-    .btn-sent-play:hover { color: var(--accent); background: var(--accent-lt); }
-    .btn-sent-tr:hover   { color: var(--tag-a2); background: rgba(90,160,245,.1); }
-    .sent-tr-box {
-      display: none; font-size: .8rem; color: var(--text-2);
-      background: var(--surface-2); border-left: 2px solid var(--border-md);
-      padding: .35rem .7rem; margin: .18rem 0 .45rem;
-      border-radius: 0 var(--r-sm) var(--r-sm) 0; line-height: 1.65;
-    }
-    .sent-tr-box.visible { display: block; animation: trFadeIn .18s ease; }
-    @keyframes trFadeIn { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
 
-    /* ── Auto-play button ────────────────────────────────────────── */
-    #btnAutoPlay.active {
+    /* playing state (auto-advance) */
+    .sentence.playing {
+      background: rgba(201,154,60,.1); border-radius: 4px;
+      box-shadow: 0 0 0 1px rgba(201,154,60,.28);
+    }
+
+    /* sentence-mode: sentences become hover targets */
+    .text-reader.sentence-mode .sentence {
+      cursor: pointer; border-radius: 4px;
+      transition: background .12s;
+    }
+    .text-reader.sentence-mode .sentence:hover {
+      background: rgba(255,255,255,.05);
+    }
+
+    /* selected sentence */
+    .sentence.selected {
+      background: rgba(96,112,242,.12);
+      border-radius: 4px;
+      box-shadow: 0 0 0 1.5px rgba(96,112,242,.35);
+    }
+
+    /* ── Sentence action bar (sticky floating card) ──────────────── */
+    .sent-action-bar {
+      display: none;
+      flex-direction: column; gap: .5rem;
+      position: sticky; bottom: .85rem;
+      margin-top: 2rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border-md);
+      border-radius: var(--r-lg);
+      padding: .7rem .9rem;
+      box-shadow: 0 6px 28px rgba(0,0,0,.32), 0 1px 3px rgba(0,0,0,.18);
+    }
+    .sent-action-bar.open {
+      display: flex;
+      animation: barSlideIn .22s cubic-bezier(.2,.8,.4,1);
+    }
+    @keyframes barSlideIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .sent-action-top {
+      display: flex; align-items: center; gap: .6rem; min-width: 0;
+    }
+    .sent-action-preview {
+      flex: 1; font-size: .74rem; color: var(--text-2);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      min-width: 0;
+    }
+    .sent-action-btns { display: flex; gap: .28rem; flex-shrink: 0; align-items: center; }
+    .btn-sa {
+      display: flex; align-items: center; gap: .28rem;
+      padding: .3rem .65rem;
+      border-radius: var(--r-sm); border: 1px solid var(--border);
+      background: var(--bg); color: var(--text-2);
+      font-size: .72rem; font-weight: 500; font-family: var(--font);
+      cursor: pointer; white-space: nowrap;
+      transition: background .12s, color .12s, border-color .12s;
+    }
+    .btn-sa:hover { background: var(--surface); color: var(--text); border-color: var(--border-md); }
+    .btn-sa.active { background: var(--accent-lt); color: var(--accent); border-color: rgba(96,112,242,.3); }
+    .btn-sa-close {
+      background: none; border: none; cursor: pointer;
+      color: var(--text-3); font-size: .85rem; padding: 2px 4px;
+      border-radius: var(--r-sm); line-height: 1;
+      transition: color .15s, background .15s;
+    }
+    .btn-sa-close:hover { color: var(--text); background: rgba(255,255,255,.06); }
+    .sent-action-tr {
+      display: none;
+      font-size: .8rem; color: var(--text-2); line-height: 1.7;
+      padding-top: .45rem; border-top: 1px solid var(--border);
+    }
+    .sent-action-tr.visible { display: block; animation: trIn .16s ease; }
+    @keyframes trIn { from { opacity: 0; } to { opacity: 1; } }
+
+    /* ── Sentence mode toggle & auto-play active state ───────────── */
+    #btnSentMode.active, #btnAutoPlay.active {
       background: var(--accent-lt); color: var(--accent);
       border-color: rgba(96,112,242,.3);
     }
@@ -1051,6 +1101,19 @@
           <div class="text-meta" id="textMeta"></div>
           <div class="text-title" id="textTitle"></div>
           <div class="text-body"  id="textBody"></div>
+
+          <!-- Sentence action bar (shown when a sentence is selected) -->
+          <div class="sent-action-bar" id="sentActionBar">
+            <div class="sent-action-top">
+              <span class="sent-action-preview" id="sentBarPreview"></span>
+              <div class="sent-action-btns">
+                <button class="btn-sa" id="sentBarPlay">▶ 読む</button>
+                <button class="btn-sa" id="sentBarTranslate">🌐 翻訳</button>
+                <button class="btn-sa-close" id="sentBarClose" title="閉じる">✕</button>
+              </div>
+            </div>
+            <div class="sent-action-tr" id="sentBarTr"></div>
+          </div>
         </div>
 
         <!-- Info panel -->
@@ -1127,10 +1190,12 @@ let currentTextId = null; // id of currently displayed text
 let activeToken = null;
 let adjTab = 'stark';
 
-// Sentence-level TTS state
+// Sentence-level TTS & selection state
 let sentenceData    = [];    // [{tok, i}][] — one array per sentence
 let currentSentIdx  = null;
 let autoPlayActive  = false;
+let sentenceMode    = false;
+let selectedSentIdx = null;
 let ttsRate         = parseFloat(localStorage.getItem('dl_tts_rate_v1') || '0.88');
 
 // filter state
@@ -1719,10 +1784,13 @@ function updateReadStates() {
 
 function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
   stopSpeech();           // stop TTS when switching text
-  sentenceData   = [];
-  currentSentIdx = null;
+  sentenceData    = [];
+  currentSentIdx  = null;
+  sentenceMode    = false;
+  selectedSentIdx = null;
+  closeSentenceBar();
   currentTextId  = text.id;
-  updateReadStates();     // reflect active card (no auto-mark)
+  updateReadStates();
   clearPanel();
 
   // URL state management
@@ -1747,12 +1815,14 @@ function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
      <div class="text-actions">
        ${ttsOK ? `<button class="btn-action" id="btnTts">▶ 聞く</button>
                   <button class="btn-action" id="btnAutoPlay">⏭ 順送り</button>` : ''}
+       <button class="btn-action" id="btnSentMode">文を選ぶ</button>
        <button class="btn-action ${isRead ? 'btn-read-on' : ''}" id="btnRead">
          ${isRead ? '✓ 読んだ' : '☐ 読んだ'}
        </button>
      </div>`;
 
   document.getElementById('btnRead').addEventListener('click', () => toggleRead(text.id));
+  document.getElementById('btnSentMode').addEventListener('click', toggleSentenceMode);
   if (ttsOK) {
     document.getElementById('btnTts').addEventListener('click', () => speakText(text));
     document.getElementById('btnAutoPlay').addEventListener('click', toggleAutoPlay);
@@ -1786,33 +1856,21 @@ function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
       const isClickable = tok.pos !== 'punct' && (tok.meaning_ja || tok.meaning_fr || tok.word_id);
       if (isClickable) {
         span.classList.add('clickable');
-        span.addEventListener('click', () => showTokenInfo(tok, span));
+        span.addEventListener('click', e => {
+          if (sentenceMode) { e.stopPropagation(); return; } // let sentence handle it
+          showTokenInfo(tok, span);
+        });
       }
       sentSpan.appendChild(span);
     });
 
-    // Micro-buttons (visible on hover)
-    const sentText = buildSentenceText(sentTokens, text.tokens);
-    const btns = document.createElement('span');
-    btns.className = 'sent-btns';
-    if (ttsOK) {
-      const pb = document.createElement('button');
-      pb.className = 'btn-sent-play'; pb.textContent = '▶'; pb.title = 'この文を読む';
-      pb.addEventListener('click', e => { e.stopPropagation(); speakSentence(sentIdx); });
-      btns.appendChild(pb);
-    }
-    const tb = document.createElement('button');
-    tb.className = 'btn-sent-tr'; tb.textContent = '🌐'; tb.title = '翻訳';
-    tb.addEventListener('click', e => { e.stopPropagation(); translateSentence(sentIdx, sentText); });
-    btns.appendChild(tb);
-    sentSpan.appendChild(btns);
-    container.appendChild(sentSpan);
+    // Sentence click → select (only active in sentence mode)
+    sentSpan.addEventListener('click', () => {
+      if (!sentenceMode) return;
+      selectSentence(sentIdx);
+    });
 
-    // Translation result box (block, hidden until used)
-    const trBox = document.createElement('div');
-    trBox.className = 'sent-tr-box';
-    trBox.id = `str-${sentIdx}`;
-    container.appendChild(trBox);
+    container.appendChild(sentSpan);
   });
 
   // Underline saved words
@@ -2164,8 +2222,10 @@ function stopSpeech() {
   document.querySelectorAll('.sentence.playing').forEach(s => s.classList.remove('playing'));
   const btnTts  = document.getElementById('btnTts');
   const btnAuto = document.getElementById('btnAutoPlay');
+  const btnPlay = document.getElementById('sentBarPlay');
   if (btnTts)  { btnTts.textContent = '▶ 聞く'; btnTts.classList.remove('btn-tts-on'); }
   if (btnAuto) { btnAuto.textContent = '⏭ 順送り'; btnAuto.classList.remove('active'); }
+  if (btnPlay) { btnPlay.classList.remove('active'); }
 }
 
 function speakText(text) {
@@ -2274,7 +2334,11 @@ window.addEventListener('scroll', () => {
 
 /* Keyboard nav */
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') clearPanel();
+  if (e.key === 'Escape') {
+    clearPanel();
+    if (sentenceMode) toggleSentenceMode();
+    else closeSentenceBar();
+  }
 });
 
 /* Browser back / forward */
@@ -2395,6 +2459,90 @@ function renderQuiz(delay = 0) {
 }
 
 /* ═══════════════════════════════════════════════════════════════
+   SENTENCE SELECTION MODE
+═══════════════════════════════════════════════════════════════ */
+function toggleSentenceMode() {
+  sentenceMode = !sentenceMode;
+  const reader = document.getElementById('textReader');
+  const btn    = document.getElementById('btnSentMode');
+  reader.classList.toggle('sentence-mode', sentenceMode);
+  if (btn) {
+    btn.classList.toggle('active', sentenceMode);
+    btn.textContent = sentenceMode ? '✕ 選択中' : '文を選ぶ';
+  }
+  if (!sentenceMode) closeSentenceBar();
+}
+
+function selectSentence(sentIdx) {
+  // Clicking same sentence again → deselect
+  if (selectedSentIdx === sentIdx) { closeSentenceBar(); return; }
+
+  document.querySelectorAll('.sentence.selected').forEach(s => s.classList.remove('selected'));
+  selectedSentIdx = sentIdx;
+  document.querySelector(`.sentence[data-sent="${sentIdx}"]`)?.classList.add('selected');
+
+  const curText = TEXTS.find(t => t.id === currentTextId);
+  if (!curText) return;
+  const sentText = buildSentenceText(sentenceData[sentIdx], curText.tokens);
+  openSentenceBar(sentIdx, sentText);
+}
+
+function openSentenceBar(sentIdx, sentText) {
+  const bar       = document.getElementById('sentActionBar');
+  const preview   = document.getElementById('sentBarPreview');
+  const playBtn   = document.getElementById('sentBarPlay');
+  const trBtn     = document.getElementById('sentBarTranslate');
+  const closeBtn  = document.getElementById('sentBarClose');
+  const trResult  = document.getElementById('sentBarTr');
+  if (!bar) return;
+
+  // Reset state
+  trResult.className = 'sent-action-tr';
+  trResult.textContent = '';
+  playBtn.classList.remove('active');
+  if (preview) preview.textContent = sentText;
+
+  // Play button
+  playBtn.onclick = () => speakSentence(sentIdx);
+
+  // Translate button (toggle)
+  trBtn.onclick = async () => {
+    if (trResult.classList.contains('visible')) {
+      trResult.classList.remove('visible');
+      trBtn.classList.remove('active');
+      return;
+    }
+    trBtn.classList.add('active');
+    trResult.textContent = '翻訳中…';
+    trResult.classList.add('visible');
+    try {
+      const url  = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(sentText)}&langpair=de|ja`;
+      const res  = await fetch(url);
+      const data = await res.json();
+      const t    = data.responseData?.translatedText;
+      trResult.textContent = (t && data.responseStatus === 200)
+        ? t : '（翻訳できませんでした）';
+    } catch {
+      trResult.textContent = '（オフラインです）';
+      trBtn.classList.remove('active');
+    }
+  };
+
+  closeBtn.onclick = closeSentenceBar;
+
+  bar.classList.add('open');
+  // Scroll bar into view gently
+  setTimeout(() => bar.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
+}
+
+function closeSentenceBar() {
+  selectedSentIdx = null;
+  document.querySelectorAll('.sentence.selected').forEach(s => s.classList.remove('selected'));
+  const bar = document.getElementById('sentActionBar');
+  if (bar) bar.classList.remove('open');
+}
+
+/* ═══════════════════════════════════════════════════════════════
    SENTENCE HELPERS
 ═══════════════════════════════════════════════════════════════ */
 function groupSentences(tokens) {
@@ -2457,8 +2605,13 @@ function speakSentence(sentIdx) {
   utt.rate  = ttsRate;
   if (germanVoice) utt.voice = germanVoice;
 
+  // Reflect playing state on action bar play button
+  const barPlay = document.getElementById('sentBarPlay');
+  if (barPlay && selectedSentIdx === sentIdx) barPlay.classList.add('active');
+
   utt.onend = () => {
     sentEl?.classList.remove('playing');
+    if (barPlay && selectedSentIdx === sentIdx) barPlay.classList.remove('active');
     if (autoPlayActive) {
       setTimeout(() => speakSentence(sentIdx + 1), 320);
     } else {
@@ -2467,6 +2620,7 @@ function speakSentence(sentIdx) {
   };
   utt.onerror = () => {
     sentEl?.classList.remove('playing');
+    if (barPlay) barPlay.classList.remove('active');
     autoPlayActive = false;
     currentSentIdx = null;
   };
