@@ -2194,7 +2194,7 @@ function toggleRead(textId) {
    - cancel() が onerror を発火（iOS 14+） → cancel前にnull化
    - 長文15秒カットオフ → 文ごとに分割してキュー
    - バックグラウンド停止 → visibilitychange で resume
-   - iOS 18: compact音声がWeb APIから消滅（回避不可）
+   - iOS 18: compact音声がWeb APIから消滅 → Google TTS fallback で回避
 ═══════════════════════════════════════════════════════════════ */
 
 // iOS 検出（iPadOS 13+ は platform が MacIntel になるため maxTouchPoints で判定）
@@ -2206,6 +2206,28 @@ let ttsChunkUtts      = [];     // 分割読み上げ用（GC防止）
 let currentSentUtt    = null;   // 文TTS用（GC防止）
 let ttsPlaying        = false;
 let germanVoice       = null;
+
+/* ── Google Translate TTS（高品質・要通信・APIキー不要）────────────
+   iOS 18 Web Speech API の制限を回避するための代替エンジン。
+   <audio> 要素に直接URLを渡すためCORSを受けない。
+   ─────────────────────────────────────────────────────────────── */
+const LS_GOOGLE_TTS   = 'dl_gtts_v1';
+let useGoogleTTS      = localStorage.getItem(LS_GOOGLE_TTS) === 'true';
+let gAudio            = null;   // 現在再生中のAudioオブジェクト（GC防止）
+
+function gttsUrl(text) {
+  // Google Translate TTS: 非公式APIだが無料・高品質。200文字制限あり
+  return `https://translate.google.com/translate_tts?ie=UTF-8&tl=de&client=tw-ob&q=${encodeURIComponent(text.slice(0, 200))}`;
+}
+
+function stopGoogleAudio() {
+  if (gAudio) {
+    gAudio.onended = gAudio.onerror = null;
+    gAudio.pause();
+    gAudio.src = '';
+    gAudio = null;
+  }
+}
 
 /* ── Voice loading with polling fallback (iOS voiceschanged bug) ─ */
 function loadGermanVoice() {
@@ -2253,6 +2275,9 @@ if ('speechSynthesis' in window) {
 
 /* ── stopSpeech ──────────────────────────────────────────────── */
 function stopSpeech() {
+  // Google TTS 停止
+  stopGoogleAudio();
+
   if (!('speechSynthesis' in window)) return;
 
   // iOS 14+ バグ: cancel() が onerror を発火させる → 先にハンドラをnull化
@@ -2276,13 +2301,44 @@ function stopSpeech() {
 
 /* ── speakText: 文ごとに分割してキュー（15秒カットオフ対策）─── */
 function speakText(text) {
-  if (!('speechSynthesis' in window)) return;
   if (ttsPlaying) { stopSpeech(); return; }
 
   // 文単位チャンクを使用（sentenceDataがあれば）、なければ全文
   const chunks = sentenceData.length > 0
     ? sentenceData.map(s => buildSentenceText(s, text.tokens)).filter(t => t.trim())
     : [buildFullTextString(text)];
+
+  // ── Google TTS モード ────────────────────────────────────────
+  if (useGoogleTTS) {
+    const btn = document.getElementById('btnTts');
+    ttsPlaying = true;
+    if (btn) { btn.textContent = '⏹ 停止'; btn.classList.add('btn-tts-on'); }
+
+    let idx = 0;
+    function playNextChunk() {
+      if (!ttsPlaying || idx >= chunks.length) {
+        ttsPlaying = false;
+        if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+        return;
+      }
+      gAudio = new Audio(gttsUrl(chunks[idx]));
+      gAudio.playbackRate = ttsRate;
+      gAudio.onended = () => { idx++; playNextChunk(); };
+      gAudio.onerror = () => {
+        ttsPlaying = false;
+        if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+      };
+      gAudio.play().catch(() => {
+        ttsPlaying = false;
+        if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+      });
+      idx++;
+    }
+    playNextChunk();
+    return;
+  }
+
+  if (!('speechSynthesis' in window)) return;
 
   ttsChunkUtts = chunks.map((chunk, i) => {
     const utt = new SpeechSynthesisUtterance(chunk);
@@ -2332,6 +2388,14 @@ function buildFullTextString(text) {
 }
 
 function speakWord(surface) {
+  // Google TTS モード
+  if (useGoogleTTS) {
+    stopGoogleAudio();
+    gAudio = new Audio(gttsUrl(surface));
+    gAudio.playbackRate = ttsRate;
+    gAudio.play().catch(() => {});
+    return;
+  }
   if (!('speechSynthesis' in window)) return;
   // null化してからcancel（iOS 14+対策）
   if (currentSentUtt) { currentSentUtt.onend = currentSentUtt.onerror = null; }
@@ -2680,17 +2744,10 @@ function speakSentence(sentIdx) {
     sentEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 
-  // Store on global to prevent GC (iOS Safari drops local utt references)
-  currentSentUtt = new SpeechSynthesisUtterance(sentText);
-  currentSentUtt.lang  = APP_CONFIG.ttsLang;
-  currentSentUtt.rate  = ttsRate;
-  if (germanVoice) currentSentUtt.voice = germanVoice;
-
-  // Reflect playing state on action bar play button
   const barPlay = document.getElementById('sentBarPlay');
   if (barPlay && selectedSentIdx === sentIdx) barPlay.classList.add('active');
 
-  currentSentUtt.onend = () => {
+  const onSentEnd = () => {
     sentEl?.classList.remove('playing');
     if (barPlay && selectedSentIdx === sentIdx) barPlay.classList.remove('active');
     if (autoPlayActive) {
@@ -2699,14 +2756,35 @@ function speakSentence(sentIdx) {
       currentSentIdx = null;
     }
   };
-  currentSentUtt.onerror = (e) => {
-    if (e.error === 'interrupted' || e.error === 'canceled') return;
+  const onSentErr = () => {
     sentEl?.classList.remove('playing');
     if (barPlay) barPlay.classList.remove('active');
     autoPlayActive = false;
     currentSentIdx = null;
   };
 
+  // ── Google TTS モード ────────────────────────────────────────
+  if (useGoogleTTS) {
+    stopGoogleAudio();
+    gAudio = new Audio(gttsUrl(sentText));
+    gAudio.playbackRate = ttsRate;
+    gAudio.onended = onSentEnd;
+    gAudio.onerror = onSentErr;
+    gAudio.play().catch(onSentErr);
+    return;
+  }
+
+  // ── Web Speech API（デスクトップ / 非iOS）────────────────────
+  // Store on global to prevent GC (iOS Safari drops local utt references)
+  currentSentUtt = new SpeechSynthesisUtterance(sentText);
+  currentSentUtt.lang  = APP_CONFIG.ttsLang;
+  currentSentUtt.rate  = ttsRate;
+  if (germanVoice) currentSentUtt.voice = germanVoice;
+  currentSentUtt.onend = onSentEnd;
+  currentSentUtt.onerror = (e) => {
+    if (e.error === 'interrupted' || e.error === 'canceled') return;
+    onSentErr();
+  };
   speechSynthesis.speak(currentSentUtt);
 }
 
@@ -2850,17 +2928,45 @@ function renderVoiceList() {
     </div>`;
   }).join('');
 
-  // iOS制限の注記
-  const iosNote = isIOS
-    ? `<div style="font-size:.7rem;color:var(--text-3);padding:.45rem .4rem .15rem;line-height:1.55;border-top:1px solid var(--border);margin-top:.3rem">
-        <b style="color:var(--text-2);font-size:.72rem">iOS 18 の制限について</b><br>
-        ダウンロード済みの高品質音声・Siriの声は、AppleがSafariのWeb APIから意図的に除外しています。<br>
-        <span style="opacity:.75">現状 compact (Anna) が最善の選択肢です。</span>
-       </div>`
-    : (hasHQ ? '' : `<div style="font-size:.7rem;color:var(--text-3);padding:.3rem .4rem .1rem;opacity:.7">
-        ※ Siriの声はブラウザから使用不可（Apple制限）
-       </div>`);
-  list.innerHTML += iosNote;
+  // Google TTS トグル + iOS制限の注記
+  const googleToggleHtml = `
+    <div style="border-top:1px solid var(--border);margin-top:.4rem;padding:.5rem .4rem .3rem">
+      <label style="display:flex;align-items:center;gap:.5rem;cursor:pointer;user-select:none">
+        <span style="position:relative;display:inline-block;width:36px;height:20px;flex-shrink:0">
+          <input type="checkbox" id="gttsToggle" ${useGoogleTTS ? 'checked' : ''}
+            style="opacity:0;width:0;height:0;position:absolute">
+          <span id="gttsSlider" style="position:absolute;inset:0;border-radius:20px;
+            background:${useGoogleTTS ? 'var(--accent)' : 'var(--border-md)'};
+            transition:background .2s">
+            <span style="position:absolute;top:3px;left:${useGoogleTTS ? '19' : '3'}px;
+              width:14px;height:14px;border-radius:50%;background:#fff;
+              transition:left .2s;display:block" id="gttsKnob"></span>
+          </span>
+        </span>
+        <span style="font-size:.75rem;color:var(--text-2)">
+          Google 高品質TTS<span style="font-size:.65rem;color:var(--text-3);margin-left:.3rem">（要通信）</span>
+        </span>
+      </label>
+      ${isIOS ? `<div style="font-size:.67rem;color:var(--text-3);margin-top:.3rem;line-height:1.4;opacity:.8">
+        iOS では Web Speech API の制限を回避してGoogleの高品質音声を使用します
+      </div>` : ''}
+    </div>`;
+  list.innerHTML += googleToggleHtml;
+
+  // トグルのイベント
+  const gttsToggle = list.querySelector('#gttsToggle');
+  if (gttsToggle) {
+    gttsToggle.addEventListener('change', () => {
+      useGoogleTTS = gttsToggle.checked;
+      localStorage.setItem(LS_GOOGLE_TTS, useGoogleTTS ? 'true' : 'false');
+      // スライダーのビジュアル更新
+      const slider = list.querySelector('#gttsSlider');
+      const knob   = list.querySelector('#gttsKnob');
+      if (slider) slider.style.background = useGoogleTTS ? 'var(--accent)' : 'var(--border-md)';
+      if (knob)   knob.style.left = useGoogleTTS ? '19px' : '3px';
+      stopSpeech();
+    });
+  }
 
   list.querySelectorAll('.voice-item').forEach(item => {
     item.addEventListener('click', () => {
