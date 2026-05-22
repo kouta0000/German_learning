@@ -2847,24 +2847,20 @@ function renderVoiceList() {
       <span class="voice-item-name">${escHtml(v.name.replace(/\s*\(.*?\)\s*/g,'').trim())}</span>
       <span class="voice-item-lang">${v.lang}</span>
       <span class="voice-q ${tier === 'HQ' ? 'voice-q-hi' : tier === 'SD' ? 'voice-q-lo' : ''}">${tier}</span>
-      <div style="font-size:.6rem;color:var(--text-3);opacity:.6;word-break:break-all;margin-top:.15rem">${escHtml(v.voiceURI || '—')}</div>
     </div>`;
   }).join('');
 
-  // ダウンロード案内（HQ音声がない場合）
-  if (!hasHQ) {
-    list.innerHTML += `<div style="font-size:.72rem;color:var(--text-3);padding:.5rem .4rem .2rem;line-height:1.5;border-top:1px solid var(--border);margin-top:.3rem">
-      <b style="color:var(--text-2)">💡 高品質音声の追加方法（iOS）</b><br>
-      設定 → アクセシビリティ → 読み上げコンテンツ → 声<br>
-      → ドイツ語 → <b>Anna</b> → 「高品質」をダウンロード<br>
-      <span style="opacity:.7">※ Siriの声はAppleの制限によりブラウザからは使用不可</span>
-    </div>`;
-  } else {
-    // HQ音声があっても、Siriについての一言は常に表示
-    list.innerHTML += `<div style="font-size:.7rem;color:var(--text-3);padding:.35rem .4rem .1rem;opacity:.65">
-      ※ Siriの声はブラウザから使用不可（Apple制限）
-    </div>`;
-  }
+  // iOS制限の注記
+  const iosNote = isIOS
+    ? `<div style="font-size:.7rem;color:var(--text-3);padding:.45rem .4rem .15rem;line-height:1.55;border-top:1px solid var(--border);margin-top:.3rem">
+        <b style="color:var(--text-2);font-size:.72rem">iOS 18 の制限について</b><br>
+        ダウンロード済みの高品質音声・Siriの声は、AppleがSafariのWeb APIから意図的に除外しています。<br>
+        <span style="opacity:.75">現状 compact (Anna) が最善の選択肢です。</span>
+       </div>`
+    : (hasHQ ? '' : `<div style="font-size:.7rem;color:var(--text-3);padding:.3rem .4rem .1rem;opacity:.7">
+        ※ Siriの声はブラウザから使用不可（Apple制限）
+       </div>`);
+  list.innerHTML += iosNote;
 
   list.querySelectorAll('.voice-item').forEach(item => {
     item.addEventListener('click', () => {
