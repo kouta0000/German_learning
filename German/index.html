@@ -2847,6 +2847,7 @@ function renderVoiceList() {
       <span class="voice-item-name">${escHtml(v.name.replace(/\s*\(.*?\)\s*/g,'').trim())}</span>
       <span class="voice-item-lang">${v.lang}</span>
       <span class="voice-q ${tier === 'HQ' ? 'voice-q-hi' : tier === 'SD' ? 'voice-q-lo' : ''}">${tier}</span>
+      <div style="font-size:.6rem;color:var(--text-3);opacity:.6;word-break:break-all;margin-top:.15rem">${escHtml(v.voiceURI || '—')}</div>
     </div>`;
   }).join('');
 
