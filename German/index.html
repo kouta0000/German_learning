@@ -749,6 +749,113 @@
     }
     .btn-form-submit:hover { background: var(--accent-dk); }
 
+    /* ── Sentence controls ──────────────────────────────────────── */
+    .sentence { display: inline; }
+    .sentence.playing {
+      background: rgba(201,154,60,.1); border-radius: 3px;
+      outline: 1px solid rgba(201,154,60,.2); outline-offset: 1px;
+    }
+    .sent-btns {
+      display: inline-flex; align-items: center; gap: .15rem;
+      opacity: 0; transition: opacity .15s;
+      margin-left: .18rem; vertical-align: middle;
+    }
+    .sentence:hover .sent-btns { opacity: 1; }
+    .btn-sent-play, .btn-sent-tr {
+      background: none; border: none; cursor: pointer;
+      font-size: .6rem; color: var(--text-3);
+      padding: 1px 4px; border-radius: 3px; line-height: 1;
+      font-family: var(--font);
+      transition: color .12s, background .12s;
+    }
+    .btn-sent-play:hover { color: var(--accent); background: var(--accent-lt); }
+    .btn-sent-tr:hover   { color: var(--tag-a2); background: rgba(90,160,245,.1); }
+    .sent-tr-box {
+      display: none; font-size: .8rem; color: var(--text-2);
+      background: var(--surface-2); border-left: 2px solid var(--border-md);
+      padding: .35rem .7rem; margin: .18rem 0 .45rem;
+      border-radius: 0 var(--r-sm) var(--r-sm) 0; line-height: 1.65;
+    }
+    .sent-tr-box.visible { display: block; animation: trFadeIn .18s ease; }
+    @keyframes trFadeIn { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+
+    /* ── Auto-play button ────────────────────────────────────────── */
+    #btnAutoPlay.active {
+      background: var(--accent-lt); color: var(--accent);
+      border-color: rgba(96,112,242,.3);
+    }
+
+    /* ── Voice popover ───────────────────────────────────────────── */
+    .voice-popover-wrap { position: relative; }
+    .btn-voice {
+      display: flex; align-items: center; justify-content: center;
+      width: 30px; height: 30px; flex-shrink: 0;
+      background: none; border: 1px solid var(--border);
+      border-radius: var(--r-sm); color: var(--text-2);
+      font-size: .82rem; cursor: pointer;
+      transition: background .15s, color .15s;
+    }
+    .btn-voice:hover { background: var(--surface-2); color: var(--text); }
+    .voice-popover {
+      position: absolute; top: calc(100% + 7px); right: 0;
+      width: 250px;
+      background: var(--surface); border: 1px solid var(--border-md);
+      border-radius: var(--r-lg);
+      box-shadow: 0 8px 32px rgba(0,0,0,.4);
+      z-index: 500; padding: .6rem;
+      display: none; flex-direction: column; gap: .25rem;
+    }
+    .voice-popover.open { display: flex; }
+    .voice-popover-title {
+      font-size: .6rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .09em; color: var(--text-3); padding: .1rem .4rem .3rem;
+    }
+    .voice-item {
+      display: flex; align-items: center; gap: .45rem;
+      padding: .32rem .5rem; border-radius: var(--r-sm); cursor: pointer;
+      border: 1px solid transparent; transition: background .12s;
+    }
+    .voice-item:hover { background: var(--surface-2); }
+    .voice-item.selected { background: var(--accent-lt); border-color: rgba(96,112,242,.25); }
+    .voice-item-name { font-size: .76rem; color: var(--text); flex: 1; min-width: 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .voice-item-lang { font-size: .62rem; color: var(--text-3); flex-shrink: 0; }
+    .voice-q {
+      font-size: .58rem; font-weight: 700; text-transform: uppercase;
+      padding: .07rem .28rem; border-radius: 3px; flex-shrink: 0;
+    }
+    .voice-q-hi { background: rgba(52,201,144,.12); color: var(--tag-a1); }
+    .voice-q-lo { background: rgba(255,255,255,.06); color: var(--text-3); }
+    .voice-rate-row {
+      display: flex; align-items: center; gap: .5rem;
+      padding: .38rem .5rem 0; border-top: 1px solid var(--border); margin-top: .15rem;
+    }
+    .voice-rate-label { font-size: .7rem; color: var(--text-2); white-space: nowrap; }
+    .voice-rate-input { flex: 1; accent-color: var(--accent); cursor: pointer; }
+    .voice-rate-val { font-size: .7rem; color: var(--text-3); min-width: 2.2rem; text-align: right; }
+
+    /* ── Wiktionary panel section ─────────────────────────────────── */
+    .wikt-section {
+      margin-top: .65rem; padding-top: .55rem;
+      border-top: 1px solid var(--border);
+    }
+    .wikt-trigger {
+      background: none; border: none; cursor: pointer;
+      font-size: .72rem; color: var(--text-3); font-family: var(--font);
+      padding: 0; display: flex; align-items: center; gap: .3rem;
+      transition: color .15s;
+    }
+    .wikt-trigger:hover { color: var(--text-2); }
+    .wikt-body {
+      display: none; margin-top: .42rem;
+      font-size: .76rem; color: var(--text-2); line-height: 1.65;
+    }
+    .wikt-body.open { display: block; }
+    .wikt-def {
+      padding: .22rem 0; border-bottom: 1px solid var(--border);
+    }
+    .wikt-def:last-child { border-bottom: none; }
+
     /* ── Back to top ─────────────────────────────────────────── */
     #btnTop {
       position: fixed; bottom: 1.5rem; right: 1.25rem; z-index: 200;
@@ -842,6 +949,19 @@
   </div>
   <div class="header-right">
     <span class="header-stats" id="stats"></span>
+    <div class="voice-popover-wrap">
+      <button class="btn-voice" id="btnVoice" title="音声設定">🎙</button>
+      <div class="voice-popover" id="voicePopover">
+        <div class="voice-popover-title">ドイツ語音声</div>
+        <div id="voiceList"></div>
+        <div class="voice-rate-row">
+          <span class="voice-rate-label">速度</span>
+          <input type="range" class="voice-rate-input" id="ttsRateSlider"
+                 min="0.5" max="1.5" step="0.05" value="0.88">
+          <span class="voice-rate-val" id="ttsRateVal">0.88</span>
+        </div>
+      </div>
+    </div>
     <button class="btn-theme" id="btnTheme" title="テーマ切替">☀</button>
     <button class="btn-saved-words" id="btnOpenSaved">
       ★ Saved<span class="saved-count" id="savedCount">0</span>
@@ -1007,6 +1127,12 @@ let currentTextId = null; // id of currently displayed text
 let activeToken = null;
 let adjTab = 'stark';
 
+// Sentence-level TTS state
+let sentenceData    = [];    // [{tok, i}][] — one array per sentence
+let currentSentIdx  = null;
+let autoPlayActive  = false;
+let ttsRate         = parseFloat(localStorage.getItem('dl_tts_rate_v1') || '0.88');
+
 // filter state
 let filterCat = '';
 let filterLvl = '';
@@ -1040,8 +1166,10 @@ const LEVEL_COLORS = {
 /* ═══════════════════════════════════════════════════════════════
    READ HISTORY  (localStorage)
 ═══════════════════════════════════════════════════════════════ */
-const LS_KEY   = APP_CONFIG.storageKey;
-const LS_SAVED = 'dl_saved_v1';
+const LS_KEY      = APP_CONFIG.storageKey;
+const LS_SAVED    = 'dl_saved_v1';
+const LS_VOICE    = 'dl_voice_v1';
+const LS_TTS_RATE = 'dl_tts_rate_v1';
 
 function getReadSet() {
   try { return new Set(JSON.parse(localStorage.getItem(LS_KEY) || '[]')); }
@@ -1591,7 +1719,9 @@ function updateReadStates() {
 
 function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
   stopSpeech();           // stop TTS when switching text
-  currentTextId = text.id;
+  sentenceData   = [];
+  currentSentIdx = null;
+  currentTextId  = text.id;
   updateReadStates();     // reflect active card (no auto-mark)
   clearPanel();
 
@@ -1615,45 +1745,74 @@ function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
     `<span class="badge badge-cat">${catLabel}</span>
      <span class="badge badge-${lvl}">${text.level || ''}</span>
      <div class="text-actions">
-       ${ttsOK ? `<button class="btn-action" id="btnTts">▶ 聞く</button>` : ''}
+       ${ttsOK ? `<button class="btn-action" id="btnTts">▶ 聞く</button>
+                  <button class="btn-action" id="btnAutoPlay">⏭ 順送り</button>` : ''}
        <button class="btn-action ${isRead ? 'btn-read-on' : ''}" id="btnRead">
          ${isRead ? '✓ 読んだ' : '☐ 読んだ'}
        </button>
      </div>`;
 
   document.getElementById('btnRead').addEventListener('click', () => toggleRead(text.id));
-  if (ttsOK) document.getElementById('btnTts').addEventListener('click', () => speakText(text));
+  if (ttsOK) {
+    document.getElementById('btnTts').addEventListener('click', () => speakText(text));
+    document.getElementById('btnAutoPlay').addEventListener('click', toggleAutoPlay);
+  }
 
   document.getElementById('textTitle').textContent = text.title;
 
   const container = document.getElementById('textBody');
   container.innerHTML = '';
 
-  (text.tokens || []).forEach((tok, i) => {
-    const isPunct = PUNCT.has(tok.surface);
-    const prevNoSpaceAfter = i > 0 && NO_SPACE_AFTER.has(text.tokens[i-1].surface);
-    const needsSpace = i > 0 && !isPunct && !prevNoSpaceAfter;
+  sentenceData = groupSentences(text.tokens || []);
 
-    if (needsSpace) {
-      const sp = document.createElement('span');
-      sp.className = 'token-space';
-      sp.textContent = ' ';
-      container.appendChild(sp);
+  sentenceData.forEach((sentTokens, sentIdx) => {
+    const sentSpan = document.createElement('span');
+    sentSpan.className = 'sentence';
+    sentSpan.dataset.sent = sentIdx;
+
+    sentTokens.forEach(({ tok, i }) => {
+      const isPunct = PUNCT.has(tok.surface);
+      const prevNoSpaceAfter = i > 0 && NO_SPACE_AFTER.has((text.tokens[i-1] || {}).surface);
+      const needsSpace = i > 0 && !isPunct && !prevNoSpaceAfter;
+      if (needsSpace) {
+        const sp = document.createElement('span');
+        sp.className = 'token-space'; sp.textContent = ' ';
+        sentSpan.appendChild(sp);
+      }
+      const span = document.createElement('span');
+      span.className = 'token';
+      span.textContent = tok.surface;
+      span.dataset.idx = i;
+      const isClickable = tok.pos !== 'punct' && (tok.meaning_ja || tok.meaning_fr || tok.word_id);
+      if (isClickable) {
+        span.classList.add('clickable');
+        span.addEventListener('click', () => showTokenInfo(tok, span));
+      }
+      sentSpan.appendChild(span);
+    });
+
+    // Micro-buttons (visible on hover)
+    const sentText = buildSentenceText(sentTokens, text.tokens);
+    const btns = document.createElement('span');
+    btns.className = 'sent-btns';
+    if (ttsOK) {
+      const pb = document.createElement('button');
+      pb.className = 'btn-sent-play'; pb.textContent = '▶'; pb.title = 'この文を読む';
+      pb.addEventListener('click', e => { e.stopPropagation(); speakSentence(sentIdx); });
+      btns.appendChild(pb);
     }
+    const tb = document.createElement('button');
+    tb.className = 'btn-sent-tr'; tb.textContent = '🌐'; tb.title = '翻訳';
+    tb.addEventListener('click', e => { e.stopPropagation(); translateSentence(sentIdx, sentText); });
+    btns.appendChild(tb);
+    sentSpan.appendChild(btns);
+    container.appendChild(sentSpan);
 
-    const span = document.createElement('span');
-    span.className = 'token';
-    span.textContent = tok.surface;
-    span.dataset.idx = i;
-
-    const isClickable = tok.pos !== 'punct' && (
-      tok.meaning_ja || tok.meaning_fr || tok.word_id
-    );
-    if (isClickable) {
-      span.classList.add('clickable');
-      span.addEventListener('click', () => showTokenInfo(tok, span));
-    }
-    container.appendChild(span);
+    // Translation result box (block, hidden until used)
+    const trBox = document.createElement('div');
+    trBox.className = 'sent-tr-box';
+    trBox.id = `str-${sentIdx}`;
+    container.appendChild(trBox);
   });
 
   // Underline saved words
@@ -1740,6 +1899,12 @@ function showTokenInfo(tok, span) {
     if (decl) html += renderAdjDeclension(decl, tok);
   }
 
+  // Wiktionary lookup section
+  html += `<div class="wikt-section">
+    <button class="wikt-trigger" id="wiktTrigger">📖 Wiktionary</button>
+    <div class="wikt-body" id="wiktBody"></div>
+  </div>`;
+
   document.getElementById('infoEmpty').style.display   = 'none';
   content.innerHTML = html;
   content.style.display = 'block';
@@ -1750,6 +1915,13 @@ function showTokenInfo(tok, span) {
       adjTab = btn.dataset.type;
       showTokenInfo(tok, span);
     });
+  });
+
+  // Wiktionary trigger
+  content.querySelector('#wiktTrigger').addEventListener('click', () => {
+    const body = content.querySelector('#wiktBody');
+    if (body.classList.contains('open')) { body.classList.remove('open'); return; }
+    fetchWiktionary(lemma, body);
   });
 
   // Save button
@@ -1964,10 +2136,19 @@ let ttsPlaying   = false;
 let germanVoice  = null;
 
 function loadGermanVoice() {
-  const voices = speechSynthesis.getVoices();
-  germanVoice  = voices.find(v => v.lang === APP_CONFIG.ttsLang)
-              || voices.find(v => v.lang.startsWith(APP_CONFIG.ttsLangFallback))
-              || null;
+  const voices   = speechSynthesis.getVoices();
+  const deVoices = voices.filter(v => v.lang.startsWith('de'));
+  const saved    = localStorage.getItem(LS_VOICE);
+  if (saved) {
+    const match = deVoices.find(v => v.name === saved);
+    if (match) { germanVoice = match; return; }
+  }
+  // Auto-select: prefer enhanced/premium, avoid "compact"
+  germanVoice =
+    deVoices.find(v => /enhanced|premium/i.test(v.name)) ||
+    deVoices.find(v => !/compact/i.test(v.name) && v.lang === 'de-DE') ||
+    deVoices.find(v => v.lang === 'de-DE') ||
+    deVoices[0] || null;
 }
 if ('speechSynthesis' in window) {
   speechSynthesis.addEventListener('voiceschanged', loadGermanVoice);
@@ -1977,9 +2158,14 @@ if ('speechSynthesis' in window) {
 function stopSpeech() {
   if (!('speechSynthesis' in window)) return;
   speechSynthesis.cancel();
-  ttsPlaying = false;
-  const btn = document.getElementById('btnTts');
-  if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+  ttsPlaying    = false;
+  autoPlayActive = false;
+  currentSentIdx = null;
+  document.querySelectorAll('.sentence.playing').forEach(s => s.classList.remove('playing'));
+  const btnTts  = document.getElementById('btnTts');
+  const btnAuto = document.getElementById('btnAutoPlay');
+  if (btnTts)  { btnTts.textContent = '▶ 聞く'; btnTts.classList.remove('btn-tts-on'); }
+  if (btnAuto) { btnAuto.textContent = '⏭ 順送り'; btnAuto.classList.remove('active'); }
 }
 
 function speakText(text) {
@@ -1998,7 +2184,7 @@ function speakText(text) {
 
   ttsUtterance = new SpeechSynthesisUtterance(rawText);
   ttsUtterance.lang  = 'de-DE';
-  ttsUtterance.rate  = 0.88;
+  ttsUtterance.rate  = ttsRate;
   ttsUtterance.pitch = 1.0;
   if (germanVoice) ttsUtterance.voice = germanVoice;
 
@@ -2021,7 +2207,7 @@ function speakWord(surface) {
   speechSynthesis.cancel();
   const utt  = new SpeechSynthesisUtterance(surface);
   utt.lang   = APP_CONFIG.ttsLang;
-  utt.rate   = APP_CONFIG.ttsRate;
+  utt.rate   = ttsRate;
   if (germanVoice) utt.voice = germanVoice;
   speechSynthesis.speak(utt);
 }
@@ -2208,6 +2394,219 @@ function renderQuiz(delay = 0) {
 
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   SENTENCE HELPERS
+═══════════════════════════════════════════════════════════════ */
+function groupSentences(tokens) {
+  const SENT_END = new Set(['.', '!', '?', '…']);
+  const sentences = [];
+  let current = [];
+  tokens.forEach((tok, i) => {
+    current.push({ tok, i });
+    if (SENT_END.has(tok.surface)) {
+      sentences.push(current);
+      current = [];
+    }
+  });
+  if (current.length) sentences.push(current);
+  return sentences;
+}
+
+function buildSentenceText(sentTokens, allTokens) {
+  const parts = [];
+  sentTokens.forEach(({ tok, i }) => {
+    const isPunct = PUNCT.has(tok.surface);
+    const prevNoSpaceAfter = i > 0 && NO_SPACE_AFTER.has((allTokens[i - 1] || {}).surface);
+    if (parts.length > 0 && !isPunct && !prevNoSpaceAfter) parts.push(' ');
+    parts.push(tok.surface);
+  });
+  return parts.join('');
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SENTENCE-LEVEL TTS
+═══════════════════════════════════════════════════════════════ */
+function speakSentence(sentIdx) {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+
+  if (sentIdx < 0 || sentIdx >= sentenceData.length) {
+    autoPlayActive = false;
+    currentSentIdx = null;
+    document.querySelectorAll('.sentence.playing').forEach(s => s.classList.remove('playing'));
+    const ab = document.getElementById('btnAutoPlay');
+    if (ab) { ab.textContent = '⏭ 順送り'; ab.classList.remove('active'); }
+    return;
+  }
+
+  const curText = TEXTS.find(t => t.id === currentTextId);
+  if (!curText) return;
+
+  currentSentIdx = sentIdx;
+  const sentText = buildSentenceText(sentenceData[sentIdx], curText.tokens);
+
+  document.querySelectorAll('.sentence.playing').forEach(s => s.classList.remove('playing'));
+  const sentEl = document.querySelector(`.sentence[data-sent="${sentIdx}"]`);
+  if (sentEl) {
+    sentEl.classList.add('playing');
+    sentEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  const utt = new SpeechSynthesisUtterance(sentText);
+  utt.lang  = APP_CONFIG.ttsLang;
+  utt.rate  = ttsRate;
+  if (germanVoice) utt.voice = germanVoice;
+
+  utt.onend = () => {
+    sentEl?.classList.remove('playing');
+    if (autoPlayActive) {
+      setTimeout(() => speakSentence(sentIdx + 1), 320);
+    } else {
+      currentSentIdx = null;
+    }
+  };
+  utt.onerror = () => {
+    sentEl?.classList.remove('playing');
+    autoPlayActive = false;
+    currentSentIdx = null;
+  };
+
+  speechSynthesis.speak(utt);
+}
+
+function toggleAutoPlay() {
+  if (autoPlayActive) {
+    stopSpeech();
+    return;
+  }
+  autoPlayActive = true;
+  const startIdx = (currentSentIdx != null) ? currentSentIdx : 0;
+  const ab = document.getElementById('btnAutoPlay');
+  if (ab) { ab.textContent = '⏹ 停止'; ab.classList.add('active'); }
+  speakSentence(startIdx);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SENTENCE TRANSLATION  (MyMemory — free, no key)
+═══════════════════════════════════════════════════════════════ */
+async function translateSentence(sentIdx, sentText) {
+  const box = document.getElementById(`str-${sentIdx}`);
+  if (!box) return;
+
+  // Toggle off if already shown
+  if (box.classList.contains('visible')) {
+    box.classList.remove('visible');
+    return;
+  }
+
+  box.textContent = '…';
+  box.classList.add('visible');
+
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(sentText)}&langpair=de|ja`;
+    const res  = await fetch(url);
+    const data = await res.json();
+    const t    = data.responseData?.translatedText;
+    box.textContent = (t && data.responseStatus === 200)
+      ? t : '（翻訳できませんでした）';
+  } catch {
+    box.textContent = '（オフラインです）';
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   WIKTIONARY LOOKUP  (free REST API)
+═══════════════════════════════════════════════════════════════ */
+async function fetchWiktionary(lemma, bodyEl) {
+  bodyEl.innerHTML = '<span style="color:var(--text-3);font-size:.75rem">検索中…</span>';
+  bodyEl.classList.add('open');
+
+  try {
+    const url  = `https://en.wiktionary.org/api/rest_v1/page/definition/${encodeURIComponent(lemma)}`;
+    const res  = await fetch(url);
+    if (!res.ok) throw new Error();
+    const data = await res.json();
+
+    // German entry preferred, fall back to English
+    const entries = data.de || data.en || [];
+    if (!entries.length) throw new Error('empty');
+
+    let html = '';
+    entries.slice(0, 2).forEach(entry => {
+      (entry.definitions || []).slice(0, 3).forEach(def => {
+        const text = (def.definition || '').replace(/<[^>]+>/g, '').trim();
+        if (text) html += `<div class="wikt-def">${escHtml(text)}</div>`;
+      });
+    });
+    bodyEl.innerHTML = html || '<span style="color:var(--text-3);font-size:.75rem">定義が見つかりませんでした</span>';
+  } catch {
+    bodyEl.innerHTML = '<span style="color:var(--text-3);font-size:.75rem">見つかりませんでした</span>';
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   VOICE SELECTOR POPOVER
+═══════════════════════════════════════════════════════════════ */
+function initVoicePopover() {
+  const btn     = document.getElementById('btnVoice');
+  const popover = document.getElementById('voicePopover');
+  const slider  = document.getElementById('ttsRateSlider');
+  const rateVal = document.getElementById('ttsRateVal');
+  if (!btn || !popover) return;
+
+  // Sync slider to current rate
+  slider.value       = ttsRate;
+  rateVal.textContent = ttsRate.toFixed(2);
+
+  slider.addEventListener('input', () => {
+    ttsRate = parseFloat(slider.value);
+    rateVal.textContent = ttsRate.toFixed(2);
+    localStorage.setItem(LS_TTS_RATE, ttsRate);
+  });
+
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    if (popover.classList.contains('open')) { popover.classList.remove('open'); return; }
+    renderVoiceList();
+    popover.classList.add('open');
+  });
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.voice-popover-wrap')) popover.classList.remove('open');
+  });
+}
+
+function renderVoiceList() {
+  const list  = document.getElementById('voiceList');
+  if (!list) return;
+  const voices = speechSynthesis.getVoices().filter(v => v.lang.startsWith('de'));
+  const saved  = localStorage.getItem(LS_VOICE) || (germanVoice && germanVoice.name) || '';
+
+  if (!voices.length) {
+    list.innerHTML = '<div style="font-size:.75rem;color:var(--text-3);padding:.2rem .4rem">音声が見つかりません</div>';
+    return;
+  }
+
+  list.innerHTML = voices.map(v => {
+    const isHQ = /enhanced|premium/i.test(v.name) || (!v.localService && !/compact/i.test(v.name));
+    const sel  = v.name === saved;
+    return `<div class="voice-item${sel ? ' selected' : ''}" data-name="${escHtml(v.name)}">
+      <span class="voice-item-name">${escHtml(v.name.replace(/\s*\(.*?\)\s*/g,'').trim())}</span>
+      <span class="voice-item-lang">${v.lang}</span>
+      <span class="voice-q ${isHQ ? 'voice-q-hi' : 'voice-q-lo'}">${isHQ ? 'HQ' : 'SD'}</span>
+    </div>`;
+  }).join('');
+
+  list.querySelectorAll('.voice-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const name = item.dataset.name;
+      localStorage.setItem(LS_VOICE, name);
+      germanVoice = speechSynthesis.getVoices().find(v => v.name === name) || germanVoice;
+      renderVoiceList();
+    });
+  });
+}
+
 /* ── Theme toggle ───────────────────────────────────────────── */
 (function initTheme() {
   const LS_THEME = 'dl_theme_v1';
@@ -2258,6 +2657,7 @@ document.addEventListener('click', e => {
 });
 
 /* ── Boot ──────────────────────────────────────────────────── */
+initVoicePopover();
 loadData();
 
 /* ── Service Worker 登録 ───────────────────────────────────── */
