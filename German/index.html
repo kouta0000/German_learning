@@ -2216,8 +2216,25 @@ let useGoogleTTS      = localStorage.getItem(LS_GOOGLE_TTS) === 'true';
 let gAudio            = null;   // 現在再生中のAudioオブジェクト（GC防止）
 
 function gttsUrl(text) {
-  // Google Translate TTS: 非公式APIだが無料・高品質。200文字制限あり
-  return `https://translate.google.com/translate_tts?ie=UTF-8&tl=de&client=tw-ob&q=${encodeURIComponent(text.slice(0, 200))}`;
+  // Service Worker 経由でプロキシ（/gtts-proxy）。
+  // SW が Google TTS を no-cors で取得し opaque response を返すため
+  // iOS Safari の cross-origin audio 制限を回避できる。
+  return `/gtts-proxy?q=${encodeURIComponent(text.slice(0, 200))}`;
+}
+
+function showGttsError() {
+  let toast = document.getElementById('gttsErrorToast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'gttsErrorToast';
+    toast.style.cssText = `position:fixed;bottom:1.2rem;left:50%;transform:translateX(-50%);
+      background:#c0392b;color:#fff;font-size:.8rem;padding:.5rem 1rem;border-radius:.5rem;
+      z-index:9999;pointer-events:none;opacity:0;transition:opacity .3s`;
+    document.body.appendChild(toast);
+  }
+  toast.textContent = '⚠ Google TTS 接続失敗。通信環境を確認してください。';
+  toast.style.opacity = '1';
+  setTimeout(() => { toast.style.opacity = '0'; }, 3500);
 }
 
 function stopGoogleAudio() {
@@ -2323,16 +2340,19 @@ function speakText(text) {
       }
       gAudio = new Audio(gttsUrl(chunks[idx]));
       gAudio.playbackRate = ttsRate;
+      // onended だけで idx をインクリメント（二重カウント防止）
       gAudio.onended = () => { idx++; playNextChunk(); };
       gAudio.onerror = () => {
         ttsPlaying = false;
         if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+        showGttsError();
       };
       gAudio.play().catch(() => {
         ttsPlaying = false;
         if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+        showGttsError();
       });
-      idx++;
+      // idx++ はここに置かない（onended に一元化）
     }
     playNextChunk();
     return;
@@ -2393,7 +2413,7 @@ function speakWord(surface) {
     stopGoogleAudio();
     gAudio = new Audio(gttsUrl(surface));
     gAudio.playbackRate = ttsRate;
-    gAudio.play().catch(() => {});
+    gAudio.play().catch(() => showGttsError());
     return;
   }
   if (!('speechSynthesis' in window)) return;
@@ -2769,8 +2789,8 @@ function speakSentence(sentIdx) {
     gAudio = new Audio(gttsUrl(sentText));
     gAudio.playbackRate = ttsRate;
     gAudio.onended = onSentEnd;
-    gAudio.onerror = onSentErr;
-    gAudio.play().catch(onSentErr);
+    gAudio.onerror = () => { showGttsError(); onSentErr(); };
+    gAudio.play().catch(() => { showGttsError(); onSentErr(); });
     return;
   }
 
