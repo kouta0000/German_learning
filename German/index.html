@@ -762,9 +762,15 @@
     .text-reader.sentence-mode .sentence {
       cursor: pointer; border-radius: 4px;
       transition: background .12s;
+      /* 上下に余白を取ってヒットエリアを拡大 */
+      padding: 3px 2px; margin: -3px -2px;
     }
     .text-reader.sentence-mode .sentence:hover {
-      background: rgba(255,255,255,.05);
+      background: rgba(255,255,255,.06);
+    }
+    /* sentence mode 中はトークンのホバースタイルを無効化 */
+    .text-reader.sentence-mode .token.clickable:hover {
+      background: none;
     }
 
     /* selected sentence */
@@ -1856,18 +1862,12 @@ function loadText(text, { addHistory = true, replaceHistory = false } = {}) {
       const isClickable = tok.pos !== 'punct' && (tok.meaning_ja || tok.meaning_fr || tok.word_id);
       if (isClickable) {
         span.classList.add('clickable');
-        span.addEventListener('click', e => {
-          if (sentenceMode) { e.stopPropagation(); return; } // let sentence handle it
+        span.addEventListener('click', () => {
+          if (sentenceMode) return; // sentence delegation handles it
           showTokenInfo(tok, span);
         });
       }
       sentSpan.appendChild(span);
-    });
-
-    // Sentence click → select (only active in sentence mode)
-    sentSpan.addEventListener('click', () => {
-      if (!sentenceMode) return;
-      selectSentence(sentIdx);
     });
 
     container.appendChild(sentSpan);
@@ -2312,8 +2312,15 @@ document.getElementById('viewBtnGrid').addEventListener('click', () => {
 
 document.getElementById('panelDrag').addEventListener('click', closeMobilePanel);
 
-/* テキスト本文の空白部クリック → パネルを閉じる */
+/* テキスト本文クリック処理 */
 document.getElementById('textBody').addEventListener('click', e => {
+  // ── Sentence selection mode: delegation で確実に拾う ──────────
+  if (sentenceMode) {
+    const sent = e.target.closest('.sentence[data-sent]');
+    if (sent) selectSentence(parseInt(sent.dataset.sent, 10));
+    return; // sentence mode 中はパネル操作しない
+  }
+  // ── 通常モード: 空白クリックでパネルを閉じる ──────────────────
   if (!e.target.closest('.token')) clearPanel();
 });
 
