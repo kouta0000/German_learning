@@ -2187,38 +2187,83 @@ function toggleRead(textId) {
 }
 
 /* ═══════════════════════════════════════════════════════════════
-   TTS  (Web Speech API — no API key required)
+   TTS  (Web Speech API)
+   iOS Safari 既知バグへの対策を含む:
+   - voiceschanged 未発火 → ポーリングフォールバック
+   - utterance GC による無音 → グローバル参照で保持
+   - cancel() が onerror を発火（iOS 14+） → cancel前にnull化
+   - 長文15秒カットオフ → 文ごとに分割してキュー
+   - バックグラウンド停止 → visibilitychange で resume
+   - iOS 18: compact音声がWeb APIから消滅（回避不可）
 ═══════════════════════════════════════════════════════════════ */
-let ttsUtterance = null;
-let ttsPlaying   = false;
-let germanVoice  = null;
 
+// iOS 検出（iPadOS 13+ は platform が MacIntel になるため maxTouchPoints で判定）
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+              (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+let ttsUtterance      = null;   // 全文読み上げ用（GC防止のためグローバル）
+let ttsChunkUtts      = [];     // 分割読み上げ用（GC防止）
+let currentSentUtt    = null;   // 文TTS用（GC防止）
+let ttsPlaying        = false;
+let germanVoice       = null;
+
+/* ── Voice loading with polling fallback (iOS voiceschanged bug) ─ */
 function loadGermanVoice() {
   const voices   = speechSynthesis.getVoices();
-  const deVoices = voices.filter(v => v.lang.startsWith('de'));
-  const saved    = localStorage.getItem(LS_VOICE);
+  if (!voices.length) return false; // まだロードされていない
+  const de = voices.filter(v => v.lang.startsWith('de'));
+  if (!de.length) return false;
+
+  const saved = localStorage.getItem(LS_VOICE);
   if (saved) {
-    const match = deVoices.find(v => v.name === saved);
-    if (match) { germanVoice = match; return; }
+    const match = de.find(v => v.name === saved);
+    if (match) { germanVoice = match; return true; }
   }
-  // Auto-select: prefer enhanced/premium, avoid "compact"
+
+  // voiceURI でクオリティ判定（名前より信頼性が高い）
+  // 優先順: enhanced > compact > (eloquence以外) > eloquence
   germanVoice =
-    deVoices.find(v => /enhanced|premium/i.test(v.name)) ||
-    deVoices.find(v => !/compact/i.test(v.name) && v.lang === 'de-DE') ||
-    deVoices.find(v => v.lang === 'de-DE') ||
-    deVoices[0] || null;
-}
-if ('speechSynthesis' in window) {
-  speechSynthesis.addEventListener('voiceschanged', loadGermanVoice);
-  loadGermanVoice();
+    de.find(v => /enhanced/i.test(v.voiceURI)) ||
+    de.find(v => /compact/i.test(v.voiceURI) && !/eloquence/i.test(v.voiceURI)) ||
+    de.find(v => !/eloquence/i.test(v.voiceURI) && v.lang === 'de-DE') ||
+    de.find(v => v.lang === 'de-DE') ||
+    de[0] || null;
+  return !!germanVoice;
 }
 
+if ('speechSynthesis' in window) {
+  // voiceschanged イベント（Chrome/Firefox では機能する）
+  speechSynthesis.addEventListener('voiceschanged', loadGermanVoice);
+
+  // iOS ポーリングフォールバック: voiceschanged が発火しない場合に備えて
+  // 250ms × 最大12回 = 3秒間リトライ
+  let pollCount = 0;
+  const voicePoll = setInterval(() => {
+    if (loadGermanVoice() || ++pollCount >= 12) clearInterval(voicePoll);
+  }, 250);
+
+  // バックグラウンドから戻った際にpause状態を解除（iOS対策）
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden && speechSynthesis.paused && (ttsPlaying || autoPlayActive)) {
+      speechSynthesis.resume();
+    }
+  });
+}
+
+/* ── stopSpeech ──────────────────────────────────────────────── */
 function stopSpeech() {
   if (!('speechSynthesis' in window)) return;
+
+  // iOS 14+ バグ: cancel() が onerror を発火させる → 先にハンドラをnull化
+  [ttsUtterance, currentSentUtt, ...ttsChunkUtts].forEach(u => {
+    if (u) { u.onstart = u.onend = u.onerror = null; }
+  });
+
   speechSynthesis.cancel();
-  ttsPlaying    = false;
+  ttsPlaying     = false;
   autoPlayActive = false;
   currentSentIdx = null;
+  ttsChunkUtts   = [];
   document.querySelectorAll('.sentence.playing').forEach(s => s.classList.remove('playing'));
   const btnTts  = document.getElementById('btnTts');
   const btnAuto = document.getElementById('btnAutoPlay');
@@ -2228,48 +2273,73 @@ function stopSpeech() {
   if (btnPlay) { btnPlay.classList.remove('active'); }
 }
 
+/* ── speakText: 文ごとに分割してキュー（15秒カットオフ対策）─── */
 function speakText(text) {
   if (!('speechSynthesis' in window)) return;
   if (ttsPlaying) { stopSpeech(); return; }
 
-  // Build readable string from tokens
+  // 文単位チャンクを使用（sentenceDataがあれば）、なければ全文
+  const chunks = sentenceData.length > 0
+    ? sentenceData.map(s => buildSentenceText(s, text.tokens)).filter(t => t.trim())
+    : [buildFullTextString(text)];
+
+  ttsChunkUtts = chunks.map((chunk, i) => {
+    const utt = new SpeechSynthesisUtterance(chunk);
+    utt.lang  = APP_CONFIG.ttsLang;
+    utt.rate  = ttsRate;
+    if (germanVoice) utt.voice = germanVoice;
+
+    if (i === 0) {
+      utt.onstart = () => {
+        ttsPlaying = true;
+        const btn = document.getElementById('btnTts');
+        if (btn) { btn.textContent = '⏹ 停止'; btn.classList.add('btn-tts-on'); }
+      };
+    }
+    if (i === chunks.length - 1) {
+      utt.onend = () => {
+        ttsPlaying = false;
+        ttsChunkUtts = [];
+        const btn = document.getElementById('btnTts');
+        if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+      };
+      utt.onerror = (e) => {
+        // iOS 14+: cancel()後のonerrorは無視（stopSpeechがnull化済み）
+        if (e.error === 'interrupted' || e.error === 'canceled') return;
+        ttsPlaying = false;
+        ttsChunkUtts = [];
+        const btn = document.getElementById('btnTts');
+        if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+      };
+    }
+    return utt;
+  });
+
+  // 全チャンクをキューに積む（ブラウザが順番に再生）
+  ttsChunkUtts.forEach(utt => speechSynthesis.speak(utt));
+}
+
+function buildFullTextString(text) {
   const parts = [];
   (text.tokens || []).forEach((tok, i) => {
     const isPunct = PUNCT.has(tok.surface);
-    const prevNoSpace = i > 0 && NO_SPACE_AFTER.has(text.tokens[i-1].surface);
+    const prevNoSpace = i > 0 && NO_SPACE_AFTER.has((text.tokens[i-1] || {}).surface);
     if (!isPunct && !prevNoSpace && i > 0) parts.push(' ');
     parts.push(tok.surface);
   });
-  const rawText = parts.join('');
-
-  ttsUtterance = new SpeechSynthesisUtterance(rawText);
-  ttsUtterance.lang  = 'de-DE';
-  ttsUtterance.rate  = ttsRate;
-  ttsUtterance.pitch = 1.0;
-  if (germanVoice) ttsUtterance.voice = germanVoice;
-
-  ttsUtterance.onstart = () => {
-    ttsPlaying = true;
-    const btn = document.getElementById('btnTts');
-    if (btn) { btn.textContent = '⏹ 停止'; btn.classList.add('btn-tts-on'); }
-  };
-  ttsUtterance.onend = ttsUtterance.onerror = () => {
-    ttsPlaying = false;
-    const btn = document.getElementById('btnTts');
-    if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
-  };
-
-  speechSynthesis.speak(ttsUtterance);
+  return parts.join('');
 }
 
 function speakWord(surface) {
   if (!('speechSynthesis' in window)) return;
+  // null化してからcancel（iOS 14+対策）
+  if (currentSentUtt) { currentSentUtt.onend = currentSentUtt.onerror = null; }
   speechSynthesis.cancel();
-  const utt  = new SpeechSynthesisUtterance(surface);
-  utt.lang   = APP_CONFIG.ttsLang;
-  utt.rate   = ttsRate;
-  if (germanVoice) utt.voice = germanVoice;
-  speechSynthesis.speak(utt);
+  currentSentUtt = new SpeechSynthesisUtterance(surface);
+  currentSentUtt.lang  = APP_CONFIG.ttsLang;
+  currentSentUtt.rate  = ttsRate;
+  if (germanVoice) currentSentUtt.voice = germanVoice;
+  speechSynthesis.speak(currentSentUtt);
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -2583,6 +2653,8 @@ function buildSentenceText(sentTokens, allTokens) {
 ═══════════════════════════════════════════════════════════════ */
 function speakSentence(sentIdx) {
   if (!('speechSynthesis' in window)) return;
+  // iOS 14+ bug: cancel() fires onerror — null handlers first
+  if (currentSentUtt) { currentSentUtt.onend = currentSentUtt.onerror = null; }
   speechSynthesis.cancel();
 
   if (sentIdx < 0 || sentIdx >= sentenceData.length) {
@@ -2607,16 +2679,17 @@ function speakSentence(sentIdx) {
     sentEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 
-  const utt = new SpeechSynthesisUtterance(sentText);
-  utt.lang  = APP_CONFIG.ttsLang;
-  utt.rate  = ttsRate;
-  if (germanVoice) utt.voice = germanVoice;
+  // Store on global to prevent GC (iOS Safari drops local utt references)
+  currentSentUtt = new SpeechSynthesisUtterance(sentText);
+  currentSentUtt.lang  = APP_CONFIG.ttsLang;
+  currentSentUtt.rate  = ttsRate;
+  if (germanVoice) currentSentUtt.voice = germanVoice;
 
   // Reflect playing state on action bar play button
   const barPlay = document.getElementById('sentBarPlay');
   if (barPlay && selectedSentIdx === sentIdx) barPlay.classList.add('active');
 
-  utt.onend = () => {
+  currentSentUtt.onend = () => {
     sentEl?.classList.remove('playing');
     if (barPlay && selectedSentIdx === sentIdx) barPlay.classList.remove('active');
     if (autoPlayActive) {
@@ -2625,14 +2698,15 @@ function speakSentence(sentIdx) {
       currentSentIdx = null;
     }
   };
-  utt.onerror = () => {
+  currentSentUtt.onerror = (e) => {
+    if (e.error === 'interrupted' || e.error === 'canceled') return;
     sentEl?.classList.remove('playing');
     if (barPlay) barPlay.classList.remove('active');
     autoPlayActive = false;
     currentSentIdx = null;
   };
 
-  speechSynthesis.speak(utt);
+  speechSynthesis.speak(currentSentUtt);
 }
 
 function toggleAutoPlay() {
@@ -2748,15 +2822,37 @@ function renderVoiceList() {
     return;
   }
 
+  // voiceURI-based quality detection:
+  //   enhanced  → HQ  (iOS: best)
+  //   compact   → OK  (iOS: standard, absent in iOS 18 via Web API)
+  //   eloquence → SD  (fallback/Siri internal, lowest quality)
+  //   others    → OK
+  const qualityTier = v => {
+    const uri = (v.voiceURI || '').toLowerCase();
+    if (/enhanced/.test(uri)) return 'HQ';
+    if (/eloquence/.test(uri)) return 'SD';
+    return 'OK';
+  };
+
+  // iOS 18 warning: if ALL de voices are eloquence, compact voices were removed from the Web API
+  const allEloquence = voices.every(v => /eloquence/i.test(v.voiceURI || ''));
+
   list.innerHTML = voices.map(v => {
-    const isHQ = /enhanced|premium/i.test(v.name) || (!v.localService && !/compact/i.test(v.name));
+    const tier = qualityTier(v);
     const sel  = v.name === saved;
     return `<div class="voice-item${sel ? ' selected' : ''}" data-name="${escHtml(v.name)}">
       <span class="voice-item-name">${escHtml(v.name.replace(/\s*\(.*?\)\s*/g,'').trim())}</span>
       <span class="voice-item-lang">${v.lang}</span>
-      <span class="voice-q ${isHQ ? 'voice-q-hi' : 'voice-q-lo'}">${isHQ ? 'HQ' : 'SD'}</span>
+      <span class="voice-q ${tier === 'HQ' ? 'voice-q-hi' : tier === 'SD' ? 'voice-q-lo' : ''}">${tier}</span>
     </div>`;
-  }).join('');
+  }).join('')
+  + (allEloquence
+    ? `<div style="font-size:.72rem;color:var(--text-3);padding:.4rem .4rem .2rem;line-height:1.4">
+        ⚠ iOS 18 以降、高品質音声はSafariのシステム設定からのみ利用可能です。<br>
+        設定 → アクセシビリティ → 読み上げコンテンツ → 声 → ドイツ語 より
+        「高品質」をダウンロードしてください。
+       </div>`
+    : '');
 
   list.querySelectorAll('.voice-item').forEach(item => {
     item.addEventListener('click', () => {
