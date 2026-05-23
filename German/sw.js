@@ -4,7 +4,7 @@
    - 画像 / アイコン → Cache First（変わらないので速度優先）
    - CACHE_VERSION を上げるだけで全キャッシュが自動クリアされる
    ─────────────────────────────────────────────────────────────────────────── */
-const CACHE_VERSION = 'dl-v17';
+const CACHE_VERSION = 'dl-v18';
 const GTTS_CACHE    = 'dl-gtts-v1';  // Google TTS プロキシキャッシュ（独立管理）
 const STATIC_ASSETS = [
   '/',
@@ -39,43 +39,57 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
 
   // ── Google TTS プロキシ (/gtts-proxy?q=TEXT) ───────────────────────────────
-  // opaque response は Content-Type が空になり Audio 要素が再生できない。
-  // CORS fetch で実際の音声データを読み取り、Content-Type を付与して返す。
-  // 試行順:
-  //   1. translate.googleapis.com?client=gtx  (外部ウィジェット向け、CORS ヘッダーあり)
-  //   2. translate.google.com?client=tw-ob    (非公式、CORS なしの場合あり)
+  // 問題の根本: Google は iOS Safari の UA を検出して 403 を返す。
+  // SW から直接 fetch しても CORS ヘッダーがなく body が読めない。
+  //
+  // 解決策: CORS プロキシサービスを中継させる。
+  //   corsproxy.io / allorigins.win はサーバーサイドで Google を fetch し
+  //   Access-Control-Allow-Origin: * を付けて返すため、
+  //   SW は body を読み取り Content-Type: audio/mpeg を付けてページに返せる。
+  //
+  // 試行順: [corsproxy.io, allorigins.win] × [googleapis.com/gtx, google.com/tw-ob]
   if (url.pathname === '/gtts-proxy') {
     const q = url.searchParams.get('q') || '';
     if (!q) return;
-    const encoded = encodeURIComponent(q.slice(0, 200));
-    const candidates = [
+
+    const encoded    = encodeURIComponent(q.slice(0, 200));
+    const googleUrls = [
       `https://translate.googleapis.com/translate_tts?ie=UTF-8&tl=de&client=gtx&q=${encoded}`,
       `https://translate.google.com/translate_tts?ie=UTF-8&tl=de&client=tw-ob&q=${encoded}`,
     ];
+    const wrapProxy = (gUrl, proxy) => {
+      if (proxy === 'corsproxy')   return `https://corsproxy.io/?${encodeURIComponent(gUrl)}`;
+      if (proxy === 'allorigins')  return `https://api.allorigins.win/raw?url=${encodeURIComponent(gUrl)}`;
+      return gUrl;
+    };
+    const proxies = ['corsproxy', 'allorigins'];
 
     event.respondWith((async () => {
-      // キャッシュヒット
+      // キャッシュヒット（同じテキストは再 fetch しない）
       const cache  = await caches.open(GTTS_CACHE);
       const cached = await cache.match(request);
       if (cached) return cached;
 
-      // 各URLを順番に試す（CORS fetchで実際のbodyを取得）
-      for (const googleUrl of candidates) {
-        try {
-          const res = await fetch(googleUrl);
-          if (!res.ok) continue;
-          const buffer = await res.arrayBuffer();
-          const response = new Response(buffer, {
-            status: 200,
-            headers: {
-              'Content-Type': 'audio/mpeg',
-              'Cache-Control': 'public, max-age=86400',
-            },
-          });
-          cache.put(request, response.clone());
-          return response;
-        } catch (_) {
-          // CORS エラー or ネットワークエラー → 次のURLを試す
+      // プロキシ × Google URL の組み合わせを順番に試す
+      for (const proxy of proxies) {
+        for (const gUrl of googleUrls) {
+          try {
+            const res = await fetch(wrapProxy(gUrl, proxy), { signal: AbortSignal.timeout(8000) });
+            if (!res.ok) continue;
+            const buffer = await res.arrayBuffer();
+            if (!buffer.byteLength) continue;  // 空レスポンスは除外
+            const response = new Response(buffer, {
+              status: 200,
+              headers: {
+                'Content-Type': 'audio/mpeg',
+                'Cache-Control': 'public, max-age=86400',
+              },
+            });
+            cache.put(request, response.clone());
+            return response;
+          } catch (_) {
+            // タイムアウト / CORS エラー / ネットワーク → 次の候補へ
+          }
         }
       }
       return new Response('', { status: 503 });

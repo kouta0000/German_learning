@@ -2213,14 +2213,34 @@ let germanVoice       = null;
    ─────────────────────────────────────────────────────────────── */
 const LS_GOOGLE_TTS   = 'dl_gtts_v1';
 let useGoogleTTS      = localStorage.getItem(LS_GOOGLE_TTS) === 'true';
-let gAudio            = null;   // 現在再生中のAudioオブジェクト（GC防止）
+// ── Google TTS via AudioContext ───────────────────────────────────────────
+// <audio>要素はiOSでSWからのレスポンスを再生できない場合があるため
+// AudioContext + decodeAudioData を使用する。AudioContext は iOS Safari でも
+// 確実に動作し、再生速度制御・シームレスな連続再生も可能。
+let gAudioCtx  = null;   // AudioContext（再利用・GC防止）
+let gAudioSrc  = null;   // BufferSourceNode（GC防止）
+let gAudio     = null;   // 後方互換用（未使用だが参照保持）
 
-function gttsUrl(text) {
-  // Service Worker 経由でプロキシ（/gtts-proxy）。
-  // SW が Google TTS を no-cors で取得し opaque response を返すため
-  // iOS Safari の cross-origin audio 制限を回避できる。
-  return `/gtts-proxy?q=${encodeURIComponent(text.slice(0, 200))}`;
+// AudioContext をユーザージェスチャーのタイミングで初期化・アンロック
+// → クリックイベントハンドラ内で同期的に呼ぶこと
+function initAudioContext() {
+  if (!window.AudioContext && !window.webkitAudioContext) return false;
+  if (!gAudioCtx || gAudioCtx.state === 'closed') {
+    gAudioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  // iOS は最初のユーザージェスチャーで suspended → running になる
+  if (gAudioCtx.state === 'suspended') {
+    gAudioCtx.resume().catch(() => {});
+  }
+  return true;
 }
+
+// バックグラウンドから復帰時に AudioContext を再開
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && gAudioCtx && gAudioCtx.state === 'suspended') {
+    gAudioCtx.resume().catch(() => {});
+  }
+});
 
 function showGttsError() {
   let toast = document.getElementById('gttsErrorToast');
@@ -2232,18 +2252,52 @@ function showGttsError() {
       z-index:9999;pointer-events:none;opacity:0;transition:opacity .3s`;
     document.body.appendChild(toast);
   }
-  toast.textContent = '⚠ Google TTS 接続失敗。通信環境を確認してください。';
+  toast.textContent = '⚠ Google TTS 接続失敗（通信確認 / プロキシ混雑の可能性）';
   toast.style.opacity = '1';
-  setTimeout(() => { toast.style.opacity = '0'; }, 3500);
+  setTimeout(() => { toast.style.opacity = '0'; }, 4000);
 }
 
 function stopGoogleAudio() {
-  if (gAudio) {
-    gAudio.onended = gAudio.onerror = null;
-    gAudio.pause();
-    gAudio.src = '';
-    gAudio = null;
+  if (gAudioSrc) {
+    gAudioSrc.onended = null;
+    try { gAudioSrc.stop(); } catch (_) {}
+    gAudioSrc = null;
   }
+}
+
+// 1チャンク分の音声を fetch → AudioContext で再生。Promise を返す。
+// ※ initAudioContext() を同期的に呼んでからこの関数を呼ぶこと
+function playGoogleChunk(text) {
+  return new Promise((resolve, reject) => {
+    const url = `/gtts-proxy?q=${encodeURIComponent(text.slice(0, 200))}`;
+    fetch(url)
+      .then(res => {
+        if (!res.ok) throw new Error(`proxy ${res.status}`);
+        return res.arrayBuffer();
+      })
+      .then(ab => {
+        if (!ab.byteLength) throw new Error('empty response');
+        // AudioContext が suspended なら resume（バックグラウンド復帰対策）
+        const ctx = gAudioCtx;
+        const play = () => {
+          ctx.decodeAudioData(ab).then(audioBuf => {
+            stopGoogleAudio();  // 前の再生を停止
+            gAudioSrc = ctx.createBufferSource();
+            gAudioSrc.buffer = audioBuf;
+            gAudioSrc.playbackRate.value = ttsRate;
+            gAudioSrc.connect(ctx.destination);
+            gAudioSrc.onended = resolve;
+            gAudioSrc.start(0);
+          }).catch(reject);
+        };
+        if (ctx.state === 'suspended') {
+          ctx.resume().then(play).catch(reject);
+        } else {
+          play();
+        }
+      })
+      .catch(reject);
+  });
 }
 
 /* ── Voice loading with polling fallback (iOS voiceschanged bug) ─ */
@@ -2325,36 +2379,27 @@ function speakText(text) {
     ? sentenceData.map(s => buildSentenceText(s, text.tokens)).filter(t => t.trim())
     : [buildFullTextString(text)];
 
-  // ── Google TTS モード ────────────────────────────────────────
+  // ── Google TTS モード（AudioContext版）──────────────────────
   if (useGoogleTTS) {
+    if (!initAudioContext()) return;  // ユーザージェスチャーで同期的にアンロック
     const btn = document.getElementById('btnTts');
     ttsPlaying = true;
     if (btn) { btn.textContent = '⏹ 停止'; btn.classList.add('btn-tts-on'); }
 
-    let idx = 0;
-    function playNextChunk() {
-      if (!ttsPlaying || idx >= chunks.length) {
-        ttsPlaying = false;
-        if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
-        return;
+    // 非同期で順番に再生（idx二重カウントバグを排除）
+    (async () => {
+      for (const chunk of chunks) {
+        if (!ttsPlaying) break;
+        try {
+          await playGoogleChunk(chunk);
+        } catch (_) {
+          showGttsError();
+          break;
+        }
       }
-      gAudio = new Audio(gttsUrl(chunks[idx]));
-      gAudio.playbackRate = ttsRate;
-      // onended だけで idx をインクリメント（二重カウント防止）
-      gAudio.onended = () => { idx++; playNextChunk(); };
-      gAudio.onerror = () => {
-        ttsPlaying = false;
-        if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
-        showGttsError();
-      };
-      gAudio.play().catch(() => {
-        ttsPlaying = false;
-        if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
-        showGttsError();
-      });
-      // idx++ はここに置かない（onended に一元化）
-    }
-    playNextChunk();
+      ttsPlaying = false;
+      if (btn) { btn.textContent = '▶ 聞く'; btn.classList.remove('btn-tts-on'); }
+    })();
     return;
   }
 
@@ -2408,12 +2453,10 @@ function buildFullTextString(text) {
 }
 
 function speakWord(surface) {
-  // Google TTS モード
+  // Google TTS モード（AudioContext版）
   if (useGoogleTTS) {
-    stopGoogleAudio();
-    gAudio = new Audio(gttsUrl(surface));
-    gAudio.playbackRate = ttsRate;
-    gAudio.play().catch(() => showGttsError());
+    if (!initAudioContext()) return;
+    playGoogleChunk(surface).catch(() => showGttsError());
     return;
   }
   if (!('speechSynthesis' in window)) return;
@@ -2783,14 +2826,12 @@ function speakSentence(sentIdx) {
     currentSentIdx = null;
   };
 
-  // ── Google TTS モード ────────────────────────────────────────
+  // ── Google TTS モード（AudioContext版）──────────────────────
   if (useGoogleTTS) {
-    stopGoogleAudio();
-    gAudio = new Audio(gttsUrl(sentText));
-    gAudio.playbackRate = ttsRate;
-    gAudio.onended = onSentEnd;
-    gAudio.onerror = () => { showGttsError(); onSentErr(); };
-    gAudio.play().catch(() => { showGttsError(); onSentErr(); });
+    if (!initAudioContext()) { onSentErr(); return; }
+    playGoogleChunk(sentText)
+      .then(onSentEnd)
+      .catch(() => { showGttsError(); onSentErr(); });
     return;
   }
 
