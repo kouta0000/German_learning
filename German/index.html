@@ -178,6 +178,16 @@
       transition: background .15s, color .15s, border-color .15s;
     }
     .btn-theme:hover { background: var(--surface-2); color: var(--text); border-color: var(--border-md); }
+    .btn-widget-sync {
+      display: flex; align-items: center; justify-content: center;
+      width: 30px; height: 30px; flex-shrink: 0;
+      background: none; border: 1px solid var(--border);
+      border-radius: var(--r-sm); color: var(--text-2);
+      font-size: .9rem; cursor: pointer;
+      transition: background .15s, color .15s, border-color .15s;
+    }
+    .btn-widget-sync:hover { background: var(--surface-2); color: var(--text); border-color: var(--border-md); }
+    .btn-widget-sync.synced { color: #34c759; border-color: rgba(52,199,89,.4); }
 
     /* ── App layout ──────────────────────────────────────────── */
     #loading, #error {
@@ -1018,6 +1028,7 @@
         </div>
       </div>
     </div>
+    <button class="btn-widget-sync" id="btnWidgetSync" title="Widgetと同期">🔗</button>
     <button class="btn-theme" id="btnTheme" title="テーマ切替">☀</button>
     <button class="btn-saved-words" id="btnOpenSaved">
       ★ Saved<span class="saved-count" id="savedCount">0</span>
@@ -3040,6 +3051,59 @@ function renderVoiceList() {
 }
 
 /* ── Theme toggle ───────────────────────────────────────────── */
+/* ── Widget Sync ────────────────────────────────────────────────
+   登録単語を ~/DeutschWidget/saved_words.json に書き出す。
+   Swift ウィジェットがこのファイルを監視し、自動で読み込む。
+────────────────────────────────────────────────────────────── */
+(function initWidgetSync() {
+  const btn = document.getElementById('btnWidgetSync');
+  if (!btn) return;
+
+  btn.addEventListener('click', async () => {
+    const saved = getSavedWords();
+    if (!saved.length) {
+      btn.title = '登録単語がありません';
+      return;
+    }
+
+    const json = JSON.stringify(saved, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+
+    // File System Access API (macOS Safari 対応)
+    if ('showSaveFilePicker' in window) {
+      try {
+        const handle = await window.showSaveFilePicker({
+          suggestedName: 'saved_words.json',
+          startIn: 'documents',
+          types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }],
+        });
+        const writable = await handle.createWritable();
+        await writable.write(json);
+        await writable.close();
+        flashSync(btn, '✓');
+        return;
+      } catch (e) {
+        if (e.name === 'AbortError') return; // キャンセル
+        // フォールバック: ダウンロード
+      }
+    }
+
+    // フォールバック: 通常ダウンロード
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'saved_words.json'; a.click();
+    URL.revokeObjectURL(url);
+    flashSync(btn, '↓');
+  });
+
+  function flashSync(btn, icon) {
+    const orig = btn.textContent;
+    btn.textContent = icon;
+    btn.classList.add('synced');
+    setTimeout(() => { btn.textContent = orig; btn.classList.remove('synced'); }, 2000);
+  }
+})();
+
 (function initTheme() {
   const LS_THEME = 'dl_theme_v1';
   const btn = document.getElementById('btnTheme');
