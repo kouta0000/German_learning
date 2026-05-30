@@ -1,6 +1,6 @@
 {
   "meta": {
-    "total": 99,
+    "total": 104,
     "version": "6.0",
     "levels": {
       "A1": 7,
@@ -89483,6 +89483,6667 @@
           "lemma": "begrenzen",
           "meaning_ja": "制限する",
           "meaning_fr": "limiter"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        }
+      ]
+    },
+    {
+      "id": "t100",
+      "title": "Die Französische Revolution",
+      "subtitle": "Freiheit, Gleichheit, Brüderlichkeit",
+      "level": "B2",
+      "category": "Geschichte",
+      "tokens": [
+        {
+          "surface": "Die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Französische",
+          "pos": "adjective",
+          "lemma": "französisch",
+          "meaning_ja": "フランスの",
+          "meaning_fr": "française",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Revolution",
+          "pos": "noun",
+          "lemma": "Revolution",
+          "meaning_ja": "革命",
+          "meaning_fr": "révolution",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "war",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "であった",
+          "meaning_fr": "était",
+          "person": "3sg"
+        },
+        {
+          "surface": "eines",
+          "pos": "noun",
+          "lemma": "eines",
+          "meaning_ja": "一つ",
+          "meaning_fr": "l'un",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "des",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "bedeutendsten",
+          "pos": "adjective",
+          "lemma": "bedeutend",
+          "meaning_ja": "最も重要な",
+          "meaning_fr": "plus importants",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "politischen",
+          "pos": "adjective",
+          "lemma": "politisch",
+          "meaning_ja": "政治的な",
+          "meaning_fr": "politiques",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "Ereignisse",
+          "pos": "noun",
+          "lemma": "Ereignis",
+          "meaning_ja": "出来事",
+          "meaning_fr": "événements",
+          "case": "gen",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de l'",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "europäischen",
+          "pos": "adjective",
+          "lemma": "europäisch",
+          "meaning_ja": "ヨーロッパの",
+          "meaning_fr": "européenne",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Geschichte",
+          "pos": "noun",
+          "lemma": "Geschichte",
+          "meaning_ja": "歴史",
+          "meaning_fr": "histoire",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "dauerte",
+          "pos": "verb",
+          "lemma": "dauern",
+          "meaning_ja": "続いた",
+          "meaning_fr": "dura",
+          "person": "3sg"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von",
+          "meaning_ja": "〜から",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": "1789",
+          "pos": "number",
+          "lemma": "1789",
+          "meaning_ja": "1789年",
+          "meaning_fr": "1789"
+        },
+        {
+          "surface": "bis",
+          "pos": "preposition",
+          "lemma": "bis",
+          "meaning_ja": "〜まで",
+          "meaning_fr": "jusqu'en"
+        },
+        {
+          "surface": "1799",
+          "pos": "number",
+          "lemma": "1799",
+          "meaning_ja": "1799年",
+          "meaning_fr": "1799"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Ihre",
+          "pos": "pronoun",
+          "lemma": "ihr",
+          "meaning_ja": "その",
+          "meaning_fr": "ses",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Ursachen",
+          "pos": "noun",
+          "lemma": "Ursache",
+          "meaning_ja": "原因",
+          "meaning_fr": "causes",
+          "case": "nom",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "waren",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜であった",
+          "meaning_fr": "étaient",
+          "person": "3pl"
+        },
+        {
+          "surface": "vielfältig",
+          "pos": "adjective",
+          "lemma": "vielfältig",
+          "meaning_ja": "多様な",
+          "meaning_fr": "multiples"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "Eine",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "一つの",
+          "meaning_fr": "une",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "schwere",
+          "pos": "adjective",
+          "lemma": "schwer",
+          "meaning_ja": "深刻な",
+          "meaning_fr": "grave",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Finanzkrise",
+          "pos": "noun",
+          "lemma": "Finanzkrise",
+          "meaning_ja": "財政危機",
+          "meaning_fr": "crise financière",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "des",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de l'",
+          "case": "gen",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Staates",
+          "pos": "noun",
+          "lemma": "Staat",
+          "meaning_ja": "国家の",
+          "meaning_fr": "État",
+          "case": "gen",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "extreme",
+          "pos": "adjective",
+          "lemma": "extrem",
+          "meaning_ja": "極端な",
+          "meaning_fr": "extrême",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "soziale",
+          "pos": "adjective",
+          "lemma": "sozial",
+          "meaning_ja": "社会的な",
+          "meaning_fr": "sociale",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Ungleichheit",
+          "pos": "noun",
+          "lemma": "Ungleichheit",
+          "meaning_ja": "不平等",
+          "meaning_fr": "inégalité",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "zwischen",
+          "pos": "preposition",
+          "lemma": "zwischen",
+          "meaning_ja": "〜の間の",
+          "meaning_fr": "entre"
+        },
+        {
+          "surface": "dem",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "privilegierten",
+          "pos": "adjective",
+          "lemma": "privilegiert",
+          "meaning_ja": "特権的な",
+          "meaning_fr": "privilégiée",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Adel",
+          "pos": "noun",
+          "lemma": "Adel",
+          "meaning_ja": "貴族",
+          "meaning_fr": "noblesse",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "dem",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "verarmten",
+          "pos": "adjective",
+          "lemma": "verarmt",
+          "meaning_ja": "貧しい",
+          "meaning_fr": "appauvri",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "dritten",
+          "pos": "adjective",
+          "lemma": "dritt",
+          "meaning_ja": "第三の",
+          "meaning_fr": "troisième",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Stand",
+          "pos": "noun",
+          "lemma": "Stand",
+          "meaning_ja": "身分",
+          "meaning_fr": "tiers état",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "sowie",
+          "pos": "conjunction",
+          "lemma": "sowie",
+          "meaning_ja": "また",
+          "meaning_fr": "ainsi que"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "les",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "revolutionären",
+          "pos": "adjective",
+          "lemma": "revolutionär",
+          "meaning_ja": "革命的な",
+          "meaning_fr": "révolutionnaires",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Ideen",
+          "pos": "noun",
+          "lemma": "Idee",
+          "meaning_ja": "思想",
+          "meaning_fr": "idées",
+          "case": "acc",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "des",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Aufklärung",
+          "pos": "noun",
+          "lemma": "Aufklärung",
+          "meaning_ja": "啓蒙思想",
+          "meaning_fr": "Lumières",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "schufen",
+          "pos": "verb",
+          "lemma": "schaffen",
+          "meaning_ja": "生み出した",
+          "meaning_fr": "créèrent",
+          "person": "3pl"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Nährboden",
+          "pos": "noun",
+          "lemma": "Nährboden",
+          "meaning_ja": "温床",
+          "meaning_fr": "terreau",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "für",
+          "pos": "preposition",
+          "lemma": "für",
+          "meaning_ja": "のための",
+          "meaning_fr": "pour"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Aufstand",
+          "pos": "noun",
+          "lemma": "Aufstand",
+          "meaning_ja": "蜂起",
+          "meaning_fr": "soulèvement",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Am",
+          "pos": "preposition",
+          "lemma": "an",
+          "meaning_ja": "〜に",
+          "meaning_fr": "le"
+        },
+        {
+          "surface": "14.",
+          "pos": "number",
+          "lemma": "14.",
+          "meaning_ja": "14日",
+          "meaning_fr": "14"
+        },
+        {
+          "surface": "Juli",
+          "pos": "noun",
+          "lemma": "Juli",
+          "meaning_ja": "7月",
+          "meaning_fr": "juillet",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "1789",
+          "pos": "number",
+          "lemma": "1789",
+          "meaning_ja": "1789年",
+          "meaning_fr": "1789"
+        },
+        {
+          "surface": "stürmten",
+          "pos": "verb",
+          "lemma": "stürmen",
+          "meaning_ja": "急襲した",
+          "meaning_fr": "prirent d'assaut",
+          "person": "3pl"
+        },
+        {
+          "surface": "aufständische",
+          "pos": "adjective",
+          "lemma": "aufständisch",
+          "meaning_ja": "反乱の",
+          "meaning_fr": "insurgés",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Bürger",
+          "pos": "noun",
+          "lemma": "Bürger",
+          "meaning_ja": "市民",
+          "meaning_fr": "citoyens",
+          "case": "nom",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Bastille",
+          "pos": "proper_noun",
+          "lemma": "Bastille",
+          "meaning_ja": "バスティーユ",
+          "meaning_fr": "Bastille"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "meaning_ja": "その",
+          "meaning_fr": "symbole de la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Symbol",
+          "pos": "noun",
+          "lemma": "Symbol",
+          "meaning_ja": "象徴",
+          "meaning_fr": "",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de l'",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "königlichen",
+          "pos": "adjective",
+          "lemma": "königlich",
+          "meaning_ja": "王の",
+          "meaning_fr": "royale",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Willkürherrschaft",
+          "pos": "noun",
+          "lemma": "Willkürherrschaft",
+          "meaning_ja": "専制支配",
+          "meaning_fr": "tyrannie",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜の",
+          "meaning_fr": "à"
+        },
+        {
+          "surface": "Paris",
+          "pos": "proper_noun",
+          "lemma": "Paris",
+          "meaning_ja": "パリ",
+          "meaning_fr": "Paris"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Dieses",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "cet",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Ereignis",
+          "pos": "noun",
+          "lemma": "Ereignis",
+          "meaning_ja": "出来事",
+          "meaning_fr": "événement",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "markiert",
+          "pos": "verb",
+          "lemma": "markieren",
+          "meaning_ja": "示す",
+          "meaning_fr": "marque",
+          "person": "3sg"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "symbolischen",
+          "pos": "adjective",
+          "lemma": "symbolisch",
+          "meaning_ja": "象徴的な",
+          "meaning_fr": "symbolique",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Beginn",
+          "pos": "noun",
+          "lemma": "Beginn",
+          "meaning_ja": "始まり",
+          "meaning_fr": "début",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de la",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Revolution",
+          "pos": "noun",
+          "lemma": "Revolution",
+          "meaning_ja": "革命",
+          "meaning_fr": "révolution",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Kurz",
+          "pos": "adverb",
+          "lemma": "kurz",
+          "meaning_ja": "間もなく",
+          "meaning_fr": "peu"
+        },
+        {
+          "surface": "darauf",
+          "pos": "adverb",
+          "lemma": "darauf",
+          "meaning_ja": "その後すぐ",
+          "meaning_fr": "après"
+        },
+        {
+          "surface": "verabschiedete",
+          "pos": "verb",
+          "lemma": "verabschieden",
+          "meaning_ja": "採択した",
+          "meaning_fr": "adopta",
+          "person": "3sg"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Nationalversammlung",
+          "pos": "noun",
+          "lemma": "Nationalversammlung",
+          "meaning_ja": "国民議会",
+          "meaning_fr": "Assemblée nationale",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Erklärung",
+          "pos": "noun",
+          "lemma": "Erklärung",
+          "meaning_ja": "宣言",
+          "meaning_fr": "Déclaration",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "des",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "Menschen",
+          "pos": "noun",
+          "lemma": "Mensch",
+          "meaning_ja": "人間の",
+          "meaning_fr": "droits de l'homme",
+          "case": "gen",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Bürgerrechte",
+          "pos": "noun",
+          "lemma": "Bürgerrecht",
+          "meaning_ja": "市民権",
+          "meaning_fr": "droits du citoyen",
+          "case": "gen",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "〜という",
+          "meaning_fr": "qui",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "grundlegende",
+          "pos": "adjective",
+          "lemma": "grundlegend",
+          "meaning_ja": "基本的な",
+          "meaning_fr": "fondamentales",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Freiheiten",
+          "pos": "noun",
+          "lemma": "Freiheit",
+          "meaning_ja": "自由（複数）",
+          "meaning_fr": "libertés",
+          "case": "acc",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Gleichheit",
+          "pos": "noun",
+          "lemma": "Gleichheit",
+          "meaning_ja": "平等",
+          "meaning_fr": "égalité",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "aller",
+          "pos": "adjective",
+          "lemma": "aller",
+          "meaning_ja": "すべての",
+          "meaning_fr": "de tous les",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "Bürger",
+          "pos": "noun",
+          "lemma": "Bürger",
+          "meaning_ja": "市民",
+          "meaning_fr": "citoyens",
+          "case": "gen",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "vor",
+          "pos": "preposition",
+          "lemma": "vor",
+          "meaning_ja": "の前で",
+          "meaning_fr": "devant"
+        },
+        {
+          "surface": "dem",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Gesetz",
+          "pos": "noun",
+          "lemma": "Gesetz",
+          "meaning_ja": "法律",
+          "meaning_fr": "loi",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "proklamierte",
+          "pos": "verb",
+          "lemma": "proklamieren",
+          "meaning_ja": "宣言した",
+          "meaning_fr": "proclama",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "In",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "Dans"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "radikalen",
+          "pos": "adjective",
+          "lemma": "radikal",
+          "meaning_ja": "急進的な",
+          "meaning_fr": "radicale",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Phase",
+          "pos": "noun",
+          "lemma": "Phase",
+          "meaning_ja": "局面",
+          "meaning_fr": "phase",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "unter",
+          "pos": "preposition",
+          "lemma": "unter",
+          "meaning_ja": "〜の下で",
+          "meaning_fr": "sous"
+        },
+        {
+          "surface": "Robespierre",
+          "pos": "proper_noun",
+          "lemma": "Robespierre",
+          "meaning_ja": "ロベスピエール",
+          "meaning_fr": "Robespierre"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de la soi-disant",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "sogenannten",
+          "pos": "adjective",
+          "lemma": "sogenannt",
+          "meaning_ja": "いわゆる",
+          "meaning_fr": "",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Schreckensherrschaft",
+          "pos": "noun",
+          "lemma": "Schreckensherrschaft",
+          "meaning_ja": "恐怖政治",
+          "meaning_fr": "Terreur",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von",
+          "meaning_ja": "〜から",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": "1793",
+          "pos": "number",
+          "lemma": "1793",
+          "meaning_ja": "1793年",
+          "meaning_fr": "1793"
+        },
+        {
+          "surface": "bis",
+          "pos": "preposition",
+          "lemma": "bis",
+          "meaning_ja": "〜まで",
+          "meaning_fr": "à"
+        },
+        {
+          "surface": "1794",
+          "pos": "number",
+          "lemma": "1794",
+          "meaning_ja": "1794年",
+          "meaning_fr": "1794"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "wurden",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜された",
+          "meaning_fr": "furent",
+          "person": "3pl"
+        },
+        {
+          "surface": "Tausende",
+          "pos": "noun",
+          "lemma": "Tausend",
+          "meaning_ja": "何千もの",
+          "meaning_fr": "des milliers",
+          "case": "nom",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von",
+          "meaning_ja": "の",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": "politischen",
+          "pos": "adjective",
+          "lemma": "politisch",
+          "meaning_ja": "政治的な",
+          "meaning_fr": "politiques",
+          "case": "dat",
+          "number": "pl"
+        },
+        {
+          "surface": "Gegnern",
+          "pos": "noun",
+          "lemma": "Gegner",
+          "meaning_ja": "反対者",
+          "meaning_fr": "adversaires",
+          "case": "dat",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "hingerichtet",
+          "pos": "verb",
+          "lemma": "hinrichten",
+          "meaning_ja": "処刑された",
+          "meaning_fr": "exécutés"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Guillotine",
+          "pos": "noun",
+          "lemma": "Guillotine",
+          "meaning_ja": "ギロチン",
+          "meaning_fr": "guillotine",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "wurde",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜になった",
+          "meaning_fr": "devint",
+          "person": "3sg"
+        },
+        {
+          "surface": "zum",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜の",
+          "meaning_fr": "le"
+        },
+        {
+          "surface": "Symbol",
+          "pos": "noun",
+          "lemma": "Symbol",
+          "meaning_ja": "象徴",
+          "meaning_fr": "symbole",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "dieser",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "de cette",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "blutigen",
+          "pos": "adjective",
+          "lemma": "blutig",
+          "meaning_ja": "血塗られた",
+          "meaning_fr": "sanglante",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Epoche",
+          "pos": "noun",
+          "lemma": "Epoche",
+          "meaning_ja": "時代",
+          "meaning_fr": "époque",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Schließlich",
+          "pos": "adverb",
+          "lemma": "schließlich",
+          "meaning_ja": "最終的に",
+          "meaning_fr": "finalement"
+        },
+        {
+          "surface": "endete",
+          "pos": "verb",
+          "lemma": "enden",
+          "meaning_ja": "終わった",
+          "meaning_fr": "prit fin",
+          "person": "3sg"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Terrorherrschaft",
+          "pos": "noun",
+          "lemma": "Terrorherrschaft",
+          "meaning_ja": "恐怖政治",
+          "meaning_fr": "Terreur",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit",
+          "meaning_ja": "〜と共に",
+          "meaning_fr": "avec"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Verhaftung",
+          "pos": "noun",
+          "lemma": "Verhaftung",
+          "meaning_ja": "逮捕",
+          "meaning_fr": "arrestation",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Hinrichtung",
+          "pos": "noun",
+          "lemma": "Hinrichtung",
+          "meaning_ja": "処刑",
+          "meaning_fr": "exécution",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Robespierres",
+          "pos": "proper_noun",
+          "lemma": "Robespierres",
+          "meaning_ja": "ロベスピエールの",
+          "meaning_fr": "de Robespierre"
+        },
+        {
+          "surface": "selbst",
+          "pos": "adverb",
+          "lemma": "selbst",
+          "meaning_ja": "自ら",
+          "meaning_fr": "lui-même"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Nach",
+          "pos": "preposition",
+          "lemma": "nach",
+          "meaning_ja": "〜の後に",
+          "meaning_fr": "Après"
+        },
+        {
+          "surface": "einer",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "一つの",
+          "meaning_fr": "une",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Phase",
+          "pos": "noun",
+          "lemma": "Phase",
+          "meaning_ja": "局面",
+          "meaning_fr": "phase",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "d'",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Instabilität",
+          "pos": "noun",
+          "lemma": "Instabilität",
+          "meaning_ja": "不安定",
+          "meaning_fr": "instabilité",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "ergriff",
+          "pos": "verb",
+          "lemma": "ergreifen",
+          "meaning_ja": "掌握した",
+          "meaning_fr": "s'empara de",
+          "person": "3sg"
+        },
+        {
+          "surface": "Napoleon Bonaparte",
+          "pos": "proper_noun",
+          "lemma": "Napoleon Bonaparte",
+          "meaning_ja": "ナポレオン・ボナパルト",
+          "meaning_fr": "Napoléon Bonaparte"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Macht",
+          "pos": "noun",
+          "lemma": "Macht",
+          "meaning_ja": "権力",
+          "meaning_fr": "pouvoir",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "errichtete",
+          "pos": "verb",
+          "lemma": "errichten",
+          "meaning_ja": "設立した",
+          "meaning_fr": "établit",
+          "person": "3sg"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Konsulat",
+          "pos": "noun",
+          "lemma": "Konsulat",
+          "meaning_ja": "統領政府",
+          "meaning_fr": "Consulat",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "bevor",
+          "pos": "conjunction",
+          "lemma": "bevor",
+          "meaning_ja": "〜する前に",
+          "meaning_fr": "avant de"
+        },
+        {
+          "surface": "er",
+          "pos": "pronoun",
+          "lemma": "er",
+          "meaning_ja": "彼は",
+          "meaning_fr": "se"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich",
+          "meaning_ja": "自分自身を",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "zum",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜に",
+          "meaning_fr": "en"
+        },
+        {
+          "surface": "Kaiser",
+          "pos": "noun",
+          "lemma": "Kaiser",
+          "meaning_ja": "皇帝",
+          "meaning_fr": "empereur",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "krönte",
+          "pos": "verb",
+          "lemma": "krönen",
+          "meaning_ja": "戴冠させた",
+          "meaning_fr": "couronner",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Das",
+          "pos": "article",
+          "lemma": "das",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "bleibende",
+          "pos": "adjective",
+          "lemma": "bleibend",
+          "meaning_ja": "永続する",
+          "meaning_fr": "durable",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Erbe",
+          "pos": "noun",
+          "lemma": "Erbe",
+          "meaning_ja": "遺産",
+          "meaning_fr": "héritage",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de la",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Französischen",
+          "pos": "adjective",
+          "lemma": "französisch",
+          "meaning_ja": "フランスの",
+          "meaning_fr": "française",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Revolution",
+          "pos": "noun",
+          "lemma": "Revolution",
+          "meaning_ja": "革命",
+          "meaning_fr": "révolution",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "liegt",
+          "pos": "verb",
+          "lemma": "liegen",
+          "meaning_ja": "ある",
+          "meaning_fr": "réside",
+          "person": "3sg"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜の中に",
+          "meaning_fr": "dans"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "les",
+          "case": "dat",
+          "number": "pl"
+        },
+        {
+          "surface": "Ideen",
+          "pos": "noun",
+          "lemma": "Idee",
+          "meaning_ja": "理念",
+          "meaning_fr": "idées",
+          "case": "dat",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de la",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Volkssouveränität",
+          "pos": "noun",
+          "lemma": "Volkssouveränität",
+          "meaning_ja": "国民主権",
+          "meaning_fr": "souveraineté populaire",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de l'",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "staatsbürgerlichen",
+          "pos": "adjective",
+          "lemma": "staatsbürgerlich",
+          "meaning_ja": "公民の",
+          "meaning_fr": "civique",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Gleichheit",
+          "pos": "noun",
+          "lemma": "Gleichheit",
+          "meaning_ja": "平等",
+          "meaning_fr": "égalité",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "〜という",
+          "meaning_fr": "qui",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "politische",
+          "pos": "adjective",
+          "lemma": "politisch",
+          "meaning_ja": "政治的な",
+          "meaning_fr": "politiques",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Bewegungen",
+          "pos": "noun",
+          "lemma": "Bewegung",
+          "meaning_ja": "運動",
+          "meaning_fr": "mouvements",
+          "case": "acc",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "dans"
+        },
+        {
+          "surface": "ganz",
+          "pos": "adjective",
+          "lemma": "ganz",
+          "meaning_ja": "全",
+          "meaning_fr": "toute",
+          "case": "dat",
+          "number": "sg"
+        },
+        {
+          "surface": "Europa",
+          "pos": "proper_noun",
+          "lemma": "Europa",
+          "meaning_ja": "ヨーロッパ",
+          "meaning_fr": "Europe"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "du",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Welt",
+          "pos": "noun",
+          "lemma": "Welt",
+          "meaning_ja": "世界",
+          "meaning_fr": "monde",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "über",
+          "pos": "preposition",
+          "lemma": "über",
+          "meaning_ja": "〜以上",
+          "meaning_fr": "pendant des"
+        },
+        {
+          "surface": "Jahrhunderte",
+          "pos": "noun",
+          "lemma": "Jahrhundert",
+          "meaning_ja": "世紀",
+          "meaning_fr": "siècles",
+          "case": "acc",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "beeinflussten",
+          "pos": "verb",
+          "lemma": "beeinflussen",
+          "meaning_ja": "影響を与えた",
+          "meaning_fr": "ont influencé",
+          "person": "3pl"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        }
+      ]
+    },
+    {
+      "id": "t101",
+      "title": "Kants kategorischer Imperativ",
+      "subtitle": "Vernunft als Grundlage der Moral",
+      "level": "C1",
+      "category": "Philosophie",
+      "tokens": [
+        {
+          "surface": "Immanuel Kant",
+          "pos": "proper_noun",
+          "lemma": "Immanuel Kant",
+          "meaning_ja": "イマヌエル・カント",
+          "meaning_fr": "Immanuel Kant"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "einer",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜の中の一人",
+          "meaning_fr": "l'un des",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "plus grands",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "bedeutendsten",
+          "pos": "adjective",
+          "lemma": "bedeutend",
+          "meaning_ja": "最も重要な",
+          "meaning_fr": "",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "Philosophen",
+          "pos": "noun",
+          "lemma": "Philosoph",
+          "meaning_ja": "哲学者",
+          "meaning_fr": "philosophes",
+          "case": "gen",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "des",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Aufklärung",
+          "pos": "noun",
+          "lemma": "Aufklärung",
+          "meaning_ja": "啓蒙主義",
+          "meaning_fr": "Lumières",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "entwickelte",
+          "pos": "verb",
+          "lemma": "entwickeln",
+          "meaning_ja": "発展させた",
+          "meaning_fr": "développa",
+          "person": "3sg"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "一つの",
+          "meaning_fr": "une",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "revolutionäre",
+          "pos": "adjective",
+          "lemma": "revolutionär",
+          "meaning_ja": "革命的な",
+          "meaning_fr": "révolutionnaire",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Moralphilosophie",
+          "pos": "noun",
+          "lemma": "Moralphilosophie",
+          "meaning_ja": "道徳哲学",
+          "meaning_fr": "philosophie morale",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "〜という",
+          "meaning_fr": "qui",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "nicht",
+          "pos": "adverb",
+          "lemma": "nicht",
+          "meaning_ja": "ではなく",
+          "meaning_fr": "ne repose pas sur"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf",
+          "meaning_ja": "〜に",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "Gefühlen",
+          "pos": "noun",
+          "lemma": "Gefühl",
+          "meaning_ja": "感情",
+          "meaning_fr": "sentiments",
+          "case": "dat",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "oder",
+          "pos": "conjunction",
+          "lemma": "oder",
+          "meaning_ja": "または",
+          "meaning_fr": "ni"
+        },
+        {
+          "surface": "Neigungen",
+          "pos": "noun",
+          "lemma": "Neigung",
+          "meaning_ja": "傾向・感情",
+          "meaning_fr": "inclinations",
+          "case": "dat",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "sondern",
+          "pos": "conjunction",
+          "lemma": "sondern",
+          "meaning_ja": "しかし",
+          "meaning_fr": "mais"
+        },
+        {
+          "surface": "allein",
+          "pos": "adverb",
+          "lemma": "allein",
+          "meaning_ja": "ただ〜のみ",
+          "meaning_fr": "uniquement"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf",
+          "meaning_ja": "〜に基づく",
+          "meaning_fr": "sur"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Vernunft",
+          "pos": "noun",
+          "lemma": "Vernunft",
+          "meaning_ja": "理性",
+          "meaning_fr": "raison",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "beruht",
+          "pos": "verb",
+          "lemma": "beruhen",
+          "meaning_ja": "基づく",
+          "meaning_fr": "repose",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Das",
+          "pos": "article",
+          "lemma": "das",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Herzstück",
+          "pos": "noun",
+          "lemma": "Herzstück",
+          "meaning_ja": "核心",
+          "meaning_fr": "cœur",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "seiner",
+          "pos": "pronoun",
+          "lemma": "sein",
+          "meaning_ja": "彼の",
+          "meaning_fr": "de sa",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Ethik",
+          "pos": "noun",
+          "lemma": "Ethik",
+          "meaning_ja": "倫理学",
+          "meaning_fr": "éthique",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "est",
+          "person": "3sg"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "kategorische",
+          "pos": "adjective",
+          "lemma": "kategorisch",
+          "meaning_ja": "定言的な",
+          "meaning_fr": "catégorique",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Imperativ",
+          "pos": "noun",
+          "lemma": "Imperativ",
+          "meaning_ja": "命令法",
+          "meaning_fr": "impératif",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Seine",
+          "pos": "pronoun",
+          "lemma": "sein",
+          "meaning_ja": "彼の",
+          "meaning_fr": "sa",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "bekannteste",
+          "pos": "adjective",
+          "lemma": "bekannt",
+          "meaning_ja": "最もよく知られた",
+          "meaning_fr": "plus connue",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Formel",
+          "pos": "noun",
+          "lemma": "Formel",
+          "meaning_ja": "定式",
+          "meaning_fr": "formule",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "lautet",
+          "pos": "verb",
+          "lemma": "lauten",
+          "meaning_ja": "述べる",
+          "meaning_fr": "dit",
+          "person": "3sg"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "Handle",
+          "pos": "verb",
+          "lemma": "handeln",
+          "meaning_ja": "行為せよ",
+          "meaning_fr": "agis",
+          "person": "2sg"
+        },
+        {
+          "surface": "nur",
+          "pos": "adverb",
+          "lemma": "nur",
+          "meaning_ja": "ただ〜のみ",
+          "meaning_fr": "seulement"
+        },
+        {
+          "surface": "nach",
+          "pos": "preposition",
+          "lemma": "nach",
+          "meaning_ja": "〜に従って",
+          "meaning_fr": "selon"
+        },
+        {
+          "surface": "derjenigen",
+          "pos": "pronoun",
+          "lemma": "derjenige",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Maxime",
+          "pos": "noun",
+          "lemma": "Maxime",
+          "meaning_ja": "格率",
+          "meaning_fr": "maxime",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "durch",
+          "pos": "preposition",
+          "lemma": "durch",
+          "meaning_ja": "〜によって",
+          "meaning_fr": "par laquelle"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "tu",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "du",
+          "pos": "pronoun",
+          "lemma": "du",
+          "meaning_ja": "あなたは",
+          "meaning_fr": "peux"
+        },
+        {
+          "surface": "zugleich",
+          "pos": "adverb",
+          "lemma": "zugleich",
+          "meaning_ja": "同時に",
+          "meaning_fr": "en même temps"
+        },
+        {
+          "surface": "wollen",
+          "pos": "verb",
+          "lemma": "wollen",
+          "meaning_ja": "望む",
+          "meaning_fr": "vouloir"
+        },
+        {
+          "surface": "kannst",
+          "pos": "verb",
+          "lemma": "können",
+          "meaning_ja": "できる",
+          "meaning_fr": "",
+          "person": "2sg"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "dass",
+          "pos": "conjunction",
+          "lemma": "dass",
+          "meaning_ja": "〜ということ",
+          "meaning_fr": "qu'"
+        },
+        {
+          "surface": "sie",
+          "pos": "pronoun",
+          "lemma": "sie",
+          "meaning_ja": "それが",
+          "meaning_fr": "elle"
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "一つの",
+          "meaning_fr": "une",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "allgemeines",
+          "pos": "adjective",
+          "lemma": "allgemein",
+          "meaning_ja": "普遍的な",
+          "meaning_fr": "universelle",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Gesetz",
+          "pos": "noun",
+          "lemma": "Gesetz",
+          "meaning_ja": "法則",
+          "meaning_fr": "loi",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "werde",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜となる",
+          "meaning_fr": "devienne"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Diese",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "cette",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Formel",
+          "pos": "noun",
+          "lemma": "Formel",
+          "meaning_ja": "定式",
+          "meaning_fr": "formule",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "verlangt",
+          "pos": "verb",
+          "lemma": "verlangen",
+          "meaning_ja": "要求する",
+          "meaning_fr": "exige",
+          "person": "3sg"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "dass",
+          "pos": "conjunction",
+          "lemma": "dass",
+          "meaning_ja": "〜ということ",
+          "meaning_fr": "que"
+        },
+        {
+          "surface": "wir",
+          "pos": "pronoun",
+          "lemma": "wir",
+          "meaning_ja": "私たちは",
+          "meaning_fr": "nous"
+        },
+        {
+          "surface": "unsere",
+          "pos": "pronoun",
+          "lemma": "unser",
+          "meaning_ja": "私たちの",
+          "meaning_fr": "nos",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Handlungsprinzipien",
+          "pos": "noun",
+          "lemma": "Handlungsprinzip",
+          "meaning_ja": "行動原則",
+          "meaning_fr": "principes d'action",
+          "case": "acc",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf",
+          "meaning_ja": "〜について",
+          "meaning_fr": "à l'aune de"
+        },
+        {
+          "surface": "ihre",
+          "pos": "pronoun",
+          "lemma": "ihr",
+          "meaning_ja": "それらの",
+          "meaning_fr": "leur",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Verallgemeinerbarkeit",
+          "pos": "noun",
+          "lemma": "Verallgemeinerbarkeit",
+          "meaning_ja": "普遍化可能性",
+          "meaning_fr": "universalisabilité",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "prüfen",
+          "pos": "verb",
+          "lemma": "prüfen",
+          "meaning_ja": "検討する",
+          "meaning_fr": "évaluons"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "Wäre",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "であろうか",
+          "meaning_fr": "le monde serait-il bon"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Welt",
+          "pos": "noun",
+          "lemma": "Welt",
+          "meaning_ja": "世界",
+          "meaning_fr": "",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "gut",
+          "pos": "adjective",
+          "lemma": "gut",
+          "meaning_ja": "良い",
+          "meaning_fr": "si"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "wenn",
+          "pos": "conjunction",
+          "lemma": "wenn",
+          "meaning_ja": "もし〜なら",
+          "meaning_fr": "tous agissaient"
+        },
+        {
+          "surface": "alle",
+          "pos": "adjective",
+          "lemma": "aller",
+          "meaning_ja": "すべての",
+          "meaning_fr": "",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "so",
+          "pos": "adverb",
+          "lemma": "so",
+          "meaning_ja": "そのように",
+          "meaning_fr": "comme moi"
+        },
+        {
+          "surface": "handelten",
+          "pos": "verb",
+          "lemma": "handeln",
+          "meaning_ja": "行動した",
+          "meaning_fr": "",
+          "person": "3pl"
+        },
+        {
+          "surface": "wie",
+          "pos": "conjunction",
+          "lemma": "wie",
+          "meaning_ja": "〜のように",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "ich",
+          "pos": "pronoun",
+          "lemma": "ich",
+          "meaning_ja": "私が",
+          "meaning_fr": "moi"
+        },
+        {
+          "surface": "?",
+          "pos": "punct"
+        },
+        {
+          "surface": "Eine",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "一つの",
+          "meaning_fr": "une",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "weitere",
+          "pos": "adjective",
+          "lemma": "weit",
+          "meaning_ja": "さらなる",
+          "meaning_fr": "autre",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "wichtige",
+          "pos": "adjective",
+          "lemma": "wichtig",
+          "meaning_ja": "重要な",
+          "meaning_fr": "formulation importante",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Formulierung",
+          "pos": "noun",
+          "lemma": "Formulierung",
+          "meaning_ja": "定式化",
+          "meaning_fr": "",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "est",
+          "person": "3sg"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Menschheitszweck-Formel",
+          "pos": "noun",
+          "lemma": "Menschheitszweck-Formel",
+          "meaning_ja": "人類目的定式",
+          "meaning_fr": "formule de l'humanité",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "Handle",
+          "pos": "verb",
+          "lemma": "handeln",
+          "meaning_ja": "行為せよ",
+          "meaning_fr": "agis",
+          "person": "2sg"
+        },
+        {
+          "surface": "so",
+          "pos": "adverb",
+          "lemma": "so",
+          "meaning_ja": "そのように",
+          "meaning_fr": "de sorte"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "dass",
+          "pos": "conjunction",
+          "lemma": "dass",
+          "meaning_ja": "〜ということ",
+          "meaning_fr": "que"
+        },
+        {
+          "surface": "du",
+          "pos": "pronoun",
+          "lemma": "du",
+          "meaning_ja": "あなたは",
+          "meaning_fr": "tu"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Menschheit",
+          "pos": "noun",
+          "lemma": "Menschheit",
+          "meaning_ja": "人類",
+          "meaning_fr": "humanité",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "niemals",
+          "pos": "adverb",
+          "lemma": "niemals",
+          "meaning_ja": "決して〜ない",
+          "meaning_fr": "jamais"
+        },
+        {
+          "surface": "bloß",
+          "pos": "adverb",
+          "lemma": "bloß",
+          "meaning_ja": "単に",
+          "meaning_fr": "simplement"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": "comme"
+        },
+        {
+          "surface": "Mittel",
+          "pos": "noun",
+          "lemma": "Mittel",
+          "meaning_ja": "手段",
+          "meaning_fr": "moyen",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "sondern",
+          "pos": "conjunction",
+          "lemma": "sondern",
+          "meaning_ja": "しかし",
+          "meaning_fr": "mais"
+        },
+        {
+          "surface": "jederzeit",
+          "pos": "adverb",
+          "lemma": "jederzeit",
+          "meaning_ja": "常に",
+          "meaning_fr": "toujours"
+        },
+        {
+          "surface": "zugleich",
+          "pos": "adverb",
+          "lemma": "zugleich",
+          "meaning_ja": "同時に",
+          "meaning_fr": "aussi"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": "comme"
+        },
+        {
+          "surface": "Zweck",
+          "pos": "noun",
+          "lemma": "Zweck",
+          "meaning_ja": "目的",
+          "meaning_fr": "fin",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "brauchst",
+          "pos": "verb",
+          "lemma": "brauchen",
+          "meaning_ja": "使う",
+          "meaning_fr": "traites",
+          "person": "2sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Diese",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "cette",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Formel",
+          "pos": "noun",
+          "lemma": "Formel",
+          "meaning_ja": "定式",
+          "meaning_fr": "formule",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "schützt",
+          "pos": "verb",
+          "lemma": "schützen",
+          "meaning_ja": "保護する",
+          "meaning_fr": "protège",
+          "person": "3sg"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Würde",
+          "pos": "noun",
+          "lemma": "Würde",
+          "meaning_ja": "尊厳",
+          "meaning_fr": "dignité",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "jedes",
+          "pos": "adjective",
+          "lemma": "jeder",
+          "meaning_ja": "あらゆる",
+          "meaning_fr": "de chaque",
+          "case": "gen",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Menschen",
+          "pos": "noun",
+          "lemma": "Mensch",
+          "meaning_ja": "人間",
+          "meaning_fr": "être humain",
+          "case": "gen",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "verbietet",
+          "pos": "verb",
+          "lemma": "verbieten",
+          "meaning_ja": "禁じる",
+          "meaning_fr": "interdit",
+          "person": "3sg"
+        },
+        {
+          "surface": "es",
+          "pos": "pronoun",
+          "lemma": "es",
+          "meaning_ja": "それを",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "andere",
+          "pos": "adjective",
+          "lemma": "ander",
+          "meaning_ja": "他の",
+          "meaning_fr": "d'autres",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Menschen",
+          "pos": "noun",
+          "lemma": "Mensch",
+          "meaning_ja": "人間",
+          "meaning_fr": "êtres humains",
+          "case": "acc",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": "comme de simples"
+        },
+        {
+          "surface": "bloße",
+          "pos": "adjective",
+          "lemma": "bloß",
+          "meaning_ja": "単なる",
+          "meaning_fr": "simples",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Werkzeuge",
+          "pos": "noun",
+          "lemma": "Werkzeug",
+          "meaning_ja": "道具",
+          "meaning_fr": "outils",
+          "case": "acc",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "zu",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜するために",
+          "meaning_fr": "à"
+        },
+        {
+          "surface": "benutzen",
+          "pos": "verb",
+          "lemma": "benutzen",
+          "meaning_ja": "使う",
+          "meaning_fr": "utiliser"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Kants",
+          "pos": "noun",
+          "lemma": "Kant",
+          "meaning_ja": "カントの",
+          "meaning_fr": "la philosophie de Kant",
+          "case": "gen",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Ethik",
+          "pos": "noun",
+          "lemma": "Ethik",
+          "meaning_ja": "倫理学",
+          "meaning_fr": "éthique",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "hat",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "〜した",
+          "meaning_fr": "a",
+          "person": "3sg"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Philosophie",
+          "pos": "noun",
+          "lemma": "Philosophie",
+          "meaning_ja": "哲学",
+          "meaning_fr": "philosophie",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Recht",
+          "pos": "noun",
+          "lemma": "Recht",
+          "meaning_ja": "法学",
+          "meaning_fr": "droit",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Menschenrechtsdiskussion",
+          "pos": "noun",
+          "lemma": "Menschenrechtsdiskussion",
+          "meaning_ja": "人権論",
+          "meaning_fr": "discussion sur les droits de l'homme",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "bis",
+          "pos": "preposition",
+          "lemma": "bis",
+          "meaning_ja": "〜まで",
+          "meaning_fr": "jusqu'à"
+        },
+        {
+          "surface": "heute",
+          "pos": "adverb",
+          "lemma": "heute",
+          "meaning_ja": "今日",
+          "meaning_fr": "aujourd'hui"
+        },
+        {
+          "surface": "nachhaltig",
+          "pos": "adverb",
+          "lemma": "nachhaltig",
+          "meaning_ja": "持続的に",
+          "meaning_fr": "durablement"
+        },
+        {
+          "surface": "geprägt",
+          "pos": "verb",
+          "lemma": "prägen",
+          "meaning_ja": "形作った",
+          "meaning_fr": "marqué"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        }
+      ]
+    },
+    {
+      "id": "t102",
+      "title": "Einsteins Relativitätstheorie",
+      "subtitle": "Raum, Zeit und die Krümmung der Welt",
+      "level": "C1",
+      "category": "Wissenschaft",
+      "tokens": [
+        {
+          "surface": "Albert Einstein",
+          "pos": "proper_noun",
+          "lemma": "Albert Einstein",
+          "meaning_ja": "アルベルト・アインシュタイン",
+          "meaning_fr": "Albert Einstein"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "geboren",
+          "pos": "verb",
+          "lemma": "gebären",
+          "meaning_ja": "生まれた",
+          "meaning_fr": "né"
+        },
+        {
+          "surface": "1879",
+          "pos": "number",
+          "lemma": "1879",
+          "meaning_ja": "1879年",
+          "meaning_fr": "1879"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "à"
+        },
+        {
+          "surface": "Ulm",
+          "pos": "proper_noun",
+          "lemma": "Ulm",
+          "meaning_ja": "ウルム",
+          "meaning_fr": "Ulm"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "revolutionierte",
+          "pos": "verb",
+          "lemma": "revolutionieren",
+          "meaning_ja": "革命を起こした",
+          "meaning_fr": "révolutionna",
+          "person": "3sg"
+        },
+        {
+          "surface": "unser",
+          "pos": "pronoun",
+          "lemma": "unser",
+          "meaning_ja": "私たちの",
+          "meaning_fr": "notre",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Verständnis",
+          "pos": "noun",
+          "lemma": "Verständnis",
+          "meaning_ja": "理解",
+          "meaning_fr": "compréhension",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von",
+          "meaning_ja": "〜の",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": "Raum",
+          "pos": "noun",
+          "lemma": "Raum",
+          "meaning_ja": "空間",
+          "meaning_fr": "l'espace",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "Zeit",
+          "pos": "noun",
+          "lemma": "Zeit",
+          "meaning_ja": "時間",
+          "meaning_fr": "le temps",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Gravitation",
+          "pos": "noun",
+          "lemma": "Gravitation",
+          "meaning_ja": "重力",
+          "meaning_fr": "la gravitation",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit",
+          "meaning_ja": "〜によって",
+          "meaning_fr": "avec"
+        },
+        {
+          "surface": "zwei",
+          "pos": "adjective",
+          "lemma": "zwei",
+          "meaning_ja": "二つの",
+          "meaning_fr": "deux"
+        },
+        {
+          "surface": "grundlegenden",
+          "pos": "adjective",
+          "lemma": "grundlegend",
+          "meaning_ja": "根本的な",
+          "meaning_fr": "fondamentales",
+          "case": "dat",
+          "number": "pl"
+        },
+        {
+          "surface": "Theorien",
+          "pos": "noun",
+          "lemma": "Theorie",
+          "meaning_ja": "理論",
+          "meaning_fr": "théories",
+          "case": "dat",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "speziellen",
+          "pos": "adjective",
+          "lemma": "speziell",
+          "meaning_ja": "特殊な",
+          "meaning_fr": "spéciale",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "allgemeinen",
+          "pos": "adjective",
+          "lemma": "allgemein",
+          "meaning_ja": "一般の",
+          "meaning_fr": "générale",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Relativitätstheorie",
+          "pos": "noun",
+          "lemma": "Relativitätstheorie",
+          "meaning_ja": "相対性理論",
+          "meaning_fr": "théorie de la relativité",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Im",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜に",
+          "meaning_fr": "en"
+        },
+        {
+          "surface": "Jahr",
+          "pos": "noun",
+          "lemma": "Jahr",
+          "meaning_ja": "年",
+          "meaning_fr": "an",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "1905",
+          "pos": "number",
+          "lemma": "1905",
+          "meaning_ja": "1905年",
+          "meaning_fr": "1905"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "dem",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "sogenannten",
+          "pos": "adjective",
+          "lemma": "sogenannt",
+          "meaning_ja": "いわゆる",
+          "meaning_fr": "soi-disant",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Wunderjahr",
+          "pos": "noun",
+          "lemma": "Wunderjahr",
+          "meaning_ja": "奇跡の年",
+          "meaning_fr": "année miraculeuse",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "veröffentlichte",
+          "pos": "verb",
+          "lemma": "veröffentlichen",
+          "meaning_ja": "発表した",
+          "meaning_fr": "publia",
+          "person": "3sg"
+        },
+        {
+          "surface": "Einstein",
+          "pos": "proper_noun",
+          "lemma": "Einstein",
+          "meaning_ja": "アインシュタイン",
+          "meaning_fr": "Einstein"
+        },
+        {
+          "surface": "seine",
+          "pos": "pronoun",
+          "lemma": "sein",
+          "meaning_ja": "彼の",
+          "meaning_fr": "sa",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "spezielle",
+          "pos": "adjective",
+          "lemma": "speziell",
+          "meaning_ja": "特殊な",
+          "meaning_fr": "spéciale",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Relativitätstheorie",
+          "pos": "noun",
+          "lemma": "Relativitätstheorie",
+          "meaning_ja": "相対性理論",
+          "meaning_fr": "théorie de la relativité",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Diese",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "cette",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Theorie",
+          "pos": "noun",
+          "lemma": "Theorie",
+          "meaning_ja": "理論",
+          "meaning_fr": "théorie",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "beruht",
+          "pos": "verb",
+          "lemma": "beruhen",
+          "meaning_ja": "基づく",
+          "meaning_fr": "repose",
+          "person": "3sg"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf",
+          "meaning_ja": "〜に",
+          "meaning_fr": "sur"
+        },
+        {
+          "surface": "zwei",
+          "pos": "adjective",
+          "lemma": "zwei",
+          "meaning_ja": "二つの",
+          "meaning_fr": "deux"
+        },
+        {
+          "surface": "Postulaten",
+          "pos": "noun",
+          "lemma": "Postulat",
+          "meaning_ja": "公理",
+          "meaning_fr": "postulats",
+          "case": "dat",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "Erstens",
+          "pos": "adverb",
+          "lemma": "erstens",
+          "meaning_ja": "第一に",
+          "meaning_fr": "premièrement"
+        },
+        {
+          "surface": "sind",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "sont",
+          "person": "3pl"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "les",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Naturgesetze",
+          "pos": "noun",
+          "lemma": "Naturgesetz",
+          "meaning_ja": "自然法則",
+          "meaning_fr": "lois de la nature",
+          "case": "nom",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "dans"
+        },
+        {
+          "surface": "allen",
+          "pos": "adjective",
+          "lemma": "aller",
+          "meaning_ja": "すべての",
+          "meaning_fr": "tous les",
+          "case": "dat",
+          "number": "pl"
+        },
+        {
+          "surface": "Inertialsystemen",
+          "pos": "noun",
+          "lemma": "Inertialsystem",
+          "meaning_ja": "慣性系",
+          "meaning_fr": "référentiels inertiels",
+          "case": "dat",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "gleich",
+          "pos": "adjective",
+          "lemma": "gleich",
+          "meaning_ja": "同一の",
+          "meaning_fr": "identiques"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "zweitens",
+          "pos": "adverb",
+          "lemma": "zweitens",
+          "meaning_ja": "第二に",
+          "meaning_fr": "deuxièmement"
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "est",
+          "person": "3sg"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Lichtgeschwindigkeit",
+          "pos": "noun",
+          "lemma": "Lichtgeschwindigkeit",
+          "meaning_ja": "光速",
+          "meaning_fr": "vitesse de la lumière",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "dans le"
+        },
+        {
+          "surface": "Vakuum",
+          "pos": "noun",
+          "lemma": "Vakuum",
+          "meaning_ja": "真空",
+          "meaning_fr": "vide",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "für",
+          "pos": "preposition",
+          "lemma": "für",
+          "meaning_ja": "〜にとって",
+          "meaning_fr": "pour"
+        },
+        {
+          "surface": "alle",
+          "pos": "adjective",
+          "lemma": "aller",
+          "meaning_ja": "すべての",
+          "meaning_fr": "tous les",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Beobachter",
+          "pos": "noun",
+          "lemma": "Beobachter",
+          "meaning_ja": "観察者",
+          "meaning_fr": "observateurs",
+          "case": "acc",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "konstant",
+          "pos": "adjective",
+          "lemma": "konstant",
+          "meaning_ja": "一定の",
+          "meaning_fr": "constante"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Aus",
+          "pos": "preposition",
+          "lemma": "aus",
+          "meaning_ja": "〜から",
+          "meaning_fr": "De"
+        },
+        {
+          "surface": "diesen",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "これらの",
+          "meaning_fr": "ces",
+          "case": "dat",
+          "number": "pl"
+        },
+        {
+          "surface": "Postulaten",
+          "pos": "noun",
+          "lemma": "Postulat",
+          "meaning_ja": "公理",
+          "meaning_fr": "postulats",
+          "case": "dat",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "folgen",
+          "pos": "verb",
+          "lemma": "folgen",
+          "meaning_ja": "導かれる",
+          "meaning_fr": "découlent",
+          "person": "3pl"
+        },
+        {
+          "surface": "verblüffende",
+          "pos": "adjective",
+          "lemma": "verblüffend",
+          "meaning_ja": "驚くべき",
+          "meaning_fr": "stupéfiantes",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Konsequenzen",
+          "pos": "noun",
+          "lemma": "Konsequenz",
+          "meaning_ja": "結果",
+          "meaning_fr": "conséquences",
+          "case": "nom",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "Bewegt",
+          "pos": "verb",
+          "lemma": "bewegen",
+          "meaning_ja": "動く",
+          "meaning_fr": "si un objet se déplace",
+          "person": "3sg"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich",
+          "meaning_ja": "自分が",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "一つの",
+          "meaning_fr": "à grande vitesse"
+        },
+        {
+          "surface": "Objekt",
+          "pos": "noun",
+          "lemma": "Objekt",
+          "meaning_ja": "物体",
+          "meaning_fr": "",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit",
+          "meaning_ja": "〜で",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "hoher",
+          "pos": "adjective",
+          "lemma": "hoch",
+          "meaning_ja": "高い",
+          "meaning_fr": "élevée",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Geschwindigkeit",
+          "pos": "noun",
+          "lemma": "Geschwindigkeit",
+          "meaning_ja": "速度",
+          "meaning_fr": "vitesse",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "verlangsamt",
+          "pos": "verb",
+          "lemma": "verlangsamen",
+          "meaning_ja": "遅くなる",
+          "meaning_fr": "le temps se ralentit",
+          "person": "3sg"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich",
+          "meaning_ja": "〜が",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "für",
+          "pos": "preposition",
+          "lemma": "für",
+          "meaning_ja": "〜にとって",
+          "meaning_fr": "pour"
+        },
+        {
+          "surface": "dieses",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "cet",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Objekt",
+          "pos": "noun",
+          "lemma": "Objekt",
+          "meaning_ja": "物体",
+          "meaning_fr": "objet",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Zeit",
+          "pos": "noun",
+          "lemma": "Zeit",
+          "meaning_ja": "時間",
+          "meaning_fr": "temps",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "ein",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜という",
+          "meaning_fr": "un",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Phänomen",
+          "pos": "noun",
+          "lemma": "Phänomen",
+          "meaning_ja": "現象",
+          "meaning_fr": "phénomène",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "meaning_ja": "〜という",
+          "meaning_fr": "connu sous le nom de",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "Zeitdilatation",
+          "pos": "noun",
+          "lemma": "Zeitdilatation",
+          "meaning_ja": "時間の遅れ",
+          "meaning_fr": "dilatation du temps",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "bekannt",
+          "pos": "verb",
+          "lemma": "bekannt",
+          "meaning_ja": "知られている",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "est",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "wohl",
+          "pos": "adjective",
+          "lemma": "wohl",
+          "meaning_ja": "おそらく",
+          "meaning_fr": "probablement"
+        },
+        {
+          "surface": "bekannteste",
+          "pos": "adjective",
+          "lemma": "bekannt",
+          "meaning_ja": "最もよく知られた",
+          "meaning_fr": "plus célèbre",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Gleichung",
+          "pos": "noun",
+          "lemma": "Gleichung",
+          "meaning_ja": "等式・式",
+          "meaning_fr": "équation",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de la",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Physik",
+          "pos": "noun",
+          "lemma": "Physik",
+          "meaning_ja": "物理学",
+          "meaning_fr": "physique",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "E=mc²",
+          "pos": "noun",
+          "lemma": "E=mc²",
+          "meaning_ja": "E=mc²",
+          "meaning_fr": "E=mc²"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "folgt",
+          "pos": "verb",
+          "lemma": "folgen",
+          "meaning_ja": "導かれる",
+          "meaning_fr": "résulte",
+          "person": "3sg"
+        },
+        {
+          "surface": "ebenfalls",
+          "pos": "adverb",
+          "lemma": "ebenfalls",
+          "meaning_ja": "同様に",
+          "meaning_fr": "également"
+        },
+        {
+          "surface": "aus",
+          "pos": "preposition",
+          "lemma": "aus",
+          "meaning_ja": "〜から",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": "dieser",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "cette",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Theorie",
+          "pos": "noun",
+          "lemma": "Theorie",
+          "meaning_ja": "理論",
+          "meaning_fr": "théorie",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "besagt",
+          "pos": "verb",
+          "lemma": "besagen",
+          "meaning_ja": "述べる",
+          "meaning_fr": "stipule",
+          "person": "3sg"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "dass",
+          "pos": "conjunction",
+          "lemma": "dass",
+          "meaning_ja": "〜ということ",
+          "meaning_fr": "que"
+        },
+        {
+          "surface": "Masse",
+          "pos": "noun",
+          "lemma": "Masse",
+          "meaning_ja": "質量",
+          "meaning_fr": "masse",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Energie",
+          "pos": "noun",
+          "lemma": "Energie",
+          "meaning_ja": "エネルギー",
+          "meaning_fr": "énergie",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "äquivalent",
+          "pos": "adjective",
+          "lemma": "äquivalent",
+          "meaning_ja": "等価の",
+          "meaning_fr": "équivalentes"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "ineinander",
+          "pos": "adjective",
+          "lemma": "ineinander",
+          "meaning_ja": "互いに",
+          "meaning_fr": "l'une en l'autre"
+        },
+        {
+          "surface": "umwandelbar",
+          "pos": "adjective",
+          "lemma": "umwandelbar",
+          "meaning_ja": "変換可能な",
+          "meaning_fr": "convertibles"
+        },
+        {
+          "surface": "sind",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "sont",
+          "person": "3pl"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Zehn",
+          "pos": "adjective",
+          "lemma": "zehn",
+          "meaning_ja": "10の",
+          "meaning_fr": "dix"
+        },
+        {
+          "surface": "Jahre",
+          "pos": "noun",
+          "lemma": "Jahr",
+          "meaning_ja": "年",
+          "meaning_fr": "ans",
+          "case": "acc",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "später",
+          "pos": "adverb",
+          "lemma": "später",
+          "meaning_ja": "後に",
+          "meaning_fr": "plus tard"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜に",
+          "meaning_fr": "en"
+        },
+        {
+          "surface": "Jahr",
+          "pos": "noun",
+          "lemma": "Jahr",
+          "meaning_ja": "年",
+          "meaning_fr": "an",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "1915",
+          "pos": "number",
+          "lemma": "1915",
+          "meaning_ja": "1915年",
+          "meaning_fr": "1915"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "veröffentlichte",
+          "pos": "verb",
+          "lemma": "veröffentlichen",
+          "meaning_ja": "発表した",
+          "meaning_fr": "publia",
+          "person": "3sg"
+        },
+        {
+          "surface": "Einstein",
+          "pos": "proper_noun",
+          "lemma": "Einstein",
+          "meaning_ja": "アインシュタイン",
+          "meaning_fr": "Einstein"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "allgemeine",
+          "pos": "adjective",
+          "lemma": "allgemein",
+          "meaning_ja": "一般の",
+          "meaning_fr": "générale",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Relativitätstheorie",
+          "pos": "noun",
+          "lemma": "Relativitätstheorie",
+          "meaning_ja": "相対性理論",
+          "meaning_fr": "théorie de la relativité",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "〜という",
+          "meaning_fr": "qui",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Gravitation",
+          "pos": "noun",
+          "lemma": "Gravitation",
+          "meaning_ja": "重力",
+          "meaning_fr": "gravitation",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "nicht",
+          "pos": "adverb",
+          "lemma": "nicht",
+          "meaning_ja": "〜でなく",
+          "meaning_fr": "non pas comme"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": "une force"
+        },
+        {
+          "surface": "Kraft",
+          "pos": "noun",
+          "lemma": "Kraft",
+          "meaning_ja": "力",
+          "meaning_fr": "",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "sondern",
+          "pos": "conjunction",
+          "lemma": "sondern",
+          "meaning_ja": "しかし",
+          "meaning_fr": "mais comme"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "Krümmung",
+          "pos": "noun",
+          "lemma": "Krümmung",
+          "meaning_ja": "曲がり・湾曲",
+          "meaning_fr": "courbure",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de l'",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Raumzeit",
+          "pos": "noun",
+          "lemma": "Raumzeit",
+          "meaning_ja": "時空",
+          "meaning_fr": "espace-temps",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "beschreibt",
+          "pos": "verb",
+          "lemma": "beschreiben",
+          "meaning_ja": "記述する",
+          "meaning_fr": "décrit",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Massive",
+          "pos": "adjective",
+          "lemma": "massiv",
+          "meaning_ja": "質量を持つ",
+          "meaning_fr": "Les objets massifs",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Objekte",
+          "pos": "noun",
+          "lemma": "Objekt",
+          "meaning_ja": "物体",
+          "meaning_fr": "",
+          "case": "nom",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "wie",
+          "pos": "preposition",
+          "lemma": "wie",
+          "meaning_ja": "〜のような",
+          "meaning_fr": "comme"
+        },
+        {
+          "surface": "Sterne",
+          "pos": "noun",
+          "lemma": "Stern",
+          "meaning_ja": "星",
+          "meaning_fr": "étoiles",
+          "case": "nom",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "schwarze",
+          "pos": "adjective",
+          "lemma": "schwarz",
+          "meaning_ja": "黒の",
+          "meaning_fr": "trous noirs",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Löcher",
+          "pos": "noun",
+          "lemma": "Loch",
+          "meaning_ja": "穴（複数）",
+          "meaning_fr": "",
+          "case": "nom",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "verbiegen",
+          "pos": "verb",
+          "lemma": "verbiegen",
+          "meaning_ja": "曲げる",
+          "meaning_fr": "courbent",
+          "person": "3pl"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Raumzeit",
+          "pos": "noun",
+          "lemma": "Raumzeit",
+          "meaning_ja": "時空",
+          "meaning_fr": "espace-temps",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "um",
+          "pos": "preposition",
+          "lemma": "um",
+          "meaning_ja": "〜の周りに",
+          "meaning_fr": "autour d'eux"
+        },
+        {
+          "surface": "sich",
+          "pos": "pronoun",
+          "lemma": "sich",
+          "meaning_ja": "自分の周り",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "herum",
+          "pos": "adverb",
+          "lemma": "herum",
+          "meaning_ja": "周囲に",
+          "meaning_fr": ""
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Licht",
+          "pos": "noun",
+          "lemma": "Licht",
+          "meaning_ja": "光",
+          "meaning_fr": "la lumière",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "folgt",
+          "pos": "verb",
+          "lemma": "folgen",
+          "meaning_ja": "従う",
+          "meaning_fr": "suit",
+          "person": "3sg"
+        },
+        {
+          "surface": "dieser",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "cette",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Krümmung",
+          "pos": "noun",
+          "lemma": "Krümmung",
+          "meaning_ja": "湾曲",
+          "meaning_fr": "courbure",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Diese",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "cette",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Vorhersage",
+          "pos": "noun",
+          "lemma": "Vorhersage",
+          "meaning_ja": "予測",
+          "meaning_fr": "prédiction",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "wurde",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜された",
+          "meaning_fr": "fut",
+          "person": "3sg"
+        },
+        {
+          "surface": "1919",
+          "pos": "number",
+          "lemma": "1919",
+          "meaning_ja": "1919年",
+          "meaning_fr": "1919"
+        },
+        {
+          "surface": "durch",
+          "pos": "preposition",
+          "lemma": "durch",
+          "meaning_ja": "〜によって",
+          "meaning_fr": "par"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Beobachtung",
+          "pos": "noun",
+          "lemma": "Beobachtung",
+          "meaning_ja": "観測",
+          "meaning_fr": "observation",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "einer",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜の",
+          "meaning_fr": "d'une",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Sonnenfinsternis",
+          "pos": "noun",
+          "lemma": "Sonnenfinsternis",
+          "meaning_ja": "日食",
+          "meaning_fr": "éclipse solaire",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "bestätigt",
+          "pos": "verb",
+          "lemma": "bestätigen",
+          "meaning_ja": "確認された",
+          "meaning_fr": "confirmée"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "machte",
+          "pos": "verb",
+          "lemma": "machen",
+          "meaning_ja": "〜した",
+          "meaning_fr": "rendit",
+          "person": "3sg"
+        },
+        {
+          "surface": "Einstein",
+          "pos": "proper_noun",
+          "lemma": "Einstein",
+          "meaning_ja": "アインシュタイン",
+          "meaning_fr": "Einstein"
+        },
+        {
+          "surface": "weltberühmt",
+          "pos": "adjective",
+          "lemma": "weltberühmt",
+          "meaning_ja": "世界的に有名な",
+          "meaning_fr": "mondialement célèbre"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        }
+      ]
+    },
+    {
+      "id": "t103",
+      "title": "Franz Kafka: Leben und Werk",
+      "subtitle": "Entfremdung und das Absurde",
+      "level": "C1",
+      "category": "Literatur",
+      "tokens": [
+        {
+          "surface": "Franz Kafka",
+          "pos": "proper_noun",
+          "lemma": "Franz Kafka",
+          "meaning_ja": "フランツ・カフカ",
+          "meaning_fr": "Franz Kafka"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "geboren",
+          "pos": "verb",
+          "lemma": "gebären",
+          "meaning_ja": "生まれた",
+          "meaning_fr": "né"
+        },
+        {
+          "surface": "1883",
+          "pos": "number",
+          "lemma": "1883",
+          "meaning_ja": "1883年",
+          "meaning_fr": "1883"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "à"
+        },
+        {
+          "surface": "Prag",
+          "pos": "proper_noun",
+          "lemma": "Prag",
+          "meaning_ja": "プラハ",
+          "meaning_fr": "Prague"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": "comme"
+        },
+        {
+          "surface": "Sohn",
+          "pos": "noun",
+          "lemma": "Sohn",
+          "meaning_ja": "息子",
+          "meaning_fr": "fils",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "einer",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜の",
+          "meaning_fr": "d'une",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "deutschsprachigen",
+          "pos": "adjective",
+          "lemma": "deutschsprachig",
+          "meaning_ja": "ドイツ語圏の",
+          "meaning_fr": "germanophone",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "jüdischen",
+          "pos": "adjective",
+          "lemma": "jüdisch",
+          "meaning_ja": "ユダヤ系の",
+          "meaning_fr": "juive",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Familie",
+          "pos": "noun",
+          "lemma": "Familie",
+          "meaning_ja": "家族",
+          "meaning_fr": "famille",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "gilt",
+          "pos": "verb",
+          "lemma": "gelten",
+          "meaning_ja": "見なされる",
+          "meaning_fr": "est considéré",
+          "person": "3sg"
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": "comme"
+        },
+        {
+          "surface": "einer",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜の中の一人",
+          "meaning_fr": "l'un des",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "plus influents",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "einflussreichsten",
+          "pos": "adjective",
+          "lemma": "einflussreich",
+          "meaning_ja": "最も影響力のある",
+          "meaning_fr": "",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "Schriftsteller",
+          "pos": "noun",
+          "lemma": "Schriftsteller",
+          "meaning_ja": "作家",
+          "meaning_fr": "écrivains",
+          "case": "gen",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "des",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "du",
+          "case": "gen",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "20.",
+          "pos": "number",
+          "lemma": "20.",
+          "meaning_ja": "20",
+          "meaning_fr": "XX"
+        },
+        {
+          "surface": "Jahrhunderts",
+          "pos": "noun",
+          "lemma": "Jahrhundert",
+          "meaning_ja": "世紀の",
+          "meaning_fr": "siècle",
+          "case": "gen",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Er",
+          "pos": "pronoun",
+          "lemma": "er",
+          "meaning_ja": "彼は",
+          "meaning_fr": "il"
+        },
+        {
+          "surface": "schrieb",
+          "pos": "verb",
+          "lemma": "schreiben",
+          "meaning_ja": "書いた",
+          "meaning_fr": "écrivit",
+          "person": "3sg"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf",
+          "meaning_ja": "〜で",
+          "meaning_fr": "en"
+        },
+        {
+          "surface": "Deutsch",
+          "pos": "noun",
+          "lemma": "Deutsch",
+          "meaning_ja": "ドイツ語",
+          "meaning_fr": "allemand",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜に",
+          "meaning_fr": "dans"
+        },
+        {
+          "surface": "einer",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜の",
+          "meaning_fr": "une",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Zeit",
+          "pos": "noun",
+          "lemma": "Zeit",
+          "meaning_ja": "時代",
+          "meaning_fr": "époque",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "〜と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "an",
+          "pos": "preposition",
+          "lemma": "an",
+          "meaning_ja": "〜で",
+          "meaning_fr": "dans"
+        },
+        {
+          "surface": "einem",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜の",
+          "meaning_fr": "un",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Ort",
+          "pos": "noun",
+          "lemma": "Ort",
+          "meaning_ja": "場所",
+          "meaning_fr": "lieu",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "wo",
+          "pos": "preposition",
+          "lemma": "wo",
+          "meaning_ja": "〜で",
+          "meaning_fr": "où"
+        },
+        {
+          "surface": "Deutsch",
+          "pos": "noun",
+          "lemma": "Deutsch",
+          "meaning_ja": "ドイツ語",
+          "meaning_fr": "l'allemand",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "Tschechisch",
+          "pos": "noun",
+          "lemma": "Tschechisch",
+          "meaning_ja": "チェコ語",
+          "meaning_fr": "le tchèque",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Jiddisch",
+          "pos": "noun",
+          "lemma": "Jiddisch",
+          "meaning_ja": "イディッシュ語",
+          "meaning_fr": "le yiddish",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "nebeneinander",
+          "pos": "adjective",
+          "lemma": "nebeneinander",
+          "meaning_ja": "並存して",
+          "meaning_fr": "côte à côte"
+        },
+        {
+          "surface": "existierten",
+          "pos": "verb",
+          "lemma": "existieren",
+          "meaning_ja": "存在した",
+          "meaning_fr": "coexistaient",
+          "person": "3pl"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Tagsüber",
+          "pos": "noun",
+          "lemma": "Tagsüber",
+          "meaning_ja": "日中",
+          "meaning_fr": "le jour"
+        },
+        {
+          "surface": "arbeitete",
+          "pos": "verb",
+          "lemma": "arbeiten",
+          "meaning_ja": "働いた",
+          "meaning_fr": "il travaillait",
+          "person": "3sg"
+        },
+        {
+          "surface": "er",
+          "pos": "pronoun",
+          "lemma": "er",
+          "meaning_ja": "彼は",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "als",
+          "pos": "preposition",
+          "lemma": "als",
+          "meaning_ja": "〜として",
+          "meaning_fr": "comme"
+        },
+        {
+          "surface": "Versicherungsbeamter",
+          "pos": "noun",
+          "lemma": "Versicherungsbeamte",
+          "meaning_ja": "保険会社員",
+          "meaning_fr": "fonctionnaire d'assurances",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "nachts",
+          "pos": "noun",
+          "lemma": "nachts",
+          "meaning_ja": "夜に",
+          "meaning_fr": "la nuit"
+        },
+        {
+          "surface": "schrieb",
+          "pos": "verb",
+          "lemma": "schreiben",
+          "meaning_ja": "書いた",
+          "meaning_fr": "il écrivait",
+          "person": "3sg"
+        },
+        {
+          "surface": "er",
+          "pos": "pronoun",
+          "lemma": "er",
+          "meaning_ja": "彼は",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "seine",
+          "pos": "pronoun",
+          "lemma": "sein",
+          "meaning_ja": "彼の",
+          "meaning_fr": "ses",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Werke",
+          "pos": "noun",
+          "lemma": "Werk",
+          "meaning_ja": "作品",
+          "meaning_fr": "œuvres",
+          "case": "acc",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von",
+          "meaning_ja": "〜の中で",
+          "meaning_fr": "dont"
+        },
+        {
+          "surface": "denen",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "それの",
+          "meaning_fr": "il"
+        },
+        {
+          "surface": "er",
+          "pos": "pronoun",
+          "lemma": "er",
+          "meaning_ja": "彼は",
+          "meaning_fr": "laissa"
+        },
+        {
+          "surface": "viele",
+          "pos": "adjective",
+          "lemma": "viele",
+          "meaning_ja": "多くの",
+          "meaning_fr": "beaucoup"
+        },
+        {
+          "surface": "zu",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜に",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "Lebzeiten",
+          "pos": "noun",
+          "lemma": "Lebzeiten",
+          "meaning_ja": "生前",
+          "meaning_fr": "de son vivant",
+          "case": "dat",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "unveröffentlicht",
+          "pos": "adjective",
+          "lemma": "unveröffentlicht",
+          "meaning_ja": "未発表の",
+          "meaning_fr": "inédites"
+        },
+        {
+          "surface": "ließ",
+          "pos": "verb",
+          "lemma": "lassen",
+          "meaning_ja": "〜させた",
+          "meaning_fr": "",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Seine",
+          "pos": "pronoun",
+          "lemma": "sein",
+          "meaning_ja": "彼の",
+          "meaning_fr": "son",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Erzählung",
+          "pos": "noun",
+          "lemma": "Erzählung",
+          "meaning_ja": "物語・短編",
+          "meaning_fr": "nouvelle",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "„",
+          "pos": "punct"
+        },
+        {
+          "surface": "Die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "La",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Verwandlung",
+          "pos": "noun",
+          "lemma": "Verwandlung",
+          "meaning_ja": "変身",
+          "meaning_fr": "Métamorphose",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "),\nP(\"von\",\"von\",\"〜の\",\"de\"),\nNUM(\"1915\",\"1915年\",\"1915\"),\nV(\"beginnt\",\"beginnen\",\"始まる\",\"commence\",p=\"3sg\"),\nP(\"mit\",\"mit\",\"〜で\",\"par\"),\nA(\"dem\",\"der\",\"その\",\"la\",c=\"dat\",num=\"sg\",g=\"m\"),\nJ(\"berühmten\",\"berühmt\",\"有名な\",\"célèbre\",c=\"dat\",num=\"sg\",g=\"m\"),\nJ(\"ersten\",\"erst\",\"最初の\",\"première\",c=\"dat\",num=\"sg\",g=\"m\"),\nN(\"Satz\",\"Satz\",\"文・文章\",\"phrase\",c=\"dat\",num=\"sg\",g=\"m\"),\npct(\":\"),\nP(\"Als\",\"als\",\"〜した時\",\"Alors que\"),\nE(\"Gregor Samsa\",\"グレーゴル・ザムザ\",\"Gregor Samsa\"),\nA(\"eines\",\"ein\",\"ある\",\"un\",c=\"gen\",num=\"sg\",g=\"m\"),\nN(\"Morgens\",\"Morgen\",\"朝\",\"matin\",c=\"gen\",num=\"sg\",g=\"m\"),\nP(\"aus\",\"aus\",\"〜から\",\"\"),\nJ(\"unruhigen\",\"unruhig\",\"不安な\",\"agités\",c=\"dat\",num=\"pl\"),\nN(\"Träumen\",\"Traum\",\"夢\",\"rêves\",c=\"dat\",num=\"pl\",g=\"m\"),\nV(\"erwachte\",\"erwachen\",\"目覚めた\",\"s'éveilla\",p=\"3sg\"),\npct(\",\"),\nV(\"fand\",\"finden\",\"気づいた\",\"il se trouva\",p=\"3sg\"),\nQ(\"er\",\"er\",\"彼は\",\"\"),\nQ(\"sich\",\"sich\",\"自分が\",\"\"),\nP(\"in\",\"in\",\"〜で\",\"dans\"),\nQ(\"seinem\",\"sein\",\"彼の\",\"son\",case=\"dat\",number=\"sg\",gender=\"n\"),\nN(\"Bett\",\"Bett\",\"ベッド\",\"lit\",c=\"dat\",num=\"sg\",g=\"n\"),\nP(\"zu\",\"zu\",\"〜に\",\"transformé en\"),\nA(\"einem\",\"ein\",\"〜に\",\"un\",c=\"dat\",num=\"sg\",g=\"n\"),\nJ(\"ungeheueren\",\"ungeheuer\",\"巨大な\",\"énorme\",c=\"dat\",num=\"sg\",g=\"n\"),\nN(\"Ungeziefer\",\"Ungeziefer\",\"害虫・虫\",\"insecte\",c=\"dat\",num=\"sg\",g=\"n\"),\nV(\"verwandelt\",\"verwandeln\",\"変身した\",\"\"),\npct(\".\"),\nQ(\"Diese\",\"dieser\",\"この\",\"cette\",case=\"nom\",number=\"sg\",gender=\"f\"),\nJ(\"surreale\",\"surreal\",\"シュールな\",\"surréaliste\",c=\"nom\",num=\"sg\",g=\"f\"),\nN(\"Prämisse\",\"Prämisse\",\"前提\",\"prémisse\",c=\"nom\",num=\"sg\",g=\"f\"),\nV(\"wird\",\"werden\",\"〜される\",\"est\",p=\"3sg\"),\nP(\"mit\",\"mit\",\"〜で\",\"avec\"),\nJ(\"bürokratischer\",\"bürokratisch\",\"官僚的な\",\"bureaucratique\",c=\"dat\",num=\"sg\",g=\"f\"),\nN(\"Sachlichkeit\",\"Sachlichkeit\",\"冷静さ・客観性\",\"froideur objective\",c=\"dat\",num=\"sg\",g=\"f\"),\nV(\"behandelt\",\"behandeln\",\"扱われる\",\"traitée\"),\npct(\",\"),\nA(\"was\",\"was\",\"〜ということ\",\"ce qui\"),\nA(\"den\",\"der\",\"その\",\"le\",c=\"acc\",num=\"sg\",g=\"m\"),\nJ(\"typisch\",\"typisch\",\"典型的な\",\"typiquement\"),\nJ(\"kafkaesken\",\"kafkaesk\",\"カフカ的な\",\"kafkaïen\",c=\"acc\",num=\"sg\",g=\"m\"),\nN(\"Stil\",\"Stil\",\"スタイル\",\"style\",c=\"acc\",num=\"sg\",g=\"m\"),\nV(\"charakterisiert\",\"charakterisieren\",\"特徴づける\",\"caractérise\",p=\"3sg\"),\npct(\".\"),\nP(\"Im\",\"in\",\"〜では\",\"Dans\"),\nN(\"Roman\",\"Roman\",\"小説\",\"roman\",c=\"dat\",num=\"sg\",g=\"m\"),\npct(\"„\"),\nA(\"Der\",\"der\",\"その\",\"Le\",c=\"nom\",num=\"sg\",g=\"m\"),\nN(\"Prozess\",\"Prozess\",\"訴訟・審判\",\"Procès\",c=\"nom\",num=\"sg\",g=\"m\"),\npct(",
+          "pos": "punct"
+        },
+        {
+          "surface": "wird",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜される",
+          "meaning_fr": "est",
+          "person": "3sg"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Protagonist",
+          "pos": "noun",
+          "lemma": "Protagonist",
+          "meaning_ja": "主人公",
+          "meaning_fr": "protagoniste",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Josef K.",
+          "pos": "proper_noun",
+          "lemma": "Josef K.",
+          "meaning_ja": "ヨーゼフ・K",
+          "meaning_fr": "Josef K."
+        },
+        {
+          "surface": "verhaftet",
+          "pos": "verb",
+          "lemma": "verhaften",
+          "meaning_ja": "逮捕される",
+          "meaning_fr": "arrêté"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "vor",
+          "pos": "preposition",
+          "lemma": "vor",
+          "meaning_ja": "〜の前に",
+          "meaning_fr": "traduit"
+        },
+        {
+          "surface": "Gericht",
+          "pos": "noun",
+          "lemma": "Gericht",
+          "meaning_ja": "裁判所",
+          "meaning_fr": "en justice",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "gestellt",
+          "pos": "verb",
+          "lemma": "stellen",
+          "meaning_ja": "引き出す",
+          "meaning_fr": ""
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "ohne",
+          "pos": "adverb",
+          "lemma": "ohne",
+          "meaning_ja": "〜せずに",
+          "meaning_fr": "sans"
+        },
+        {
+          "surface": "je",
+          "pos": "adverb",
+          "lemma": "je",
+          "meaning_ja": "かつて",
+          "meaning_fr": "jamais"
+        },
+        {
+          "surface": "zu",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜することを",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "erfahren",
+          "pos": "verb",
+          "lemma": "erfahren",
+          "meaning_ja": "知る",
+          "meaning_fr": "savoir"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "welches",
+          "pos": "adjective",
+          "lemma": "welcher",
+          "meaning_ja": "どの",
+          "meaning_fr": "quel"
+        },
+        {
+          "surface": "Verbrechen",
+          "pos": "noun",
+          "lemma": "Verbrechen",
+          "meaning_ja": "犯罪",
+          "meaning_fr": "crime",
+          "case": "nom",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "ihm",
+          "pos": "pronoun",
+          "lemma": "er",
+          "meaning_ja": "彼に",
+          "meaning_fr": "lui"
+        },
+        {
+          "surface": "vorgeworfen",
+          "pos": "verb",
+          "lemma": "vorwerfen",
+          "meaning_ja": "非難する",
+          "meaning_fr": "est reproché"
+        },
+        {
+          "surface": "wird",
+          "pos": "verb",
+          "lemma": "werden",
+          "meaning_ja": "〜される",
+          "meaning_fr": "",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Kafka",
+          "pos": "proper_noun",
+          "lemma": "Kafka",
+          "meaning_ja": "カフカ",
+          "meaning_fr": "Kafka"
+        },
+        {
+          "surface": "bat",
+          "pos": "verb",
+          "lemma": "bitten",
+          "meaning_ja": "頼んだ",
+          "meaning_fr": "pria",
+          "person": "3sg"
+        },
+        {
+          "surface": "seinen",
+          "pos": "pronoun",
+          "lemma": "sein",
+          "meaning_ja": "彼の",
+          "meaning_fr": "son",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Freund",
+          "pos": "noun",
+          "lemma": "Freund",
+          "meaning_ja": "友人",
+          "meaning_fr": "ami",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Max Brod",
+          "pos": "proper_noun",
+          "lemma": "Max Brod",
+          "meaning_ja": "マックス・ブロート",
+          "meaning_fr": "Max Brod"
+        },
+        {
+          "surface": "vor",
+          "pos": "preposition",
+          "lemma": "vor",
+          "meaning_ja": "〜の前に",
+          "meaning_fr": "avant"
+        },
+        {
+          "surface": "seinem",
+          "pos": "pronoun",
+          "lemma": "sein",
+          "meaning_ja": "彼の",
+          "meaning_fr": "sa",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Tod",
+          "pos": "noun",
+          "lemma": "Tod",
+          "meaning_ja": "死",
+          "meaning_fr": "mort",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "1924",
+          "pos": "number",
+          "lemma": "1924",
+          "meaning_ja": "1924年",
+          "meaning_fr": "1924"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "seine",
+          "pos": "pronoun",
+          "lemma": "sein",
+          "meaning_ja": "彼の",
+          "meaning_fr": "ses",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Manuskripte",
+          "pos": "noun",
+          "lemma": "Manuskript",
+          "meaning_ja": "原稿",
+          "meaning_fr": "manuscrits",
+          "case": "acc",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "zu",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜するよう",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": "verbrennen",
+          "pos": "verb",
+          "lemma": "verbrennen",
+          "meaning_ja": "燃やす",
+          "meaning_fr": "brûler"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Brod",
+          "pos": "noun",
+          "lemma": "Brod",
+          "meaning_ja": "ブロート",
+          "meaning_fr": "Brod",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "ignorierte",
+          "pos": "verb",
+          "lemma": "ignorieren",
+          "meaning_ja": "無視した",
+          "meaning_fr": "ignora",
+          "person": "3sg"
+        },
+        {
+          "surface": "diesen",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "この",
+          "meaning_fr": "ce",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Wunsch",
+          "pos": "noun",
+          "lemma": "Wunsch",
+          "meaning_ja": "願い",
+          "meaning_fr": "souhait",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "veröffentlichte",
+          "pos": "verb",
+          "lemma": "veröffentlichen",
+          "meaning_ja": "出版した",
+          "meaning_fr": "publia",
+          "person": "3sg"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "les",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Werke",
+          "pos": "noun",
+          "lemma": "Werk",
+          "meaning_ja": "作品",
+          "meaning_fr": "œuvres",
+          "case": "acc",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "〜という",
+          "meaning_fr": "qui"
+        },
+        {
+          "surface": "Kafka",
+          "pos": "proper_noun",
+          "lemma": "Kafka",
+          "meaning_ja": "カフカ",
+          "meaning_fr": "Kafka"
+        },
+        {
+          "surface": "weltberühmt",
+          "pos": "adjective",
+          "lemma": "weltberühmt",
+          "meaning_ja": "世界的に有名な",
+          "meaning_fr": "mondialement célèbre"
+        },
+        {
+          "surface": "machten",
+          "pos": "verb",
+          "lemma": "machen",
+          "meaning_ja": "〜した",
+          "meaning_fr": "rendirent",
+          "person": "3pl"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        }
+      ]
+    },
+    {
+      "id": "t104",
+      "title": "Der Klimawandel und seine Folgen",
+      "subtitle": "Eine globale Herausforderung des 21. Jahrhunderts",
+      "level": "B2",
+      "category": "Wissenschaft",
+      "tokens": [
+        {
+          "surface": "Der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Klimawandel",
+          "pos": "noun",
+          "lemma": "Klimawandel",
+          "meaning_ja": "気候変動",
+          "meaning_fr": "changement climatique",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "est",
+          "person": "3sg"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "一つの",
+          "meaning_fr": "l'un des",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "plus grandes",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "größten",
+          "pos": "adjective",
+          "lemma": "groß",
+          "meaning_ja": "最大の",
+          "meaning_fr": "",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "Herausforderungen",
+          "pos": "noun",
+          "lemma": "Herausforderung",
+          "meaning_ja": "課題",
+          "meaning_fr": "défis",
+          "case": "gen",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "mit",
+          "pos": "preposition",
+          "lemma": "mit",
+          "meaning_ja": "〜で",
+          "meaning_fr": "auxquels"
+        },
+        {
+          "surface": "denen",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "それ",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Menschheit",
+          "pos": "noun",
+          "lemma": "Menschheit",
+          "meaning_ja": "人類",
+          "meaning_fr": "humanité",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "au"
+        },
+        {
+          "surface": "21.",
+          "pos": "number",
+          "lemma": "21.",
+          "meaning_ja": "21",
+          "meaning_fr": "XXIe"
+        },
+        {
+          "surface": "Jahrhundert",
+          "pos": "noun",
+          "lemma": "Jahrhundert",
+          "meaning_ja": "世紀",
+          "meaning_fr": "siècle",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "konfrontiert",
+          "pos": "verb",
+          "lemma": "konfrontieren",
+          "meaning_ja": "直面させられる",
+          "meaning_fr": "est confrontée",
+          "person": "3sg"
+        },
+        {
+          "surface": "ist",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Seit",
+          "pos": "preposition",
+          "lemma": "seit",
+          "meaning_ja": "〜以来",
+          "meaning_fr": "Depuis"
+        },
+        {
+          "surface": "dem",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "le début de la",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Beginn",
+          "pos": "noun",
+          "lemma": "Beginn",
+          "meaning_ja": "始まり",
+          "meaning_fr": "",
+          "case": "dat",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Industrialisierung",
+          "pos": "noun",
+          "lemma": "Industrialisierung",
+          "meaning_ja": "工業化",
+          "meaning_fr": "industrialisation",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜に",
+          "meaning_fr": "au"
+        },
+        {
+          "surface": "19.",
+          "pos": "number",
+          "lemma": "19.",
+          "meaning_ja": "19",
+          "meaning_fr": "XIXe"
+        },
+        {
+          "surface": "Jahrhundert",
+          "pos": "noun",
+          "lemma": "Jahrhundert",
+          "meaning_ja": "世紀",
+          "meaning_fr": "siècle",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "hat",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "〜した",
+          "meaning_fr": "a",
+          "person": "3sg"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Mensch",
+          "pos": "noun",
+          "lemma": "Mensch",
+          "meaning_ja": "人間",
+          "meaning_fr": "être humain",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "durch",
+          "pos": "preposition",
+          "lemma": "durch",
+          "meaning_ja": "〜によって",
+          "meaning_fr": "par"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Verbrennung",
+          "pos": "noun",
+          "lemma": "Verbrennung",
+          "meaning_ja": "燃焼",
+          "meaning_fr": "combustion",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "fossiler",
+          "pos": "adjective",
+          "lemma": "fossil",
+          "meaning_ja": "化石の",
+          "meaning_fr": "de combustibles fossiles",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "Brennstoffe",
+          "pos": "noun",
+          "lemma": "Brennstoff",
+          "meaning_ja": "燃料",
+          "meaning_fr": "",
+          "case": "gen",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "enorme",
+          "pos": "adjective",
+          "lemma": "enorm",
+          "meaning_ja": "巨大な",
+          "meaning_fr": "d'énormes quantités de",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Mengen",
+          "pos": "noun",
+          "lemma": "Menge",
+          "meaning_ja": "量",
+          "meaning_fr": "",
+          "case": "acc",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "an",
+          "pos": "preposition",
+          "lemma": "an",
+          "meaning_ja": "の",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": "Kohlendioxid",
+          "pos": "noun",
+          "lemma": "Kohlendioxid",
+          "meaning_ja": "二酸化炭素",
+          "meaning_fr": "dioxyde de carbone",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "anderen",
+          "pos": "adjective",
+          "lemma": "ander",
+          "meaning_ja": "他の",
+          "meaning_fr": "d'autres",
+          "case": "dat",
+          "number": "pl"
+        },
+        {
+          "surface": "Treibhausgasen",
+          "pos": "noun",
+          "lemma": "Treibhausgas",
+          "meaning_ja": "温室効果ガス",
+          "meaning_fr": "gaz à effet de serre",
+          "case": "dat",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "in",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜に",
+          "meaning_fr": "dans"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "l'",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Atmosphäre",
+          "pos": "noun",
+          "lemma": "Atmosphäre",
+          "meaning_ja": "大気",
+          "meaning_fr": "atmosphère",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "freigesetzt",
+          "pos": "verb",
+          "lemma": "freisetzen",
+          "meaning_ja": "放出した",
+          "meaning_fr": "libéré"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Diese",
+          "pos": "pronoun",
+          "lemma": "dieser",
+          "meaning_ja": "これらの",
+          "meaning_fr": "ces",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Gase",
+          "pos": "noun",
+          "lemma": "Gas",
+          "meaning_ja": "気体",
+          "meaning_fr": "gaz",
+          "case": "nom",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "wirken",
+          "pos": "verb",
+          "lemma": "wirken",
+          "meaning_ja": "作用する",
+          "meaning_fr": "agissent",
+          "person": "3pl"
+        },
+        {
+          "surface": "wie",
+          "pos": "preposition",
+          "lemma": "wie",
+          "meaning_ja": "〜のように",
+          "meaning_fr": "comme"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜の",
+          "meaning_fr": "une",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Glasscheibe",
+          "pos": "noun",
+          "lemma": "Glasscheibe",
+          "meaning_ja": "ガラス板",
+          "meaning_fr": "vitre",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "Sie",
+          "pos": "pronoun",
+          "lemma": "sie",
+          "meaning_ja": "それらは",
+          "meaning_fr": "elles"
+        },
+        {
+          "surface": "lassen",
+          "pos": "verb",
+          "lemma": "lassen",
+          "meaning_ja": "通す",
+          "meaning_fr": "laissent entrer",
+          "person": "3pl"
+        },
+        {
+          "surface": "das",
+          "pos": "article",
+          "lemma": "das",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Sonnenlicht",
+          "pos": "noun",
+          "lemma": "Sonnenlicht",
+          "meaning_ja": "太陽光",
+          "meaning_fr": "lumière solaire",
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "herein",
+          "pos": "verb",
+          "lemma": "herein",
+          "meaning_ja": "中に（lassen）",
+          "meaning_fr": ""
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "verhindern",
+          "pos": "verb",
+          "lemma": "verhindern",
+          "meaning_ja": "妨げる",
+          "meaning_fr": "empêchent",
+          "person": "3pl"
+        },
+        {
+          "surface": "aber",
+          "pos": "adverb",
+          "lemma": "aber",
+          "meaning_ja": "しかし",
+          "meaning_fr": "mais"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "dass",
+          "pos": "conjunction",
+          "lemma": "dass",
+          "meaning_ja": "〜ということ",
+          "meaning_fr": "que"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Wärme",
+          "pos": "noun",
+          "lemma": "Wärme",
+          "meaning_ja": "熱",
+          "meaning_fr": "chaleur",
+          "case": "nom",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Erde",
+          "pos": "noun",
+          "lemma": "Erde",
+          "meaning_ja": "地球",
+          "meaning_fr": "Terre",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "verlässt",
+          "pos": "verb",
+          "lemma": "verlassen",
+          "meaning_ja": "離れる",
+          "meaning_fr": "quitte",
+          "person": "3sg"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "les",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Folgen",
+          "pos": "noun",
+          "lemma": "Folge",
+          "meaning_ja": "結果",
+          "meaning_fr": "conséquences",
+          "case": "nom",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "sind",
+          "pos": "verb",
+          "lemma": "sein",
+          "meaning_ja": "〜である",
+          "meaning_fr": "sont",
+          "person": "3pl"
+        },
+        {
+          "surface": "bereits",
+          "pos": "adverb",
+          "lemma": "bereits",
+          "meaning_ja": "すでに",
+          "meaning_fr": "déjà"
+        },
+        {
+          "surface": "heute",
+          "pos": "adjective",
+          "lemma": "heute",
+          "meaning_ja": "今日",
+          "meaning_fr": "aujourd'hui"
+        },
+        {
+          "surface": "spürbar",
+          "pos": "adjective",
+          "lemma": "spürbar",
+          "meaning_ja": "感じられる",
+          "meaning_fr": "perceptibles"
+        },
+        {
+          "surface": ":",
+          "pos": "punct"
+        },
+        {
+          "surface": "Gletscher",
+          "pos": "noun",
+          "lemma": "Gletscher",
+          "meaning_ja": "氷河",
+          "meaning_fr": "glaciers",
+          "case": "nom",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "schmelzen",
+          "pos": "verb",
+          "lemma": "schmelzen",
+          "meaning_ja": "溶ける",
+          "meaning_fr": "fondent",
+          "person": "3pl"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Meeresspiegel",
+          "pos": "noun",
+          "lemma": "Meeresspiegel",
+          "meaning_ja": "海面",
+          "meaning_fr": "niveau de la mer",
+          "case": "nom",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "steigt",
+          "pos": "verb",
+          "lemma": "steigen",
+          "meaning_ja": "上昇する",
+          "meaning_fr": "monte",
+          "person": "3sg"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "そして",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "extreme",
+          "pos": "adjective",
+          "lemma": "extrem",
+          "meaning_ja": "極端な",
+          "meaning_fr": "extrêmes",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Wetterereignisse",
+          "pos": "noun",
+          "lemma": "Wetterereignis",
+          "meaning_ja": "気象現象",
+          "meaning_fr": "événements météorologiques",
+          "case": "nom",
+          "number": "pl",
+          "gender": "n"
+        },
+        {
+          "surface": "wie",
+          "pos": "preposition",
+          "lemma": "wie",
+          "meaning_ja": "〜のような",
+          "meaning_fr": "tels que"
+        },
+        {
+          "surface": "Hitzewellen",
+          "pos": "noun",
+          "lemma": "Hitzewelle",
+          "meaning_ja": "熱波",
+          "meaning_fr": "vagues de chaleur",
+          "case": "nom",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "Dürren",
+          "pos": "noun",
+          "lemma": "Dürre",
+          "meaning_ja": "干ばつ",
+          "meaning_fr": "sécheresses",
+          "case": "nom",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Überschwemmungen",
+          "pos": "noun",
+          "lemma": "Überschwemmung",
+          "meaning_ja": "洪水",
+          "meaning_fr": "inondations",
+          "case": "nom",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "nehmen",
+          "pos": "verb",
+          "lemma": "nehmen",
+          "meaning_ja": "増える",
+          "meaning_fr": "augmentent",
+          "person": "3pl"
+        },
+        {
+          "surface": "an",
+          "pos": "preposition",
+          "lemma": "an",
+          "meaning_ja": "〜において",
+          "meaning_fr": "en"
+        },
+        {
+          "surface": "Häufigkeit",
+          "pos": "noun",
+          "lemma": "Häufigkeit",
+          "meaning_ja": "頻度",
+          "meaning_fr": "fréquence",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Stärke",
+          "pos": "noun",
+          "lemma": "Stärke",
+          "meaning_ja": "強さ",
+          "meaning_fr": "intensité",
+          "case": "dat",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "zu",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜へ",
+          "meaning_fr": ""
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Um",
+          "pos": "preposition",
+          "lemma": "um",
+          "meaning_ja": "〜するために",
+          "meaning_fr": "pour"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "les",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "schlimmsten",
+          "pos": "adjective",
+          "lemma": "schlimm",
+          "meaning_ja": "最悪の",
+          "meaning_fr": "pires",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Folgen",
+          "pos": "noun",
+          "lemma": "Folge",
+          "meaning_ja": "結果",
+          "meaning_fr": "conséquences",
+          "case": "acc",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "des",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "du",
+          "case": "gen",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Klimawandels",
+          "pos": "noun",
+          "lemma": "Klimawandel",
+          "meaning_ja": "気候変動の",
+          "meaning_fr": "changement climatique",
+          "case": "gen",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "abzuwenden",
+          "pos": "preposition",
+          "lemma": "abwenden",
+          "meaning_ja": "回避するために",
+          "meaning_fr": "éviter"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "haben",
+          "pos": "verb",
+          "lemma": "haben",
+          "meaning_ja": "〜した",
+          "meaning_fr": "ont",
+          "person": "3pl"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "les",
+          "case": "nom",
+          "number": "pl"
+        },
+        {
+          "surface": "Staaten",
+          "pos": "noun",
+          "lemma": "Staat",
+          "meaning_ja": "国々",
+          "meaning_fr": "États",
+          "case": "nom",
+          "number": "pl",
+          "gender": "m"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "du",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Welt",
+          "pos": "noun",
+          "lemma": "Welt",
+          "meaning_ja": "世界",
+          "meaning_fr": "monde",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "dans"
+        },
+        {
+          "surface": "Pariser",
+          "pos": "adjective",
+          "lemma": "pariserisch",
+          "meaning_ja": "パリの",
+          "meaning_fr": "Accord de Paris",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Abkommen",
+          "pos": "noun",
+          "lemma": "Abkommen",
+          "meaning_ja": "協定",
+          "meaning_fr": "",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "von",
+          "pos": "preposition",
+          "lemma": "von",
+          "meaning_ja": "〜の",
+          "meaning_fr": "de"
+        },
+        {
+          "surface": "2015",
+          "pos": "number",
+          "lemma": "2015",
+          "meaning_ja": "2015年",
+          "meaning_fr": "2015"
+        },
+        {
+          "surface": "vereinbart",
+          "pos": "verb",
+          "lemma": "vereinbaren",
+          "meaning_ja": "合意した",
+          "meaning_fr": "convenu"
+        },
+        {
+          "surface": ",",
+          "pos": "punct"
+        },
+        {
+          "surface": "die",
+          "pos": "article",
+          "lemma": "die",
+          "meaning_ja": "その",
+          "meaning_fr": "le",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Erderwärmung",
+          "pos": "noun",
+          "lemma": "Erderwärmung",
+          "meaning_ja": "地球温暖化",
+          "meaning_fr": "réchauffement climatique",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "auf",
+          "pos": "preposition",
+          "lemma": "auf",
+          "meaning_ja": "〜に",
+          "meaning_fr": "à"
+        },
+        {
+          "surface": "möglichst",
+          "pos": "adverb",
+          "lemma": "möglichst",
+          "meaning_ja": "できるだけ",
+          "meaning_fr": "au maximum"
+        },
+        {
+          "surface": "1,5",
+          "pos": "number",
+          "lemma": "1,5",
+          "meaning_ja": "1.5",
+          "meaning_fr": "1,5"
+        },
+        {
+          "surface": "Grad",
+          "pos": "noun",
+          "lemma": "Grad",
+          "meaning_ja": "度",
+          "meaning_fr": "degrés",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Celsius",
+          "pos": "noun",
+          "lemma": "Celsius",
+          "meaning_ja": "摂氏",
+          "meaning_fr": "Celsius",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "über",
+          "pos": "preposition",
+          "lemma": "über",
+          "meaning_ja": "〜を超えて",
+          "meaning_fr": "au-dessus"
+        },
+        {
+          "surface": "dem",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "du niveau préindustriel",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "vorindustriellen",
+          "pos": "adjective",
+          "lemma": "vorindustriell",
+          "meaning_ja": "産業化以前の",
+          "meaning_fr": "",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "Niveau",
+          "pos": "noun",
+          "lemma": "Niveau",
+          "meaning_ja": "水準",
+          "meaning_fr": "",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "zu",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜するよう",
+          "meaning_fr": ""
+        },
+        {
+          "surface": "begrenzen",
+          "pos": "verb",
+          "lemma": "begrenzen",
+          "meaning_ja": "制限する",
+          "meaning_fr": "limiter"
+        },
+        {
+          "surface": ".",
+          "pos": "punct"
+        },
+        {
+          "surface": "Dies",
+          "pos": "pronoun",
+          "lemma": "dies",
+          "meaning_ja": "これは",
+          "meaning_fr": "cela"
+        },
+        {
+          "surface": "erfordert",
+          "pos": "verb",
+          "lemma": "erfordern",
+          "meaning_ja": "必要とする",
+          "meaning_fr": "exige",
+          "person": "3sg"
+        },
+        {
+          "surface": "eine",
+          "pos": "article",
+          "lemma": "ein",
+          "meaning_ja": "〜の",
+          "meaning_fr": "une",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "drastische",
+          "pos": "adjective",
+          "lemma": "drastisch",
+          "meaning_ja": "大幅な",
+          "meaning_fr": "drastique",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Reduzierung",
+          "pos": "noun",
+          "lemma": "Reduzierung",
+          "meaning_ja": "削減",
+          "meaning_fr": "réduction",
+          "case": "acc",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "des",
+          "case": "gen",
+          "number": "pl"
+        },
+        {
+          "surface": "Treibhausgasemissionen",
+          "pos": "noun",
+          "lemma": "Treibhausgasemission",
+          "meaning_ja": "温室効果ガス排出",
+          "meaning_fr": "émissions de gaz à effet de serre",
+          "case": "gen",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "durch",
+          "pos": "preposition",
+          "lemma": "durch",
+          "meaning_ja": "〜による",
+          "meaning_fr": "grâce à"
+        },
+        {
+          "surface": "den",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "その",
+          "meaning_fr": "la",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "Übergang",
+          "pos": "noun",
+          "lemma": "Übergang",
+          "meaning_ja": "移行",
+          "meaning_fr": "transition",
+          "case": "acc",
+          "number": "sg",
+          "gender": "m"
+        },
+        {
+          "surface": "zu",
+          "pos": "preposition",
+          "lemma": "zu",
+          "meaning_ja": "〜へ",
+          "meaning_fr": "vers"
+        },
+        {
+          "surface": "erneuerbaren",
+          "pos": "adjective",
+          "lemma": "erneuerbar",
+          "meaning_ja": "再生可能な",
+          "meaning_fr": "renouvelables",
+          "case": "dat",
+          "number": "pl"
+        },
+        {
+          "surface": "Energien",
+          "pos": "noun",
+          "lemma": "Energie",
+          "meaning_ja": "エネルギー",
+          "meaning_fr": "énergies",
+          "case": "dat",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "tiefgreifende",
+          "pos": "adjective",
+          "lemma": "tiefgreifend",
+          "meaning_ja": "根本的な",
+          "meaning_fr": "des changements profonds",
+          "case": "acc",
+          "number": "pl"
+        },
+        {
+          "surface": "Veränderungen",
+          "pos": "noun",
+          "lemma": "Veränderung",
+          "meaning_ja": "変化",
+          "meaning_fr": "",
+          "case": "acc",
+          "number": "pl",
+          "gender": "f"
+        },
+        {
+          "surface": "im",
+          "pos": "preposition",
+          "lemma": "in",
+          "meaning_ja": "〜で",
+          "meaning_fr": "dans"
+        },
+        {
+          "surface": "Konsum-",
+          "pos": "noun",
+          "lemma": "Konsum",
+          "meaning_ja": "消費の",
+          "meaning_fr": "la consommation"
+        },
+        {
+          "surface": "und",
+          "pos": "conjunction",
+          "lemma": "und",
+          "meaning_ja": "と",
+          "meaning_fr": "et"
+        },
+        {
+          "surface": "Mobilitätsverhalten",
+          "pos": "noun",
+          "lemma": "Mobilitätsverhalten",
+          "meaning_ja": "移動行動",
+          "meaning_fr": "comportement de mobilité",
+          "case": "dat",
+          "number": "sg",
+          "gender": "n"
+        },
+        {
+          "surface": "der",
+          "pos": "article",
+          "lemma": "der",
+          "meaning_ja": "の",
+          "meaning_fr": "de la",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
+        },
+        {
+          "surface": "Bevölkerung",
+          "pos": "noun",
+          "lemma": "Bevölkerung",
+          "meaning_ja": "住民・人口",
+          "meaning_fr": "population",
+          "case": "gen",
+          "number": "sg",
+          "gender": "f"
         },
         {
           "surface": ".",

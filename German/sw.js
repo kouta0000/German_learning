@@ -4,7 +4,7 @@
    - 画像 / アイコン → Cache First（変わらないので速度優先）
    - CACHE_VERSION を上げるだけで全キャッシュが自動クリアされる
    ─────────────────────────────────────────────────────────────────────────── */
-const CACHE_VERSION = 'dl-v20';
+const CACHE_VERSION = 'dl-v21';
 const GTTS_CACHE    = 'dl-gtts-v1';  // Google TTS プロキシキャッシュ（独立管理）
 const STATIC_ASSETS = [
   '/',
