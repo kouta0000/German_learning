@@ -1,6 +1,6 @@
 {
   "meta": {
-    "total": 907,
+    "total": 1203,
     "version": "5.0",
     "levels": {
       "A1": 100,
@@ -30586,6 +30586,398 @@
       "meaning_fr": "retenue, réserve",
       "note_ja": "",
       "note_fr": ""
+    },
+    {
+      "id": "w1353",
+      "lemma": "Revolution",
+      "pos": "noun",
+      "meaning_ja": "革命",
+      "meaning_fr": "révolution",
+      "level": "B2"
+    },
+    {
+      "id": "w1354",
+      "lemma": "Demokratie",
+      "pos": "noun",
+      "meaning_ja": "民主主義",
+      "meaning_fr": "démocratie",
+      "level": "B1"
+    },
+    {
+      "id": "w1355",
+      "lemma": "Monarchie",
+      "pos": "noun",
+      "meaning_ja": "君主制",
+      "meaning_fr": "monarchie",
+      "level": "B2"
+    },
+    {
+      "id": "w1357",
+      "lemma": "Gleichheit",
+      "pos": "noun",
+      "meaning_ja": "平等",
+      "meaning_fr": "égalité",
+      "level": "B1"
+    },
+    {
+      "id": "w1359",
+      "lemma": "Vernunft",
+      "pos": "noun",
+      "meaning_ja": "理性",
+      "meaning_fr": "raison",
+      "level": "B2"
+    },
+    {
+      "id": "w1360",
+      "lemma": "Imperativ",
+      "pos": "noun",
+      "meaning_ja": "命令・命法",
+      "meaning_fr": "impératif",
+      "level": "C1"
+    },
+    {
+      "id": "w1361",
+      "lemma": "Maxime",
+      "pos": "noun",
+      "meaning_ja": "格率・行動原則",
+      "meaning_fr": "maxime",
+      "level": "C1"
+    },
+    {
+      "id": "w1362",
+      "lemma": "Ethik",
+      "pos": "noun",
+      "meaning_ja": "倫理学",
+      "meaning_fr": "éthique",
+      "level": "B2"
+    },
+    {
+      "id": "w1363",
+      "lemma": "Übermenschen",
+      "pos": "noun",
+      "meaning_ja": "超人",
+      "meaning_fr": "surhomme",
+      "level": "C1"
+    },
+    {
+      "id": "w1364",
+      "lemma": "Wille",
+      "pos": "noun",
+      "meaning_ja": "意志",
+      "meaning_fr": "volonté",
+      "level": "B2"
+    },
+    {
+      "id": "w1365",
+      "lemma": "Idee",
+      "pos": "noun",
+      "meaning_ja": "イデア・理念",
+      "meaning_fr": "idée",
+      "level": "A2"
+    },
+    {
+      "id": "w1367",
+      "lemma": "Existenz",
+      "pos": "noun",
+      "meaning_ja": "実存・存在",
+      "meaning_fr": "existence",
+      "level": "B2"
+    },
+    {
+      "id": "w1368",
+      "lemma": "Essenz",
+      "pos": "noun",
+      "meaning_ja": "本質",
+      "meaning_fr": "essence",
+      "level": "C1"
+    },
+    {
+      "id": "w1369",
+      "lemma": "Atom",
+      "pos": "noun",
+      "meaning_ja": "原子",
+      "meaning_fr": "atome",
+      "level": "B1"
+    },
+    {
+      "id": "w1370",
+      "lemma": "Proton",
+      "pos": "noun",
+      "meaning_ja": "陽子",
+      "meaning_fr": "proton",
+      "level": "B2"
+    },
+    {
+      "id": "w1371",
+      "lemma": "Elektron",
+      "pos": "noun",
+      "meaning_ja": "電子",
+      "meaning_fr": "électron",
+      "level": "B2"
+    },
+    {
+      "id": "w1372",
+      "lemma": "Ordnungszahl",
+      "pos": "noun",
+      "meaning_ja": "原子番号",
+      "meaning_fr": "numéro atomique",
+      "level": "B2"
+    },
+    {
+      "id": "w1373",
+      "lemma": "Valenzelektron",
+      "pos": "noun",
+      "meaning_ja": "価電子",
+      "meaning_fr": "électron de valence",
+      "level": "C1"
+    },
+    {
+      "id": "w1374",
+      "lemma": "Verbrennung",
+      "pos": "noun",
+      "meaning_ja": "燃焼",
+      "meaning_fr": "combustion",
+      "level": "B2"
+    },
+    {
+      "id": "w1375",
+      "lemma": "Oxidation",
+      "pos": "noun",
+      "meaning_ja": "酸化",
+      "meaning_fr": "oxydation",
+      "level": "B2"
+    },
+    {
+      "id": "w1377",
+      "lemma": "Relativitätstheorie",
+      "pos": "noun",
+      "meaning_ja": "相対性理論",
+      "meaning_fr": "théorie de la relativité",
+      "level": "C1"
+    },
+    {
+      "id": "w1378",
+      "lemma": "Kernspaltung",
+      "pos": "noun",
+      "meaning_ja": "核分裂",
+      "meaning_fr": "fission nucléaire",
+      "level": "C1"
+    },
+    {
+      "id": "w1379",
+      "lemma": "Fotosynthese",
+      "pos": "noun",
+      "meaning_ja": "光合成",
+      "meaning_fr": "photosynthèse",
+      "level": "B1"
+    },
+    {
+      "id": "w1380",
+      "lemma": "Chlorophyll",
+      "pos": "noun",
+      "meaning_ja": "葉緑素",
+      "meaning_fr": "chlorophylle",
+      "level": "B2"
+    },
+    {
+      "id": "w1381",
+      "lemma": "Kohlendioxid",
+      "pos": "noun",
+      "meaning_ja": "二酸化炭素",
+      "meaning_fr": "dioxyde de carbone",
+      "level": "B1"
+    },
+    {
+      "id": "w1382",
+      "lemma": "Sauerstoff",
+      "pos": "noun",
+      "meaning_ja": "酸素",
+      "meaning_fr": "oxygène",
+      "level": "A2"
+    },
+    {
+      "id": "w1383",
+      "lemma": "Kohlenstoffkreislauf",
+      "pos": "noun",
+      "meaning_ja": "炭素循環",
+      "meaning_fr": "cycle du carbone",
+      "level": "C1"
+    },
+    {
+      "id": "w1384",
+      "lemma": "Wissensdurst",
+      "pos": "noun",
+      "meaning_ja": "知識への渇望",
+      "meaning_fr": "soif de connaissance",
+      "level": "C1"
+    },
+    {
+      "id": "w1385",
+      "lemma": "Entfremdung",
+      "pos": "noun",
+      "meaning_ja": "疎外",
+      "meaning_fr": "aliénation",
+      "level": "C1"
+    },
+    {
+      "id": "w1386",
+      "lemma": "Bürokratie",
+      "pos": "noun",
+      "meaning_ja": "官僚制",
+      "meaning_fr": "bureaucratie",
+      "level": "B2"
+    },
+    {
+      "id": "w1387",
+      "lemma": "Menschenrecht",
+      "pos": "noun",
+      "meaning_ja": "人権",
+      "meaning_fr": "droit de l'homme",
+      "level": "B1"
+    },
+    {
+      "id": "w1388",
+      "lemma": "Globalisierung",
+      "pos": "noun",
+      "meaning_ja": "グローバル化",
+      "meaning_fr": "mondialisation",
+      "level": "B1"
+    },
+    {
+      "id": "w1389",
+      "lemma": "Verflechtung",
+      "pos": "noun",
+      "meaning_ja": "相互依存・絡み合い",
+      "meaning_fr": "interdépendance",
+      "level": "C1"
+    },
+    {
+      "id": "w1390",
+      "lemma": "Treibhausgas",
+      "pos": "noun",
+      "meaning_ja": "温室効果ガス",
+      "meaning_fr": "gaz à effet de serre",
+      "level": "B2"
+    },
+    {
+      "id": "w1391",
+      "lemma": "Erderwärmung",
+      "pos": "noun",
+      "meaning_ja": "地球温暖化",
+      "meaning_fr": "réchauffement climatique",
+      "level": "B1"
+    },
+    {
+      "id": "w1392",
+      "lemma": "Aufstieg",
+      "pos": "noun",
+      "meaning_ja": "台頭・上昇",
+      "meaning_fr": "montée",
+      "level": "B2"
+    },
+    {
+      "id": "w1393",
+      "lemma": "Scheitern",
+      "pos": "noun",
+      "meaning_ja": "失敗・崩壊",
+      "meaning_fr": "échec",
+      "level": "B2"
+    },
+    {
+      "id": "w1394",
+      "lemma": "Kapitulation",
+      "pos": "noun",
+      "meaning_ja": "降伏",
+      "meaning_fr": "capitulation",
+      "level": "B2"
+    },
+    {
+      "id": "w1395",
+      "lemma": "Wiedervereinigung",
+      "pos": "noun",
+      "meaning_ja": "再統一",
+      "meaning_fr": "réunification",
+      "level": "B1"
+    },
+    {
+      "id": "w1396",
+      "lemma": "Romantik",
+      "pos": "noun",
+      "meaning_ja": "ロマン主義",
+      "meaning_fr": "romantisme",
+      "level": "B2"
+    },
+    {
+      "id": "w1397",
+      "lemma": "Pakt",
+      "pos": "noun",
+      "meaning_ja": "契約・盟約",
+      "meaning_fr": "pacte",
+      "level": "B2"
+    },
+    {
+      "id": "w1399",
+      "lemma": "verändern",
+      "pos": "verb",
+      "meaning_ja": "変える",
+      "meaning_fr": "changer",
+      "level": "A2"
+    },
+    {
+      "id": "w1402",
+      "lemma": "entstehen",
+      "pos": "verb",
+      "meaning_ja": "生じる・生まれる",
+      "meaning_fr": "naître",
+      "level": "B1"
+    },
+    {
+      "id": "w1404",
+      "lemma": "proklamieren",
+      "pos": "verb",
+      "meaning_ja": "宣言する",
+      "meaning_fr": "proclamer",
+      "level": "C1"
+    },
+    {
+      "id": "w1408",
+      "lemma": "kategorisch",
+      "pos": "adjective",
+      "meaning_ja": "定言的な・断固とした",
+      "meaning_fr": "catégorique",
+      "level": "C1"
+    },
+    {
+      "id": "w1409",
+      "lemma": "universell",
+      "pos": "adjective",
+      "meaning_ja": "普遍的な",
+      "meaning_fr": "universel",
+      "level": "B2"
+    },
+    {
+      "id": "w1410",
+      "lemma": "exotherm",
+      "pos": "adjective",
+      "meaning_ja": "発熱の",
+      "meaning_fr": "exothermique",
+      "level": "C1"
+    },
+    {
+      "id": "w1411",
+      "lemma": "endotherm",
+      "pos": "adjective",
+      "meaning_ja": "吸熱の",
+      "meaning_fr": "endothermique",
+      "level": "C1"
+    },
+    {
+      "id": "w1412",
+      "lemma": "biochemisch",
+      "pos": "adjective",
+      "meaning_ja": "生化学的な",
+      "meaning_fr": "biochimique",
+      "level": "C1"
     }
   ]
 }
