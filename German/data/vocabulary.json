@@ -1,6 +1,6 @@
 {
   "meta": {
-    "total": 1203,
+    "total": 1693,
     "version": "5.0",
     "levels": {
       "A1": 100,
@@ -30977,6 +30977,4175 @@
       "pos": "adjective",
       "meaning_ja": "生化学的な",
       "meaning_fr": "biochimique",
+      "level": "C1"
+    },
+    {
+      "id": "w1416",
+      "lemma": "Abend",
+      "pos": "noun",
+      "meaning_ja": "夜",
+      "meaning_fr": "soir",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1417",
+      "lemma": "Abenteuerroman",
+      "pos": "noun",
+      "meaning_ja": "冒険小説",
+      "meaning_fr": "romans d'aventure",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1418",
+      "lemma": "Algorithmus",
+      "pos": "noun",
+      "meaning_ja": "アルゴリズム",
+      "meaning_fr": "Les algorithmes",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1419",
+      "lemma": "Alltag",
+      "pos": "noun",
+      "meaning_ja": "日常の一部",
+      "meaning_fr": "quotidien",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1420",
+      "lemma": "Angriffskrieg",
+      "pos": "noun",
+      "meaning_ja": "ロシアのウクライナ侵攻",
+      "meaning_fr": "agression russe",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1421",
+      "lemma": "Anwendung",
+      "pos": "noun",
+      "meaning_ja": "応用",
+      "meaning_fr": "application",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1422",
+      "lemma": "Aprilwetter",
+      "pos": "noun",
+      "meaning_ja": "四月の天気",
+      "meaning_fr": "temps d'avril",
+      "level": "A1",
+      "gender": "n"
+    },
+    {
+      "id": "w1423",
+      "lemma": "Arbeitnehmerzahl",
+      "pos": "noun",
+      "meaning_ja": "低下する労働者数",
+      "meaning_fr": "du nombre d'actifs",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1424",
+      "lemma": "Arbeitskräftemangel",
+      "pos": "noun",
+      "meaning_ja": "労働力不足",
+      "meaning_fr": "manque de main-d'œuvre",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1425",
+      "lemma": "Arbeitsmarkt",
+      "pos": "noun",
+      "meaning_ja": "労働市場の構造変化",
+      "meaning_fr": "marché du travail",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1426",
+      "lemma": "Arbeitstag",
+      "pos": "noun",
+      "meaning_ja": "仕事の日",
+      "meaning_fr": "journée de travail",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1427",
+      "lemma": "Armut",
+      "pos": "noun",
+      "meaning_ja": "貧困",
+      "meaning_fr": "la pauvreté",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1428",
+      "lemma": "Art",
+      "pos": "noun",
+      "meaning_ja": "方法",
+      "meaning_fr": "manière",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1429",
+      "lemma": "Aufmerksamkeit",
+      "pos": "noun",
+      "meaning_ja": "注目",
+      "meaning_fr": "a gagné de l'attention",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1430",
+      "lemma": "Ausbau",
+      "pos": "noun",
+      "meaning_ja": "拡充",
+      "meaning_fr": "développement",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1431",
+      "lemma": "Aussehen",
+      "pos": "noun",
+      "meaning_ja": "外見",
+      "meaning_fr": "l'apparence",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1432",
+      "lemma": "Automatisierung",
+      "pos": "noun",
+      "meaning_ja": "自動化",
+      "meaning_fr": "l'automatisation",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1433",
+      "lemma": "Babyboomer",
+      "pos": "noun",
+      "meaning_ja": "",
+      "meaning_fr": "retraite",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1434",
+      "lemma": "Balance",
+      "pos": "noun",
+      "meaning_ja": "バランス",
+      "meaning_fr": "équilibre",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1435",
+      "lemma": "Bauernhof",
+      "pos": "noun",
+      "meaning_ja": "農場",
+      "meaning_fr": "ferme",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1436",
+      "lemma": "Baum",
+      "pos": "noun",
+      "meaning_ja": "木",
+      "meaning_fr": "arbres",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1437",
+      "lemma": "Befürchtung",
+      "pos": "noun",
+      "meaning_ja": "懸念",
+      "meaning_fr": "des craintes",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1438",
+      "lemma": "Befürworter",
+      "pos": "noun",
+      "meaning_ja": "支持者",
+      "meaning_fr": "Les partisans",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1439",
+      "lemma": "Beschwerde",
+      "pos": "noun",
+      "meaning_ja": "症状",
+      "meaning_fr": "symptômes",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1440",
+      "lemma": "Beschäftigung",
+      "pos": "noun",
+      "meaning_ja": "雇用や",
+      "meaning_fr": "l'emploi",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1441",
+      "lemma": "Besserung",
+      "pos": "noun",
+      "meaning_ja": "回復",
+      "meaning_fr": "rétablissement",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1442",
+      "lemma": "Bestandserhaltungsniveau",
+      "pos": "noun",
+      "meaning_ja": "人口維持水準を下回っている",
+      "meaning_fr": "renouvellement",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1443",
+      "lemma": "Bevölkerung",
+      "pos": "noun",
+      "meaning_ja": "人口",
+      "meaning_fr": "populations",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1444",
+      "lemma": "Bevölkerungsgruppe",
+      "pos": "noun",
+      "meaning_ja": "人々",
+      "meaning_fr": "des quartiers",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1445",
+      "lemma": "Bibliothek",
+      "pos": "noun",
+      "meaning_ja": "図書館",
+      "meaning_fr": "bibliothèque",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1446",
+      "lemma": "Bildung",
+      "pos": "noun",
+      "meaning_ja": "教育",
+      "meaning_fr": "éducation",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1447",
+      "lemma": "Blatt",
+      "pos": "noun",
+      "meaning_ja": "葉",
+      "meaning_fr": "feuilles",
+      "level": "A1",
+      "gender": "n"
+    },
+    {
+      "id": "w1448",
+      "lemma": "Blume",
+      "pos": "noun",
+      "meaning_ja": "花",
+      "meaning_fr": "fleurs",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1449",
+      "lemma": "Blutzuckerspiegel",
+      "pos": "noun",
+      "meaning_ja": "血糖値",
+      "meaning_fr": "taux de glycémie",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1450",
+      "lemma": "Brexit",
+      "pos": "noun",
+      "meaning_ja": "ブレグジット",
+      "meaning_fr": "Brexit",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1451",
+      "lemma": "Buch",
+      "pos": "noun",
+      "meaning_ja": "本",
+      "meaning_fr": "livres",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1452",
+      "lemma": "Bund",
+      "pos": "noun",
+      "meaning_ja": "束",
+      "meaning_fr": "bouquet",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1453",
+      "lemma": "Bürger",
+      "pos": "noun",
+      "meaning_ja": "市民",
+      "meaning_fr": "citoyen",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1454",
+      "lemma": "Bürgerin",
+      "pos": "noun",
+      "meaning_ja": "市民",
+      "meaning_fr": "les citoyens",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1455",
+      "lemma": "Bürgerjournalismus",
+      "pos": "noun",
+      "meaning_ja": "市民ジャーナリズムと",
+      "meaning_fr": "le journalisme citoyen",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1456",
+      "lemma": "COVID-19-Pandemie",
+      "pos": "noun",
+      "meaning_ja": "コロナ禍",
+      "meaning_fr": "pandémie de COVID-19",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1457",
+      "lemma": "CRISPR-Cas9-Technologie",
+      "pos": "noun",
+      "meaning_ja": "CRISPR-Cas9技術に",
+      "meaning_fr": "technologie CRISPR-Cas9",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1458",
+      "lemma": "Carearbeit",
+      "pos": "adjective",
+      "meaning_ja": "f",
+      "meaning_fr": "akk",
+      "level": "B2"
+    },
+    {
+      "id": "w1459",
+      "lemma": "Computer",
+      "pos": "noun",
+      "meaning_ja": "コンピューター",
+      "meaning_fr": "ordinateur",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1460",
+      "lemma": "Covid-Pandemie",
+      "pos": "noun",
+      "meaning_ja": "コロナ禍",
+      "meaning_fr": "pandémie de Covid",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1461",
+      "lemma": "Cybermobbing",
+      "pos": "noun",
+      "meaning_ja": "サイバーいじめ",
+      "meaning_fr": "Le cyberharcèlement",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1462",
+      "lemma": "Debatte",
+      "pos": "noun",
+      "meaning_ja": "議論",
+      "meaning_fr": "débat",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1463",
+      "lemma": "Desinformation",
+      "pos": "noun",
+      "meaning_ja": "デマ",
+      "meaning_fr": "la désinformation",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1464",
+      "lemma": "Digitalisierung",
+      "pos": "noun",
+      "meaning_ja": "デジタル化と",
+      "meaning_fr": "La numérisation",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1465",
+      "lemma": "Doktor",
+      "pos": "noun",
+      "meaning_ja": "ドクター",
+      "meaning_fr": "Docteur",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1466",
+      "lemma": "Druck",
+      "pos": "noun",
+      "meaning_ja": "プレッシャー",
+      "meaning_fr": "pression",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1467",
+      "lemma": "Dürre",
+      "pos": "noun",
+      "meaning_ja": "干ばつによる",
+      "meaning_fr": "sécheresse",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1468",
+      "lemma": "EU",
+      "pos": "noun",
+      "meaning_ja": "EU",
+      "meaning_fr": "la capacité à",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1469",
+      "lemma": "EU-Mitglied",
+      "pos": "noun",
+      "meaning_ja": "EU加盟国間",
+      "meaning_fr": "membres de l'UE",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1470",
+      "lemma": "Echokammer",
+      "pos": "noun",
+      "meaning_ja": "エコーチェンバー",
+      "meaning_fr": "les chambres d'écho",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1471",
+      "lemma": "Egoismus",
+      "pos": "noun",
+      "meaning_ja": "国家的エゴイズムと",
+      "meaning_fr": "égoïsmes nationaux",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1472",
+      "lemma": "Einkommen",
+      "pos": "noun",
+      "meaning_ja": "収入に関係なく",
+      "meaning_fr": "revenus",
+      "level": "B2",
+      "gender": "n"
+    },
+    {
+      "id": "w1473",
+      "lemma": "Einladung",
+      "pos": "noun",
+      "meaning_ja": "招待",
+      "meaning_fr": "invitation",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1474",
+      "lemma": "Einwanderung",
+      "pos": "noun",
+      "meaning_ja": "的を絞った移民",
+      "meaning_fr": "travailleurs qualifiés",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1475",
+      "lemma": "Embryonalstadium",
+      "pos": "noun",
+      "meaning_ja": "胚段階",
+      "meaning_fr": "embryonnaire",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1476",
+      "lemma": "Erbe",
+      "pos": "noun",
+      "meaning_ja": "生物学的遺産について",
+      "meaning_fr": "lui-même",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1477",
+      "lemma": "Erbgut",
+      "pos": "noun",
+      "meaning_ja": "遺伝物質へ",
+      "meaning_fr": "patrimoine génétique",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1478",
+      "lemma": "Erinnerung",
+      "pos": "noun",
+      "meaning_ja": "思い出",
+      "meaning_fr": "des souvenirs",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1479",
+      "lemma": "Erkältung",
+      "pos": "noun",
+      "meaning_ja": "風邪",
+      "meaning_fr": "grippe",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1480",
+      "lemma": "Ernteverlust",
+      "pos": "noun",
+      "meaning_ja": "収穫ロス",
+      "meaning_fr": "les pertes de récoltes",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1481",
+      "lemma": "Ernährung",
+      "pos": "noun",
+      "meaning_ja": "食事",
+      "meaning_fr": "alimentation",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1482",
+      "lemma": "Ernährungsexperte",
+      "pos": "noun",
+      "meaning_ja": "栄養専門家",
+      "meaning_fr": "Les nutritionnistes",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1483",
+      "lemma": "Erwerbszwang",
+      "pos": "noun",
+      "meaning_ja": "労働義務なし",
+      "meaning_fr": "obligation de travailler",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1484",
+      "lemma": "Essen",
+      "pos": "noun",
+      "meaning_ja": "食事",
+      "meaning_fr": "Manger",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1485",
+      "lemma": "Ethikkommission",
+      "pos": "noun",
+      "meaning_ja": "倫理委員会",
+      "meaning_fr": "les comités d'éthique",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1486",
+      "lemma": "Euro",
+      "pos": "noun",
+      "meaning_ja": "ユーロ",
+      "meaning_fr": "euros",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1487",
+      "lemma": "Eurokrise",
+      "pos": "noun",
+      "meaning_ja": "ユーロ危機と",
+      "meaning_fr": "La crise de l'euro",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1488",
+      "lemma": "Experiment",
+      "pos": "noun",
+      "meaning_ja": "唯一の実験だ",
+      "meaning_fr": "unique",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1489",
+      "lemma": "Experte",
+      "pos": "noun",
+      "meaning_ja": "専門家",
+      "meaning_fr": "experts",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1490",
+      "lemma": "Fachkraft",
+      "pos": "noun",
+      "meaning_ja": "専門人材の移民",
+      "meaning_fr": "pourrait",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1491",
+      "lemma": "Faktencheck-Organisation",
+      "pos": "noun",
+      "meaning_ja": "ファクトチェック機関と",
+      "meaning_fr": "de vérification des faits",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1492",
+      "lemma": "Fett",
+      "pos": "noun",
+      "meaning_ja": "脂肪や",
+      "meaning_fr": "des graisses",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1493",
+      "lemma": "Fettsäure",
+      "pos": "noun",
+      "meaning_ja": "オメガ３脂肪酸",
+      "meaning_fr": "acides gras oméga-3",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1494",
+      "lemma": "Fieber",
+      "pos": "noun",
+      "meaning_ja": "熱",
+      "meaning_fr": "fièvre",
+      "level": "A1",
+      "gender": "n"
+    },
+    {
+      "id": "w1495",
+      "lemma": "Fisch",
+      "pos": "noun",
+      "meaning_ja": "魚",
+      "meaning_fr": "le poisson",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1496",
+      "lemma": "Fleisch",
+      "pos": "noun",
+      "meaning_ja": "肉",
+      "meaning_fr": "La viande",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1497",
+      "lemma": "Flüchtlingsaufnahme",
+      "pos": "noun",
+      "meaning_ja": "難民受け入れ",
+      "meaning_fr": "accueil des réfugiés",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1498",
+      "lemma": "Forschung",
+      "pos": "noun",
+      "meaning_ja": "研究",
+      "meaning_fr": "La recherche",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1499",
+      "lemma": "Fortschrittsoptimismus",
+      "pos": "noun",
+      "meaning_ja": "技術進歩楽観論と",
+      "meaning_fr": "du progrès technologique",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1500",
+      "lemma": "Foto",
+      "pos": "noun",
+      "meaning_ja": "写真",
+      "meaning_fr": "des photos",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1501",
+      "lemma": "Fotografie",
+      "pos": "noun",
+      "meaning_ja": "写真撮影",
+      "meaning_fr": "photographie",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1502",
+      "lemma": "Frage",
+      "pos": "noun",
+      "meaning_ja": "問い",
+      "meaning_fr": "question",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1503",
+      "lemma": "Freude",
+      "pos": "noun",
+      "meaning_ja": "喜びと",
+      "meaning_fr": "joie",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1504",
+      "lemma": "Friedensordnung",
+      "pos": "noun",
+      "meaning_ja": "平和秩序",
+      "meaning_fr": "architecture de paix",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1505",
+      "lemma": "Frühling",
+      "pos": "noun",
+      "meaning_ja": "春",
+      "meaning_fr": "printemps",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1506",
+      "lemma": "Fußball",
+      "pos": "noun",
+      "meaning_ja": "サッカー",
+      "meaning_fr": "football",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1507",
+      "lemma": "Fürsorge",
+      "pos": "noun",
+      "meaning_ja": "ケアと",
+      "meaning_fr": "soin",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1508",
+      "lemma": "Geburtenrate",
+      "pos": "noun",
+      "meaning_ja": "出生率の低下と",
+      "meaning_fr": "taux de natalité",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1509",
+      "lemma": "Gemeinschaft",
+      "pos": "noun",
+      "meaning_ja": "コミュニティ",
+      "meaning_fr": "communauté",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1510",
+      "lemma": "Gemüse",
+      "pos": "noun",
+      "meaning_ja": "野菜",
+      "meaning_fr": "légumes",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1511",
+      "lemma": "Gen",
+      "pos": "noun",
+      "meaning_ja": "遺伝子",
+      "meaning_fr": "des gènes",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1512",
+      "lemma": "Generation",
+      "pos": "noun",
+      "meaning_ja": "将来の世代",
+      "meaning_fr": "générations",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1513",
+      "lemma": "Gentechnik",
+      "pos": "noun",
+      "meaning_ja": "遺伝子工学",
+      "meaning_fr": "biotechnologie",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1514",
+      "lemma": "Gentherapie",
+      "pos": "noun",
+      "meaning_ja": "遺伝子療法",
+      "meaning_fr": "thérapie génique",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1515",
+      "lemma": "Gentrifizierung",
+      "pos": "noun",
+      "meaning_ja": "ジェントリフィケーション",
+      "meaning_fr": "La gentrification",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1516",
+      "lemma": "Genuss",
+      "pos": "noun",
+      "meaning_ja": "楽しさ",
+      "meaning_fr": "plaisir",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1517",
+      "lemma": "Gesundheit",
+      "pos": "noun",
+      "meaning_ja": "健康",
+      "meaning_fr": "santé",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1518",
+      "lemma": "Gewalt",
+      "pos": "noun",
+      "meaning_ja": "権力",
+      "meaning_fr": "pouvoir",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1519",
+      "lemma": "Gitarre",
+      "pos": "noun",
+      "meaning_ja": "ギター",
+      "meaning_fr": "guitare",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1520",
+      "lemma": "Grad",
+      "pos": "noun",
+      "meaning_ja": "度",
+      "meaning_fr": "degrés",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1521",
+      "lemma": "Grundeinkommen",
+      "pos": "noun",
+      "meaning_ja": "ベーシックインカム",
+      "meaning_fr": "revenu universel",
+      "level": "B2",
+      "gender": "n"
+    },
+    {
+      "id": "w1522",
+      "lemma": "Grundprinzip",
+      "pos": "noun",
+      "meaning_ja": "基本原則",
+      "meaning_fr": "principes fondamentaux",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1523",
+      "lemma": "Grundversorgung",
+      "pos": "noun",
+      "meaning_ja": "基本的な情報提供",
+      "meaning_fr": "offre d'information de base",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1524",
+      "lemma": "Gründung",
+      "pos": "noun",
+      "meaning_ja": "創設以来",
+      "meaning_fr": "fondation",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1525",
+      "lemma": "Hals",
+      "pos": "noun",
+      "meaning_ja": "喉",
+      "meaning_fr": "gorge",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1526",
+      "lemma": "Halsschmerzen",
+      "pos": "noun",
+      "meaning_ja": "喉の痛み",
+      "meaning_fr": "mal de gorge",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1527",
+      "lemma": "Heilung",
+      "pos": "noun",
+      "meaning_ja": "治癒",
+      "meaning_fr": "une guérison",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1528",
+      "lemma": "Heißhungerattacke",
+      "pos": "noun",
+      "meaning_ja": "強い食欲",
+      "meaning_fr": "les fringales",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1529",
+      "lemma": "Herbst",
+      "pos": "noun",
+      "meaning_ja": "秋",
+      "meaning_fr": "automne",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1530",
+      "lemma": "Herr",
+      "pos": "noun",
+      "meaning_ja": "先生",
+      "meaning_fr": "Monsieur",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1531",
+      "lemma": "Hobby",
+      "pos": "noun",
+      "meaning_ja": "趣味",
+      "meaning_fr": "loisirs",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1532",
+      "lemma": "Hochhaus",
+      "pos": "noun",
+      "meaning_ja": "高層ビル",
+      "meaning_fr": "gratte-ciels",
+      "level": "B2",
+      "gender": "n"
+    },
+    {
+      "id": "w1533",
+      "lemma": "Hunger",
+      "pos": "noun",
+      "meaning_ja": "空腹",
+      "meaning_fr": "faim",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1534",
+      "lemma": "Hälfte",
+      "pos": "noun",
+      "meaning_ja": "半分",
+      "meaning_fr": "moitié",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1535",
+      "lemma": "Information",
+      "pos": "noun",
+      "meaning_ja": "情報",
+      "meaning_fr": "informations",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1536",
+      "lemma": "Instrument",
+      "pos": "noun",
+      "meaning_ja": "手段の中",
+      "meaning_fr": "instruments",
+      "level": "B2",
+      "gender": "n"
+    },
+    {
+      "id": "w1537",
+      "lemma": "Intelligenz",
+      "pos": "noun",
+      "meaning_ja": "知性や",
+      "meaning_fr": "l'intelligence",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1538",
+      "lemma": "Investition",
+      "pos": "noun",
+      "meaning_ja": "投資の一つ",
+      "meaning_fr": "investissements",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1539",
+      "lemma": "Jacke",
+      "pos": "noun",
+      "meaning_ja": "ジャケット",
+      "meaning_fr": "manteau",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1540",
+      "lemma": "Jahreszeit",
+      "pos": "noun",
+      "meaning_ja": "季節",
+      "meaning_fr": "saison",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1541",
+      "lemma": "Jahrhundert",
+      "pos": "noun",
+      "meaning_ja": "21世紀",
+      "meaning_fr": "XXIe siècle",
+      "level": "B2",
+      "gender": "n"
+    },
+    {
+      "id": "w1542",
+      "lemma": "Jahrzehnt",
+      "pos": "noun",
+      "meaning_ja": "数十年",
+      "meaning_fr": "décennies",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1543",
+      "lemma": "Kamera",
+      "pos": "noun",
+      "meaning_ja": "カメラ",
+      "meaning_fr": "appareil photo",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1544",
+      "lemma": "Keimbahneingriff",
+      "pos": "noun",
+      "meaning_ja": "生殖細胞介入へ",
+      "meaning_fr": "interventions germinales",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1545",
+      "lemma": "Keimbahntherapie",
+      "pos": "noun",
+      "meaning_ja": "生殖細胞療法",
+      "meaning_fr": "thérapie germinale",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1546",
+      "lemma": "Kilo",
+      "pos": "noun",
+      "meaning_ja": "キロ",
+      "meaning_fr": "kilo",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1547",
+      "lemma": "Kinderbetreuung",
+      "pos": "noun",
+      "meaning_ja": "保育と",
+      "meaning_fr": "garde d'enfants",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1548",
+      "lemma": "Klimaneutralität",
+      "pos": "noun",
+      "meaning_ja": "気候中立性",
+      "meaning_fr": "neutralité climatique",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1549",
+      "lemma": "Klimawandel",
+      "pos": "noun",
+      "meaning_ja": "気候変動と",
+      "meaning_fr": "et les",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1550",
+      "lemma": "Kontakt",
+      "pos": "noun",
+      "meaning_ja": "連絡",
+      "meaning_fr": "contact",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1551",
+      "lemma": "Kopfschmerzen",
+      "pos": "noun",
+      "meaning_ja": "頭痛",
+      "meaning_fr": "mal de tête",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1552",
+      "lemma": "Krankheit",
+      "pos": "noun",
+      "meaning_ja": "病気",
+      "meaning_fr": "guérir des maladies",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1553",
+      "lemma": "Kraut",
+      "pos": "noun",
+      "meaning_ja": "ハーブ",
+      "meaning_fr": "herbes fraîches",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1554",
+      "lemma": "Krieg",
+      "pos": "noun",
+      "meaning_ja": "戦争",
+      "meaning_fr": "les guerres",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1555",
+      "lemma": "Krimi",
+      "pos": "noun",
+      "meaning_ja": "推理小説",
+      "meaning_fr": "romans policiers",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1556",
+      "lemma": "Kritiker",
+      "pos": "noun",
+      "meaning_ja": "批判者",
+      "meaning_fr": "Les critiques",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1557",
+      "lemma": "Landwirtschaft",
+      "pos": "noun",
+      "meaning_ja": "農業",
+      "meaning_fr": "agriculture",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1558",
+      "lemma": "Last",
+      "pos": "noun",
+      "meaning_ja": "経済的負担",
+      "meaning_fr": "seulement",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1559",
+      "lemma": "Leben",
+      "pos": "noun",
+      "meaning_ja": "人生",
+      "meaning_fr": "vie",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1560",
+      "lemma": "Lebenserwartung",
+      "pos": "noun",
+      "meaning_ja": "平均寿命の上昇",
+      "meaning_fr": "espérance de vie",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1561",
+      "lemma": "Lebensperspektive",
+      "pos": "noun",
+      "meaning_ja": "生活の展望",
+      "meaning_fr": "perspectives de vie",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1562",
+      "lemma": "Liter",
+      "pos": "noun",
+      "meaning_ja": "リットル",
+      "meaning_fr": "litres",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1563",
+      "lemma": "Lösungsansatz",
+      "pos": "noun",
+      "meaning_ja": "解決策",
+      "meaning_fr": "solutions possibles",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1564",
+      "lemma": "Machtverschiebung",
+      "pos": "noun",
+      "meaning_ja": "地政学的権力変化",
+      "meaning_fr": "mutations",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1565",
+      "lemma": "Mahlzeit",
+      "pos": "noun",
+      "meaning_ja": "食事",
+      "meaning_fr": "un rôle",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1566",
+      "lemma": "Maß",
+      "pos": "noun",
+      "meaning_ja": "適度",
+      "meaning_fr": "modération",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1567",
+      "lemma": "Medienkompetenz",
+      "pos": "noun",
+      "meaning_ja": "メディアリテラシー",
+      "meaning_fr": "La compétence médiatique",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1568",
+      "lemma": "Medienlandschaft",
+      "pos": "noun",
+      "meaning_ja": "メディア環境",
+      "meaning_fr": "paysage médiatique",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1569",
+      "lemma": "Medikament",
+      "pos": "noun",
+      "meaning_ja": "薬",
+      "meaning_fr": "médicament",
+      "level": "A1",
+      "gender": "n"
+    },
+    {
+      "id": "w1570",
+      "lemma": "Medium",
+      "pos": "noun",
+      "meaning_ja": "メディア",
+      "meaning_fr": "sociaux",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1571",
+      "lemma": "Medizin",
+      "pos": "noun",
+      "meaning_ja": "医学",
+      "meaning_fr": "médecine",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1572",
+      "lemma": "Meer",
+      "pos": "noun",
+      "meaning_ja": "海辺",
+      "meaning_fr": "mer",
+      "level": "A1",
+      "gender": "n"
+    },
+    {
+      "id": "w1573",
+      "lemma": "Mensch",
+      "pos": "noun",
+      "meaning_ja": "人々",
+      "meaning_fr": "personnes",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1574",
+      "lemma": "Migrationskrise",
+      "pos": "noun",
+      "meaning_ja": "移民危機と",
+      "meaning_fr": "la crise migratoire",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1575",
+      "lemma": "Mineralstoff",
+      "pos": "noun",
+      "meaning_ja": "ミネラル",
+      "meaning_fr": "minéraux",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1576",
+      "lemma": "Missstand",
+      "pos": "noun",
+      "meaning_ja": "不正",
+      "meaning_fr": "les abus",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1577",
+      "lemma": "Mitgliedschaft",
+      "pos": "noun",
+      "meaning_ja": "加盟",
+      "meaning_fr": "à l'UE",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1578",
+      "lemma": "Mitgliedstaat",
+      "pos": "noun",
+      "meaning_ja": "27加盟国",
+      "meaning_fr": "États membres",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1579",
+      "lemma": "Modell",
+      "pos": "adjective",
+      "meaning_ja": "n",
+      "meaning_fr": "nom",
+      "level": "C1"
+    },
+    {
+      "id": "w1580",
+      "lemma": "Moment",
+      "pos": "noun",
+      "meaning_ja": "最良の瞬間だけ",
+      "meaning_fr": "moments",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1581",
+      "lemma": "Monopolisierung",
+      "pos": "noun",
+      "meaning_ja": "独占化と",
+      "meaning_fr": "monopolisation",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1582",
+      "lemma": "Moratorium",
+      "pos": "noun",
+      "meaning_ja": "モラトリアム",
+      "meaning_fr": "moratoire",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1583",
+      "lemma": "Morgen",
+      "pos": "noun",
+      "meaning_ja": "朝",
+      "meaning_fr": "matin",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1584",
+      "lemma": "Mund",
+      "pos": "noun",
+      "meaning_ja": "口",
+      "meaning_fr": "bouche",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1585",
+      "lemma": "Musik",
+      "pos": "noun",
+      "meaning_ja": "音楽",
+      "meaning_fr": "La musique",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1586",
+      "lemma": "Muskeldystrophie",
+      "pos": "noun",
+      "meaning_ja": "筋ジストロフィー",
+      "meaning_fr": "dystrophie musculaire",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1587",
+      "lemma": "Nachrichtenquelle",
+      "pos": "noun",
+      "meaning_ja": "ニュースソース",
+      "meaning_fr": "sources d'information",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1588",
+      "lemma": "Nacht",
+      "pos": "noun",
+      "meaning_ja": "夜",
+      "meaning_fr": "nuits",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1589",
+      "lemma": "Natur",
+      "pos": "noun",
+      "meaning_ja": "自然",
+      "meaning_fr": "nature",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1590",
+      "lemma": "Neuzeit",
+      "pos": "noun",
+      "meaning_ja": "近代",
+      "meaning_fr": "modernité",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1591",
+      "lemma": "Nutzer",
+      "pos": "noun",
+      "meaning_ja": "ユーザー",
+      "meaning_fr": "Les utilisateurs",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1592",
+      "lemma": "Nutzungszeit",
+      "pos": "noun",
+      "meaning_ja": "使用時間",
+      "meaning_fr": "temps d'utilisation",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1593",
+      "lemma": "Nährstoff",
+      "pos": "noun",
+      "meaning_ja": "栄養素が少なく",
+      "meaning_fr": "en nutriments",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1594",
+      "lemma": "Obst",
+      "pos": "noun",
+      "meaning_ja": "果物と",
+      "meaning_fr": "fruits",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1595",
+      "lemma": "Online-Plattform",
+      "pos": "adjective",
+      "meaning_ja": "f",
+      "meaning_fr": "nom",
+      "level": "B2"
+    },
+    {
+      "id": "w1596",
+      "lemma": "Ort",
+      "pos": "noun",
+      "meaning_ja": "場所",
+      "meaning_fr": "endroits",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1597",
+      "lemma": "Paprika",
+      "pos": "noun",
+      "meaning_ja": "パプリカ",
+      "meaning_fr": "poivrons",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1598",
+      "lemma": "Phänomen",
+      "pos": "noun",
+      "meaning_ja": "現象の一つ",
+      "meaning_fr": "phénomènes",
+      "level": "B2",
+      "gender": "n"
+    },
+    {
+      "id": "w1599",
+      "lemma": "Pilotprojekt",
+      "pos": "noun",
+      "meaning_ja": "パイロットプロジェクト",
+      "meaning_fr": "Les projets pilotes",
+      "level": "B2",
+      "gender": "n"
+    },
+    {
+      "id": "w1600",
+      "lemma": "Plattform",
+      "pos": "noun",
+      "meaning_ja": "プラットフォーム",
+      "meaning_fr": "Des plateformes",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1601",
+      "lemma": "Projekt",
+      "pos": "noun",
+      "meaning_ja": "プロジェクト",
+      "meaning_fr": "projet",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1602",
+      "lemma": "Radverkehr",
+      "pos": "noun",
+      "meaning_ja": "自転車交通と",
+      "meaning_fr": "le vélo",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1603",
+      "lemma": "Regierung",
+      "pos": "noun",
+      "meaning_ja": "政府",
+      "meaning_fr": "les gouvernements",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1604",
+      "lemma": "Rente",
+      "pos": "noun",
+      "meaning_ja": "退職",
+      "meaning_fr": "retraite",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1605",
+      "lemma": "Rentensystem",
+      "pos": "noun",
+      "meaning_ja": "年金制度",
+      "meaning_fr": "système de retraite",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1606",
+      "lemma": "Rezept",
+      "pos": "noun",
+      "meaning_ja": "レシピ",
+      "meaning_fr": "recettes",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1607",
+      "lemma": "Roboter",
+      "pos": "noun",
+      "meaning_ja": "ロボット",
+      "meaning_fr": "les robots",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1608",
+      "lemma": "Routineaufgabe",
+      "pos": "adjective",
+      "meaning_ja": "f",
+      "meaning_fr": "akk",
+      "level": "B2"
+    },
+    {
+      "id": "w1609",
+      "lemma": "Ruhe",
+      "pos": "noun",
+      "meaning_ja": "休養",
+      "meaning_fr": "repos",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1610",
+      "lemma": "Salz",
+      "pos": "noun",
+      "meaning_ja": "塩分を多く含む",
+      "meaning_fr": "du sel",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1611",
+      "lemma": "Schnee",
+      "pos": "noun",
+      "meaning_ja": "雪ま",
+      "meaning_fr": "neige",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1612",
+      "lemma": "Schwimmbad",
+      "pos": "noun",
+      "meaning_ja": "プール",
+      "meaning_fr": "piscine",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1613",
+      "lemma": "Schädling",
+      "pos": "noun",
+      "meaning_ja": "害虫や",
+      "meaning_fr": "ravageurs",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1614",
+      "lemma": "See",
+      "pos": "noun",
+      "meaning_ja": "湖",
+      "meaning_fr": "lac",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1615",
+      "lemma": "Selbstverständlichkeit",
+      "pos": "noun",
+      "meaning_ja": "当然のことではない",
+      "meaning_fr": "une évidence",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1616",
+      "lemma": "Sichelzellanämie",
+      "pos": "noun",
+      "meaning_ja": "鎌状赤血球症",
+      "meaning_fr": "la drépanocytose",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1617",
+      "lemma": "Slippery-Slope-Argument",
+      "pos": "noun",
+      "meaning_ja": "滑り坂論法について",
+      "meaning_fr": "argument de la pente glissante",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1618",
+      "lemma": "Solidaritätsgrenze",
+      "pos": "noun",
+      "meaning_ja": "連帯の限界",
+      "meaning_fr": "limites de la solidarité",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1619",
+      "lemma": "Sozialleistung",
+      "pos": "noun",
+      "meaning_ja": "社会給付",
+      "meaning_fr": "sociales bureaucratiques",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1620",
+      "lemma": "Sozialsystem",
+      "pos": "noun",
+      "meaning_ja": "社会制度と",
+      "meaning_fr": "les systèmes sociaux",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1621",
+      "lemma": "Sport",
+      "pos": "noun",
+      "meaning_ja": "スポーツ",
+      "meaning_fr": "Le sport",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1622",
+      "lemma": "Staat",
+      "pos": "noun",
+      "meaning_ja": "民主国家",
+      "meaning_fr": "démocratique",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1623",
+      "lemma": "Staatskosten",
+      "pos": "noun",
+      "meaning_ja": "国家財政の膨張について",
+      "meaning_fr": "pour l'État",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1624",
+      "lemma": "Stadtplaner",
+      "pos": "noun",
+      "meaning_ja": "都市計画者",
+      "meaning_fr": "les urbanistes",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1625",
+      "lemma": "Stress",
+      "pos": "noun",
+      "meaning_ja": "ストレスと",
+      "meaning_fr": "stress",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1626",
+      "lemma": "Studie",
+      "pos": "noun",
+      "meaning_ja": "研究",
+      "meaning_fr": "Des études",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1627",
+      "lemma": "Stufe",
+      "pos": "noun",
+      "meaning_ja": "新たな段階",
+      "meaning_fr": "niveau",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1628",
+      "lemma": "Stunde",
+      "pos": "noun",
+      "meaning_ja": "時間",
+      "meaning_fr": "heure",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1629",
+      "lemma": "Stück",
+      "pos": "noun",
+      "meaning_ja": "一個です",
+      "meaning_fr": "pièce",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1630",
+      "lemma": "Süden",
+      "pos": "noun",
+      "meaning_ja": "南",
+      "meaning_fr": "sud",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1631",
+      "lemma": "Tee",
+      "pos": "noun",
+      "meaning_ja": "お茶",
+      "meaning_fr": "thé",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1632",
+      "lemma": "Teilnehmer",
+      "pos": "noun",
+      "meaning_ja": "参加者",
+      "meaning_fr": "Les participants",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1633",
+      "lemma": "Temperatur",
+      "pos": "noun",
+      "meaning_ja": "体温",
+      "meaning_fr": "température",
+      "level": "A1",
+      "gender": "f"
+    },
+    {
+      "id": "w1634",
+      "lemma": "Tomate",
+      "pos": "noun",
+      "meaning_ja": "トマト",
+      "meaning_fr": "tomates",
+      "level": "A2",
+      "gender": "f"
+    },
+    {
+      "id": "w1635",
+      "lemma": "Ukraine",
+      "pos": "noun",
+      "meaning_ja": "ウクライナへ",
+      "meaning_fr": "Ukraine",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1636",
+      "lemma": "Ungleichheit",
+      "pos": "noun",
+      "meaning_ja": "生物学的不平等",
+      "meaning_fr": "sans précédent",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1637",
+      "lemma": "Urbanisierung",
+      "pos": "noun",
+      "meaning_ja": "都市化",
+      "meaning_fr": "L'urbanisation",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1638",
+      "lemma": "Urlaub",
+      "pos": "noun",
+      "meaning_ja": "休暇",
+      "meaning_fr": "vacances",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1639",
+      "lemma": "Verdauung",
+      "pos": "noun",
+      "meaning_ja": "消化",
+      "meaning_fr": "digestion",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1640",
+      "lemma": "Vergleichskultur",
+      "pos": "noun",
+      "meaning_ja": "比較文化",
+      "meaning_fr": "culture de comparaison",
+      "level": "B1",
+      "gender": "f"
+    },
+    {
+      "id": "w1641",
+      "lemma": "Verkehr",
+      "pos": "noun",
+      "meaning_ja": "交通",
+      "meaning_fr": "circulation",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1642",
+      "lemma": "Verlust",
+      "pos": "noun",
+      "meaning_ja": "喪失について",
+      "meaning_fr": "perte",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1643",
+      "lemma": "Versuchung",
+      "pos": "noun",
+      "meaning_ja": "誘惑",
+      "meaning_fr": "tentation",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1644",
+      "lemma": "Vertrauen",
+      "pos": "noun",
+      "meaning_ja": "信頼",
+      "meaning_fr": "confiance",
+      "level": "B2",
+      "gender": "n"
+    },
+    {
+      "id": "w1645",
+      "lemma": "Vitamin",
+      "pos": "noun",
+      "meaning_ja": "ビタミンと",
+      "meaning_fr": "vitamines",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1646",
+      "lemma": "Vogel",
+      "pos": "noun",
+      "meaning_ja": "鳥",
+      "meaning_fr": "oiseaux",
+      "level": "A1",
+      "gender": "m"
+    },
+    {
+      "id": "w1647",
+      "lemma": "Vollkornprodukt",
+      "pos": "noun",
+      "meaning_ja": "全粒粉製品",
+      "meaning_fr": "Les produits à grains entiers",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1648",
+      "lemma": "Vorsorgeprinzip",
+      "pos": "noun",
+      "meaning_ja": "予防原則の間",
+      "meaning_fr": "principe de précaution",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1649",
+      "lemma": "Waffenlieferung",
+      "pos": "noun",
+      "meaning_ja": "武器供与と",
+      "meaning_fr": "des livraisons d'armes",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1650",
+      "lemma": "Wandel",
+      "pos": "noun",
+      "meaning_ja": "変化の中",
+      "meaning_fr": "mutation",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1651",
+      "lemma": "Weißmehlprodukt",
+      "pos": "noun",
+      "meaning_ja": "白粉製品",
+      "meaning_fr": "les produits raffinés",
+      "level": "B1",
+      "gender": "n"
+    },
+    {
+      "id": "w1652",
+      "lemma": "Weltbevölkerung",
+      "pos": "noun",
+      "meaning_ja": "世界人口",
+      "meaning_fr": "population mondiale",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1653",
+      "lemma": "Weltkrieg",
+      "pos": "noun",
+      "meaning_ja": "第二次世界大戦後",
+      "meaning_fr": "Guerre mondiale",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1654",
+      "lemma": "Werbeeinnahme",
+      "pos": "noun",
+      "meaning_ja": "広告収入",
+      "meaning_fr": "recettes publicitaires",
+      "level": "B2",
+      "gender": "f"
+    },
+    {
+      "id": "w1655",
+      "lemma": "Wertefundament",
+      "pos": "noun",
+      "meaning_ja": "重要な価値的基盤",
+      "meaning_fr": "fondement de valeurs",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1656",
+      "lemma": "Wertegemeinschaft",
+      "pos": "noun",
+      "meaning_ja": "価値共同体",
+      "meaning_fr": "espace de valeurs partagées",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1657",
+      "lemma": "Wiedersehen",
+      "pos": "noun",
+      "meaning_ja": "さような",
+      "meaning_fr": "revoir",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1658",
+      "lemma": "Wirtschaft",
+      "pos": "noun",
+      "meaning_ja": "経済と",
+      "meaning_fr": "l'économie",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1659",
+      "lemma": "Wissenschaftler",
+      "pos": "noun",
+      "meaning_ja": "科学者たち",
+      "meaning_fr": "Les scientifiques",
+      "level": "C1",
+      "gender": "m"
+    },
+    {
+      "id": "w1660",
+      "lemma": "Wochenende",
+      "pos": "noun",
+      "meaning_ja": "週末",
+      "meaning_fr": "week-end",
+      "level": "A2",
+      "gender": "n"
+    },
+    {
+      "id": "w1661",
+      "lemma": "Wochenmarkt",
+      "pos": "noun",
+      "meaning_ja": "週市",
+      "meaning_fr": "marché hebdomadaire",
+      "level": "A2",
+      "gender": "m"
+    },
+    {
+      "id": "w1662",
+      "lemma": "Wohl",
+      "pos": "noun",
+      "meaning_ja": "福祉",
+      "meaning_fr": "bien-être",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1663",
+      "lemma": "Wohnraum",
+      "pos": "noun",
+      "meaning_ja": "住宅",
+      "meaning_fr": "logement",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1664",
+      "lemma": "Zeitpunkt",
+      "pos": "noun",
+      "meaning_ja": "タイミング",
+      "meaning_fr": "des repas",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1665",
+      "lemma": "Zucker",
+      "pos": "noun",
+      "meaning_ja": "砂糖と",
+      "meaning_fr": "Le sucre",
+      "level": "B1",
+      "gender": "m"
+    },
+    {
+      "id": "w1666",
+      "lemma": "Zusammenhalt",
+      "pos": "noun",
+      "meaning_ja": "絆と",
+      "meaning_fr": "et d'une",
+      "level": "B2",
+      "gender": "m"
+    },
+    {
+      "id": "w1667",
+      "lemma": "Zusammenleben",
+      "pos": "noun",
+      "meaning_ja": "連帯した共生のため",
+      "meaning_fr": "vivre-ensemble solidaire",
+      "level": "C1",
+      "gender": "n"
+    },
+    {
+      "id": "w1668",
+      "lemma": "Zwei-Klassen-Gesellschaft",
+      "pos": "noun",
+      "meaning_ja": "二階級社会",
+      "meaning_fr": "société à deux vitesses",
+      "level": "C1",
+      "gender": "f"
+    },
+    {
+      "id": "w1669",
+      "lemma": "aber",
+      "pos": "adverb",
+      "meaning_ja": "しかし",
+      "meaning_fr": "cependant",
+      "level": "B1"
+    },
+    {
+      "id": "w1670",
+      "lemma": "achtunddreißig",
+      "pos": "adjective",
+      "meaning_ja": "三十八",
+      "meaning_fr": "Trente-huit",
+      "level": "A1"
+    },
+    {
+      "id": "w1671",
+      "lemma": "all",
+      "pos": "adverb",
+      "meaning_ja": "すべて",
+      "meaning_fr": "répandront dans toutes les",
+      "level": "B2"
+    },
+    {
+      "id": "w1672",
+      "lemma": "alles",
+      "pos": "adverb",
+      "meaning_ja": "全部",
+      "meaning_fr": "ça",
+      "level": "A2"
+    },
+    {
+      "id": "w1673",
+      "lemma": "also",
+      "pos": "adverb",
+      "meaning_ja": "従って",
+      "meaning_fr": "donc",
+      "level": "B1"
+    },
+    {
+      "id": "w1674",
+      "lemma": "altern",
+      "pos": "verb",
+      "meaning_ja": "高齢化する",
+      "meaning_fr": "vieillit",
+      "level": "C1"
+    },
+    {
+      "id": "w1675",
+      "lemma": "ambitioniert",
+      "pos": "adjective",
+      "meaning_ja": "最も野心的な",
+      "meaning_fr": "projets politiques les plus ambitieux",
+      "level": "C1"
+    },
+    {
+      "id": "w1676",
+      "lemma": "ander",
+      "pos": "adjective",
+      "meaning_ja": "他者",
+      "meaning_fr": "des autres",
+      "level": "B1"
+    },
+    {
+      "id": "w1677",
+      "lemma": "anderthalb",
+      "pos": "adjective",
+      "meaning_ja": "一・五",
+      "meaning_fr": "un litre et demi",
+      "level": "B1"
+    },
+    {
+      "id": "w1678",
+      "lemma": "anfangen",
+      "pos": "verb",
+      "meaning_ja": "始めた",
+      "meaning_fr": "commencé",
+      "level": "A2"
+    },
+    {
+      "id": "w1679",
+      "lemma": "anheben",
+      "pos": "verb",
+      "meaning_ja": "引き上げる",
+      "meaning_fr": "relever",
+      "level": "C1"
+    },
+    {
+      "id": "w1680",
+      "lemma": "ansehen",
+      "pos": "verb",
+      "meaning_ja": "見なされる",
+      "meaning_fr": "sont considérées",
+      "level": "C1"
+    },
+    {
+      "id": "w1681",
+      "lemma": "argumentieren",
+      "pos": "verb",
+      "meaning_ja": "主張する",
+      "meaning_fr": "soutiennent",
+      "level": "B2"
+    },
+    {
+      "id": "w1682",
+      "lemma": "attraktiv",
+      "pos": "adjective",
+      "meaning_ja": "魅力的な",
+      "meaning_fr": "façades attrayantes",
+      "level": "B2"
+    },
+    {
+      "id": "w1683",
+      "lemma": "aufwerfen",
+      "pos": "verb",
+      "meaning_ja": "提起する",
+      "meaning_fr": "soulève",
+      "level": "C1"
+    },
+    {
+      "id": "w1684",
+      "lemma": "ausleihen",
+      "pos": "verb",
+      "meaning_ja": "借りる",
+      "meaning_fr": "emprunter",
+      "level": "A2"
+    },
+    {
+      "id": "w1685",
+      "lemma": "bearbeiten",
+      "pos": "verb",
+      "meaning_ja": "編集する",
+      "meaning_fr": "je retouche",
+      "level": "A2"
+    },
+    {
+      "id": "w1686",
+      "lemma": "bedeuten",
+      "pos": "verb",
+      "meaning_ja": "意味する",
+      "meaning_fr": "signifie",
+      "level": "B1"
+    },
+    {
+      "id": "w1687",
+      "lemma": "bedingungslos",
+      "pos": "adjective",
+      "meaning_ja": "無条件",
+      "meaning_fr": "revenu universel de base",
+      "level": "B2"
+    },
+    {
+      "id": "w1688",
+      "lemma": "befinden",
+      "pos": "verb",
+      "meaning_ja": "ある",
+      "meaning_fr": "se trouve",
+      "level": "B2"
+    },
+    {
+      "id": "w1689",
+      "lemma": "beispiellos",
+      "pos": "adjective",
+      "meaning_ja": "前例のない",
+      "meaning_fr": "cohésion sans précédent",
+      "level": "C1"
+    },
+    {
+      "id": "w1690",
+      "lemma": "bekannt",
+      "pos": "adverb",
+      "meaning_ja": "知られている",
+      "meaning_fr": "connues",
+      "level": "C1"
+    },
+    {
+      "id": "w1691",
+      "lemma": "bekämpfen",
+      "pos": "verb",
+      "meaning_ja": "撲滅する",
+      "meaning_fr": "combattrait",
+      "level": "B2"
+    },
+    {
+      "id": "w1692",
+      "lemma": "belasten",
+      "pos": "verb",
+      "meaning_ja": "負担をかける",
+      "meaning_fr": "pèsent sur",
+      "level": "B1"
+    },
+    {
+      "id": "w1693",
+      "lemma": "bergen",
+      "pos": "verb",
+      "meaning_ja": "含む",
+      "meaning_fr": "comporte",
+      "level": "B2"
+    },
+    {
+      "id": "w1694",
+      "lemma": "besonders",
+      "pos": "adverb",
+      "meaning_ja": "特",
+      "meaning_fr": "surtout",
+      "level": "A2"
+    },
+    {
+      "id": "w1695",
+      "lemma": "bestehend",
+      "pos": "adjective",
+      "meaning_ja": "既存",
+      "meaning_fr": "les convictions existantes",
+      "level": "B2"
+    },
+    {
+      "id": "w1696",
+      "lemma": "betrachten",
+      "pos": "verb",
+      "meaning_ja": "見なす",
+      "meaning_fr": "voit",
+      "level": "C1"
+    },
+    {
+      "id": "w1697",
+      "lemma": "bewerten",
+      "pos": "verb",
+      "meaning_ja": "評価する",
+      "meaning_fr": "évaluer",
+      "level": "B2"
+    },
+    {
+      "id": "w1698",
+      "lemma": "bezahlbar",
+      "pos": "adjective",
+      "meaning_ja": "手頃な",
+      "meaning_fr": "abordable",
+      "level": "B2"
+    },
+    {
+      "id": "w1699",
+      "lemma": "bezweifeln",
+      "pos": "verb",
+      "meaning_ja": "疑う",
+      "meaning_fr": "doutent",
+      "level": "B2"
+    },
+    {
+      "id": "w1700",
+      "lemma": "bieten",
+      "pos": "verb",
+      "meaning_ja": "提供する",
+      "meaning_fr": "offrent",
+      "level": "B1"
+    },
+    {
+      "id": "w1701",
+      "lemma": "biologisch",
+      "pos": "adjective",
+      "meaning_ja": "生物学的な",
+      "meaning_fr": "inégalité biologique",
+      "level": "C1"
+    },
+    {
+      "id": "w1702",
+      "lemma": "blühen",
+      "pos": "verb",
+      "meaning_ja": "咲く",
+      "meaning_fr": "fleurissent",
+      "level": "A1"
+    },
+    {
+      "id": "w1703",
+      "lemma": "bürokratisch",
+      "pos": "adjective",
+      "meaning_ja": "官僚的な",
+      "meaning_fr": "simplifierait les prestations",
+      "level": "B2"
+    },
+    {
+      "id": "w1704",
+      "lemma": "dabei",
+      "pos": "adverb",
+      "meaning_ja": "そのため",
+      "meaning_fr": "à",
+      "level": "B1"
+    },
+    {
+      "id": "w1705",
+      "lemma": "dahinter",
+      "pos": "adverb",
+      "meaning_ja": "その背後",
+      "meaning_fr": "derrière cela",
+      "level": "C1"
+    },
+    {
+      "id": "w1706",
+      "lemma": "darum",
+      "pos": "adverb",
+      "meaning_ja": "そのため",
+      "meaning_fr": "de définir",
+      "level": "B2"
+    },
+    {
+      "id": "w1707",
+      "lemma": "dazu",
+      "pos": "adverb",
+      "meaning_ja": "合わせて",
+      "meaning_fr": "aussi",
+      "level": "A2"
+    },
+    {
+      "id": "w1708",
+      "lemma": "demografisch",
+      "pos": "adjective",
+      "meaning_ja": "人口動態",
+      "meaning_fr": "changement démographique",
+      "level": "C1"
+    },
+    {
+      "id": "w1709",
+      "lemma": "dienen",
+      "pos": "verb",
+      "meaning_ja": "奉仕する",
+      "meaning_fr": "serve",
+      "level": "C1"
+    },
+    {
+      "id": "w1710",
+      "lemma": "dies",
+      "pos": "adjective",
+      "meaning_ja": "こ",
+      "meaning_fr": "ces",
+      "level": "A1"
+    },
+    {
+      "id": "w1711",
+      "lemma": "digital",
+      "pos": "adjective",
+      "meaning_ja": "デジタル",
+      "meaning_fr": "numérique",
+      "level": "B1"
+    },
+    {
+      "id": "w1712",
+      "lemma": "direkt",
+      "pos": "adverb",
+      "meaning_ja": "直接",
+      "meaning_fr": "directement",
+      "level": "A2"
+    },
+    {
+      "id": "w1713",
+      "lemma": "doch",
+      "pos": "adverb",
+      "meaning_ja": "しかし",
+      "meaning_fr": "Cependant",
+      "level": "B2"
+    },
+    {
+      "id": "w1714",
+      "lemma": "drei",
+      "pos": "adjective",
+      "meaning_ja": "三",
+      "meaning_fr": "trois",
+      "level": "A1"
+    },
+    {
+      "id": "w1715",
+      "lemma": "dreimal",
+      "pos": "adjective",
+      "meaning_ja": "三回",
+      "meaning_fr": "trois fois",
+      "level": "A1"
+    },
+    {
+      "id": "w1716",
+      "lemma": "dürfen",
+      "pos": "verb",
+      "meaning_ja": "してよい",
+      "meaning_fr": "puis-je faire",
+      "level": "A2"
+    },
+    {
+      "id": "w1717",
+      "lemma": "echt",
+      "pos": "adjective",
+      "meaning_ja": "本物",
+      "meaning_fr": "de réels",
+      "level": "B1"
+    },
+    {
+      "id": "w1718",
+      "lemma": "egal",
+      "pos": "adverb",
+      "meaning_ja": "にかかわらず",
+      "meaning_fr": "Quelle que soit",
+      "level": "A1"
+    },
+    {
+      "id": "w1719",
+      "lemma": "ehrenamtlich",
+      "pos": "adjective",
+      "meaning_ja": "ボランティア",
+      "meaning_fr": "le bénévolat",
+      "level": "B2"
+    },
+    {
+      "id": "w1720",
+      "lemma": "eigen",
+      "pos": "adjective",
+      "meaning_ja": "自",
+      "meaning_fr": "propre",
+      "level": "B1"
+    },
+    {
+      "id": "w1721",
+      "lemma": "einkommensschwach",
+      "pos": "adjective",
+      "meaning_ja": "低所得",
+      "meaning_fr": "les populations à faibles revenus",
+      "level": "B2"
+    },
+    {
+      "id": "w1722",
+      "lemma": "einzigartig",
+      "pos": "adjective",
+      "meaning_ja": "唯一",
+      "meaning_fr": "projet",
+      "level": "C1"
+    },
+    {
+      "id": "w1723",
+      "lemma": "emotional",
+      "pos": "adjective",
+      "meaning_ja": "感情的な",
+      "meaning_fr": "les contenus émotionnels",
+      "level": "B2"
+    },
+    {
+      "id": "w1724",
+      "lemma": "enorm",
+      "pos": "adjective",
+      "meaning_ja": "巨大な",
+      "meaning_fr": "d'immenses",
+      "level": "B2"
+    },
+    {
+      "id": "w1725",
+      "lemma": "entdecken",
+      "pos": "verb",
+      "meaning_ja": "発見する",
+      "meaning_fr": "découvre",
+      "level": "A2"
+    },
+    {
+      "id": "w1726",
+      "lemma": "entfernen",
+      "pos": "verb",
+      "meaning_ja": "離れて",
+      "meaning_fr": "habitent",
+      "level": "B1"
+    },
+    {
+      "id": "w1727",
+      "lemma": "entgegenwirken",
+      "pos": "verb",
+      "meaning_ja": "対処する",
+      "meaning_fr": "remédier",
+      "level": "C1"
+    },
+    {
+      "id": "w1728",
+      "lemma": "enthalten",
+      "pos": "verb",
+      "meaning_ja": "含む",
+      "meaning_fr": "contient",
+      "level": "B1"
+    },
+    {
+      "id": "w1729",
+      "lemma": "entspannen",
+      "pos": "verb",
+      "meaning_ja": "リラックスさせる",
+      "meaning_fr": "me détend",
+      "level": "A2"
+    },
+    {
+      "id": "w1730",
+      "lemma": "erhalten",
+      "pos": "verb",
+      "meaning_ja": "受け取る",
+      "meaning_fr": "reçoit",
+      "level": "B2"
+    },
+    {
+      "id": "w1731",
+      "lemma": "erleben",
+      "pos": "verb",
+      "meaning_ja": "経験する",
+      "meaning_fr": "expérimenter",
+      "level": "A1"
+    },
+    {
+      "id": "w1732",
+      "lemma": "erneuern",
+      "pos": "adjective",
+      "meaning_ja": "刷新された",
+      "meaning_fr": "vision renouvelée",
+      "level": "C1"
+    },
+    {
+      "id": "w1733",
+      "lemma": "ernsthaft",
+      "pos": "adjective",
+      "meaning_ja": "深刻な",
+      "meaning_fr": "de sérieux",
+      "level": "B1"
+    },
+    {
+      "id": "w1734",
+      "lemma": "erst",
+      "pos": "adjective",
+      "meaning_ja": "最初",
+      "meaning_fr": "des premières",
+      "level": "B2"
+    },
+    {
+      "id": "w1735",
+      "lemma": "erstmals",
+      "pos": "adverb",
+      "meaning_ja": "初めて",
+      "meaning_fr": "pour la première fois",
+      "level": "C1"
+    },
+    {
+      "id": "w1736",
+      "lemma": "eröffnen",
+      "pos": "verb",
+      "meaning_ja": "開く",
+      "meaning_fr": "ouvrent",
+      "level": "B2"
+    },
+    {
+      "id": "w1737",
+      "lemma": "es",
+      "pos": "adverb",
+      "meaning_ja": "それ",
+      "meaning_fr": "Il",
+      "level": "B1"
+    },
+    {
+      "id": "w1738",
+      "lemma": "ethisch",
+      "pos": "adjective",
+      "meaning_ja": "倫理的な",
+      "meaning_fr": "questions éthiques",
+      "level": "C1"
+    },
+    {
+      "id": "w1739",
+      "lemma": "europäisch",
+      "pos": "adjective",
+      "meaning_ja": "ヨーロッパ",
+      "meaning_fr": "pays européens",
+      "level": "C1"
+    },
+    {
+      "id": "w1740",
+      "lemma": "explodieren",
+      "pos": "adjective",
+      "meaning_ja": "急増する",
+      "meaning_fr": "coûts qui exploseraient",
+      "level": "B2"
+    },
+    {
+      "id": "w1741",
+      "lemma": "fallen",
+      "pos": "verb",
+      "meaning_ja": "下がる",
+      "meaning_fr": "tombent",
+      "level": "A1"
+    },
+    {
+      "id": "w1742",
+      "lemma": "familienpolitisch",
+      "pos": "adjective",
+      "meaning_ja": "家族政策的な",
+      "meaning_fr": "Des mesures de politique familiale",
+      "level": "C1"
+    },
+    {
+      "id": "w1743",
+      "lemma": "fehlerhaft",
+      "pos": "adjective",
+      "meaning_ja": "欠陥がある",
+      "meaning_fr": "défectueux",
+      "level": "C1"
+    },
+    {
+      "id": "w1744",
+      "lemma": "fragil",
+      "pos": "adjective",
+      "meaning_ja": "脆弱な",
+      "meaning_fr": "fragile",
+      "level": "C1"
+    },
+    {
+      "id": "w1745",
+      "lemma": "frisch",
+      "pos": "adjective",
+      "meaning_ja": "新鮮な",
+      "meaning_fr": "des",
+      "level": "A2"
+    },
+    {
+      "id": "w1746",
+      "lemma": "funktionieren",
+      "pos": "adjective",
+      "meaning_ja": "機能する",
+      "meaning_fr": "d'intégration réussie",
+      "level": "C1"
+    },
+    {
+      "id": "w1747",
+      "lemma": "fühlen",
+      "pos": "verb",
+      "meaning_ja": "感じる",
+      "meaning_fr": "sens",
+      "level": "A1"
+    },
+    {
+      "id": "w1748",
+      "lemma": "fünfzig",
+      "pos": "adjective",
+      "meaning_ja": "五十",
+      "meaning_fr": "cinquante",
+      "level": "A2"
+    },
+    {
+      "id": "w1749",
+      "lemma": "garantieren",
+      "pos": "verb",
+      "meaning_ja": "保障する",
+      "meaning_fr": "garantissent",
+      "level": "B2"
+    },
+    {
+      "id": "w1750",
+      "lemma": "geburtenstark",
+      "pos": "adjective",
+      "meaning_ja": "出生率の高い",
+      "meaning_fr": "baby-boomers",
+      "level": "C1"
+    },
+    {
+      "id": "w1751",
+      "lemma": "gelb",
+      "pos": "adjective",
+      "meaning_ja": "黄色",
+      "meaning_fr": "jaunes",
+      "level": "A2"
+    },
+    {
+      "id": "w1752",
+      "lemma": "gelingen",
+      "pos": "verb",
+      "meaning_ja": "成功する",
+      "meaning_fr": "et à réduire les déséquilibres économiques",
+      "level": "C1"
+    },
+    {
+      "id": "w1753",
+      "lemma": "gelten",
+      "pos": "verb",
+      "meaning_ja": "言える",
+      "meaning_fr": "on peut affirmer",
+      "level": "B1"
+    },
+    {
+      "id": "w1754",
+      "lemma": "gemeinsam",
+      "pos": "adjective",
+      "meaning_ja": "共同",
+      "meaning_fr": "des réponses communes",
+      "level": "C1"
+    },
+    {
+      "id": "w1755",
+      "lemma": "genetisch",
+      "pos": "adjective",
+      "meaning_ja": "遺伝的な",
+      "meaning_fr": "de corriger des défauts génétiques",
+      "level": "C1"
+    },
+    {
+      "id": "w1756",
+      "lemma": "gentechnologisch",
+      "pos": "adjective",
+      "meaning_ja": "遺伝子工学的な",
+      "meaning_fr": "Les procédures biotechnologiques",
+      "level": "C1"
+    },
+    {
+      "id": "w1757",
+      "lemma": "genverändern",
+      "pos": "adjective",
+      "meaning_ja": "遺伝子改変された",
+      "meaning_fr": "Les OGM",
+      "level": "C1"
+    },
+    {
+      "id": "w1758",
+      "lemma": "geopolitisch",
+      "pos": "adjective",
+      "meaning_ja": "地政学的な",
+      "meaning_fr": "géopolitiques",
+      "level": "C1"
+    },
+    {
+      "id": "w1759",
+      "lemma": "gern",
+      "pos": "adverb",
+      "meaning_ja": "好ん",
+      "meaning_fr": "volontiers",
+      "level": "A2"
+    },
+    {
+      "id": "w1760",
+      "lemma": "gesteigert",
+      "pos": "adjective",
+      "meaning_ja": "高まった",
+      "meaning_fr": "d'un engagement entrepreneurial accru",
+      "level": "B2"
+    },
+    {
+      "id": "w1761",
+      "lemma": "gewiss",
+      "pos": "adjective",
+      "meaning_ja": "ある程度",
+      "meaning_fr": "certaine",
+      "level": "B2"
+    },
+    {
+      "id": "w1762",
+      "lemma": "gleichberechtigt",
+      "pos": "adjective",
+      "meaning_ja": "平等な",
+      "meaning_fr": "participation équitable",
+      "level": "B2"
+    },
+    {
+      "id": "w1763",
+      "lemma": "glücklich",
+      "pos": "adverb",
+      "meaning_ja": "より幸せな",
+      "meaning_fr": "plus heureuses",
+      "level": "B1"
+    },
+    {
+      "id": "w1764",
+      "lemma": "grün",
+      "pos": "adjective",
+      "meaning_ja": "緑",
+      "meaning_fr": "vert",
+      "level": "A1"
+    },
+    {
+      "id": "w1765",
+      "lemma": "halb",
+      "pos": "adjective",
+      "meaning_ja": "半",
+      "meaning_fr": "demi",
+      "level": "A2"
+    },
+    {
+      "id": "w1766",
+      "lemma": "halten",
+      "pos": "verb",
+      "meaning_ja": "保つ",
+      "meaning_fr": "maintiennent",
+      "level": "B1"
+    },
+    {
+      "id": "w1767",
+      "lemma": "heiß",
+      "pos": "adverb",
+      "meaning_ja": "暑く",
+      "meaning_fr": "chaud",
+      "level": "A1"
+    },
+    {
+      "id": "w1768",
+      "lemma": "hinzu",
+      "pos": "adverb",
+      "meaning_ja": "加えて",
+      "meaning_fr": "S'ajoute",
+      "level": "C1"
+    },
+    {
+      "id": "w1769",
+      "lemma": "hochverarbeitet",
+      "pos": "adjective",
+      "meaning_ja": "高度に加工された",
+      "meaning_fr": "les aliments ultra-transformés",
+      "level": "B1"
+    },
+    {
+      "id": "w1770",
+      "lemma": "immens",
+      "pos": "adjective",
+      "meaning_ja": "巨大な",
+      "meaning_fr": "d'immenses",
+      "level": "C1"
+    },
+    {
+      "id": "w1771",
+      "lemma": "informiert",
+      "pos": "adjective",
+      "meaning_ja": "情報を得た",
+      "meaning_fr": "de citoyens informés",
+      "level": "B2"
+    },
+    {
+      "id": "w1772",
+      "lemma": "interessieren",
+      "pos": "verb",
+      "meaning_ja": "興味を持つ",
+      "meaning_fr": "je m'intéresse",
+      "level": "A2"
+    },
+    {
+      "id": "w1773",
+      "lemma": "jed",
+      "pos": "adverb",
+      "meaning_ja": "毎",
+      "meaning_fr": "Chaque",
+      "level": "A2"
+    },
+    {
+      "id": "w1774",
+      "lemma": "jetzt",
+      "pos": "adverb",
+      "meaning_ja": "今",
+      "meaning_fr": "maintenant",
+      "level": "A1"
+    },
+    {
+      "id": "w1775",
+      "lemma": "jugendlich",
+      "pos": "adjective",
+      "meaning_ja": "若い",
+      "meaning_fr": "Les jeunes",
+      "level": "B1"
+    },
+    {
+      "id": "w1776",
+      "lemma": "kauen",
+      "pos": "verb",
+      "meaning_ja": "噛む",
+      "meaning_fr": "mâche",
+      "level": "B1"
+    },
+    {
+      "id": "w1777",
+      "lemma": "kein",
+      "pos": "adverb",
+      "meaning_ja": "ない",
+      "meaning_fr": "non pas",
+      "level": "B2"
+    },
+    {
+      "id": "w1778",
+      "lemma": "klimaresistent",
+      "pos": "adjective",
+      "meaning_ja": "気候に強い",
+      "meaning_fr": "des quartiers résistants au climat",
+      "level": "B2"
+    },
+    {
+      "id": "w1779",
+      "lemma": "kompakt",
+      "pos": "adjective",
+      "meaning_ja": "コンパクトな",
+      "meaning_fr": "la mixité compacte",
+      "level": "B2"
+    },
+    {
+      "id": "w1780",
+      "lemma": "kontrollieren",
+      "pos": "verb",
+      "meaning_ja": "コントロールする",
+      "meaning_fr": "contrôler",
+      "level": "B1"
+    },
+    {
+      "id": "w1781",
+      "lemma": "korrigieren",
+      "pos": "verb",
+      "meaning_ja": "修正する",
+      "meaning_fr": "corriger",
+      "level": "C1"
+    },
+    {
+      "id": "w1782",
+      "lemma": "kosten",
+      "pos": "verb",
+      "meaning_ja": "かかる",
+      "meaning_fr": "coûte",
+      "level": "A2"
+    },
+    {
+      "id": "w1783",
+      "lemma": "kostenlos",
+      "pos": "adverb",
+      "meaning_ja": "無料",
+      "meaning_fr": "gratuitement",
+      "level": "A2"
+    },
+    {
+      "id": "w1784",
+      "lemma": "kreativ",
+      "pos": "adjective",
+      "meaning_ja": "創造的な",
+      "meaning_fr": "l'engagement créatif",
+      "level": "B2"
+    },
+    {
+      "id": "w1785",
+      "lemma": "kulturpolitisch",
+      "pos": "adjective",
+      "meaning_ja": "文化政策的な",
+      "meaning_fr": "un luxe culturel",
+      "level": "B2"
+    },
+    {
+      "id": "w1786",
+      "lemma": "kurz",
+      "pos": "adverb",
+      "meaning_ja": "短く",
+      "meaning_fr": "plus courts",
+      "level": "A1"
+    },
+    {
+      "id": "w1787",
+      "lemma": "künftig",
+      "pos": "adjective",
+      "meaning_ja": "将来",
+      "meaning_fr": "futures",
+      "level": "C1"
+    },
+    {
+      "id": "w1788",
+      "lemma": "lang",
+      "pos": "adverb",
+      "meaning_ja": "長く",
+      "meaning_fr": "plus longues",
+      "level": "A1"
+    },
+    {
+      "id": "w1789",
+      "lemma": "lassen",
+      "pos": "verb",
+      "meaning_ja": "できる",
+      "meaning_fr": "peut-on",
+      "level": "B2"
+    },
+    {
+      "id": "w1790",
+      "lemma": "leben",
+      "pos": "verb",
+      "meaning_ja": "住む",
+      "meaning_fr": "vit",
+      "level": "B2"
+    },
+    {
+      "id": "w1791",
+      "lemma": "letzt",
+      "pos": "adjective",
+      "meaning_ja": "最近",
+      "meaning_fr": "années",
+      "level": "B2"
+    },
+    {
+      "id": "w1792",
+      "lemma": "lieb",
+      "pos": "adverb",
+      "meaning_ja": "一番好き",
+      "meaning_fr": "aime le plus",
+      "level": "A2"
+    },
+    {
+      "id": "w1793",
+      "lemma": "liegen",
+      "pos": "verb",
+      "meaning_ja": "ある",
+      "meaning_fr": "le taux de natalité se situe",
+      "level": "C1"
+    },
+    {
+      "id": "w1794",
+      "lemma": "lohnen",
+      "pos": "verb",
+      "meaning_ja": "価値がある",
+      "meaning_fr": "vaut",
+      "level": "B1"
+    },
+    {
+      "id": "w1795",
+      "lemma": "längst",
+      "pos": "adverb",
+      "meaning_ja": "とっく",
+      "meaning_fr": "loin",
+      "level": "B2"
+    },
+    {
+      "id": "w1796",
+      "lemma": "manch",
+      "pos": "adverb",
+      "meaning_ja": "一部",
+      "meaning_fr": "Certains",
+      "level": "B2"
+    },
+    {
+      "id": "w1797",
+      "lemma": "medizinisch",
+      "pos": "adjective",
+      "meaning_ja": "医学的な",
+      "meaning_fr": "progrès médical",
+      "level": "C1"
+    },
+    {
+      "id": "w1798",
+      "lemma": "mehr",
+      "pos": "adverb",
+      "meaning_ja": "多く",
+      "meaning_fr": "de",
+      "level": "B2"
+    },
+    {
+      "id": "w1799",
+      "lemma": "mehrere",
+      "pos": "adverb",
+      "meaning_ja": "複数",
+      "meaning_fr": "plusieurs",
+      "level": "B1"
+    },
+    {
+      "id": "w1800",
+      "lemma": "meiden",
+      "pos": "verb",
+      "meaning_ja": "避ける",
+      "meaning_fr": "évités",
+      "level": "B1"
+    },
+    {
+      "id": "w1801",
+      "lemma": "messen",
+      "pos": "verb",
+      "meaning_ja": "測る",
+      "meaning_fr": "prends",
+      "level": "A1"
+    },
+    {
+      "id": "w1802",
+      "lemma": "mindestens",
+      "pos": "adverb",
+      "meaning_ja": "少なくと",
+      "meaning_fr": "au moins",
+      "level": "B1"
+    },
+    {
+      "id": "w1803",
+      "lemma": "minus",
+      "pos": "adverb",
+      "meaning_ja": "マイナス",
+      "meaning_fr": "moins",
+      "level": "A1"
+    },
+    {
+      "id": "w1804",
+      "lemma": "modern",
+      "pos": "adjective",
+      "meaning_ja": "近代的な",
+      "meaning_fr": "La planification urbaine moderne",
+      "level": "B2"
+    },
+    {
+      "id": "w1805",
+      "lemma": "mögen",
+      "pos": "verb",
+      "meaning_ja": "欲しいです",
+      "meaning_fr": "Souhaitez-vous",
+      "level": "A2"
+    },
+    {
+      "id": "w1806",
+      "lemma": "möglichst",
+      "pos": "adverb",
+      "meaning_ja": "できるだけ",
+      "meaning_fr": "autant que possible",
+      "level": "B1"
+    },
+    {
+      "id": "w1807",
+      "lemma": "mündig",
+      "pos": "adjective",
+      "meaning_ja": "より主体的",
+      "meaning_fr": "de manière plus éclairée",
+      "level": "B2"
+    },
+    {
+      "id": "w1808",
+      "lemma": "national",
+      "pos": "adjective",
+      "meaning_ja": "国家的な",
+      "meaning_fr": "des",
+      "level": "C1"
+    },
+    {
+      "id": "w1809",
+      "lemma": "neuerdings",
+      "pos": "adverb",
+      "meaning_ja": "最近",
+      "meaning_fr": "Ces derniers temps",
+      "level": "A2"
+    },
+    {
+      "id": "w1810",
+      "lemma": "neulich",
+      "pos": "adverb",
+      "meaning_ja": "最近",
+      "meaning_fr": "Récemment",
+      "level": "A2"
+    },
+    {
+      "id": "w1811",
+      "lemma": "nur",
+      "pos": "adverb",
+      "meaning_ja": "のみ",
+      "meaning_fr": "que",
+      "level": "B1"
+    },
+    {
+      "id": "w1812",
+      "lemma": "nutzen",
+      "pos": "verb",
+      "meaning_ja": "利用する",
+      "meaning_fr": "délibérée d'utiliser",
+      "level": "B1"
+    },
+    {
+      "id": "w1813",
+      "lemma": "offenbaren",
+      "pos": "verb",
+      "meaning_ja": "明らかにする",
+      "meaning_fr": "révèle",
+      "level": "C1"
+    },
+    {
+      "id": "w1814",
+      "lemma": "ohne",
+      "pos": "adverb",
+      "meaning_ja": "なし",
+      "meaning_fr": "sans",
+      "level": "B2"
+    },
+    {
+      "id": "w1815",
+      "lemma": "perfekt",
+      "pos": "adverb",
+      "meaning_ja": "完璧",
+      "meaning_fr": "parfait",
+      "level": "B1"
+    },
+    {
+      "id": "w1816",
+      "lemma": "populistisch",
+      "pos": "adjective",
+      "meaning_ja": "ポピュリスト的な",
+      "meaning_fr": "Les mouvements populistes",
+      "level": "C1"
+    },
+    {
+      "id": "w1817",
+      "lemma": "pragmatisch",
+      "pos": "adjective",
+      "meaning_ja": "現実的な",
+      "meaning_fr": "pragmatique",
+      "level": "C1"
+    },
+    {
+      "id": "w1818",
+      "lemma": "primär",
+      "pos": "adverb",
+      "meaning_ja": "主",
+      "meaning_fr": "fardeau",
+      "level": "C1"
+    },
+    {
+      "id": "w1819",
+      "lemma": "probieren",
+      "pos": "verb",
+      "meaning_ja": "試す",
+      "meaning_fr": "j'essaie",
+      "level": "A2"
+    },
+    {
+      "id": "w1820",
+      "lemma": "prägend",
+      "pos": "adjective",
+      "meaning_ja": "最も特徴的な",
+      "meaning_fr": "plus marquants",
+      "level": "B2"
+    },
+    {
+      "id": "w1821",
+      "lemma": "qualifiziert",
+      "pos": "adjective",
+      "meaning_ja": "資格のある",
+      "meaning_fr": "de travailleurs qualifiés",
+      "level": "C1"
+    },
+    {
+      "id": "w1822",
+      "lemma": "rasend",
+      "pos": "adverb",
+      "meaning_ja": "急速",
+      "meaning_fr": "rapidement",
+      "level": "B2"
+    },
+    {
+      "id": "w1823",
+      "lemma": "real",
+      "pos": "adjective",
+      "meaning_ja": "現実",
+      "meaning_fr": "réel",
+      "level": "B1"
+    },
+    {
+      "id": "w1824",
+      "lemma": "regelmäßig",
+      "pos": "adjective",
+      "meaning_ja": "定期的な",
+      "meaning_fr": "Des repas réguliers",
+      "level": "B1"
+    },
+    {
+      "id": "w1825",
+      "lemma": "regional",
+      "pos": "adjective",
+      "meaning_ja": "地域的な",
+      "meaning_fr": "l'intégration régionale",
+      "level": "C1"
+    },
+    {
+      "id": "w1826",
+      "lemma": "regnen",
+      "pos": "verb",
+      "meaning_ja": "雨が降る",
+      "meaning_fr": "pleut",
+      "level": "A1"
+    },
+    {
+      "id": "w1827",
+      "lemma": "ringen",
+      "pos": "verb",
+      "meaning_ja": "格闘する",
+      "meaning_fr": "s'affrontent",
+      "level": "C1"
+    },
+    {
+      "id": "w1828",
+      "lemma": "rot",
+      "pos": "adjective",
+      "meaning_ja": "赤い",
+      "meaning_fr": "rouge",
+      "level": "A1"
+    },
+    {
+      "id": "w1829",
+      "lemma": "satt",
+      "pos": "adjective",
+      "meaning_ja": "満腹な",
+      "meaning_fr": "rassasiés",
+      "level": "B1"
+    },
+    {
+      "id": "w1830",
+      "lemma": "schneien",
+      "pos": "verb",
+      "meaning_ja": "雪が降る",
+      "meaning_fr": "neige",
+      "level": "A1"
+    },
+    {
+      "id": "w1831",
+      "lemma": "schrumpfen",
+      "pos": "verb",
+      "meaning_ja": "縮小する",
+      "meaning_fr": "diminuent",
+      "level": "C1"
+    },
+    {
+      "id": "w1832",
+      "lemma": "sechs",
+      "pos": "adjective",
+      "meaning_ja": "六",
+      "meaning_fr": "six",
+      "level": "C1"
+    },
+    {
+      "id": "w1833",
+      "lemma": "seriös",
+      "pos": "adjective",
+      "meaning_ja": "真剣な",
+      "meaning_fr": "des informations sérieuses",
+      "level": "B2"
+    },
+    {
+      "id": "w1834",
+      "lemma": "setzen",
+      "pos": "verb",
+      "meaning_ja": "置く",
+      "meaning_fr": "mise",
+      "level": "B2"
+    },
+    {
+      "id": "w1835",
+      "lemma": "sieben",
+      "pos": "adjective",
+      "meaning_ja": "七",
+      "meaning_fr": "sept",
+      "level": "A2"
+    },
+    {
+      "id": "w1836",
+      "lemma": "signalisieren",
+      "pos": "verb",
+      "meaning_ja": "示した",
+      "meaning_fr": "ont signalé",
+      "level": "C1"
+    },
+    {
+      "id": "w1837",
+      "lemma": "sinken",
+      "pos": "adjective",
+      "meaning_ja": "低下する",
+      "meaning_fr": "la baisse des",
+      "level": "C1"
+    },
+    {
+      "id": "w1838",
+      "lemma": "sogar",
+      "pos": "adverb",
+      "meaning_ja": "さ",
+      "meaning_fr": "même de la",
+      "level": "A1"
+    },
+    {
+      "id": "w1839",
+      "lemma": "sogenannt",
+      "pos": "adjective",
+      "meaning_ja": "いわゆる",
+      "meaning_fr": "soi-disant",
+      "level": "B1"
+    },
+    {
+      "id": "w1840",
+      "lemma": "solch",
+      "pos": "adjective",
+      "meaning_ja": "このような",
+      "meaning_fr": "de tels",
+      "level": "B2"
+    },
+    {
+      "id": "w1841",
+      "lemma": "sollen",
+      "pos": "verb",
+      "meaning_ja": "すべき",
+      "meaning_fr": "dois-je faire",
+      "level": "A1"
+    },
+    {
+      "id": "w1842",
+      "lemma": "sonnig",
+      "pos": "adjective",
+      "meaning_ja": "晴れた",
+      "meaning_fr": "ensoleillé",
+      "level": "A1"
+    },
+    {
+      "id": "w1843",
+      "lemma": "stabil",
+      "pos": "adverb",
+      "meaning_ja": "安定",
+      "meaning_fr": "stable",
+      "level": "B1"
+    },
+    {
+      "id": "w1844",
+      "lemma": "steigen",
+      "pos": "verb",
+      "meaning_ja": "上がる",
+      "meaning_fr": "augmente",
+      "level": "B2"
+    },
+    {
+      "id": "w1845",
+      "lemma": "stellen",
+      "pos": "verb",
+      "meaning_ja": "置く",
+      "meaning_fr": "place",
+      "level": "B2"
+    },
+    {
+      "id": "w1846",
+      "lemma": "städtisch",
+      "pos": "adjective",
+      "meaning_ja": "都市",
+      "meaning_fr": "des zones urbaines",
+      "level": "B2"
+    },
+    {
+      "id": "w1847",
+      "lemma": "ständig",
+      "pos": "adverb",
+      "meaning_ja": "常",
+      "meaning_fr": "constamment",
+      "level": "B2"
+    },
+    {
+      "id": "w1848",
+      "lemma": "stärken",
+      "pos": "verb",
+      "meaning_ja": "強化する",
+      "meaning_fr": "renforcer",
+      "level": "C1"
+    },
+    {
+      "id": "w1849",
+      "lemma": "technologisch",
+      "pos": "adjective",
+      "meaning_ja": "技術的な",
+      "meaning_fr": "l'optimisme",
+      "level": "C1"
+    },
+    {
+      "id": "w1850",
+      "lemma": "teilen",
+      "pos": "verb",
+      "meaning_ja": "共有する",
+      "meaning_fr": "partageons",
+      "level": "B1"
+    },
+    {
+      "id": "w1851",
+      "lemma": "therapeutisch",
+      "pos": "adjective",
+      "meaning_ja": "治療的な",
+      "meaning_fr": "applications thérapeutiques",
+      "level": "C1"
+    },
+    {
+      "id": "w1852",
+      "lemma": "traditionell",
+      "pos": "adjective",
+      "meaning_ja": "伝統的な",
+      "meaning_fr": "Les journaux traditionnels",
+      "level": "B2"
+    },
+    {
+      "id": "w1853",
+      "lemma": "tragen",
+      "pos": "verb",
+      "meaning_ja": "Rechnung tragen = 対処する",
+      "meaning_fr": "tiennent compte",
+      "level": "C1"
+    },
+    {
+      "id": "w1854",
+      "lemma": "täglich",
+      "pos": "adjective",
+      "meaning_ja": "毎日",
+      "meaning_fr": "par jour",
+      "level": "A1"
+    },
+    {
+      "id": "w1855",
+      "lemma": "unaufhaltsam",
+      "pos": "adverb",
+      "meaning_ja": "止められない",
+      "meaning_fr": "de manière irrésistible",
+      "level": "C1"
+    },
+    {
+      "id": "w1856",
+      "lemma": "unberechenbar",
+      "pos": "adjective",
+      "meaning_ja": "予測不能な",
+      "meaning_fr": "imprévisible",
+      "level": "A1"
+    },
+    {
+      "id": "w1857",
+      "lemma": "unerlässlich",
+      "pos": "adjective",
+      "meaning_ja": "不可欠な",
+      "meaning_fr": "indispensables",
+      "level": "C1"
+    },
+    {
+      "id": "w1858",
+      "lemma": "unheilbar",
+      "pos": "adjective",
+      "meaning_ja": "不治",
+      "meaning_fr": "des maladies héréditaires incurables",
+      "level": "C1"
+    },
+    {
+      "id": "w1859",
+      "lemma": "unkontrollierbar",
+      "pos": "adjective",
+      "meaning_ja": "制御不能な",
+      "meaning_fr": "des effets incontrôlables sur les écosystèmes",
+      "level": "C1"
+    },
+    {
+      "id": "w1860",
+      "lemma": "unmöglich",
+      "pos": "adjective",
+      "meaning_ja": "不可能",
+      "meaning_fr": "impossible",
+      "level": "C1"
+    },
+    {
+      "id": "w1861",
+      "lemma": "unter",
+      "pos": "adverb",
+      "meaning_ja": "以下",
+      "meaning_fr": "en dessous du",
+      "level": "C1"
+    },
+    {
+      "id": "w1862",
+      "lemma": "unverzichtbar",
+      "pos": "adjective",
+      "meaning_ja": "不可欠な",
+      "meaning_fr": "compétence indispensable",
+      "level": "B2"
+    },
+    {
+      "id": "w1863",
+      "lemma": "unzufrieden",
+      "pos": "adjective",
+      "meaning_ja": "不満な",
+      "meaning_fr": "insatisfaits",
+      "level": "B1"
+    },
+    {
+      "id": "w1864",
+      "lemma": "ursprünglich",
+      "pos": "adverb",
+      "meaning_ja": "もともと",
+      "meaning_fr": "initialement",
+      "level": "C1"
+    },
+    {
+      "id": "w1865",
+      "lemma": "verbreiten",
+      "pos": "verb",
+      "meaning_ja": "広まる",
+      "meaning_fr": "se propage",
+      "level": "B2"
+    },
+    {
+      "id": "w1866",
+      "lemma": "verbringen",
+      "pos": "verb",
+      "meaning_ja": "過ごす",
+      "meaning_fr": "passent",
+      "level": "B1"
+    },
+    {
+      "id": "w1867",
+      "lemma": "verdanken",
+      "pos": "verb",
+      "meaning_ja": "感謝する",
+      "meaning_fr": "due",
+      "level": "C1"
+    },
+    {
+      "id": "w1868",
+      "lemma": "verdrängen",
+      "pos": "verb",
+      "meaning_ja": "追い出す",
+      "meaning_fr": "chasse",
+      "level": "B2"
+    },
+    {
+      "id": "w1869",
+      "lemma": "vergangen",
+      "pos": "adjective",
+      "meaning_ja": "過去",
+      "meaning_fr": "dernières",
+      "level": "C1"
+    },
+    {
+      "id": "w1870",
+      "lemma": "vernachlässigen",
+      "pos": "verb",
+      "meaning_ja": "軽視する",
+      "meaning_fr": "négliger",
+      "level": "B2"
+    },
+    {
+      "id": "w1871",
+      "lemma": "verschreiben",
+      "pos": "verb",
+      "meaning_ja": "処方します",
+      "meaning_fr": "vous prescris",
+      "level": "A1"
+    },
+    {
+      "id": "w1872",
+      "lemma": "vertikal",
+      "pos": "adjective",
+      "meaning_ja": "垂直",
+      "meaning_fr": "des espaces verts verticaux",
+      "level": "B2"
+    },
+    {
+      "id": "w1873",
+      "lemma": "vertretbar",
+      "pos": "adjective",
+      "meaning_ja": "弁護できる",
+      "meaning_fr": "défendables",
+      "level": "C1"
+    },
+    {
+      "id": "w1874",
+      "lemma": "viel",
+      "pos": "adverb",
+      "meaning_ja": "たくさん",
+      "meaning_fr": "beaucoup de",
+      "level": "A1"
+    },
+    {
+      "id": "w1875",
+      "lemma": "vielversprechend",
+      "pos": "adjective",
+      "meaning_ja": "有望な",
+      "meaning_fr": "des résultats prometteurs",
+      "level": "C1"
+    },
+    {
+      "id": "w1876",
+      "lemma": "viert",
+      "pos": "adjective",
+      "meaning_ja": "第四",
+      "meaning_fr": "quatrième",
+      "level": "B2"
+    },
+    {
+      "id": "w1877",
+      "lemma": "vor",
+      "pos": "adverb",
+      "meaning_ja": "を前にして",
+      "meaning_fr": "dans le contexte de",
+      "level": "B2"
+    },
+    {
+      "id": "w1878",
+      "lemma": "vorbildlich",
+      "pos": "adjective",
+      "meaning_ja": "模範的な",
+      "meaning_fr": "Des villes exemplaires",
+      "level": "B2"
+    },
+    {
+      "id": "w1879",
+      "lemma": "wann",
+      "pos": "adverb",
+      "meaning_ja": "いつ",
+      "meaning_fr": "quand",
+      "level": "A1"
+    },
+    {
+      "id": "w1880",
+      "lemma": "warnen",
+      "pos": "verb",
+      "meaning_ja": "警告する",
+      "meaning_fr": "avertissent",
+      "level": "B2"
+    },
+    {
+      "id": "w1881",
+      "lemma": "was",
+      "pos": "verb",
+      "meaning_ja": "何",
+      "meaning_fr": "Qu'est-ce que",
+      "level": "A1"
+    },
+    {
+      "id": "w1882",
+      "lemma": "wechselhaft",
+      "pos": "adjective",
+      "meaning_ja": "変わりやすい",
+      "meaning_fr": "changeant",
+      "level": "A1"
+    },
+    {
+      "id": "w1883",
+      "lemma": "wecken",
+      "pos": "verb",
+      "meaning_ja": "呼び起こす",
+      "meaning_fr": "suscite",
+      "level": "C1"
+    },
+    {
+      "id": "w1884",
+      "lemma": "weit",
+      "pos": "adverb",
+      "meaning_ja": "遠く",
+      "meaning_fr": "loin",
+      "level": "B1"
+    },
+    {
+      "id": "w1885",
+      "lemma": "weitergeben",
+      "pos": "verb",
+      "meaning_ja": "受け継がれる",
+      "meaning_fr": "est transmis",
+      "level": "C1"
+    },
+    {
+      "id": "w1886",
+      "lemma": "welch",
+      "pos": "adjective",
+      "meaning_ja": "ど",
+      "meaning_fr": "quels",
+      "level": "C1"
+    },
+    {
+      "id": "w1887",
+      "lemma": "weltweit",
+      "pos": "adverb",
+      "meaning_ja": "世界中",
+      "meaning_fr": "Dans le monde entier",
+      "level": "B2"
+    },
+    {
+      "id": "w1888",
+      "lemma": "wenig",
+      "pos": "adjective",
+      "meaning_ja": "少ない",
+      "meaning_fr": "pauvres",
+      "level": "B1"
+    },
+    {
+      "id": "w1889",
+      "lemma": "wer",
+      "pos": "adverb",
+      "meaning_ja": "する人",
+      "meaning_fr": "Qui",
+      "level": "B1"
+    },
+    {
+      "id": "w1890",
+      "lemma": "wertvoll",
+      "pos": "adjective",
+      "meaning_ja": "価値のある",
+      "meaning_fr": "de précieux",
+      "level": "B1"
+    },
+    {
+      "id": "w1891",
+      "lemma": "wie",
+      "pos": "verb",
+      "meaning_ja": "いく",
+      "meaning_fr": "Combien",
+      "level": "A2"
+    },
+    {
+      "id": "w1892",
+      "lemma": "wirken",
+      "pos": "verb",
+      "meaning_ja": "見える",
+      "meaning_fr": "de paraître",
+      "level": "B1"
+    },
+    {
+      "id": "w1893",
+      "lemma": "wirtschaftspolitisch",
+      "pos": "adjective",
+      "meaning_ja": "経済政策的な",
+      "meaning_fr": "idée de politique économique",
+      "level": "B2"
+    },
+    {
+      "id": "w1894",
+      "lemma": "wohlhabend",
+      "pos": "adjective",
+      "meaning_ja": "裕福な",
+      "meaning_fr": "les pays riches",
+      "level": "C1"
+    },
+    {
+      "id": "w1895",
+      "lemma": "wunderbar",
+      "pos": "adverb",
+      "meaning_ja": "素晴らしい",
+      "meaning_fr": "Merveilleux",
+      "level": "A2"
+    },
+    {
+      "id": "w1896",
+      "lemma": "zehn",
+      "pos": "adjective",
+      "meaning_ja": "十",
+      "meaning_fr": "dix",
+      "level": "A1"
+    },
+    {
+      "id": "w1897",
+      "lemma": "ziehen",
+      "pos": "verb",
+      "meaning_ja": "引き寄せる",
+      "meaning_fr": "attire",
+      "level": "B2"
+    },
+    {
+      "id": "w1898",
+      "lemma": "zukunftsfähig",
+      "pos": "adjective",
+      "meaning_ja": "持続可能な",
+      "meaning_fr": "ville durable",
+      "level": "B2"
+    },
+    {
+      "id": "w1899",
+      "lemma": "zurück",
+      "pos": "adverb",
+      "meaning_ja": "お釣りです",
+      "meaning_fr": "de monnaie",
+      "level": "A2"
+    },
+    {
+      "id": "w1900",
+      "lemma": "zwei",
+      "pos": "adjective",
+      "meaning_ja": "二",
+      "meaning_fr": "deux",
+      "level": "A1"
+    },
+    {
+      "id": "w1901",
+      "lemma": "zweit",
+      "pos": "adjective",
+      "meaning_ja": "第二",
+      "meaning_fr": "la Seconde",
+      "level": "C1"
+    },
+    {
+      "id": "w1902",
+      "lemma": "zwingen",
+      "pos": "verb",
+      "meaning_ja": "強いた",
+      "meaning_fr": "des mesures concrètes",
+      "level": "C1"
+    },
+    {
+      "id": "w1903",
+      "lemma": "öffentlich-rechtlich",
+      "pos": "adjective",
+      "meaning_ja": "公共放送",
+      "meaning_fr": "service public",
+      "level": "B2"
+    },
+    {
+      "id": "w1904",
+      "lemma": "üben",
+      "pos": "verb",
+      "meaning_ja": "練習する",
+      "meaning_fr": "je m'entraîne",
+      "level": "A2"
+    },
+    {
+      "id": "w1905",
+      "lemma": "überaltern",
+      "pos": "verb",
+      "meaning_ja": "高齢化する",
+      "meaning_fr": "vieillissent",
       "level": "C1"
     }
   ]
