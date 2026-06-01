@@ -1077,6 +1077,12 @@
           <button class="pill-btn" data-filter="cat" data-value="actualités">Aktuell</button>
           <button class="pill-btn" data-filter="cat" data-value="histoires">Texte</button>
           <button class="pill-btn" data-filter="cat" data-value="dialogues">Dialog</button>
+          <button class="pill-btn" data-filter="cat" data-value="Geschichte">Geschichte</button>
+          <button class="pill-btn" data-filter="cat" data-value="Philosophie">Philosophie</button>
+          <button class="pill-btn" data-filter="cat" data-value="Wissenschaft">Wissenschaft</button>
+          <button class="pill-btn" data-filter="cat" data-value="Literatur">Literatur</button>
+          <button class="pill-btn" data-filter="cat" data-value="Gesellschaft">Gesellschaft</button>
+          <button class="pill-btn" data-filter="cat" data-value="Wirtschaft">Wirtschaft</button>
         </div>
         <div class="filter-group-pills">
           <span class="group-label">Niveau</span>
@@ -1178,8 +1184,8 @@ const APP_CONFIG = {
   ttsRate:           0.88,
 
   /* データファイルパス ------------------------------------------ */
-  vocabPath:  'data/vocabulary.json?v=6',
-  textsPath:  'data/texts.json?v=6',
+  vocabPath:  'data/vocabulary.json?v=7',
+  textsPath:  'data/texts.json?v=7',
 
   /* ローカルストレージキー ------------------------------------- */
   storageKey: 'dl_read_v1',         // 'jl_read_v1' for Japanese ver.
@@ -1224,9 +1230,17 @@ const PUNCT = new Set(['.', ',', '!', '?', ':', ';', '…', ')', '»', '"']);
 const NO_SPACE_AFTER = new Set(['(', '«', '"']);
 
 const CAT_LABELS = {
-  actualités: 'Actualités 📰',
-  histoires:  'Histoires 📖',
-  dialogues:  'Dialogues 💬',
+  actualités:   'Actualités 📰',
+  histoires:    'Histoires 📖',
+  dialogues:    'Dialogues 💬',
+  sciences:     'Sciences 🔬',
+  culture:      'Culture 🎨',
+  Geschichte:   'Geschichte 🏛',
+  Philosophie:  'Philosophie 💭',
+  Wissenschaft: 'Wissenschaft 🔬',
+  Literatur:    'Literatur 📚',
+  Gesellschaft: 'Gesellschaft 🌍',
+  Wirtschaft:   'Wirtschaft 📈',
 };
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'];
